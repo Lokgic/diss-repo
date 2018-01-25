@@ -94,7 +94,7 @@ That the domain of pragmatism is limited to 'intellectual concepts' suggests tha
 
 >I believe I made my own opinion quite clear to any attentive Reader, that the pragmaticistic grade of clearness could no more supersede the Definitiary or Analytic grade than this latter grade could supersede the first. That is to say, if the Maxim of Pragmaticism be acknowledged, although Definition can no longer be regarded as the supreme mode of clear Apprehension; yet it retains all the absolute importance it ever had, still remaining indispensable to all Exact Reasoning.^[Cited in @msak2016peirce]
 
-As pointed out by @msak2016peirce, in light of Peirce's extensive theory of sign, 'How to Make Our Ideas Clear' is simply the wrong place to look for a theory of meaning. Instead, we ought to read Peirce's pragmatic maxim as a commitment to the epistemic importance of  the pragmatic aspect of meaning. 
+As pointed out by @msak2016peirce , in light of Peirce's extensive theory of sign, 'How to Make Our Ideas Clear' is simply the wrong place to look for a theory of meaning. Instead, we ought to read Peirce's pragmatic maxim as a commitment to the epistemic importance of  the pragmatic aspect of meaning. 
 
 So we see that Peirce has a specific criteria for what he considers as a clear concept. In the next section, we review his application of the pragmatic maxim on the concept of full belief and how pragmatism informs his interpretation of probability. This gives us some insight into what a clear conception of partial belief  would look like, and provides background for his critique of conceptualism.
 
