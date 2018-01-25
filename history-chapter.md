@@ -12,32 +12,34 @@ title: Pragmatism and Degrees of Belief
 
 Outline
 
-Goal: 
-    1.  Review Peirce's argument against conceptualism
-    2.  Provide evidence that Keynes is more likely to be considered a conceptualist by Peirce
-    3.  Review Ramsey's positive account for degrees of belief, and his criticism for Keynes
-    4.  Thesis: Ramsey's account of degrees of belief is an extension of Peirce's pragmatic account of belief.
+Goals: 
+
+- Review Peirce's argument against conceptualism
+- Provide evidence that Keynes is more likely to be considered a conceptualist by Peirce
+- Review Ramsey's positive account for degrees of belief, and his criticism for Keynes
+- Thesis: Ramsey's account of degrees of belief is an extension of Peirce's pragmatic account of belief.
 
 Structure
 
-  1.  Peirce section
-        A.  Peirce's anti-conceptualism = 1) degree of repobelief is a vague notion. 2) Principle of Indifference is unacceptable
-        B.  Define what Peirce means by clarity, which is specified by the pragmatic maxim
-        C.  Explain how Peirce's account of belief is an application of his pragmatism
-        D.  Define conceptualism, as Peirce sees it: 1) his account of degrees of belief, 2) his argument against principle of indifference.
-    2.  Transition: Keynes
-        A.  Keynes' idea of rational degrees of belief as logical probability relations
-        B.  Keynes on how we know these relations
-        C.  Keynes's defense of the principle of indifference
-        D.  Keynes would be a conceptualist, and Ramsey's criticism of his view mirrors Peirce's criticisms of the conceptualism.
-    3.  Ramsey
-        A.  Ramsey's pragmatic account of degrees of belief
-        B.  Ramsey's acceptance of Peirce's dispositional account of belief
-        C.  Ramsey's rejection of principle of indifference
-    4.  Conclusion (in process)
-        A.  Considering Ramsey's view in the context of modern Bayesianism: what kind of probabilist is Ramsey?
+1.  Peirce section
+    A.  Peirce's anti-conceptualism = 1) degree of repobelief is a vague notion. 2) Principle of Indifference is unacceptable
+    B.  Define what Peirce means by clarity, which is specified by the pragmatic maxim
+    C.  Explain how Peirce's account of belief is an application of his pragmatism
+    D.  Define conceptualism, as Peirce sees it: 1) his account of degrees of belief, 2) his argument against principle of indifference.
+2.  Transition: Keynes
 
-1.  Sections originally included but taken out (these will form a different chapter)
+    A.  Keynes' idea of rational degrees of belief as logical probability relations
+    B.  Keynes on how we know these relations
+    C.  Keynes's defense of the principle of indifference
+    D.  Keynes would be a conceptualist, and Ramsey's criticism of his view mirrors Peirce's criticisms of the conceptualism.
+3.  Ramsey
+    A.  Ramsey's pragmatic account of degrees of belief
+    B.  Ramsey's acceptance of Peirce's dispositional account of belief
+    C.  Ramsey's rejection of principle of indifference
+4.  Conclusion (in process)
+    A.  Considering Ramsey's view in the context of modern Bayesianism: what kind of probabilist is Ramsey?
+
+Sections originally included but taken out (these will form a different chapter)
         A.  Peirce's objective interpretation of probability
         B.  Peirce's discussion of single case probability
         C.  Ramsey's pluralism
