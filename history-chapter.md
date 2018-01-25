@@ -129,7 +129,7 @@ Why, then, is odds important to the measurement of beliefs? Peirce seems to thin
 Peirce then shows that this account has some properties the conceptualist would find appealing:
 
 
-- Balancing reasons: given a prior odd of 1 and evidence E, the posterior odd for A, $frac{P(A|E)}{P(\neg A |E)}$ can be reformulated as the likelihood ratio: $\frac{P(E|A)}{P( E| \neg A)}$. After taking the log of the ratio as Peirce suggested, we can find the balance of reasons by calculation $log(P(E|A)) - log(P(E|\neg A))$. A positive value means the evidence is in favor of A and negative against it. 
+- Balancing reasons: given a prior odd of 1 and evidence E, the posterior odd for A, $\frac{P(A|E)}{P(\neg A |E)}$ can be reformulated as the likelihood ratio: $\frac{P(E|A)}{P( E| \neg A)}$. After taking the log of the ratio as Peirce suggested, we can find the balance of reasons by calculation $log(P(E|A)) - log(P(E|\neg A))$. A positive value means the evidence is in favor of A and negative against it. 
 
 - Weight of evidence: Suppose $E_1$ and $E_2$ are independent. So, $P(E_1 \wedge E_2 |H) = P(E_1|H) P(E_2|H)$. If we take the logarithm of the product, the product becomes $log(P(E_1|H))+ log(P(E_2|H))$.  This captures the intuition that adding two pieces of independent evidence together should increase the intensity of our belief. 
 
