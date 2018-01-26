@@ -297,7 +297,18 @@ Ramsey, as I read him, is in agreement with Peirce when it comes to conceptualis
  
 ## Reasonable Degree of Belief
 
-However, Ramsey clearly is also a kind of probabilist - degrees of belief exist and its consistency is governed by the probability axioms. This is evidenced by the fact that, while Ramsey denies the existence of self-justifying prior probabilities, he does not reject the use of prior probabilities in general. This is why he said an agent's "original expectations may within the limits of consistency be any he likes" (190). So in other words, Ramsey thinks of logic of consistency as providing a boundary for acceptable partial beliefs. Ramsey, however, does not stop here: while he rejects Keynes' idea that a rational degree of belief is one that mirrors the logical relations between propositions, he still thinks degrees of belief can be evaluated beyond just on the ground of consistency, but if degrees of belief cannot be justified logically, then what is the alternative? Ramsey frames the question as follows:
+However, Ramsey clearly is also a kind of probabilist - degrees of belief exist and its consistency is governed by the probability axioms. This is evidenced by the fact that, while Ramsey denies the existence of self-justifying prior probabilities, he does not reject the use of prior probabilities in general. This is why he said an agent's "original expectations may within the limits of consistency be any he likes" (190). So in other words, Ramsey thinks of logic of consistency as providing a boundary for acceptable partial beliefs. 
+
+Ramsey, however, does not stop here: while he rejects Keynes' a platonic idea of rational degrees of belief - one that mirrors perfectly the logical relations that exist independent of us, Ramsey still wishes to retain a notion normativity that is independent of the logic of consistency. He calls these "reasonable degrees of belief," one that is governed by "human logic." The thought is that consistency or coherence is both too strong and too weak of a requirement for human beings:
+
+>...nor is it even clear that consistency is always advantageous; it may well be better to be sometimes right than never right. Nor when we wish to be consistent are we always able to be: there are mathematical propositions whose truth or falsity cannot as yet be decided. Yet it may humanly speaking be right to entertain a certain degree of belief in them on inductive or other grounds: a logic which proposes to justify such a degree of belief must be prepared actually to go against formal logic; for to a formal truth formal logic can only assign a belief of degree 1. 27
+
+
+
+
+degrees of belief can be evaluated beyond just on the ground of consistency, 
+
+but if degrees of belief cannot be justified logically, then what is the alternative? Ramsey frames the question as follows:
 
 >Logic, we may agree, is concerned not with what men actually believe, but what they ought to believe, or what it would be reasonable to believe. What then, we must ask, is meant by saying that it is reasonable for a man to have such and such a degree of belief in a proposition ? 28
 
@@ -322,7 +333,7 @@ Ramsey seems to concur with the Bayesian position: he does not think that it is 
 However, Ramsey seems to disagree with Bayesians that the strict adherence to conditionalization is an absolute requirement of rationality. (IV) To be reasonable, Ramsey suggests that we cannot focus only just on forms of explicative reasoning, which "are all concerned simply to ensure that our beliefs are not self-contradictory" (191).  This is because consistency is not enough, for "we want our beliefs to be consistent not merely with one another but also with the facts" (191).
 What we need, Ramsey suggests, is a broader notion of reasonableness, or  the "logic of truth":
 
->...nor is it even clear that consistency is always advantageous; it may well be better to be sometimes right than never right. Nor when we wish to be consistent are we always able to be: there are mathematical propositions whose truth or falsity cannot as yet be decided. Yet it may humanly speaking be right to entertain a certain degree of belief in them on inductive or other grounds: a logic which proposes to justify such a degree of belief must be prepared actually to go against formal logic; for to a formal truth formal logic can only assign a belief of degree 1. 27
+
 
 Because of how Ramsey's description of reasonableness downplays consistency, it raises important questions regarding just what sort of probabilist Ramsey is. Early on, we saw that Ramsey seemed to have suggested something like Dutchbook arguments as a test of consistency, which would make him in line with modern epistemological Bayesians, but here he makes it clear that consistency alone cannot be the sole concern of what it means to be reasonable.  Levi, for instance, suggests that this effectively means that Ramsey denies logical omniscience as a requirement for a rational agent (149). Logical omniscience is an important assumption in modern Bayesian epistemology, so its denial would also bring Ramsey even farther from the standard Bayesian line. Even though it is acknowledged that such a demand is unrealistic for normal human beings, Bayesian epistemologists often suggest it as an idealization that we endeavor to approximate. Unfortunately, Ramsey specifically casts doubt on the workability of this:
 
