@@ -46,11 +46,8 @@ Sections originally included but taken out (these will form a different chapter)
         D.  Ramsey's notion of objective chance
 
 
-# Introduction
-
 To be written
 
-# Peirce's Anti-Conceptualism
 In Peirce's writings, the idea of partial beliefs occurs strictly within his discussion of a position he calls "conceptualism." In his 1867 review of John Venn's *Logic of Chance*, Peirce gives his glowing review of Venn's objective interpretation of probability, but he has some harsh words for the "conceptualist." First, unlike Venn, conceptualists identify a probability as "the degree of credence." But Peirce complains that the idea of degree of belief, or degree of credence, is too vague:
 
 > The conceptualist says, that probability is the degree of credence which ought to be placed in the occurrence of an event. Here is an allusion to an entry on the debtor side of man's ledger. What is this entry? What is the meaning of this ought? Since probability is not an affair of morals, the ought must refer to an alternative to be avoided. Now the reasoner has nothing to fear but error. Probability will accordingly be the degree of credence which it is necessary to repose in a proposition in order to escape error. Conceptualists have not undertaken to say what is meant by "degree of credence." They would probably pronounce it indefinable and indescribable. Their philosophy deals much with the indefinable and indescribable.[@vennlogicreview, 99]
@@ -60,8 +57,6 @@ The second problem Peirce has with conceptualism is their use of what we now cal
 > A conceptualist might hesitate, perhaps, to say that the probability of a proposition of which he knows absolutely nothing is $^1/_2$, although this would be, in one sense, justifiable for the nominalist^[Nominalism refers to strict Frequentism that uses only actualized frequencies: ``Finally, probability is regarded as the ratio of the number of events in a certain part of an aggregate of them to the number in the whole aggregate. This is the nominalistic view.'' *ibid*., 98], inasmuch as one half of all possible propositions (being contradictions of the other half) are true; but he does not hesitate to assume events to be equally probable when he does not know anything about their probabilities, and this is for the nominalist an utterly unwarrantable procedure. A probability is a statistical fact, and cannot be assumed arbitrarily. [@vennlogicreview, 100]
 
 But two issues need to be disentangled here. We have to examine in details what Peirce means by ``conceptualism''. It seems that Peirce characterizes conceptualism about probability as committing to two theses: A) probability is the degree of belief attached to a proposition [@probabilityofinduction, 291] and B) the principle of indifference: complete ignorance is modeled by the probability of $^1/_2$ [@probabilityofinduction, 296].  I suggest that his problem with thesis A is that he finds it unclear, and thesis B is problematic because it is not based on "statistical facts". Let us first review what clarity means for Peirce, which is tied to his pragmatism.
-
-## The Pragmatic Maxim
 
 As customary in discussions of Peirce's pragmatism, we begin with his *pragmatic maxim*, a slogan that summarizes his overall philosophical approach. In "The Fixation of Belief," Peirce motivates his view by introducing his inquiry-driven epistemology. Inquiry, as Perice conceives it, is the process in which one's opinions are settled by satisfying the "irritation of doubt" and reaching the state of belief. There are, he points out, various ways in which one could move from the state of doubt to the state of belief, and a satisfactory method must be grounded in publicly accessible evidence, observable to any capable epistemic agent, that is, the methods of science.
 
@@ -98,8 +93,6 @@ As pointed out by @msak2016peirce , in light of Peirce's extensive theory of sig
 
 So we see that Peirce has a specific criteria for what he considers as a clear concept. In the next section, we review his application of the pragmatic maxim on the concept of full belief and how pragmatism informs his interpretation of probability. This gives us some insight into what a clear conception of partial belief  would look like, and provides background for his critique of conceptualism.
 
-## Peirce's Pragmatic Account of Belief
-
 Belief, as Peirce conceives it, has three important components.^[This paragraph draws directly from @makeideasclear, 263] First, Peirce acknowledges the irreducibility of the subjectivity of belief - "it is something that we are aware of". Again, this anti-reductionist attitude separates him from the logical empiricists. Second, it plays an important role in Peirce's epistemology of inquiry: doubt prompts us to inquire, and a successful inquiry ends with a belief, since it "appeases the irritation of doubt". Third, in accordance to pragmatism, beliefs must be differentiated in terms of their practical consequence. The upshot is that belief 'involves the establishment in our nature of a rule of action'. That is, beliefs should be seen as something that causes predictable behavior under suitable circumstances. To believe that a certain chemical is poisonous, for instance, is to have a disinclination to drink it if the chemical is believed to be present. 
 
  A common criticism lodged against the pragmatic account of belief is the thought that if beliefs are defined by the actions they caused, then anything that has never not caused any action cannot be beliefs. However, since there are some beliefs that have yet to cause any action, the antecedent of the conditional must be wrong. However, Peirce thinks of habits as dispositions, identified not necessarily by their actualized effects, but what it would cause when certain conditions occur:
@@ -115,8 +108,6 @@ Another common charge is that the dispositional view is just crude behaviorism, 
 An important thing to note, however, is that, despite his acceptance of the irreducibility of subjective nature of belief, Peirce does not think serious philosophical work can be done by focusing on them [@msak2016peirce]. In fact, Peirce motivates pragmatism by attacking the introspective nature of the a priori method, and suggests that the reliance on intuition alone will eventually reduce the standard of rationality as a matter of subjective taste. In fact, Peirce reject the privileged status of subjective states, as "all knowledge of the internal world is derived by hypothetical reasoning from our knowledge of external facts". [@CP, 5.265] That is, from the perspective of pragmatism, entities such as sense-data or Humean impressions are theoretical entities inferred from the body of physical facts, and not the other way around as the classical empiricists have it. 
 
 Against the background of Peirce's pragmatism and account of belief, it is no wonder that Peirce is unsatisfied with an unanalyzed notion of degrees of belief. If probability is to be the logic of science, it cannot be grounded in a notion that has no practical bearings. We will see the same issue again in our discussion of Keynes's probability relations.
-
-## Peirce's Account of Degree of Belief
 
 "Probability of Induction" contains a thorough critique of conceptualism, which, Peirce claims, contain a rule of reasoning that is "absolutely absurd".[@probabilityofinduction, 289] This is, of course, the Principle of Indifference. However, before putting forth his criticism of the principle, Peirce tries to construct what he takes to be the strongest formulation of conceptualism. Peirce's account is constructed in a way that would satisfy his own pragmatic maxim and contains insights so important that modern Bayesians have incorporated elements of his account.
 
@@ -135,8 +126,6 @@ Peirce then shows that this account has some properties the conceptualist would 
 
 Some modern Bayesians were so impressed with Peirce's account that they incorporated Peirce's ideas into their own frameworks. Due to the vagueness in Peirce's writing, the terminology that ensued is rather confused. The rule of balancing reasons is adopted by Good, who confusingly calls it the weight of evidence, which clashes with the standard usage of the phrase and more common referred to as evidential relevance.[@joycehpre, 165]  Branden Fitelson takes weight of evidence to develop a Bayesian account of independent evidence.[@Fitelson2001-FITABA] Further, in his writing, Peirce runs two concepts of weight of evidence together. In addition to the one sketched above, he also talks about evidential weight in terms of the amount of available evidence. This sense of weight corresponds to the modern usage of the term, and anticipates Keynes's usage.[@Kasser2016-KASTCO-6]
 
-## Against the Principle of Indifference
-
 Nevertheless, Peirce finds the conceptualist's reliance on the principle of indifference completely unacceptable. This principle of indifference (initially known as the principle of insufficient reason) is invoked by the conceptualists to compute the posterior probabilities when we are in ignorance about the distribution from which we are drawing. Since to use Bayes' rule requires a probability that represents the degree of our belief prior to the observation, the principle fills in the gap when we have absolutely no knowledge about the distribution from which we are drawing our samples. 
 
  Perice presents the principle of indifference as follows:
@@ -149,10 +138,6 @@ Peirce argues that assigning the probability of $^1/_2$ to unknown events leads 
 
 However, it is not clear if Peirce's rejection of the Principle of Indifference can be seen as an argument against the idea of degrees of belief. He seems to be against only when there are no statistical facts to back it up. Instead of appealing to the principle of indifference, he thinks we should simply say "we know not what to believe." [@vennlogicreview, 102]
 
-# Keynes as the Conceptualist
-
-## Degree of Belief as Logical Relation
-
 Despite Peirce looming presence in "Truth and Probability", Ramsey's primary foil in the paper is not him, but Keynes, whose logical interpretation of probability is the receiving end of much of Ramsey's attacks. Probability, in Keynes's view, is defined as a logical relation between a premise and a conclusion. Probability relations are logical, because this relation belongs to the same conceptual category as the entailment relation between the premises and conclusion in a deductive argument. Keynes says: 
 
 >Inasmuch as it is always assumed that we can sometimes judge directly that a conclusion follows from a premiss, it is no great extension of this assumption to suppose that we can sometimes recognise that a conclusion partially follows from, or stands in a relation of probability to, a premiss. [@keynes, 57]
@@ -163,11 +148,11 @@ The difference here is one of degree: in a derivation in deductive logic, the se
 
 More importantly, knowledge about these logical probability relations are acquired through perception. This aspect of Keynes's thought is deeply rooted in the epistemological views of Bertrand Russell, who articulates the idea of the distinction knowledge by acquaintance and by description. The notion of acquaintance is characterized by Keynes as follows:
 
-> We start from things, of various classes, with which we have, what I choose to call without reference to other uses of this term, direct acquaintance. Acquaintance with such things does not in itself constitute knowledge, although knowledge arises out of acquaintance with them. The most important classes of things with which we have direct acquaintance are our own sensations, which we may be said to experience, the ideas or meanings, about which we have thoughts and which we may be said to understand, and facts or characteristics or relations of sense-data or meanings, which we may be said to perceive;—experience, understanding, and perception being three forms of direct acquaintance.[@keynes, 11]
+> We start from things, of various classes, with which we have, what I choose to call without reference to other uses of this term, direct acquaintance. Acquaintance with such things does not in itself constitute knowledge, although knowledge arises out of acquaintance with them. The most important classes of things with which we have direct acquaintance are our own sensations, which we may be said to experience, the ideas or meanings, about which we have thoughts and which we may be said to understand, and facts or characteristics or relations of sense-data or meanings, which we may be said to perceive;--experience, understanding, and perception being three forms of direct acquaintance.[@keynes, 11]
 
 A common example of this sort of knowledge is our sense perception of color, to which Keynes also appeals: 
 
->From acquaintance with a sensation of yellow I can pass directly to a knowledge of the proposition “I have a sensation of yellow.” From acquaintance with a sensation of yellow and with the meanings of “yellow,” “colour,” “existence,” I may be able to pass to a direct knowledge of the propositions “I understand the meaning of yellow,” “my sensation of yellow exists,” “yellow is a colour.”[@keynes, 12]
+>From acquaintance with a sensation of yellow I can pass directly to a knowledge of the proposition "I have a sensation of yellow." From acquaintance with a sensation of yellow and with the meanings of "yellow," "colour," "existence," I may be able to pass to a direct knowledge of the propositions "I understand the meaning of yellow," "my sensation of yellow exists," "yellow is a colour."[@keynes, 12]
 
 But, for Keynes, acquaintance yields not only knowledge of the senses, but also of logical relations:
 
@@ -177,7 +162,7 @@ Since probability is the logical relation of partial entails between the premise
 
 This should give us pause, especially after one empirical studies after another showing us that people in general do not find probability intuitive (citation needed - most likely Linda problem). It seems incredible to think that probability is something that we can just perceive like we can perceive color. More important, probability relation, as Keynes envisions it, is something definite and objective, and this is usually not something we would characterize how perception works - even something as basic as the color of an object could be subject to vast disagreement. Keynes seems to recognize this: 
 
->What is self-evident to me and what I really know, may be only a probable belief to you, or may form no part of your rational beliefs at all. And this may be true not only of such things as my existence, but of some logical axioms also. Some men—indeed it is obviously the case—may have a greater power of logical intuition than others. [@keynes, 17]
+>What is self-evident to me and what I really know, may be only a probable belief to you, or may form no part of your rational beliefs at all. And this may be true not only of such things as my existence, but of some logical axioms also. Some men--indeed it is obviously the case--may have a greater power of logical intuition than others. [@keynes, 17]
 
 Keynes's response is that, while it is true that people may disagree about the value of many probability relations, and "the perceptions of some relations of probability may be outside the powers of some or all of us"[@keynes, 18], it is sufficient if we could construct a formal system of probability based on relations that are clear to us: "Our logic is concerned with drawing conclusions by a series of steps of certain specific kinds from a limited body of premisses".[@keynes, 18] This answer seems to be begging the question, since we are questioning the very idea of perceptible probability relations. We shall return to this in our discussion of Ramsey's critique of Keynes's view. 
 
@@ -189,19 +174,13 @@ The examples, in which the Principle of Indifference broke down, had a great dea
 
 Thus, Keynes suggests that the application of the principle is legitimate only if the alternatives we are considering are indivisible.[@keynes, 60] In other words, the use of the principle in Peirce's example is not legitimate, because the probabilities should be equally divided among all possible colors 1/n, where n is number of possible colors, not $^1/_2$.  In this case of their hair color being red or not, being not-red is decomposed into being blue, being yellow, etc., the application of the rule is illegitimate in Peirce's example. It is, however, unclear if Peirce would have been convinced, since the indivisibility requirement rules out the use of the principle of indifference in continuous cases. [@gilliesbook, 43-4]
 
-## From Peirce to Keynes to Ramsey
-
 Our discussion of Keynes provides not only the essential background for our discussion of Ramsey's view, but also an informative contrast between the logical interpretation of probability and what Peirce calls conceptualism. Interpreters of Peirce often treat "conceptualism" as a synonym for "Bayesianism," but I have thus far have stuck with Peirce's own term. As a matter of fact, Keynes's view, as I have presented, has all the makings of conceptualism, so this label is more fitting to Keynes than to Ramsey, who is definitely a "Bayesian" of some sort, since he argues for a subjective interpretation of probability. Nevertheless, we will see that Ramsey's criticisms of Keynes is completely in line with Peirce's criticisms of conceptualism.
 
 First, Recall that one problem Peirce has with the conceptualist's notion of degrees of belief was the lack of  clarity in its definition. We also saw that for Peirce, "clarity" has a specific meaning: it must carried out through the Pragmatic Maxim, so that the concept can be defined by its practical consequences.  Keynes's notion of intuitable logical relations is pragmatically intractable, so it would not satisfy Peirce's criterion of clarity. Also, recall Peirce does not regard phenomenal experiences as being more intimately known than physical objects, so he would rejects Keynes's Russellian thesis that the directness of subjective experience. On the other hand, we will see that Ramsey is explicitly extending Peirce's pragmatic analysis of belief to a pragmatic account of partial beliefs. 
 
 Second, Peirce's anti-conceptualism, as our discussion has shown, is specifically tied to the Principle of Indifference, which is a crucial feature of Keynes's view. He spends a great deal of space defending it. This principle is also rejected by Ramsey, who, as we will see, explicitly mobilizes Peirce's distinction between explicative and ampliative reasoning to criticize Keynes's use of the principle. Because of Ramsey's mindfulness of Peirce's epistemology, he arrives at an epistemology of partial belief that is largely Peircean.
 
-# Ramsey's Subjective Account of Probability
-
 "Truth and Probability" contains Ramsey's groundbreaking work on subjective probability. In particular, he concerns himself with forging the link between beliefs and probability. In this section, I discuss the two aspects of Ramsey's conception of partial belief in connection to Peirce's pragmatic analysis of beliefs, namely Ramsey's appeal to 1) the measurability of belief and 2) its dispositional nature .
-
-## Ramsey's Dispositional Account of Belief
 
 Ramsey famously rejects Keynes's idea of perceptible probability relations:
 
@@ -229,8 +208,6 @@ Ramsey is well aware of criticisms of the dispositional account of belief. Russe
 Ramsey says that Russell's criticism "seems entirely to miss the point"(169). As a careful reader of Peirce, Ramsey recognizes that dispositions must be understood as some sort of counterfactual conditional:
 
 >[Russell's] objection is however beside the mark, because it is not asserted that a belief is an idea which does actually lead to action, but one which would lead to action in suitable circumstances; just as a lump of arsenic is called poisonous not because it actually has killed or will kill anyone, but because it would kill anyone if he ate it (169).
-
-## The Measurement of Belief
 
 The crucial task, then, is to identify the action that a degrees of a belief would cause and how the action correspond to the degree. "The old-established way of measuring a person's belief," Ramsey says, "is to propose a bet, and see what are the lowest odds which he will accept"(172). So if I am willing to bet at 2:1 that it will snow tomorrow, then my degree of this degree is $1/3$. However, Ramsey points out that using money is problematic because of its diminishing marginal utility (172).
 
@@ -268,8 +245,6 @@ $$P(p) = \frac{u(\beta) - u (\gamma)}{u(\alpha) - u(\gamma)}$$
 which is what Ramsey means by "the degree of belief in p by the odds at which the subject would bet on p."
 
 This is not a complete summary of Ramsey's elicitation procedure, but I think it is within reason to say that Ramsey's account is faithful to Peirce' pragmatism, perhaps even more so than Peirce's own attempt to formulate degrees of belief, because it does not ground degrees of belief in the intensity of feelings. Of course, Peirce was mostly concerned with criticizing conceptualism, but what he takes to be the strongest account of degrees of belief is a good indication of what sort of account he thinks is the most productive to inquiry. This is supported by his empirical study that employs the conceptualist account of partial belief he employed. 
-
-## Ramsey's Rejection of the Principle of Indifference
 
 Ramsey's discussion of the Principle of Indifference takes place in his discussion of "the logic of consistency." Much like deductive logic for full belief, probability calculus allows us to ensure that our partial beliefs are consistent:
 
@@ -311,8 +286,6 @@ But if degrees of belief cannot be justified by virtue of consistency alone, the
 
 >Logic, we may agree, is concerned not with what men actually believe, but what they ought to believe, or what it would be reasonable to believe. What then, we must ask, is meant by saying that it is reasonable for a man to have such and such a degree of belief in a proposition ?[@ramsey 88]
 
-## Ramsey's Procedural Frequentism 
-
 Ramsey says that his answer to the question is "almost entirely" based on Peirce's ideas in *Illustrations*. As I read him, Ramsey's solution contains two ideas, which may be called *Procedural Frequentism*: 1) the reasonableness of a belief can be criticized based on the *procedure* with which the belief is produced. 2) The reasonable procedure for settling degrees of belief is one tracks relative frequencies. 
 
 In *The Fixation of Belief*, Peirce points out that our belief is often the consequence of some "habit of mind" which let us call an inferential procedure. Furthermore, these procedures are to be criticized in terms of how often it produce true beliefs.[@fixation, 245]  
@@ -321,11 +294,6 @@ Ramsey tries to expand Peirce's idea that inferential practice to consider how i
 
 Now, Ramsey asks, what would be a good procedure of arriving at degrees of beliefs that are reasonable? 
 
-## Problem with Habit
 ## Peirce's Puzzle
-
-
-
-# Conclusion
 
 [TBW]
