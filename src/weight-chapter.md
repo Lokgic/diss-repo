@@ -119,7 +119,7 @@ $$ P(N|I) = P(N) $$
 
 If $P(N|I) = P(N) = 1/2$, this means that the ideal evidence is also irrelevant evidence. Popper then concludes
 
-> Now this is a little startling; for it means, more explicitly, that our so-called ‘degree of rational belief’ in the hypothesis, [N], ought to be completely unaﬀected by the accumulated evidential knowledge, [I]; that the absence of any statistical evidence concerning [the hypothesis that the coin is fair] justifies precisely the same ‘degree of rational belief’ as the weighty evidence of millions of observations which, prima facie, support or conﬁrm or strengthen our belief. [popperlogic, 426]
+> Now this is a little startling; for it means, more explicitly, that our so-called ‘degree of rational belief’ in the hypothesis, [N], ought to be completely unaffected by the accumulated evidential knowledge, [I]; that the absence of any statistical evidence concerning [the hypothesis that the coin is fair] justifies precisely the same ‘degree of rational belief’ as the weighty evidence of millions of observations which, prima facie, support or conﬁrm or strengthen our belief. [popperlogic, 426]
 
 To summarize, we can interpret Popper to be making the following claims:
 
@@ -131,7 +131,7 @@ There is an air plausibility to this line of thought; however, at this stage thi
 
 ### Analyzing Popper's Argument
 
-**Is $I$ ideally favorable to $N$?**  The problem is to find a way to make sense out of this "ideally favorable" relation without begging the question against probabilism, for the probabilist's notions of the relevance and confirmatory favorability are both closely tied to conditionalization. Generally speaking, for probabilists, or more specifically, epistemic Bayesians, $X$ confirms $Y$ if and only if $X$ conditional on $Y$ has a higher probability than just $X$, so by definition if $X$ confirms $Y$, then $X$ is relevant to $Y$. So, as the argument stands, there is nothing stopping the Bayesian from biting the bullet and say that $I$ is irrelevant to $N$, or that $I$ was never ideally favorable to begin with, so what Popper needs to motivate an external notion of favorability to establish premise 1, from which we can (supposedly) derive a contradiction.
+Is $I$ ideally favorable to $N$?  The problem is to find a way to make sense out of this "ideally favorable" relation without begging the question against probabilism, for the probabilist's notions of the relevance and confirmatory favorability are both closely tied to conditionalization. Generally speaking, for probabilists, or more specifically, epistemic Bayesians, $X$ confirms $Y$ if and only if $X$ conditional on $Y$ has a higher probability than just $X$, so by definition if $X$ confirms $Y$, then $X$ is relevant to $Y$. So, as the argument stands, there is nothing stopping the Bayesian from biting the bullet and say that $I$ is irrelevant to $N$, or that $I$ was never ideally favorable to begin with, so what Popper needs to motivate an external notion of favorability to establish premise 1, from which we can (supposedly) derive a contradiction.
 
 Here's my suggestion: to give some credence to premise 1, we can use the statistical notion of *likelihood*, which refers to the probability of the evidence *given* a particular hypothesis. In general, we are interested in the probability of the hypothesis we are interested in, but sometimes we also reason by thinking about the probability of the evidence that we have, conditional on the hypotheses. In other words, another way of thinking about probabilistic favorability is to ask if it makes sense to have gathered the evidence we did, had the hypothesis in question been the correct one.
 
@@ -151,81 +151,95 @@ Here we see that unless the coin was, or extremely close to being, fair, it woul
 We have established that $I$ is ideal evidence for hypothesis $H_{0.5}$, that the coin is fair. Still, a paradox is nowhere to be found. Nevertheless, even though he never comes out and state it explicitly, it is not hard to see that Popper is suggesting that the paradox is $I$ is both relevant and irrelevant at the same time, so the argument is really the following:
 
 
-1. $I$ is ideally favorable to $P(N) = 1/2$.
-2. $I$ is evidentially relevant to $P(N) = 1/2$.
-3. $P(N|I) = P(N) = 1/2$.
-4. $I$ is evidentially irrelevant to $P(N) = 1/2$.
-5. 2 and 3 are contradictory.
-
-3 and 4 are both basic assumptions of epistemic Bayesianism, so clearly those cannot be rejected.
-Without the principle of indifference, a probabilist may say that $P(A)$ can be anything as long as it is between $0$ and $1$, and if it is something other than $0.5$, then premises 3 would be false. But it is hard to see how this can be justified. To begin, $0.5%$ seems to me the most reasonable prior probability one can assign to $A$. For the sake of the argument, let's say it begs to the question to assume $0.5$ is the most reasonable prior, but it would be *ad hoc* to suggest that it cannot be $0.5$ simply to avoid the paradox.
-
-I have argued for premise 1. This still leaves 2 unjustified. Now the issue of question begging arises again. Clearly, if we simply look at the probabilist notion of conditional relevance provided by Keynes, 2 is simply not true by definition, so Popper must be appealing to some sense of *evidential* relevance external to the Bayesian framework, and to avoid equivocation we must then also insist that the same sense of relevance is employed in premise 4.
-
-We now finally return to the issue of evidential weight. On this reading, what Popper's paradox purports to show is that there is some notion of evidential relation of relevance that cannot be captured by the Keynesian notion of relevance, and that is the weight of evidence. What premise 2 is suggesting that $I$ is relevance to $P(N)$ not by shifting the balance of the evidence, but its weight. Nevertheless, this reveals that premise 4 in fact requires a very strict reading of probabilism, for it holds that evidential relevance that probabilism allows is *conditional* relevance.
+1. $P(N) = 1/2$. (By Indifference or subjective prior)
+2. $I$ is ideally favorable to $P(N) = 1/2$. (By maximum likelihood)
+3. $I$ is evidentially relevant to $P(N) = 1/2$. (??)
+4. $P(N|I) = 1/2$ (??)
+5. $I$ is evidentially irrelevant to $P(N) = 1/2$. (By conditional relevance)
 
 
 
+Premise 1 is justified by either the principle of indifference or appealing to a subjective prior. Without the principle of indifference, a probabilist may say that $P(N)$ can be anything as long as it is between $0$ and $1$, and if it is something other than $0.5$, then premises 1 would be false. But it is hard to see how this can be justified. To begin, $0.5$ seems to me the most reasonable prior probability one can assign to $P(N)$, with or without the principle of indifference. For the sake of the argument, let's say it begs to the question to assume $0.5$ is the most reasonable prior, but it would be *ad hoc* to suggest that it cannot be $0.5$ simply to avoid the paradox.
+
+I have argued for premise 2. I suggest that Popper intends premise 3 to be a consequence of premise 2. Now the issue of question begging arises again. Clearly, if we simply look at the probabilist notion of conditional relevance provided by Keynes, 3 is simply not true by definition, so Popper must be appealing to some sense of *evidential* relevance external to the Bayesian framework, and to avoid equivocation we must then also insist that the same sense of relevance is employed in premise 4.
+
+ This finally brings us back to the issue of evidential weight. On this reading, what Popper's paradox purports to show is that there is some notion of evidential relation of relevance that cannot be captured by the Keynesian notion of relevance, and that is the weight of evidence. What premise 2 is suggesting that $I$ is relevant to $P(N)$ even though it does not shift the balance of the evidence in any way, it is still relevant because the overall evidential weight has changed.
+
+ Nevertheless, this reveals that premise 4 in fact requires a very strict reading of probabilism, for Popper is essentially attributing to the probabilist the following thesis:
+
+  <p style="text-align: center;"> The only kind of evidential relevance is conditional relevance. </p>
 
 
-# Severity as a Frequentist Notion of Weight
+
+
+
+
+
+<!-- # Severity as a Frequentist Notion of Weight
 
 
 
 ## Peirce's Probable Error
 
-## Severity as a Frequentist Notion of Weight
+## Severity as a Frequentist Notion of Weight -->
 
-# Enter the Bayesian
+# Weight as Higher Order Relevance
 
-
-## The Resiliency Approach
-
-Peirce points out that the increase in evidential weight is associated with a certain *stability* of the degree of belief of the hypothesis in question. If I have in front of me an urn  where  is the proportion of black and  the proportion of white balls. If I randomly draw 2 balls from it with replacement and find one ball for each color, my intuitive estimate of  - call it  - would sensibly be somewhere around . But it should also be intuitively clear that the weight of the evidence for this belief is light. It would be irrational for me to fixate on this estimate : if I sample two more balls from the urn and they are both black, it would make sense for me to raise  considerably to . Thus,  is extremely *unstable* in light of new evidence.
-
-But suppose I continue to sample from  for 996 more times. Out of the total 1000 draws, 500 are black. At this point a sensible  would be back to around . Suppose, as in the previous paragraph, I draw two more black balls. Now, it certainly would not make sense to raise it to  - as a matter fact, it seems plausible not to raise it at all. This point  is much more *stable*.
-
-The intuition here is that the increase in the amount of evidence, expressed here in terms of the number of samples, corresponds to the increase of stability of the estimate. Skyrm has introduced a notion called the *resiliency* to capture this intuition sense of stability. Roughly speaking, resiliency is a function of the variability of one's degrees of belief in light of new evidence. The basic idea is similar to statistical robustness: a partial belief is resilient if its degree tends not to change drastically in light of additional evidence, and is insensitive to outliers. Using the Keynesian terminology introduced earlier, a partial belief with a high degree of resiliency could be understood as one relative to which evidence tends to be probabilistically irrelevant.
-
-As a way to gauge resiliency, Skyrm suggests that we can engage in counterfactual reflections regarding what would happen if some evidence were to emerge. The resiliency of current belief would manifest itself as "a reluctance to change."[@causationandconditional, 707] Regarding Popper's paradox, Skyrm argues that what the ideal evidence changes is the probability of heads on toss , but the resiliency of its probability at
-
-Skyrm has not spelled this out, but it is easy to demonstrate the difference in resiliency ideal evidence makes with the statistical tools already presented. Again let  be the coin will land a head on  toss, and  be its probability. We model  under ignorance state, weak evidence state, and ideal evidence state as, respectively,  and , and model the data gathering process as  where  for heads and  otherwise. Let us consider three counterfactual scenarios:
-
-1.  $X_1,…X_{5}$, where $\sum_{i=1}^{10000}X_i = 5$
-2. $X_1,…X_{20}$, where $\sum_{i=1}^{20}X_i = 20$
-3. $X_1,…X_{100}$, where $\sum_{i=1}^{100}X_i = 100$
-
-In other words, these are data scenarios that would be overwhelmingly in favor of a higher . Using the rule of succession, we would get the following posterior probabilities:
-
-![img](resiliency1.png)
-
-We can see that if we already had ideal evidence for believing that , this belief would be quite recalcitrant. Even if we were to flip 100 consecutive heads, the probability would barely raise above . In the case of ignorance, the situation is quite different: starting with no evidence,  would jump to  after 5 flips, and rapidly approach certainty after 20 flips. Just as Skyrm suggested, even though for both cases , the probability is much more resilient when the available evidence is *weighty*.
-
-#### Definition
-
-To make things more precise, we could formally define degrees of resiliency. In general, Skyrm recommends this degree to be one minus the fluctuation of the evidence.
-
-Degree of Resiliency (Res)
-
-where X is the potential evidence.
-
-| Distribution(a,b)\|Data(n,p) | 10,8   | 50,40  | 200,180 |
-| ---------------------------- | ------ | ------ | ------- |
-| 1,3                          | $0.61$ | $0.49$ | $0.36$  |
-| 10,30                        | 0.89   | 0.7    | 0.46    |
-| 30,90                        | 0.95   | 0.84   | 0.59    |
+Popper's argument contains a  sleight of hand that subtlely shifts between two ways of thinking about $N$'s probability. The argument begins by asking, rather innocuously, for your prior for $N$, but the ideal evidence $I$ Popper immediately introduced is not for $N$ but for the hypothesis $H_{0.5}$. Popper is explicit about *that*, but what he is not explicit about is *this*: he convinced us that $I$ is both evidentially ideal and relevant to $H_{0.5}$, but that's a misdirection, because immediately he starts talking the conditional probability on $I$, *not* of $H_{0.5}$, but of $N$. So Popper's paradox is *really* as follows:
 
 
+1. $P(N) = 1/2$.
+2. $I$ is ideally favorable to $P(H_{0.5})$.
+3. $I$ is evidentially relevant to $P(H_{0.5})$.
+4. $P(N|I) = 1/2$
+5. $I$ is evidentially irrelevant to $P(N) = 1/2$.
 
+But now there is no contradiction - $I$ is relevant to $H_{0.5}$ but irrelevant to $N$.
+
+Furthermore, the very idea of $P(N|I)$ seems intelligible, only because we were distracted by the fact $P(H_{0.5}|I)$ *is* intelligible. But intelligibility of the latter is not the same as the former: the scenario Popper describes involves the updating of $N$, that the toss will be heads, by conditionalizing on $I$, that half a million heads were tossed out of a million trials. Suppose we carrying this out by explicating $P(N|I)$ using Bayes' theorem:
+
+$$P(N|I)=\frac{P(N) P(I|N)}{P(I)}$$
+
+ This means that to get $P(N|I)$ using Bayes' theorem, we would need to assign a value to $P(I|N)$, the absurdity of which is perhaps obscured by the symbolization - what could be the probability that half a million heads will be tossed in a a million trials, given the next toss is heads?
+
+ Two responses could be made on Popper's behalf. The first is that if $P(N|I)$, then so much the worse for the probabilists, because *they* are the one holding that all beliefs can be assigned a precise degree of belief.
+
+ The second response is that probabilists still owe us an account for (new) premises 2 and 3, that is, if $I$ is evidentially relevant to $P(H_{0.5})$, then the following inequality should hold:
+
+ $$P(H_{0.5})\neq P(H_{0.5}|I)$$
+
+I will endeavor to show this in the next section.
 ## Talking About Probability
 
-De Morgan points out that sometimes it makes sense to speak of the *probability of a probability*.[@demorgan, 87]  He asks us to imagine 100 urns, of which only one urn - call it  -  has an equal proportion of black and white balls and others have various other proportions with the same two colors. If I were to random draw a ball from ,the probability of , that a black ball is drawn, would be 0.5. But suppose the urns are indistinguishable from each other, and I can only randomly pick one without knowing if it is really . We are uncertain if the probability of getting a black ball is 0.5, but we do know enough to quantify this uncertainty: since I am randomly picking one urn out of 100, the probability of *the probability of B is 0.5* is .
+De Morgan points out that sometimes it makes sense to speak of the *probability of a probability*.[@demorgan, 87]  He asks us to imagine 100 urns, of which only one urn - call it  -  has an equal proportion of black and white balls and others have various other proportions with the same two colors. If I were to random draw a ball from ,the probability of , that a black ball is drawn, would be 0.5. But suppose the urns are indistinguishable from each other, and I can only randomly pick one without knowing if it is really . We are uncertain if the probability of getting a black ball is 0.5, but we do know enough to quantify this uncertainty: since I am randomly picking one urn out of 100, the probability of *the probability of B is 0.5* is $1/100$.
 
-The way out of the paradox is to suggest that while the effect of the ideal evidence is not reflected by the first order probability, , it is reflected by . The intuition is that before receiving the ideal evidence , we think that our best estimate for  is 0.5, but we are not sure. But after acquiring , even though our best estimate has remained constant, we have gained additional confidence about this estimate. One way to capture this confidence is by analyzing it as another probability:  has raised the probability of, not , but . So this solution would agree with Popper's assessment that  is irrelevant to , but it is relevant to , that is:
+@savage expresses a similar sentiment:
 
-If the above inequality holds, then the paradox is resolved.
+> ...there seem to be some probability relations about which we feel relatively "sure" as compared with others. When our opinions, as reflected in real or envisaged action, are inconsistent, we sacrifice the unsure opinions to the sure ones. [@savage, 57-58]
 
-This can be accomplished  by using standard tools in statistics. Consider the *beta distribution*, a common device used in Bayesian statistics. Since it is defined over the interval [0,1], it is commonly used to model probabilities. The distribution has two parameters,  and , which can be thought of as, roughly, prior success and failure. For instance, call the probability of interest here is  X If we set , it yields the uniform distribution, which is the prior dictated by the principle of indifference.
+Nevertheless, Savage urges caution on introducing higher orders of probability, due to its technical technical challenges:
+
+> The notion of "sure" and " unsure" introduced here is vague, and my complaint is precisely that neither the theory of personal probability, as it is developed in this book, nor any other device known to me renders the notion less vague. There is some temptation to introduce probabilities of a second order so that the person would find himself saying such things as "the probability that B is more probable than C is greater than the probability that F is more probable than G." But such a program seems to meet insurmountable difficulties. [@savage, 58]
+
+ Issues regarding higher order probabilities are beyond the scope of this paper - my proposal is that we ought to defer to the actual practice of Bayesian statistics, which treats *parameters* of a model as random variables - quantities from a random process that could be measured using probability and statistics. More importantly, these parameters could be *hyperparameters* - parameters of a probability distribution *for* another parameter. Thus, in actual practice, it is a commonplace to give a probabilistic reading of (say) the mean $\mu$ and the standard deviation $\sigma$ of a normal distribution. Bayesian methods allow us to speak sensibily about "the probability of the mean $\mu$ being x", a statement that would be a mere gibberish in the Frequentist framework.
+
+The kind of trials involved in the paradox of ideal evidence can be modeled as Beta-Bernoulli process, where the Beta distribution would model our state of belief and the Bernoulli distribution the coin tossing process. The Bernoulli distribution has the parameter $\theta$, which is often interpreted as the probability of success of a binary event, e.g., landing on heads, and thus in this sense we are talking probabilities of a probability. But, as Lindley points out, this is a confused way of talking about probability in a Bayesian context, instead we should think of the parameter $\theta$ as representing the *propensity* of the coin. We then use the Beta distribution to model the propensity, representing the degree of our belief in various hypotheses of $\theta$ having a certain value $x$ where $0 \leq x \leq 1$.
+
+More precisely, let $\theta$ be the propensity of the coin to land on heads and let
+
+$$
+X_i =
+\begin{cases}
+   1       & \quad \text{the coin lands on hands on toss $i$,}\\
+   0 & \quad \text{otherwise.}
+ \end{cases}$$
+
+Now these random variables can be modeled as follows:
+
+$$\theta \sim Beta(\alpha, \beta)$$
+$$X_1,...X_i \sim Bern(\theta)$$
+
+The Beta distribution has two parameters, $\alpha>0$ and $\beta>0$, which can be thought of as, in our context, our past experience about the coin's propensity. For instance, 
 
 More important, it is a conjugate prior for the Bernoulli distribution, and this provides a simple way to update the prior distribution based on data gathered from a Bernoulli process. Consider some unknown , which is modeled by the beta distribution and a parameter for a Bernoulli distribution, and radome samples , that is
 
@@ -265,6 +279,45 @@ To state these observations more precisely, we can calculate the exact probabili
 Now, let $E$ be the ideal evidence, $X_1,…X_{10000}$, where $\sum_{i=1}^{10000}X_i = 5000$, and let $\theta$ be the probability that the next toss will land a head. We now see that the following equality holds, since the left-hand side is $0.02$, and for the right it's $0.95$. :
 
 $$P(0.49<\theta<0.51) <  P(0.49<\theta<0.51|E)$$
+
+## The Resiliency Approach
+
+Peirce points out that the increase in evidential weight is associated with a certain *stability* of the degree of belief of the hypothesis in question. If I have in front of me an urn  where  is the proportion of black and  the proportion of white balls. If I randomly draw 2 balls from it with replacement and find one ball for each color, my intuitive estimate of  - call it  - would sensibly be somewhere around . But it should also be intuitively clear that the weight of the evidence for this belief is light. It would be irrational for me to fixate on this estimate : if I sample two more balls from the urn and they are both black, it would make sense for me to raise  considerably to . Thus,  is extremely *unstable* in light of new evidence.
+
+But suppose I continue to sample from  for 996 more times. Out of the total 1000 draws, 500 are black. At this point a sensible  would be back to around . Suppose, as in the previous paragraph, I draw two more black balls. Now, it certainly would not make sense to raise it to  - as a matter fact, it seems plausible not to raise it at all. This point  is much more *stable*.
+
+The intuition here is that the increase in the amount of evidence, expressed here in terms of the number of samples, corresponds to the increase of stability of the estimate. Skyrm has introduced a notion called the *resiliency* to capture this intuition sense of stability. Roughly speaking, resiliency is a function of the variability of one's degrees of belief in light of new evidence. The basic idea is similar to statistical robustness: a partial belief is resilient if its degree tends not to change drastically in light of additional evidence, and is insensitive to outliers. Using the Keynesian terminology introduced earlier, a partial belief with a high degree of resiliency could be understood as one relative to which evidence tends to be probabilistically irrelevant.
+
+As a way to gauge resiliency, Skyrm suggests that we can engage in counterfactual reflections regarding what would happen if some evidence were to emerge. The resiliency of current belief would manifest itself as "a reluctance to change."[@causationandconditional, 707] Regarding Popper's paradox, Skyrm argues that what the ideal evidence changes is the probability of heads on toss , but the resiliency of its probability at
+
+Skyrm has not spelled this out, but it is easy to demonstrate the difference in resiliency ideal evidence makes with the statistical tools already presented. Again let  be the coin will land a head on  toss, and  be its probability. We model  under ignorance state, weak evidence state, and ideal evidence state as, respectively,  and , and model the data gathering process as  where  for heads and  otherwise. Let us consider three counterfactual scenarios:
+
+1.  $X_1,…X_{5}$, where $\sum_{i=1}^{10000}X_i = 5$
+2. $X_1,…X_{20}$, where $\sum_{i=1}^{20}X_i = 20$
+3. $X_1,…X_{100}$, where $\sum_{i=1}^{100}X_i = 100$
+
+In other words, these are data scenarios that would be overwhelmingly in favor of a higher . Using the rule of succession, we would get the following posterior probabilities:
+
+![img](resiliency1.png)
+
+We can see that if we already had ideal evidence for believing that , this belief would be quite recalcitrant. Even if we were to flip 100 consecutive heads, the probability would barely raise above . In the case of ignorance, the situation is quite different: starting with no evidence,  would jump to  after 5 flips, and rapidly approach certainty after 20 flips. Just as Skyrm suggested, even though for both cases , the probability is much more resilient when the available evidence is *weighty*.
+
+#### Definition
+
+To make things more precise, we could formally define degrees of resiliency. In general, Skyrm recommends this degree to be one minus the fluctuation of the evidence.
+
+Degree of Resiliency (Res)
+
+where X is the potential evidence.
+
+| Distribution(a,b)\|Data(n,p) | 10,8   | 50,40  | 200,180 |
+| ---------------------------- | ------ | ------ | ------- |
+| 1,3                          | $0.61$ | $0.49$ | $0.36$  |
+| 10,30                        | 0.89   | 0.7    | 0.46    |
+| 30,90                        | 0.95   | 0.84   | 0.59    |
+
+
+
 
 ##The Intervalic Approach
 
