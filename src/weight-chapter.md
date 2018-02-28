@@ -3,14 +3,15 @@
 ## Bayes, Hume, and Balancing Reasons
 
 Even though Keynes is usually credited as the first person who noted the distinction evidence *balance* and evidential *weight*, an informal version was mobilized by Hume in his argument against miracle and formalized by Peirce in his critique of conceptualism in probability. The idea of balancing reasons, intuitively, is this:
-
+dsds
 ### The Balance of Reasons
 
 If we have a sufficient amount of evidence, we should be able to judge whether our overall evidence points in favor of or against the hypothesis in question. Both Keynes and Peirce make use of the metaphor of the balance of reasons. The idea is that we should be able to put all evidence on a metaphorical scale and see which side comes out on top: if our overall evidence is in general favorable to the hypothesis, then the balance of reasons should point to the same direction.
 
- Peirce explicates the balance of the evidence as the *log-odds* of a belief. Take some arbitrary belief $A$, for instance. Suppose we start with $P(A) = ^1 / _2$. The *prior odds* would be
+ Peirce explicates the balance of the evidence as the *log-odds* of a belief. Take some arbitrary belief $A$, for instance. Suppose we start with $P(A) = 1/2$. The prior odds would be
 
-$$\frac{P(A)}{1- P(A)} = \frac{^1 / _2}{^1 / _2} = 1:1$$
+
+$$\frac{P(A)}{1- P(A)} = \frac{1/2}{1/2} = 1:1$$
 
 Suppose $E$ is new evidence for $A$. Now, given a prior odd of 1:1 for $A$, the posterior odd for $A$, $\frac{P(A|E)}{P(\neg A |E)}$ can be algebraically reformulated as the likelihood ratio: $\frac{P(E|A)}{P( E| \neg A)}$. After taking the log of the odds as Peirce suggested, we can find the balance of reasons by calculating $log(P(E|A)) - log(P(E|\neg A))$. A positive value means the evidence is in favor of A and negative against it.
 
@@ -60,7 +61,7 @@ This means that prior to any observation, the probability of any event of which 
 
 > When the probability of a simple event is unknown, one may suppose that it is equally likely to take on any value from zero to one... the probability of each of these hypotheses, given the observed event, is a fraction whose numerator is the probability of the event under this hypothesis, and whose denominator is the sum of similar probabilities under each of the hypotheses
 
-This principle is harshly criticized by Peirce, who argues that assigning the probability of $^1/_2$ to unknown events can lead to paradoxical results. Imagine, he asks, that there are inhabitants on Saturn but we would like to the probability of a typical inhabitant's hair being red .  Since we are in total ignorance about their physiology, the principle says that this probability should be $^1/_2$, and according to Laplace we can update this probability by adding the number of inhabitants we observed to the denominator and the number of red-haired inhabitants to the numerator. However, we run into a paradox when we consider other hair colors: since we are ignorant about, says, whether their hair is blue, its probability should also be  $^1/_2$ .  Assuming they can only have one hair color, this means that these are mutually exclusive events,  the sum of all of these probabilities would be more than 1, which contracts with the axioms of probability, creating a paradox. We shall return to this problem in our discussion of Keynes.
+This principle is harshly criticized by Peirce, who argues that assigning the probability of $1/2$ to unknown events can lead to paradoxical results. Imagine, he asks, that there are inhabitants on Saturn but we would like to the probability of a typical inhabitant's hair being red .  Since we are in total ignorance about their physiology, the principle says that this probability should be $1/2$, and according to Laplace we can update this probability by adding the number of inhabitants we observed to the denominator and the number of red-haired inhabitants to the numerator. However, we run into a paradox when we consider other hair colors: since we are ignorant about, says, whether their hair is blue, its probability should also be  $1/2$ .  Assuming they can only have one hair color, this means that these are mutually exclusive events,  the sum of all of these probabilities would be more than 1, which contracts with the axioms of probability, creating a paradox. We shall return to this problem in our discussion of Keynes.
 
 ### Peirce on Weight and Balance
 
@@ -68,7 +69,7 @@ This principle is harshly criticized by Peirce, who argues that assigning the pr
 
 ### The Indivisibility Requirement
 
-When Keynes wrote *A Treatise on Probability*, he was keenly aware of these paradoxical results. However, he thinks that the paradoxes only suggest that the principle of indifference is to be restricted, not abandoned altogether. He argues that the reason that these paradoxes occur is because the principle of indifference should not be used when the alternatives under consideration can be further analyzed, and once all the alternatives are, in Keynes's words, *indivisible*, each of them should be assigned the probability of $^1/_n$, where n is the number of alternatives.[@keynes, 60]
+When Keynes wrote *A Treatise on Probability*, he was keenly aware of these paradoxical results. However, he thinks that the paradoxes only suggest that the principle of indifference is to be restricted, not abandoned altogether. He argues that the reason that these paradoxes occur is because the principle of indifference should not be used when the alternatives under consideration can be further analyzed, and once all the alternatives are, in Keynes's words, *indivisible*, each of them should be assigned the probability of $1/n$, where n is the number of alternatives.[@keynes, 60]
 
 Keynes's solution is influenced by Russell's logical atomism and Moore's intuitionism, the dominant views at Cambridge when he was thinking about issues in probability.[@gilliesbook, 33]  Probability, in Keynes's view, is defined as a logical relation between a premise and a conclusion. Probability relations are logical, because this relation belongs to the same conceptual category as the entailment relation between the premises and conclusion in a deductive argument. The difference here is one of degree: in a derivation in deductive logic, the set of premises fully entails its conclusion. In probabilistic reasoning, the set of premises partially entail its conclusion, so in this view a probability is conceived as the degree of a partial entailment. [@keynes, 30] This assumption about probability relations is the basis of a rule of rationality that governs that degrees if belief: the degrees of a belief should correspond to degrees of entailment that the belief receives as a conclusion in an argument. [@keynes, 3]
 
@@ -78,7 +79,7 @@ $$ P(H_1|E) = P(H_2|E) $$
 
 Note that this judgment is not used to justify the Principle of Indifference. Keynes intends it to be the other way around: the judgment of indifference is correctly applied only if the conditions for the Principle of Indifference are satisfied. The other kind of logical relations a competent perceiver can know through acquittance is the *judgement of relevance*, which is the perception about a premise's evidential relevance to its conclusion. This is critical for Keynes's defense of the principle of indifference, because it gives intelligibility to his idea of indivisibility. The intuition Keynes wants to capture is that, when we ask if the alternatives are divisible, we do not really mean conceptually physically divisible, but probabilistically: an indivisible alternative is one where no other facts can be perceived as having an effect on its probability.  Keynes's example is that, in a typical urn example with some black and white balls, if we want to know the probability of a white ball being randomly chosen, it does not really concern us whether or not the ball is made of iron of or tin. [@keynes, 59] In other words, the material of the ball is irrelevant, and he thinks that this is something we can intuitively grasp. We will discuss the technical details of evidential relevance in the next section.
 
-So, According to Keynes, the use of the principle in Peirce's example is not legitimate, because the probabilities should be $^1/_n$, where n is number of possible colors, not $^1/_2$.  In this case of their hair color being red or not, we can see that being not-red can be analyzed into being blue, being yellow, etc., because we can see that being blue is evidentially relevant to not being red.
+So, According to Keynes, the use of the principle in Peirce's example is not legitimate, because the probabilities should be $1/n$, where n is number of possible colors, not $1/2$.  In this case of their hair color being red or not, we can see that being not-red can be analyzed into being blue, being yellow, etc., because we can see that being blue is evidentially relevant to not being red.
 
 ### Relevant and Irrelevant Evidence
 
@@ -100,42 +101,72 @@ Keynes recognizes that his idea of evidence relevance leads to some implausible 
 
 
 
-# ## The Paradox of Ideal Evidence
+# The Paradox of Ideal Evidence
 
+## Popper's Presentation
 
+The tension between probabilism and evidential weight culminates in Popper's *paradox of ideal evidence*.[@popperlogic, 425] He asks us consider a certain penny and let $N$ be  the proposition "the next toss of the penny will yield heads". The proponents of subjective probability, against whom he is arguing, would suggest that the prior probability should be $P(N) = 0.5$. Now let $I$ be what he calls *the ideal statistical evidence* in favor of the idea that the penny in question is a fair one. The actual evidence itself is not of huge importance - it just has to be some sort of statistic that would leave very little doubt that the penny is fair.
 
-The tension between probabilism and evidential weight culminates in the so-called *paradox of ideal evidence*. Popper essentially su by formulating it as *the paradox of ideal evidence*. [@popperlogic, 425] He asks us consider a certain penny and let $A$ be  the proposition ``the $n$th toss of the penny will yield heads''. The proponents of subjective probability, whom he is arguing against, would suggest that the prior probability should be $ ^1 / _2$,  $P(A) = 0.5$. Now let $E$ be what he calls *the ideal statistical evidence* in favor or the idea that the penny in question is a fair one. The actual evidence itself is not of huge importance - it just has to be some sort of statistic that would leave very little doubt that the penny is fair. Popper's example is to let $B$ be the proposition that "out of 1,000,000 tosses of the penny, 500,000, plus or minus 20, turned up heads.''
+Popper's example is to let $I$ be the proposition that out a million tosses, somewhere between half a million plus or minus twenty yield heads. The actual number is not important: what matters is that we have a large number of trials with a equal number of heads and tails - the same point could be made using 10 millions instead of a million. Now, Popper asks, given we have ideal evidence $I$, what is the probability of $N$? He claims that it would have to be $1/2$.
 
-Now, Popper asks, given we have ideal evidence $B$, what is the probability of $A$? He claims that it would have to be $^1 / _2$, but this would also mean:
+$$P (N|I) = P(N) = 0.5$$
 
-$$P (A|B) = P(A) = 0.5$$
-
-Before discussing exactly what is wrong with this picture, it should be noted that Popper is not attacking the principle of indifference in this context. That is, for this argument he is willing to grant that Bayesians have some way of arriving at $P(A)$ - it could be by indifference, through elicitation, etc. So Popper's argument, unlike Peirce's, does not hinge on whether the use of the principle of indifference is permissible. I take it to be a strength of Popper's argument.
+Before discussing exactly what is wrong with this picture, it should be noted that Popper is not attacking the principle of indifference in this context. That is, for this argument he is willing to grant that Bayesians have some way of arriving at $P(N)$ - it could be by indifference, through elicitation, etc. So Popper's argument, unlike Peirce's, does not hinge on whether the use of the principle of indifference is permissible. I take it to be a strength of Popper's argument.
 
 Nevertheless, Popper is zeroing in on a different Bayesian idea that the degree of *relevance* of evidence can be measured in terms of conditional probability. As discussed earlier, evidence $E$ is irrelevant to the hypothesis $H$ if and only if
 
-$$ P(H|E) = P(H) $$
+$$ P(N|I) = P(N) $$
 
-Now the problem with ideal evidence becomes clear. If $P(A|B) = P(A) = ^1 / _2$, this means that the ideal evidence is also irrelevant evidence.
+If $P(N|I) = P(N) = 1/2$, this means that the ideal evidence is also irrelevant evidence. Popper then concludes
+
+> Now this is a little startling; for it means, more explicitly, that our so-called ‘degree of rational belief’ in the hypothesis, [N], ought to be completely unaﬀected by the accumulated evidential knowledge, [I]; that the absence of any statistical evidence concerning [the hypothesis that the coin is fair] justifies precisely the same ‘degree of rational belief’ as the weighty evidence of millions of observations which, prima facie, support or conﬁrm or strengthen our belief. [popperlogic, 426]
+
+To summarize, we can interpret Popper to be making the following claims:
+
+1. $I$ is ideally favorable to $N$.
+2. $P(N|I) = P(N) = 1/2$.
+3. $I$ is conditionally irrelevant to $N$.
+
+There is an air plausibility to this line of thought; however, at this stage this is either a valid argument nor a paradox. So let us flesh out Popper's idea.
 
 ### Analyzing Popper's Argument
 
+**Is $I$ ideally favorable to $N$?**  The problem is to find a way to make sense out of this "ideally favorable" relation without begging the question against probabilism, for the probabilist's notions of the relevance and confirmatory favorability are both closely tied to conditionalization. Generally speaking, for probabilists, or more specifically, epistemic Bayesians, $X$ confirms $Y$ if and only if $X$ conditional on $Y$ has a higher probability than just $X$, so by definition if $X$ confirms $Y$, then $X$ is relevant to $Y$. So, as the argument stands, there is nothing stopping the Bayesian from biting the bullet and say that $I$ is irrelevant to $N$, or that $I$ was never ideally favorable to begin with, so what Popper needs to motivate an external notion of favorability to establish premise 1, from which we can (supposedly) derive a contradiction.
+
+Here's my suggestion: to give some credence to premise 1, we can use the statistical notion of *likelihood*, which refers to the probability of the evidence *given* a particular hypothesis. In general, we are interested in the probability of the hypothesis we are interested in, but sometimes we also reason by thinking about the probability of the evidence that we have, conditional on the hypotheses. In other words, another way of thinking about probabilistic favorability is to ask if it makes sense to have gathered the evidence we did, had the hypothesis in question been the correct one.
+
+A widely used method, due to R.A. Fisher, called the maximum likelihood estimation can help us here. The intuition is to ask ourselves which possible value of $N$, were it true, would have the maximum chance to give rise to the data $I$ we currently have. In other words, let $\theta_i$ be the hypothesis that $P(N)=i$ where $i\in(0,1)$ - we want to pick a $H_{mle}$ such that the choice will give the maximum value of
+
+$$P(I|H_{mle})$$
+
+out all possible $H_i$s.
+
+Formally, to get the maximum likelihood estimate requires differentiating the distribution and then set to zero. Fortunately, for the kind of trials Popper has in the mind, the maximum likelihood estimate is known to be the mean of the sample. In our case, it would essentially be $1/2$. To further convince ourselves, we can plot all possible hypotheses for $N_i$ against the corresponding $P(I|H_i)$:
 
 
-Spelling out Popper's argument exactly, it should look as follows:
+![img](likelihoodideal.png)
 
-1. If $E$ is ideal evidence for the belief $H$, it is also relevant evidence for $H$.
-2. $E$ is relevant for $H$ if and only if $P(H|E) \neq P(H)$
-3. Let $B$ some ideal evidence for $A$, so by premise 1 $B$ is also relevant evidence for $A$ .
-4. Let $A$ be the proposition that ``the $n$th toss of the penny will yield heads'' and $P(A) =  ^1 /_2$
-5. But $P(A|B) = P(A) = ^1 /_2$
-6. $\therefore$ $B$ is irrelevant to $A$.
+Here we see that unless the coin was, or extremely close to being, fair, it would simply be impossible for $I$ to come to be true. This means that, were the coin biased in some way, it would require nothing short of a Humean miracle to get a practically perfect 50:50  split of heads and tails out of *one million tosses*. So to strengthen Popper's argument, we could say that $I$ is the ideal evidence for $H_{0.5}$, that is, the coin is perfectly fair; because the character of $I$ is such that it makes $H_{0.5}$ practically a necessary condition. This, I think, captures Popper's idea that $I$ is ideal evidence for $P(N|I) = 0.5$ in a sense that we have "no other option" than to think that it is true. [popperlogic, 425]
 
-We have then arrived at a contradiction, so these propositions cannot be all true. But it is unclear which of the premises can be rejected by a probabilist. Rejecting premise 1 would be biting the bullet - the notion of 'ideal evidence' is imported by Popper, but I also find it to have substantial intuitive appeal. Premise 2 is a core Bayesian thesis about probabilistic relevant. Premise 3 simply follows from 1. Rejecting premise 4 is the most promising and this has to be done by rejecting $P(A) = 0.5 $, but how?  
+We have established that $I$ is ideal evidence for hypothesis $H_{0.5}$, that the coin is fair. Still, a paradox is nowhere to be found. Nevertheless, even though he never comes out and state it explicitly, it is not hard to see that Popper is suggesting that the paradox is $I$ is both relevant and irrelevant at the same time, so the argument is really the following:
 
-Without the principle of indifference, a probabilist may say that $P(A)$ can be anything as long as it is between $0$ and $1$, and if it is something other than $0.5$, then premises 5 would be false. But it is hard to see how this can be justified. To begin, $0.5%$ seems to me the most reasonable prior probability one can assign to $A$. For the sake of the argument, let's say it begs to the question to assume $0.5$ is the most reasonable prior, but it would be *ad hoc* to suggest that it cannot be $0.5$ simply to avoid the paradox.
 
-Peirce's suggestion would be to reject $4$, but not by assigning $P(A)$ to some value other than $0.5$, but to say $P(A)$ before any evidence should be *indefinite*. To anticipate, my proposal of using imprecise probability agrees with Peirce's assessment - the idea is that at the beginning our degrees of belief for $A$ should be extremely vague about $0.5$, but, assuming the penny is fair, the evidence will increase precision and the bounds will approach $0.5$ as the weight of the evidence gets higher. The ideal evidence $B$, with maximum weight, will essentially bring $P(A|B)$ to precisely $0.5$. Since $P(A)$ is not $0.5$, premise 5 will also be false. The paradox will then be dissolved.
+1. $I$ is ideally favorable to $P(N) = 1/2$.
+2. $I$ is evidentially relevant to $P(N) = 1/2$.
+3. $P(N|I) = P(N) = 1/2$.
+4. $I$ is evidentially irrelevant to $P(N) = 1/2$.
+5. 2 and 3 are contradictory.
+
+3 and 4 are both basic assumptions of epistemic Bayesianism, so clearly those cannot be rejected.
+Without the principle of indifference, a probabilist may say that $P(A)$ can be anything as long as it is between $0$ and $1$, and if it is something other than $0.5$, then premises 3 would be false. But it is hard to see how this can be justified. To begin, $0.5%$ seems to me the most reasonable prior probability one can assign to $A$. For the sake of the argument, let's say it begs to the question to assume $0.5$ is the most reasonable prior, but it would be *ad hoc* to suggest that it cannot be $0.5$ simply to avoid the paradox.
+
+I have argued for premise 1. This still leaves 2 unjustified. Now the issue of question begging arises again. Clearly, if we simply look at the probabilist notion of conditional relevance provided by Keynes, 2 is simply not true by definition, so Popper must be appealing to some sense of *evidential* relevance external to the Bayesian framework, and to avoid equivocation we must then also insist that the same sense of relevance is employed in premise 4.
+
+We now finally return to the issue of evidential weight. On this reading, what Popper's paradox purports to show is that there is some notion of evidential relation of relevance that cannot be captured by the Keynesian notion of relevance, and that is the weight of evidence. What premise 2 is suggesting that $I$ is relevance to $P(N)$ not by shifting the balance of the evidence, but its weight. Nevertheless, this reveals that premise 4 in fact requires a very strict reading of probabilism, for it holds that evidential relevance that probabilism allows is *conditional* relevance.
+
+
+
+
 
 # Severity as a Frequentist Notion of Weight
 
@@ -166,7 +197,7 @@ Skyrm has not spelled this out, but it is easy to demonstrate the difference in 
 
 In other words, these are data scenarios that would be overwhelmingly in favor of a higher . Using the rule of succession, we would get the following posterior probabilities:
 
-![img](file:///Users/lok/Dropbox/diss/repo/weight-chapter/resiliency1.png?lastModify=1519712368)
+![img](resiliency1.png)
 
 We can see that if we already had ideal evidence for believing that , this belief would be quite recalcitrant. Even if we were to flip 100 consecutive heads, the probability would barely raise above . In the case of ignorance, the situation is quite different: starting with no evidence,  would jump to  after 5 flips, and rapidly approach certainty after 20 flips. Just as Skyrm suggested, even though for both cases , the probability is much more resilient when the available evidence is *weighty*.
 
@@ -174,7 +205,7 @@ We can see that if we already had ideal evidence for believing that , this belie
 
 To make things more precise, we could formally define degrees of resiliency. In general, Skyrm recommends this degree to be one minus the fluctuation of the evidence.
 
-Degree of Resiliency (Res)  
+Degree of Resiliency (Res)
 
 where X is the potential evidence.
 
@@ -214,7 +245,7 @@ We can now reframe the paradox of ideal evidence using the beta distribution. Co
 
 However, even though these distributions produce identical expected values, if we plot them, we can see that how they represent states of belief that are drastically different:
 
-![img](file:///Users/lok/Dropbox/diss/repo/weight-chapter/beta.png?lastModify=1519712331?lastModify=1519752441)
+![img](beta.png)
 
 Intuitively, we can think of the first distribution as representing your state of belief about the probability of getting a head on the next flip. This distribution is plotted in Figure 1: note that it is wholly flat, capturing the sort of judgement of indifference that Keynes talks about. One finds no ground in thinking one probability is more credible than another.
 
@@ -261,6 +292,6 @@ This has led Keynes to accept that there are probabilities that cannot be given 
 
 Even though Keynes makes use of the principle of indifference, his acceptance of indeterminate probability in fact brings his view a lot closer to Peirce. In his criticism of the principle of indifference, Peirce often suggests that in those cases where conceptualists are tempted to use the principle, they really should say the probability cannot be determined due to the lack of evidence.
 
-##  
+##
 
 #

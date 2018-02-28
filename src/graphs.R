@@ -1,5 +1,17 @@
 library(ggplot2)
 
+
+myfunc = function(x){
+  return (dbinom(500000,1000000,x))
+}
+ggplot(data.frame(x = x), aes(x)) +
+  stat_function(fun = dbinom, geom = "line",args=list(x=500000,size=1000000))+
+  theme_classic() + 
+  ggtitle('Likelihood of Ideal Evidence') +ylab('P(E|H_i)') + 
+  xlab('H_i')
+
+
+
 a = 1
 b = 1
 a2 = 2
@@ -98,3 +110,25 @@ getRes = function(a,b,n,x){
   paste(post,prior,diff)
   return (1-diff)
 }
+
+
+y = dbinom(500000,1000000,x)
+y2 = dbinom(500020,1000000,x)
+y3 = dbinom(499980,1000000,x)
+
+plot(x,y,type='l')
+lines(x,y2)
+lines(x,y3)
+plot(x,y,type='l',xlim=c(0.45,0.55))
+lines(x,y2)
+lines(x,y3)
+plot(x,y,type='l',xlim=c(0.48,0.52))
+lines(x,y2)
+lines(x,y3)
+pbinom(0.51,10000,0.5)
+dbinom(500000,1000000,0.51)
+pbinom(,1000000,0.5)
+qbinom(.5,4,1/2)
+pbinom(500000,1000000,0.49) 
+plot(x,y,type = 'l')
+pbinom()
