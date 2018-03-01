@@ -7,11 +7,14 @@ This chapter aims to discuss the issue of evidential *weight* in the context of 
 
 Since probabilism purports to be an overarching position about belief and their rationality, probabilists owe us an explanation for our existing epistemic practices.^[Even though 'probabilism' is often used as a synonymy for 'Bayesianism', I take the former to be a broader term than the latter. Bayesians are probabilists, but in addition, they also hold Bayes's Rule to be the *only* rational way to revise one's belief. To be more precise, I also distinguish *epistemic* Bayesians and *statistical* Bayesians, and in this paper when I use the term 'Bayesian', I typically have in mind a philosopher who holds the view about belief revision just described. A Bayesian *statistician* is also a probabilist - she might think that while belief comes in degrees and Bayesian statistics is the best framework for drawing inferences, not all beliefs can be meaningfully given a Bayesian analysis.] For each of these practices, probabilists either have to provide a probabilistic account for its rationality, or argue that we are better off without it.^[For instance, van Fraassen's argument that inference to the best explanation violates the axios of probability.]
 
-One especially troublesome notion for probabilism is to account for the *weight* of evidence, which is roughly a measure of the *amount* of evidence. This is usually poorly captured by probability. To see why, imagine twos urn $A$ and $B$ with an unknown proportions black and white balls. Suppose you sample (with replacement) 30 balls from the urn $A$ and find 15 black balls and 15 white balls. Now, with good reason, you infer that the proportion of black balls in $A$ - call it $\theta_A$ is about $0.5$. You then decide to sample from $B$, but this time you only manage to draw 4 samples but you find 3 black balls. Your best estimate for $\theta_B$ then would be $0.75$. At this point, I offer you another chance to draw from one of the urns, and if you manage to draw a black ball, you get a $100$. Which urn would you pick? Clearly, $\theta_B > \theta_A$, but it is not clear that $B$ is obviously the better choice, because the amount of evidence you have for $\theta_A = 0.5$ is higher than for $\theta_B = 0.75$. In other words, the evidence for $\theta_A$ is *weightier*.  
+One especially troublesome notion for probabilism is to account for the *weight* of evidence, which is roughly a measure of the *amount* of evidence. This is usually poorly captured by probability. To see why, imagine twos urn $A$ and $B$ with an unknown proportions black and white balls. Suppose you sample (with replacement) 30 balls from the urn $A$ and find 15 black balls and 15 white balls. Now, with good reason, you infer that the proportion of black balls in $A$ - call it $\theta_A$ is about $0.5$. You then decide to sample from $B$, but this time you only manage to draw 4 samples but you find 3 black balls. Your best estimate for $\theta_B$ then would be $0.75$. At this point, I offer you another chance to draw from one of the urns, and if you manage to draw a black ball, you get a $100$. Which urn would you pick?
 
-This is a problem for probabilism, because in terms of just comparing the probabilities alone picking urn $B$ clearly has a higher probability of winning, but when we look at all the facts in the situation, the decision is much more difficult than what the probabilities tell us, so it seems that the probabilistic approach is overlooking some crucial information.  
+Clearly, $\theta_B > \theta_A$, but it is not clear that $B$ is obviously the better choice, because the amount of evidence you have for $\theta_A = 0.5$ is higher than for $\theta_B = 0.75$. This is a problem for probabilism, because in terms of just comparing the probabilities alone picking urn $B$ clearly has a higher probability of winning, but when we look at all the facts in the situation, the decision is much more difficult than what the probabilities tell us, so it seems that the probabilistic approach is overlooking some crucial information.  
 
-The aim of this chapter is to develop and examine a Bayesian solution to this problem that I call *Higher Order Relevance(HOR)*, which is a higher order version of John Maynard Keynes's notion of conditional relevance. Briefly put, Keynes's idea is that for some evidence $E$ and hypothesis $H$
+This introduces the distinction between the *balance* and *weight* of the evidence. The difference in numerical value between $\theta_A$ and $\theta_B$ is such that the balance of the available evidence points in favor of choosing $B$. But our judgment of $\theta_A = 0.5$ is based on more information, so it is *weightier*.  
+
+
+The aim of this chapter is to develop and examine a Bayesian solution to this problem that I call *Higher Order Relevance(HOR)*, which is a version of John Maynard Keynes's notion of conditional relevance. Briefly put, Keynes's idea is that for some evidence $E$ and hypothesis $H$
 
 
 $$\text{Evidence $E$ is relevant to $H$ if and only if }P(H) \neq P(H|E)$$
@@ -28,47 +31,23 @@ The brief sketch above contains quite a bit of simplification, but it does give 
 
 # Historical Background
 
-Thus, when we try to decide whether or not we should accept the witness' testimony of the existence of miracle
 
-Hume says that assuming the miracles could only be known through the testimonies of the people who claimed to have experienced. The only way for us to assess the miracle actually occurred by comparing their testimonies
-
-
- So, let $M$ be the proposition that certain miraculous event occurred, and $T$ be the testimony of a witness that $M$ is true. Hume says that to decide whether or not we should believe What we ought to consider is to compare the probability, given the testimony, that $M$ occurred compared to $M$
-
-The answer, Hume says, is clear
-
- formalized by Peirce in his critique of conceptualism in probability. The idea of balancing reasons, intuitively, is this:
-dsds
-### The Balance of Reasons
-
-If we have a sufficient amount of evidence, we should be able to judge whether our overall evidence points in favor of or against the hypothesis in question. Both Keynes and Peirce make use of the metaphor of the balance of reasons. The idea is that we should be able to put all evidence on a metaphorical scale and see which side comes out on top: if our overall evidence is in general favorable to the hypothesis, then the balance of reasons should point to the same direction.
-
- Peirce explicates the balance of the evidence as the *log-odds* of a belief. Take some arbitrary belief $A$, for instance. Suppose we start with $P(A) = 1/2$. The prior odds would be
+## The Balance of the Evidence
 
 
-$$\frac{P(A)}{1- P(A)} = \frac{1/2}{1/2} = 1:1$$
+Even though the distinction between balance and weight is usually associated with Keynes, it was C.S Peirce who first gave a formal treatment. In fact, Peirce suggests that a primitive articulation of the balance has already been articulated by Hume, who mobilizes the informal version of the idea to argue against the existence of miracle. He asks us to consider that, given a miraculous event $M$, which by definition involves the violation of the laws of nature, what should we make of the only evidence $T$ for its existence - the testimonies of the witnesses -  when we also know $K$, that people frequently are either confused, lying, or misled, that $M$ actually occurred? His proposal is that we should reason probabilistically: we should ascertain the probability of $M$'s existence, given $T$ and $K$ against the probability that $M$ did not occur, also conditional on $T$ and $K$, and then
 
-Suppose $E$ is new evidence for $A$. Now, given a prior odd of 1:1 for $A$, the posterior odd for $A$, $\frac{P(A|E)}{P(\neg A |E)}$ can be algebraically reformulated as the likelihood ratio: $\frac{P(E|A)}{P( E| \neg A)}$. After taking the log of the odds as Peirce suggested, we can find the balance of reasons by calculating $log(P(E|A)) - log(P(E|\neg A))$. A positive value means the evidence is in favor of A and negative against it.
+> we must balance them against one another and subtract the smaller number from the greater in order to know the exact force of the superior evidence.
 
-The log-odds also has a nice way of representing the intuition that independent reasons for a belief should be additive. The idea  is that the strengths of two independent pieces of evidence should be combinable to increase the degree of the belief in question. This is also accounted for by Peirce's idea of log-odds. Suppose $E_1$ and $E_2$ are independent evidence for $A$. This can be captured by the idea of *conditional independence*:
+Hume does not give us the actual calculation, but he asserts that it is clear that it is much more probable that the witnesses are not telling the truth, for one reason or another. The issues regarding the existence of miracles do not concern us here, but Hume has articulated the form for determining the balance of the evidence. Of course, Hume, while a brilliant philosopher, did not have the requisite knowledge in probability to formalize this intuition, which is eventually carried by Peirce.   
 
-$$P(E_1 \wedge E_2 |A) = P(E_1|A) P(E_2|A)$$
+It must be noted that Peirce resurrected the notion of the balance of evidence to give himself the ammunition needed to attack the a form of probabilism called conceptualism. The conceptualists took their cues from Laplace, who in turns generalized the findings in Thomas Bayes's posthumously published papers. The conceptualist endorses a fully subjective view of probability, wile Peirce aligns himself with the objective camp.
 
-Now, if we take the logarithm of the product, the product becomes $log(P(E_1|A))+ log(P(E_2|A))$.  This captures the intuition that adding two pieces of independent evidence together should increase the intensity of our belief.
+Peirce's critique of conceptualism is contained in his paper 'Probability of Induction'. More importantly, in the paper Peirce tries to construct the most plausible version of conceptualism by combining Hume's idea of balancing evidence with Laplace's views in *Essai philosophique sur les probabilités*, which, Peirce says, had 'a great and deplorable influence' on the scientific understanding of probability.[@cp, 8.220]
 
-## Peirce, Laplace, and the Principle of Indifference
+To begin, Peirce takes Laplace "rule of succession" as the conceptualist account of induction. Laplace formulates this as follows:
 
-Peirce gave John Venn's *The Logic of Chance* a glowing review: 'a book which should be read by every thinking man.''[@vennlogicreview, 98] Venn earned Peirce's praise by advancing an objective interpretation of probability, which analyzes the concept as a relative frequency, against the conceptualist who holds that probabilities are degrees of credences. The conceptualists take their cues from Laplace, who in turns draws from Thomas Bayes himself.
-
-The 1867 review marks the beginning of Peirce's public opposition to conceptualism He eventually gives his thoughts on conceptualism a full articulation about ten years later in 'Probability of Induction.' It is in this paper that the very idea of the weight of the evidence is first explicitly discussed in the context of probability. It is therefore appropriate to set the stage by giving some historical and conceptual background on this dispute between the early proponents of the two interpretations of probability - one that is still very much with us today.
-
-### Laplace's Rule of Succession
-
-In a letter to Peter Carus, Peirce explains that one of the main targets he had in mind when attacking conceptualism was Laplace's view in *A Philosophical Essay in Probability*, which, Peirce says, had 'a great and deplorable influence.'[@cp, 8.220] Even though Peirce does not mention Laplace directly in 'Probability of Induction,' that he has Laplace in mind is not surprising, since Peirce spends a great deal to attack ideas originated from Laplace.
-
-In the beginning chapter of *A Philosophical Essay on Probabilities*, Laplace proposes the so-called "rule of succession."  This rule is adopted by the conceptualists as a model for belief revision based on new evidence. Laplace formulates this as follows:
-
-> Thus we find that an event having occurred successively any number of times, the probability that it will happen again the next time is equal to this number increased by unity divided by the same number increased by two units.
+> ...we find that an event having occurred successively any number of times, the probability that it will happen again the next time is equal to this number increased by unity divided by the same number increased by two units.
 
 In other words, for a sequence of independent trials, Laplace recommends that we ought to update our belief by using the following principle. Suppose $H$ is the event of interest. After witnessing evidence $E$, we should update the prior probability $P(H)$ by calculating
 
@@ -76,33 +55,55 @@ $$ P(H|E) = \frac{1+x}{2+n}$$
 
 Where x is the number of successes observed out of n occurrences.
 
-Laplace, using an example that "has had a catastrophic effect" on his reputation, illustrates this by calculate the probability of the sun rising.[@jaynes, 564]He assumes that the sun has never ceased rising in the past and that the earth is about 5000 years, or 1,826,213 days old, so this means $x=n= 1,826,213$, so the probability of the sun rising is:
+That Laplace thinks that the rule of succession is as an inductive principle is evidenced by the fact that he proposes to solve Hume's problem of induction with rule. He does so by attempting to calculate the probability that the sun will rise tomorrow, given it has always risen in the paper. He assumes that the sun has never ceased rising in the past and that the earth, using the Bible as a source of information, is about 5000 years, or 1,826,213 days old, so he takes Hume's question to be asking for the probability that the sun will rise on the 1,826,214th day since the beginning of time, conditional on the fact that it has risen 1,826,213 times. So, $x=n= 1,826,213$, and the probability of the sun rising tomorrow is:
 
 $$ \frac{1 + 1,826,213} { 2 + 1,826,213} =  \frac{1,826,214} {1,826,215} $$
 
-Even someone who is sympathetic to subjective interpretations of probability, this example seems off because this appears to say that if a bet against the sun rising at odds of $ 1826214:1$ were to be offered to someone, she would be irrational not to take it.
+which is roughly $0.999999$.
+
+Nevertheless, Laplace is quick to point out that the rule of succession is only applicable to anyone who knows absolutely nothing about planetary mechanics, for the use of the rule of succession requires the *the Principle of Insufficient Reason*, also known as *the Principle of Indifference*.
 
 
-
-### The Principle of Indifference
-
-Nevertheless, Laplace suggests that for most people, the rule of succession is not the right rule to use the estimate their posterior probability of the sun rising. He says that anyone "recognizing the totality of phenomena the principal regular of days and seasons, sees that nothing at the present moment can arrest the course of it" [laplace, 19]. Presumably, this means that anyone who knows anything about planetary motion would not be rational to use the rule of succession to ascertain her personal probability for the sun rising tomorrow. Laplace is perhaps suggesting that only in complete ignorance about the event in question is one entitled to use the rule of succession. This places a restriction in the applicability of the rule.
-
-Perhaps this is why the rule of succession does not receive any direct criticism from Peirce; instead, he focuses on another rule presupposed by it, that is, the principle of indifference, which is the idea that we should assign the probability of 0.5 to any totally unknown event. This can be seen by appealing the rule of succession in a case where no observation has been made, which means
-
-$$ \frac{1 + 0} { 2 + 0} =  \frac{1} {2} $$
-
-This means that prior to any observation, the probability of any event of which we are know nothing should be 0.5, so the rule of succession presupposes the principle of indifference. This is how Laplace formulates it:
 
 > When the probability of a simple event is unknown, one may suppose that it is equally likely to take on any value from zero to one... the probability of each of these hypotheses, given the observed event, is a fraction whose numerator is the probability of the event under this hypothesis, and whose denominator is the sum of similar probabilities under each of the hypotheses
 
+
+In other words, when we are in complete ignorance regarding the outcome of the event, the probability of each possible outcome is:
+
+$$\frac{\text{1}}{\text{# of total possible hypotheses}}$$
+
+Since the sun either rise or does not rise tomorrow, without any knowledge, its probability of rising is $1/2$. This is presupposed by the rule of succession since, prior to observation, $x=n=0$, and we arrive at the same result:
+
+$$ \frac{1 + 0} { 2 + 0} =  \frac{1} {2} $$
+
+Now Peirce points out that Hume's idea of balancing evidence can be derived from Laplace's Principle of Indifference and rule of succession. Take some arbitrary proposition $A$. Since we have no information regarding its truth value, the Principle of Indifference is applicable. Since A is eithe true or false, we have two possibilities. So, according to Laplace, then,
+
+$$P(A)=P(\neg A) =\frac{1}{2}$$
+
+Now consider the *odds* between $A$ and $\neg A$:
+
+$$\frac{P(A)}{1- P(A)} = \frac{1/2}{1/2} = 1:1$$
+
+Since this is the odds prior to any evidence, it can be referred to as the *prior odds*. Suppose $E$ is new evidence for $A$. The posterior odds then becomes:
+
+$$\frac{P(A|E)}{P(\neg A |E)}$$
+
+Now, given a prior odd of 1:1 for $A$, the posterior odd for $A$, can be algebraically reformulated as the likelihood ratio: $\frac{P(E|A)}{P( E| \neg A)}$. Now to capture Hume's idea of balancing evidence by subtract the intensity of one from another, Peirce suggests that we can do so by taking the *log* of the posterior odds. This is because
+
+$$log(\frac{P(E|A)}{P(E|\neg A)})=log(P(E|A)) - log(P(E|\neg A))$$
+
+A positive value means the evidence is in favor of A and negative against it, which is what Hume suggests.
+
+Now, let us remember that Peirce
+
+His first criticism was that
+
 This principle is harshly criticized by Peirce, who argues that assigning the probability of $1/2$ to unknown events can lead to paradoxical results. Imagine, he asks, that there are inhabitants on Saturn but we would like to the probability of a typical inhabitant's hair being red .  Since we are in total ignorance about their physiology, the principle says that this probability should be $1/2$, and according to Laplace we can update this probability by adding the number of inhabitants we observed to the denominator and the number of red-haired inhabitants to the numerator. However, we run into a paradox when we consider other hair colors: since we are ignorant about, says, whether their hair is blue, its probability should also be  $1/2$ .  Assuming they can only have one hair color, this means that these are mutually exclusive events,  the sum of all of these probabilities would be more than 1, which contracts with the axioms of probability, creating a paradox. We shall return to this problem in our discussion of Keynes.
 
-### Peirce on Weight and Balance
 
-## Keynes and the Weight of the Evidence
+## The Relevance of Evidence
 
-### The Indivisibility Requirement
+## The Indivisibility Requirement
 
 When Keynes wrote *A Treatise on Probability*, he was keenly aware of these paradoxical results. However, he thinks that the paradoxes only suggest that the principle of indifference is to be restricted, not abandoned altogether. He argues that the reason that these paradoxes occur is because the principle of indifference should not be used when the alternatives under consideration can be further analyzed, and once all the alternatives are, in Keynes's words, *indivisible*, each of them should be assigned the probability of $1/n$, where n is the number of alternatives.[@keynes, 60]
 
