@@ -14,25 +14,27 @@ ggplot(data.frame(x = x), aes(x)) +
 
 a = 1
 b = 1
-a2 = 2
-b2 = 2
-a3 = 5001
-b3 = 5001
+a2 = 11
+b2 = 11
+a3 = 500001
+b3 = 500001
 x = seq(0,1,by=0.001)
 y1 = dbeta(x,a,b)
 y2 = dbeta(x,a2,b2)
 y3  = dbeta(x,a3,b3)
 par(mfrow=c(1,3))
 
-plot(x,y1,type='l',xlab="Figure 1", ylab="",yaxt='n')
-legend(0.01, 1.4, legend="Beta(2,2)", cex=1, lty=1:2)
-plot(x,y2,type = 'l',xlab="Figure 2", ylab="", yaxt='n')
-legend(0.01, 1.5, legend="Beta(2,2)", cex=1, lty=1:2)
-plot(x,y3, type='l',xlab="Figure 3", ylab="",yaxt='n')
-legend(0.01, 80, legend="Beta(5001,5001)", cex=1, lty=1:2)
+plot(x,y1,type='l',main="Beta(1,1)", xlab="x:theta", ylab="",yaxt='n')
+
+plot(x,y2,type = 'l',main="Beta(11,11)", xlab="x:theta", ylab="", yaxt='n')
+
+plot(x,y3, type='l',main="Beta(500001,500001)", xlab="x:theta", ylab="",yaxt='n')
 
 
+legend(0.01, 1.4, legend="Beta(1,1)", cex=1, lty=1:2)
+legend(0.01, 3.5, legend="Beta(11,11)", cex=1, lty=1:2)
 
+legend(0.01, 250, legend="Beta(50001,50001)", cex=1, lty=1:2)
 lower1 = 0.46
 higher1 = 0.54
 lower2 = 0.49

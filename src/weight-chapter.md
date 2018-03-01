@@ -183,7 +183,7 @@ I have argued for premise 2. I suggest that Popper intends premise 3 to be a con
 
 ## Severity as a Frequentist Notion of Weight -->
 
-# Weight as Higher Order Relevance
+# Higher Order Relevance
 
 Popper's argument contains a  sleight of hand that subtlely shifts between two ways of thinking about $N$'s probability. The argument begins by asking, rather innocuously, for your prior for $N$, but the ideal evidence $I$ Popper immediately introduced is not for $N$ but for the hypothesis $H_{0.5}$. Popper is explicit about *that*, but what he is not explicit about is *this*: he convinced us that $I$ is both evidentially ideal and relevant to $H_{0.5}$, but that's a misdirection, because immediately he starts talking the conditional probability on $I$, *not* of $H_{0.5}$, but of $N$. So Popper's paradox is *really* as follows:
 
@@ -239,23 +239,36 @@ Now these random variables can be modeled as follows:
 $$\theta \sim Beta(\alpha, \beta)$$
 $$X_1,...X_i \sim Bern(\theta)$$
 
-The Beta distribution has two parameters, $\alpha>0$ and $\beta>0$, which can be thought of as, in our context, our past experience about the coin's propensity. For instance, 
+The Beta distribution has two parameters, $\alpha>0$ and $\beta>0$, which can be thought of as, in our context, our past experience about the coin's propensity. For instance, $\alpha = \beta = 1$ is equivalent to a uniform distribution (Figure 1 below), which captures the Principle of Indifference. Furthermore, the Beta distribution, because it is a *conjugate prior* for the Bernoulli distribution, provides a simple way to update the prior distribution based on data gathered from a Bernoulli process. That is, take any arbitrary $\alpha$ and $\beta$ for the Beta distribution - the prior distribution $p(\theta)$ and some data $x$ gathered from a Bernoulli process. Its posterior distribution
 
-More important, it is a conjugate prior for the Bernoulli distribution, and this provides a simple way to update the prior distribution based on data gathered from a Bernoulli process. Consider some unknown , which is modeled by the beta distribution and a parameter for a Bernoulli distribution, and radome samples , that is
+$$ p(\theta|x) = \frac{p(\theta)p(x|\theta)}{\int p(\theta')p(x|\theta')}$$
+
+is simply $Beta(\alpha + k, \beta + n - k)$ - a Beta distribution with parameters $\alpha$ plus the number of heads $k$ and beta the number of tails.
+
+Furthermore, the Beta distribution is an expression of Laplace's rule of succession, discussed earlier. This is because its expected value has the form:
+
+$$E(\theta) = \frac{\alpha}{\alpha + \beta}$$
+
+Now, because of conjugacy, the *posterior* expected value is simply:
+
+$$E(\theta) = \frac{\alpha + k}{\alpha + \beta + n}$$
+
+where $x$ is the number of success and $n$ is the number of trials. If we assume a *uniform prior*, where both parameters equal to $1$, the above formula becomes:
 
 
+$$E(\theta) = \frac{1 + k}{2 + n}$$
 
-The posterior distribution
+That is, Laplace's rule of succession. So despite
 
-is simply beta distribution with parameters  and . In other words, we can simply update the prior distribution by adding the number of heads to  and the number of tails to .
+We can now reframe the paradox of ideal evidence using the Beta and Bernoulli distributions. Consider three beta distributions:
 
-Furthermore, the beta distribution with a uniform prior is an expression of Laplace's rule of succession. This is if  the expected value of  is
+1. $Beta(1,1)$:
+2. $Beta(11,11)$
+3. $Beta(500,001,500,001)$
 
-So when the prior parameters are both 1 and we have  heads out of  throws, the posterior distribution would be
+Note that all three distributions have the same expected values:
 
-That is, Laplace's rule of succession.
-
-We can now reframe the paradox of ideal evidence using the beta distribution. Consider three beta distributions: ,and : these distributions have the same mean:
+$$\frac{1 + 0}{2 + 0}=\frac{1 + 10}{2 + 10}=\frac{1 + 500000}{2 + 1000000}=\frac{1}{2}$$
 
 However, even though these distributions produce identical expected values, if we plot them, we can see that how they represent states of belief that are drastically different:
 
@@ -263,24 +276,28 @@ However, even though these distributions produce identical expected values, if w
 
 Intuitively, we can think of the first distribution as representing your state of belief about the probability of getting a head on the next flip. This distribution is plotted in Figure 1: note that it is wholly flat, capturing the sort of judgement of indifference that Keynes talks about. One finds no ground in thinking one probability is more credible than another.
 
-The second distribution,  can be seen as our state of belief after witnessing two flips of the coin, and one turn up heads and one tails. Naturally, the peak - the mode of the distribution - is at , which seems sensible because it reflects the evidence that exactly half of the samples is heads. But we can see that at this stage we are quite uncertain about , evidenced by the width of the distribution. While  is the peak, the area over the interval  is not substantially larger than the one over .
+The second distribution can be seen as our state of belief after witnessing 10 flips of the coin, and 5 turn up heads and 5 tails. Naturally, the peak - the mode of the distribution - is at $\theta = 0.5$, which seems sensible, because it reflects the evidence that exactly half of the samples is heads. But we can see that at this stage we are quite uncertain about $\theta$, evidenced by the width of the distribution. While $\theta = 0.5$ is the peak, there is a substantial area covering $\theta > 0.55$ and $\theta < 0.45$.
 
-The third distribution, modeling the state of belief after 1000 trials with 500 heads and 500 tails, is intended to be an approximation of Popper's ideal evidence scenario. The peak is again at , but this plot has a noticeably narrower spread: we are much more confident in our assessment that . Also notice that at this stage, any value of  that are either smaller than 0.4 or larger than 0.6 are considered as impossible after receiving the ideal evidence. This is  different than the second distribution, where values relatively far from  are still considered as  probable, indicated by the area underneath the curve.
+The third distribution, modeling the state of belief after one million trials with half of them being heads, is intended to be an approximation of Popper's ideal evidence scenario. The peak is again at $0.5$, but this plot has a noticeably narrower spread: we are much more confident in our assessment that the coin has an equal propensity to land on heads as tails. Also notice that at this stage, any value of $\theta$ other than $0.5$ are practically impossible after receiving the ideal evidence. This is in harmony with the MLE.
 
-To state these observations more precisely, we can calculate the exact probability using the cumulative distributions. Since we are dealing with continuous distributions, we can only deal with intervals of values, but we can provide a reasonably close approximations. For instance, conditional on the ideal evidence, we would be absolutely sure that the probability is between 0.46 and 0.54, and practically certain, with the probability of 0.95, that it is between 0.49 and 0.51. The relevant probabilities are summarized in the following table:
+To state these observations more precisely, we can calculate the exact probability using the corresponding cumulative distributions. Since Beta distributions are continuous distributions, we can only deal with intervals of values, but we can provide a reasonably close approximations. For instance, conditional on the ideal evidence, we would be absolutely sure that the probability is between 0.46 and 0.54, and practically certain, with the probability of 0.95, that it is between 0.49 and 0.51. The relevant probabilities are summarized in the following table:
 
 |      Distribution | $P(0.46<\theta<0.54)$ | $P(0.49<\theta<0.51)$ |
 | ----------------: | --------------------: | --------------------: |
 |       $Beta(1,1)$ |                $0.08$ |                $0.02$ |
-|       $Beta(2,2)$ |                $0.12$ |                $0.03$ |
-| $Beta(5001,5001)$ |                   $1$ |                $0.95$ |
+|       $Beta(11,11)$ |                $0.29$ |                $0.07$ |
+| $Beta(500001,500001)$ |                   $1$ |                $1$ |
 
 
-Now, let $E$ be the ideal evidence, $X_1,…X_{10000}$, where $\sum_{i=1}^{10000}X_i = 5000$, and let $\theta$ be the probability that the next toss will land a head. We now see that the following equality holds, since the left-hand side is $0.02$, and for the right it's $0.95$. :
+Now, let $E$ be the ideal evidence, $X_1,…X_{1000000}$, where $\sum_{i=1}^{1000000}X_i = 500000$, and let $\theta$ be the coin's propensity to land on heads. We now see that the following inequality holds, since the left-hand side is $0.02$, and for the right it's $1$.
 
 $$P(0.49<\theta<0.51) <  P(0.49<\theta<0.51|E)$$
 
-## The Resiliency Approach
+which satisfies the criterion of success stated at the end of the last section.
+
+To codify this finding, let us f
+
+## The Resiliency of HOR
 
 Peirce points out that the increase in evidential weight is associated with a certain *stability* of the degree of belief of the hypothesis in question. If I have in front of me an urn  where  is the proportion of black and  the proportion of white balls. If I randomly draw 2 balls from it with replacement and find one ball for each color, my intuitive estimate of  - call it  - would sensibly be somewhere around . But it should also be intuitively clear that the weight of the evidence for this belief is light. It would be irrational for me to fixate on this estimate : if I sample two more balls from the urn and they are both black, it would make sense for me to raise  considerably to . Thus,  is extremely *unstable* in light of new evidence.
 
