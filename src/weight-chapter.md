@@ -1,8 +1,43 @@
+# Introduction
+
+This chapter aims to discuss the issue of evidential *weight* in the context of *probabilism*, which is generally characterized as committed to two theses:
+
+1. The strength of a belief can be measured numerically as *degrees of belief*.
+2. The rationality of degrees of belief is governed by the axioms of probability.
+
+Since probabilism purports to be an overarching position about belief and their rationality, probabilists owe us an explanation for our existing epistemic practices.^[Even though 'probabilism' is often used as a synonymy for 'Bayesianism', I take the former to be a broader term than the latter. Bayesians are probabilists, but in addition, they also hold Bayes's Rule to be the *only* rational way to revise one's belief. To be more precise, I also distinguish *epistemic* Bayesians and *statistical* Bayesians, and in this paper when I use the term 'Bayesian', I typically have in mind a philosopher who holds the view about belief revision just described. A Bayesian *statistician* is also a probabilist - she might think that while belief comes in degrees and Bayesian statistics is the best framework for drawing inferences, not all beliefs can be meaningfully given a Bayesian analysis.] For each of these practices, probabilists either have to provide a probabilistic account for its rationality, or argue that we are better off without it.^[For instance, van Fraassen's argument that inference to the best explanation violates the axios of probability.]
+
+One especially troublesome notion for probabilism is to account for the *weight* of evidence, which is roughly a measure of the *amount* of evidence. This is usually poorly captured by probability. To see why, imagine twos urn $A$ and $B$ with an unknown proportions black and white balls. Suppose you sample (with replacement) 30 balls from the urn $A$ and find 15 black balls and 15 white balls. Now, with good reason, you infer that the proportion of black balls in $A$ - call it $\theta_A$ is about $0.5$. You then decide to sample from $B$, but this time you only manage to draw 4 samples but you find 3 black balls. Your best estimate for $\theta_B$ then would be $0.75$. At this point, I offer you another chance to draw from one of the urns, and if you manage to draw a black ball, you get a $100$. Which urn would you pick? Clearly, $\theta_B > \theta_A$, but it is not clear that $B$ is obviously the better choice, because the amount of evidence you have for $\theta_A = 0.5$ is higher than for $\theta_B = 0.75$. In other words, the evidence for $\theta_A$ is *weightier*.  
+
+This is a problem for probabilism, because in terms of just comparing the probabilities alone picking urn $B$ clearly has a higher probability of winning, but when we look at all the facts in the situation, the decision is much more difficult than what the probabilities tell us, so it seems that the probabilistic approach is overlooking some crucial information.  
+
+The aim of this chapter is to develop and examine a Bayesian solution to this problem that I call *Higher Order Relevance(HOR)*, which is a higher order version of John Maynard Keynes's notion of conditional relevance. Briefly put, Keynes's idea is that for some evidence $E$ and hypothesis $H$
+
+
+$$\text{Evidence $E$ is relevant to $H$ if and only if }P(H) \neq P(H|E)$$
+
+HOR takes this on step further and suggests that, in addition to $H$ and $E$, consider a specific value $x$, where $0 \leq x \leq 1$
+
+
+$$\text{Evidence $E$ has a higher order relevance to $P(H)=x$ if and only if}\\P(P(H)=x) \neq P(P(H)=x|E)$$
+
+Take the urn example from earlier, $E_A$ and $E_B$ - your respective evidence for $\theta_A$ and $\theta_B$ - have different degrees of HOR: the probability that $\theta_A = 0.5$ conditional on $E_A$ is much higher than $\theta_B$ conditional on $E_B$.
+
+The brief sketch above contains quite a bit of simplification, but it does give credence to a tentative proposal that the weight of evidence is expressed not through first order probability but HOR. One goal of this chapter is to elaborate on this proposal by using Popper's *paradox of ideal evidence* as a test case. After the development of the notion HOR, however, I shall point out some defects that need to be addressed in a later chapter. Before turning to these matters, we shall begin with a brief history of probabilism and evidential weight.
+
+
 # Historical Background
 
-## Bayes, Hume, and Balancing Reasons
+Thus, when we try to decide whether or not we should accept the witness' testimony of the existence of miracle
 
-Even though Keynes is usually credited as the first person who noted the distinction evidence *balance* and evidential *weight*, an informal version was mobilized by Hume in his argument against miracle and formalized by Peirce in his critique of conceptualism in probability. The idea of balancing reasons, intuitively, is this:
+Hume says that assuming the miracles could only be known through the testimonies of the people who claimed to have experienced. The only way for us to assess the miracle actually occurred by comparing their testimonies
+
+
+ So, let $M$ be the proposition that certain miraculous event occurred, and $T$ be the testimony of a witness that $M$ is true. Hume says that to decide whether or not we should believe What we ought to consider is to compare the probability, given the testimony, that $M$ occurred compared to $M$
+
+The answer, Hume says, is clear
+
+ formalized by Peirce in his critique of conceptualism in probability. The idea of balancing reasons, intuitively, is this:
 dsds
 ### The Balance of Reasons
 
@@ -297,19 +332,26 @@ which satisfies the criterion of success stated at the end of the last section.
 
 To codify this finding, let us f
 
+# The Pragmatic Maxim Revisited
+
+As Peirce points out, when we have perfect information, evidential weight becomes a non-issue, so while it is important to account for Popper's paradox, it ultimately obscure what's truly at stake, for rarely if ever do we have ideal evidence for any substantive hypothesis.
+
+Recall Peirce's characterization of the weight of evidence: it represents a certain recalcitrant state of belief  in our degrees of belief that makes a practical difference. makes it insensitive to future experience, and the second is that it provides a justification for refusal to assign a definite degree to a belief. .
+
+
 ## The Resiliency of HOR
 
-Peirce points out that the increase in evidential weight is associated with a certain *stability* of the degree of belief of the hypothesis in question. If I have in front of me an urn  where  is the proportion of black and  the proportion of white balls. If I randomly draw 2 balls from it with replacement and find one ball for each color, my intuitive estimate of  - call it  - would sensibly be somewhere around . But it should also be intuitively clear that the weight of the evidence for this belief is light. It would be irrational for me to fixate on this estimate : if I sample two more balls from the urn and they are both black, it would make sense for me to raise  considerably to . Thus,  is extremely *unstable* in light of new evidence.
+If I have in front of me an urn $U_{\theta}$ where $\theta$ is the true proportion of black ball and $1-\theta$ for white balls. If I randomly draw 2 balls from it with replacement and find one ball for each color, my intuitive estimate of $\theta$ - call it $\hat{\theta}$ should sensibly be somewhere around 0.5 - if challenged, I can justify by appealing to MLE, discussed in a previous section. But it should also be intuitively clear that the evidence does not carry much *weight*. It would be irrational for me to fixate on $0.5$ - at this stage, I should take heed to future experience: if I sample two more balls from the urn and they are both black, it would make sense for me to revise my opinion on $\hat{\theta}$ rather considerably, possibly to $3/4$ . Thus, when $n=2$, $\hat{\theta}$ is extremely *unstable* in light of new evidence.
 
-But suppose I continue to sample from  for 996 more times. Out of the total 1000 draws, 500 are black. At this point a sensible  would be back to around . Suppose, as in the previous paragraph, I draw two more black balls. Now, it certainly would not make sense to raise it to  - as a matter fact, it seems plausible not to raise it at all. This point  is much more *stable*.
+But suppose I continue to sample from $U_{\theta}$ for 996 more times. At the end, out of the total 1000 draws, 500 turns out to be black. At this point, the sensible thing to do is to bring $\hat{\theta}$ back to $1/2$. Suppose, as in the previous paragraph, I draw two additional samples again and they both turn out to be black. Now, it certainly would not make sense to raise it to $3/4$ - as a matter fact, it seems plausible not to raise it at all. This shows that the stability given by the weight of evidence depends on both the amount evidence we currently have, and the amount of new information we have to consider.
 
-The intuition here is that the increase in the amount of evidence, expressed here in terms of the number of samples, corresponds to the increase of stability of the estimate. Skyrm has introduced a notion called the *resiliency* to capture this intuition sense of stability. Roughly speaking, resiliency is a function of the variability of one's degrees of belief in light of new evidence. The basic idea is similar to statistical robustness: a partial belief is resilient if its degree tends not to change drastically in light of additional evidence, and is insensitive to outliers. Using the Keynesian terminology introduced earlier, a partial belief with a high degree of resiliency could be understood as one relative to which evidence tends to be probabilistically irrelevant.
+Skyrm has introduced a notion called the *resiliency* to capture this intuition sense of stability. Roughly speaking, resiliency is a function of the variability of one's degrees of belief in light of new evidence. The basic idea is similar to statistical robustness: a partial belief is resilient if its degree tends not to change drastically in light of additional evidence, and is insensitive to outliers. Using the Keynesian notion of relevance, a partial belief with a high degree of resiliency could be understood as one relative to which evidence tends to be less conditionally relevant, if at all.
 
-As a way to gauge resiliency, Skyrm suggests that we can engage in counterfactual reflections regarding what would happen if some evidence were to emerge. The resiliency of current belief would manifest itself as "a reluctance to change."[@causationandconditional, 707] Regarding Popper's paradox, Skyrm argues that what the ideal evidence changes is the probability of heads on toss , but the resiliency of its probability at
+As a way to gauge resiliency, Skyrm suggests that we can engage in counterfactual reflections regarding what would happen if some evidence were to emerge. The resiliency of current belief would manifest itself as "a reluctance to change."[@causationandconditional, 707] Regarding Popper's paradox, for instance, Skyrm argues that what the ideal evidence changes is not the probability of heads , but the resiliency of its probability at $1/2$.
 
 Skyrm has not spelled this out, but it is easy to demonstrate the difference in resiliency ideal evidence makes with the statistical tools already presented. Again let  be the coin will land a head on  toss, and  be its probability. We model  under ignorance state, weak evidence state, and ideal evidence state as, respectively,  and , and model the data gathering process as  where  for heads and  otherwise. Let us consider three counterfactual scenarios:
 
-1.  $X_1,…X_{5}$, where $\sum_{i=1}^{10000}X_i = 5$
+1. $X_1,…X_{5}$, where $\sum_{i=1}^{10000}X_i = 5$
 2. $X_1,…X_{20}$, where $\sum_{i=1}^{20}X_i = 20$
 3. $X_1,…X_{100}$, where $\sum_{i=1}^{100}X_i = 100$
 
@@ -317,9 +359,12 @@ In other words, these are data scenarios that would be overwhelmingly in favor o
 
 ![img](resiliency1.png)
 
-We can see that if we already had ideal evidence for believing that , this belief would be quite recalcitrant. Even if we were to flip 100 consecutive heads, the probability would barely raise above . In the case of ignorance, the situation is quite different: starting with no evidence,  would jump to  after 5 flips, and rapidly approach certainty after 20 flips. Just as Skyrm suggested, even though for both cases , the probability is much more resilient when the available evidence is *weighty*.
+We can see that if I already had ideal evidence for believing that $\theta = 0.5$, I should be quite reluctant to shift my opinion even after seeing getting 100 consecutive heads. Clearly my belief is more shaken after seeing 100 heads than 5 heads, but the change is still minimal.
 
-#### Definition
+In the case of ignorance, the situation is quite different: seeing 5 heads alone is enough to warrant a substantial increase in my degree of belief.
+
+
+it immediately jumped from my prior belief of $\theta = 0.5$ and my posterior after 5 straight heads, the difference is quite large, and rapidly approach certainty after 20 flips.
 
 To make things more precise, we could formally define degrees of resiliency. In general, Skyrm recommends this degree to be one minus the fluctuation of the evidence.
 
@@ -327,16 +372,20 @@ Degree of Resiliency (Res)
 
 where X is the potential evidence.
 
-| Distribution(a,b)\|Data(n,p) | 10,8   | 50,40  | 200,180 |
+| Beta(a,b)\|Bernoulli(n,k) | 10,8   | 50,40  | 200,180 |
 | ---------------------------- | ------ | ------ | ------- |
 | 1,3                          | $0.61$ | $0.49$ | $0.36$  |
 | 10,30                        | 0.89   | 0.7    | 0.46    |
 | 30,90                        | 0.95   | 0.84   | 0.59    |
 
+But
 
 
 
-##The Intervalic Approach
+## Servere Lack of Evidence
+
+
+
 
 Since the idea in this paper is developed along the Bayesian line, we can instead talk about the Bayesian analogue *credible intervals*, which is the Bayesian version of the confidence interval. Returning to the distribution, the table below summarizes with the degree of belief  that the actual proportion will lie between a certain interval, given a particular set of parameters.
 
@@ -353,15 +402,3 @@ The temptation here is to suggest that Keynes, however, denies this. His argumen
 James Joyce has recently suggested the following definition of evidential weight as an improvement over Skyrm's resiliency.
 
 So what is being stabilized by evidential weight is the product of how far off your estimate is and the probability
-
-## Indeterminate and Unknown Probabilities
-
-However, the indivisibility requirement rules out the use of the principle of indifference in many cases, since many probabilities are infinitely divisible. As Keynes himself recognizes, the indivisibility requirement "is fatal to the practical utility of the Principle of Indifference" when there is no *ultimate* alternatives could be found, which is the case with continuous distributions [@keynes, 68]. Since the principle of indifference provides the prior distributions needed for the precise calculations of probabilities of many events, a restriction of its use entails that many probabilities are not measurable.
-
-This has led Keynes to accept that there are probabilities that cannot be given a numeric value.
-
-Even though Keynes makes use of the principle of indifference, his acceptance of indeterminate probability in fact brings his view a lot closer to Peirce. In his criticism of the principle of indifference, Peirce often suggests that in those cases where conceptualists are tempted to use the principle, they really should say the probability cannot be determined due to the lack of evidence.
-
-##
-
-#
