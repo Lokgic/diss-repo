@@ -310,19 +310,19 @@ If the point estimate is to be blamed, the natural response is that we do rely o
 $$P(0.479\leq \theta_P \leq 0.481) = 0.99$$
 $$P(0.005\leq \theta_U \leq 0.995) = 0.99$$
 
-In other words, we can say there is a 0.99 probability that $P$'s propensity to land on heads is between 0.479 and 0.481 (practically 0.48) and for $U$ it's between 0.005 and 0.995.
+\noindent In other words, we can say there is a 0.99 probability that $P$'s propensity to land on heads is between 0.479 and 0.481 (practically 0.48) and for $U$ it's between 0.005 and 0.995.
 
 However, it seems to me that we are simply restating high order relevance in terms of credible intervals, without dealing with the crux of the problem - unless we are rationally allow to refuse to assign a precise probability to a belief, even if the weight of evidence is low, we will always have to match it to our best point estimate, which is the expected value.
 
 The seemingly obvious solution is that perhaps we should discount our degrees of belief based on the higher order relevance. So perhaps my subjective probability for the proposition 'coin $U$ will lands on heads' should be something other than $0.5$, perhaps a lower value such that it makes choosing $P$ more rational. The problem is that Bas van Fraassen has shown that this is a violation of the (Special) Principle of Reflection, that is,
 
-$$P(A|p_t(A) = x) = x$$[@reflection2]
+$$P(A|p_t(A) = x) = x$$
 
-In other words, your subjective probability for any $A$ is such that its value must be equal to the probability you expect to have at some future time $t$, and for any Bayesian agent, this is equivalent to
+In other words, your subjective probability for any $A$ is such that its value must be equal to the probability you expect to have at some future time $t$.[@reflection2] For any Bayesian agent, this is equivalent to
 
 $$P(A)= E(P(A))$$
 
-That is, the expected value of $A$. The violation of the Principle of Reflection has shown to imply incoherence.[@reflection1]
+\noindent That is, the expected value of $A$. The violation of the Principle of Reflection has been shown to imply incoherence.[@reflection1]
 
 I think the conclusion here is that HOR cannot capture the notion of evidential weight *as long as we are committed to classical Bayesianism*, and a viable alternative is the subject of the investigation for the next chapter.
 
