@@ -17,7 +17,7 @@ This chapter aims to discuss the issue of evidential *weight* in the context of 
 1. The strength of a belief can be measured numerically as *degrees of belief*.
 2. The rationality of degrees of belief is governed by the axioms of probability.
 
-Since probabilism purports to be an overarching position about belief and their rationality, probabilists owe us an explanation for our existing epistemic practices.^[Even though 'probabilism' is often used as a synonymy for 'Bayesianism', I take the former to be a broader term than the latter. Bayesians are probabilists, but in addition, they also hold Bayes's Rule to be the *only* rational way to revise one's belief. To be more precise, I also distinguish *epistemic* Bayesians and *statistical* Bayesians, and in this paper when I use the term 'Bayesian', I typically have in mind a philosopher who holds the view about belief revision just described. A Bayesian *statistician* is also a probabilist - she might think that while belief comes in degrees and Bayesian statistics is the best framework for drawing inferences, not all beliefs can be meaningfully given a Bayesian analysis.] For each of these practices, probabilists either have to provide a probabilistic account for its rationality, or argue that we are better off without it.^[For instance, van Fraassen's argument that inference to the best explanation violates the axioms of probability.]
+Since probabilism purports to be an overarching position about belief and their rationality, probabilists owe us an explanation for our existing epistemic practices.^[Even though 'probabilism' is often used as a synonymy for 'Bayesianism', I take the former to be a broader term than the latter. Bayesians are probabilists, but in addition, they also hold Bayes's Rule to be the *only* rational way to revise one's belief. To be more precise, I also distinguish *epistemic* Bayesians and *statistical* Bayesians, and in this paper when I use the term 'Bayesian', I typically have in mind a philosopher who holds the view about belief revision just described. A Bayesian *statistician* is also a probabilist - she might think that while belief comes in degrees and Bayesian statistics is the best framework for drawing inferences, not all beliefs can be meaningfully given a Bayesian analysis.] For each of these practices, probabilists either have to provide a probabilistic account for its rationality, or argue that we are better off without it.^[For instance, van Fraassen's argument that inference to the best explanation violates the axioms of probability. See [@vflawssym]]
 
 One especially troublesome issue for probabilism is to account for the *weight* of evidence, which is roughly a measure of the *amount* of evidence, for this is often unreflected by probability. To see why, imagine two urns $A$ and $B$ with unknown proportions of black and white balls. Suppose you sample (with replacement) 30 balls from the urn $A$ and find 15 black balls and 15 white balls. Justifiably, you infer that the proportion of black balls in $A$ - call - it $\theta_A$ is about $0.5$. You then decide to sample from $B$, but this time you only manage to draw 4 samples - you find 3 black balls. Your best estimate for $\theta_B$ is $0.75$. At this point, I offer you another chance to draw from one of the urns, and if you manage to draw a black ball from that urn, you get a \$100. Which urn would you pick?
 
@@ -125,18 +125,18 @@ If $P(N|I) = P(N) = 1/2$, this means that the ideal evidence is also irrelevant 
 
 > Now this is a little startling; for it means, more explicitly, that our so-called ‘degree of rational belief’ in the hypothesis, [$N$], ought to be completely unaffected by the accumulated evidential knowledge, [$I$]; that the absence of any statistical evidence concerning [the hypothesis that the coin is fair] justifies precisely the same ‘degree of rational belief’ as the weighty evidence of millions of observations which, prima facie, support or confirm or strengthen our belief. [@popperlogic, 426]
 
-To summarize, we can interpret Popper to be making the following claims:
+\noindent To summarize, we can interpret Popper to be making the following claims:
 
 1. $I$ is ideally favorable to $N$.
 2. $P(N|I) = P(N) = 1/2$.
 3. $I$ is conditionally irrelevant to $N$.
 
 
-There is an aura of plausibility to this argument; however, it is not exactly clear what the paradox is exactly. So let us flesh out Popper's argument.
+\noindent There is an aura of plausibility to this argument; however, it is not exactly clear what the paradox is exactly. So let us flesh out Popper's argument.
 
 ## Analyzing Popper's Argument
 
-To begin, we should ask: is $I$ ideally favorable to $N$?  The problem is to find a way to make sense out of this "ideally favorable" relation without begging the question against probabilism, for the probabilist's notions of the relevance and confirmatory favorability are both closely tied to conditionalization. Generally speaking, for probabilists, or more specifically, epistemic Bayesians, $X$ confirms $Y$ if and only if $X$ conditional on $Y$ has a higher probability than just $X$, so by definition if $X$ confirms $Y$, then $X$ is relevant to $Y$. So, as the argument stands, there is nothing stopping the Bayesian from biting the bullet and say that $I$ is irrelevant to $N$, or that $I$ was never ideally favorable to begin with, so what Popper needs to motivate an external notion of favorability to establish premise 1, from which we can (supposedly) derive a contradiction.
+To begin, we should ask: is $I$ ideally favorable to $N$?  The problem is to find a way to make sense out of this "ideally favorable" relation without begging the question against probabilism, for the probabilist's notions of the relevance and confirmatory favorability are both closely tied to conditionalization. Generally speaking, for probabilists, or more specifically, epistemic Bayesians, $X$ confirms $Y$ if and only if $X$ conditional on $Y$ has a higher probability than just $X$, so by definition if $X$ confirms $Y$, then $X$ is relevant to $Y$. So, as the argument stands, there is nothing stopping the Bayesian from biting the bullet and say that $I$ is irrelevant to $N$, or that $I$ was never ideally favorable to begin with, so Popper needs to motivate an external notion of favorability to establish premise 1, from which we can (supposedly) derive a contradiction.
 
 Here's my suggestion: to give some credence to premise 1, we can use the statistical notion of *likelihood*, which refers to the probability of the evidence *given* a particular hypothesis. In general, we are interested in the probability of the hypothesis we are interested in, but sometimes we also reason by thinking about the probability of the evidence that we have, conditional on the hypotheses. In other words, another way of thinking about probabilistic favorability is to ask if it makes sense to have gathered the evidence we did, had the hypothesis in question been the correct one.
 
@@ -144,7 +144,7 @@ A widely used method, due to R.A. Fisher, called the maximum likelihood estimati
 
 $$P(I|H_{mle})$$
 
-out all possible $H_i$s.
+\noindent out all possible $H_i$s.
 
 Formally, getting the maximum likelihood estimate requires differentiating the distribution function and then set to zero. Fortunately, for the kind of trials Popper has in the mind, the maximum likelihood estimate is known to be the mean of the sample. In our case, it would essentially be $1/2$. To further convince ourselves, we can plot all possible hypotheses for $N_i$ against the corresponding $P(I|H_i)$, as shown in Figure 1.
 
@@ -181,7 +181,7 @@ I have argued for premise 2. I suggest that Popper intends premise 3 to be a con
  4. $P(N|I) = 1/2$
  5. $I$ is evidentially irrelevant to $P(N) = 1/2$.
 
- But now there is no contradiction - $I$ is relevant to $H_{0.5}$ but irrelevant to $N$.
+ \noindent But now there is no contradiction - $I$ is relevant to $H_{0.5}$ but irrelevant to $N$.
 
  Furthermore, the very idea of $P(N|I)$ seems intelligible, only because we were distracted by the fact $P(H_{0.5}|I)$ *is* intelligible. But intelligibility of the latter is not the same as the former: the scenario Popper describes involves the updating of $N$, that the toss will be heads, by conditionalizing on $I$, that half a million heads were tossed out of a million trials. Suppose we carry this out by explicating $P(N|I)$ using Bayes' theorem:
 
@@ -246,16 +246,16 @@ Furthermore, the Beta distribution is an expression of Laplace's rule of success
 
 $$E(\theta) = \frac{\alpha}{\alpha + \beta}$$
 
-Now, because of conjugacy, the *posterior* expected value is simply:
+\noindent Now, because of conjugacy, the *posterior* expected value is simply:
 
 $$E(\theta) = \frac{\alpha + k}{\alpha + \beta + n}$$
 
-where $x$ is the number of success and $n$ is the number of trials. If we assume a *uniform prior*, where both parameters equal to $1$, the above formula becomes:
+\noindent where $x$ is the number of success and $n$ is the number of trials. If we assume a *uniform prior*, where both parameters equal to $1$, the above formula becomes:
 
 
 $$E(\theta) = \frac{1 + k}{2 + n}$$
 
-That is, Laplace's rule of succession. We can now reframe the paradox of ideal evidence using the Beta and Bernoulli distributions. Consider three beta distributions:
+\noindent That is, Laplace's rule of succession. We can now reframe the paradox of ideal evidence using the Beta and Bernoulli distributions. Consider three beta distributions:
 
 1. $Beta(1,1)$:
 2. $Beta(11,11)$
@@ -316,13 +316,13 @@ However, it seems to me that we are simply restating high order relevance in ter
 
 The seemingly obvious solution is that perhaps we should discount our degrees of belief based on the higher order relevance. So perhaps my subjective probability for the proposition 'coin $U$ will lands on heads' should be something other than $0.5$, perhaps a lower value such that it makes choosing $P$ more rational. The problem is that Bas van Fraassen has shown that this is a violation of the (Special) Principle of Reflection, that is,
 
-$$P(A|p_t(A) = x) = x$$
+$$P(A|p_t(A) = x) = x$$[@reflection2]
 
 In other words, your subjective probability for any $A$ is such that its value must be equal to the probability you expect to have at some future time $t$, and for any Bayesian agent, this is equivalent to
 
 $$P(A)= E(P(A))$$
 
-That is, the expected value of $A$. The violation of the Principle of Reflection has shown to imply incoherence.
+That is, the expected value of $A$. The violation of the Principle of Reflection has shown to imply incoherence.[@reflection1]
 
 I think the conclusion here is that HOR cannot capture the notion of evidential weight *as long as we are committed to classical Bayesianism*, and a viable alternative is the subject of the investigation for the next chapter.
 
