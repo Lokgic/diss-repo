@@ -91,7 +91,7 @@ Note that this judgment is not used to justify the Principle of Indifference. Ke
 
 ## Conditional Relevance
 
-The other kind of logical relations a competent perceiver can know through acquaintance is the *judgement of relevance*, which is the perception about a premise's evidential relevance to its conclusion. This is critical for Keynes's defense of the Principle of Indifference, because it gives intelligibility to his idea of indivisibility. The intuition Keynes wants to capture is that, when we ask if the alternatives are divisible, we do not really mean conceptual or physical divisibility, but probabilistic divisibility: an indivisible alternative is one where no other facts can be perceived as having an effect on its probability.  Keynes's example is that, in a typical urn example with some black and white balls, if we want to know the probability of a white ball being randomly chosen, it does not really concern us whether or not the ball is made of iron of or tin. [@keynes, 59] 
+The other kind of logical relations a competent perceiver can know through acquaintance is the *judgement of relevance*, which is the perception about a premise's evidential relevance to its conclusion. This is critical for Keynes's defense of the Principle of Indifference, because it gives intelligibility to his idea of indivisibility. The intuition Keynes wants to capture is that, when we ask if the alternatives are divisible, we do not really mean conceptual or physical divisibility, but probabilistic divisibility: an indivisible alternative is one where no other facts can be perceived as having an effect on its probability.  Keynes's example is that, in a typical urn example with some black and white balls, if we want to know the probability of a white ball being randomly chosen, it does not really concern us whether or not the ball is made of iron of or tin. [@keynes, 59]
 
 So, According to Keynes, the use of the principle in Peirce's example is not legitimate, because the probabilities should be $1/n$, where n is number of possible colors, not $1/2$.  In this case of their hair color being red or not, we can see that being not-red can be analyzed into being blue, being yellow, etc., because we can see that being blue is evidentially relevant to not being red.
 
@@ -110,7 +110,7 @@ Note that this means $E$ can be relevant to $H$ in two different ways, because $
 
 ## The Paradox of Ideal Evidence
 
-Popper, however, has argued that the Keynesian notion of relevance is incompatible with how the weight of evidence works. Popper frames the issue as the *paradox of ideal evidence*.[@popperlogic, 425] He asks us to consider a certain coin with an unknown bias: let $N$ be the proposition "the next toss of the penny will yield heads". Now, what should $P(N)$ be? He suggests, either by appealing to intuition, or the Principle of Indifference, it ought to be clear that $P(N) = 0.5$.^[It should be noted that Popper is not attacking the principle of indifference in this context. That is, for this argument he is willing to grant that Bayesians have some way of arriving at $P(N)$ - it could be by indifference, through elicitation, etc.] 
+Popper, however, has argued that the Keynesian notion of relevance is incompatible with how the weight of evidence works. Popper frames the issue as the *paradox of ideal evidence*.[@popperlogic, 425] He asks us to consider a certain coin with an unknown bias: let $N$ be the proposition "the next toss of the penny will yield heads". Now, what should $P(N)$ be? He suggests, either by appealing to intuition, or the Principle of Indifference, it ought to be clear that $P(N) = 0.5$.^[It should be noted that Popper is not attacking the principle of indifference in this context. That is, for this argument he is willing to grant that Bayesians have some way of arriving at $P(N)$ - it could be by indifference, through elicitation, etc.]
 
 Now let $I$ be what he calls *the ideal statistical evidence* in favor of the idea that the coin in question is a fair one. Popper's example is to let $I$ be the proposition that 'in a million tosses, the coin landed on heads roughly half a million times.' The exact number is not important, as long as the number of heads and tails would make it practically certain that the coin is fair  - the same point could be made using 10 millions instead of a million. Now, Popper asks, given we have ideal evidence $I$, what is the probability of $N$? He claims that it would have to be $1/2$. So
 
@@ -156,19 +156,17 @@ Here we see that unless the coin was, or extremely close to being, fair, it woul
 We have established that $I$ is ideal evidence for hypothesis $H_{0.5}$, that the coin is fair. Still, a paradox is nowhere to be found. Nevertheless, even though he never comes out and state it explicitly, it is not hard to see that Popper is suggesting that the paradox is $I$ is both relevant and irrelevant at the same time, so the argument is really the following:
 
 
-1. $P(N) = 1/2$. 
-2. $I$ is ideally favorable to $P(N) = 1/2$. 
-3. $I$ is evidentially relevant to $P(N) = 1/2$. 
-4. $P(N|I) = 1/2$ 
-5. $I$ is evidentially irrelevant to $P(N) = 1/2$. 
+1. $P(N) = 1/2$.
+2. $I$ is ideally favorable to $P(N) = 1/2$.
+3. $I$ is evidentially relevant to $P(N) = 1/2$.
+4. $P(N|I) = 1/2$
+5. $I$ is evidentially irrelevant to $P(N) = 1/2$.
 
 
 
 Premise 1 is justified by either the Principle of Indifference or appealing to a subjective prior. Without the principle of indifference, a probabilist may say that $P(N)$ can be anything as long as it is between $0$ and $1$, and if it is something other than $0.5$, then premises 1 would be false. But it is hard to see how this can be justified. To begin, $0.5$ seems to me the most reasonable prior probability one can assign to $P(N)$, with or without the principle of indifference. For the sake of the argument, let's say it begs to the question to assume $0.5$ is the most reasonable prior, but it would also be *ad hoc* to suggest that it cannot be $0.5$ simply to avoid the paradox.
 
 I have argued for premise 2. I suggest that Popper intends premise 3 to be a consequence of premise 2. Now the issue of question begging arises again. Clearly, if we simply look at the probabilist notion of conditional relevance provided by Keynes, 3 is simply not true by definition, so Popper must be appealing to some sense of *evidential* relevance external to the Bayesian framework, and to avoid equivocation we must then also insist that the same sense of relevance is employed in premise 4.
-
- This finally brings us back to the issue of evidential weight. On this reading, what Popper's paradox purports to show is that there is some notion of evidential relation of relevance that cannot be captured by the Keynesian notion of relevance, and that is the weight of evidence. What premise 2 is suggesting that $I$ is relevant to $P(N)$ even though it does not shift the balance of the evidence in any way, it is still relevant because the overall evidential weight has changed.
 
 ## Problem with Popper's Argument
 
@@ -187,7 +185,7 @@ I have argued for premise 2. I suggest that Popper intends premise 3 to be a con
 
  $$P(N|I)=\frac{P(N) P(I|N)}{P(I)}$$
 
-  This means that to get $P(N|I)$ using Bayes' theorem, we would need to assign a value to $P(I|N)$, the absurdity of which is perhaps obscured by the symbolization - but what could be the probability that half a million heads will be tossed in a a million trials, given the next toss is heads? 
+  This means that to get $P(N|I)$ using Bayes' theorem, we would need to assign a value to $P(I|N)$, the absurdity of which is perhaps obscured by the symbolization - but what could be the probability that half a million heads will be tossed in a a million trials, given the next toss is heads?
 
   Two responses could be made on Popper's behalf. The first is that if $P(N|I)$ is nonsensical, then so much the worse for the probabilists, because *they* are the one holding that all beliefs can be assigned a precise degree of belief. I think this is a very serious problem, which I will discuss in the last section of this paper.
 
@@ -195,7 +193,7 @@ I have argued for premise 2. I suggest that Popper intends premise 3 to be a con
 
   $$P(H_{0.5})\neq P(H_{0.5}|I)$$
 
- This brings us to Higher Order Relevance. I will endeavor to demonstrate the above inequality in the next section.
+ \noindent which is the definition Higher Order Relevance introduced earlier. I shall demonstrate the above inequality in the next section.
 <!-- # Severity as a Frequentist Notion of Weight
 
 
