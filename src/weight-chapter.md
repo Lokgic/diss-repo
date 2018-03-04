@@ -259,11 +259,11 @@ $$E(\theta) = \frac{1 + k}{2 + n}$$
 2. $Beta(11,11)$
 3. $Beta(500,001,500,001)$
 
-Note that all three distributions have the same expected values:
+\noindent Note that all three distributions have the same expected values:
 
 $$\frac{1 + 0}{2 + 0}=\frac{1 + 10}{2 + 10}=\frac{1 + 500000}{2 + 1000000}=\frac{1}{2}$$
 
-However, even though these distributions produce identical expected values, if we plot them, we can see that how they represent states of belief that are drastically different:
+\noindent However, even though these distributions produce identical expected values, if we plot them, we can see that how they represent states of belief that are drastically different:
 
 ![Beta Distributions](beta.png)
 
@@ -275,8 +275,10 @@ The third distribution, modeling the state of belief after one million trials wi
 
 To state these observations more precisely, we can calculate the exact probability using the corresponding cumulative distributions. Since Beta distributions are continuous distributions, we can only deal with intervals of values. Still, we can provide a reasonably close approximations. For instance, conditional on the ideal evidence, we would be absolutely sure that the probability is between 0.46 and 0.54, and practically certain, with the probability of 0.95, that it is between 0.49 and 0.51. The relevant probabilities are summarized in the following table:
 
+\pagebreak
+
 |      Distribution | $P(0.46<\theta<0.54)$ | $P(0.49<\theta<0.51)$ |
-| ----------------: | --------------------: | --------------------: |
+| :---------------- | --------------------: | --------------------: |
 |       $Beta(1,1)$ |                $0.08$ |                $0.02$ |
 |       $Beta(11,11)$ |                $0.29$ |                $0.07$ |
 | $Beta(500001,500001)$ |                   $1$ |                $1$ |
@@ -288,7 +290,7 @@ $$P(0.49<\theta<0.51) <  P(0.49<\theta<0.51|E)$$
 
 \noindent This inequality satisfies the criterion of success stated at the end of the last section.
 
-\pagebreak
+
 # Does HOR sufficiently capture evidential weight?
 
 While I think that HOR provides a sufficient response to Popper's paradox, it is not quite the same as accounting for the phenomenon in question. In fact, by focusing on overcoming the difficulty raised by the paradox caused by an absurd amount of evidence, we might have overlooked what is truly at stake: rarely, if ever, do we have ideal evidence for any substantive hypothesis, so situations where we have an overabundance of evidence is an incomplete benchmark for the adequacy of the account. In fact, our analysis shows that when we have perfect information, evidential weight essentially becomes a non-issue, because it eliminates the uncertainty that calls for probabilistic reasoning to begin with.
