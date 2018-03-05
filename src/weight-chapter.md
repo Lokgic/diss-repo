@@ -261,7 +261,7 @@ $$E(\theta) = \frac{1 + k}{2 + n}$$
 
 \noindent Note that all three distributions have the same expected values:
 
-$$\frac{1 + 0}{2 + 0}=\frac{1 + 10}{2 + 10}=\frac{1 + 500000}{2 + 1000000}=\frac{1}{2}$$
+$$\frac{1 + 0}{2 + 0}=\frac{1 + 10}{2 + 20}=\frac{1 + 500000}{2 + 1000000}=\frac{1}{2}$$
 
 \noindent However, even though these distributions produce identical expected values, if we plot them, we can see that how they represent states of belief that are drastically different:
 
