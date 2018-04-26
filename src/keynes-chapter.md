@@ -99,7 +99,7 @@ For a formal argument, first consider these two assumptions about relevance.
 
 Note that these assumptions are explicitly accepted by Keynes, so we do not have to find them plausible; we just have to accept them for the sake of this particular argument. In addition, Carnap has also proven that Keynes' definition of irrelevance is equivalent to the following: $E$ is irrelevant to $H$ on $K$ if and only if $P(H|K) = P(H|K\wedge E)$ _or_ $E\wedge K$ is a contradiction. This alternative definition will be useful in the proof.
 
-Carnap's proof is roughly as follows. Part of my presentation is adopted from @garden. Suppose both evidence $J$ and hypothesis $H$ are contingent on background knowledge $K$. Also suppose a different piece of evidence $R$ that is relevant to $H$ on $K$ - $R$ must exist because of assumption 2 above. For a _reductio_, suppose $J$ is irrelevant to $H$. Now let $E$ be $(R \wedge \neg J)$. $E$ is either relevant or irrelevant to $H$, and from this we can make an argument by cases.
+Carnap's proof is roughly as follows.^[@carnapprob p.420. My presentation also partly follows @garden]  Suppose both evidence $J$ and hypothesis $H$ are contingent on background knowledge $K$. Also suppose a different piece of evidence $R$ that is relevant to $H$ on $K$ - $R$ must exist because of assumption 2 above. For a _reductio_, suppose $J$ is irrelevant to $H$. Now let $E$ be $(R \wedge \neg J)$. $E$ is either relevant or irrelevant to $H$, and from this we can make an argument by cases.
 
 Suppose $E$ is relevant: this means that $E$ is relevant to $H$ by virtue of Keynes' stricter definition; because, $E$ contains $R$, which is relevant to $H$ on $K$. By assumption 1, since $E$ is relevant to $H$, $\neg E$ is also relevant to $H$. But this means $J$ is relevant to $H$ as well: $\neg E$ is equivalent to $(\neg R \vee J)$, which is inferable from $J$. Since an implication of $J$ is relevant to $H$ given $K$, this means $J$ must be relevant to $H$.
 
@@ -134,21 +134,16 @@ Ramsey's argument is roughly that, _if_ we assume $A$ to be a perfect Bayesian a
 3.  $H_n$: 50 white balls and 50 black balls.
 
 We then start by assuming $P(H_b) = P(H_w) = P(H_n) = 1/3$. Suppose we win \$1 by picking the correct hypothesis. Our expected payoff for choosing each hypothesis would be the same at $1/3$. Nevertheless, we are allow to sample with replacement as many times as we wish. Should we get more evidence? To begin, at this point, the probability of getting a black ball is the same as getting a white ball. Let $E_b$ be "a black ball is drawn" and $E_w$ for white balls. So:
-
 $$P(E_b) = P(H_b)P(E_b|H_b) + P(H_w)P(E_b|H_w) + P(H_n)P(E_b|H_n)$$
 $$1/3(0.9)+1/3(0.1)+1/3(0.5)=0.5$$
-
 And $P(E_w) = 1 - P(E_b) = 0.5$. So, in the event of drawing a black ball from the urn, we would update our belief like so:
 
 $$P(H_b|E_b) = \frac{P(H_b)P(E_b|H_b)}{P(E_b)}=\frac{1/3(0.9)}{0.5} = 0.6 $$
 
 Similarly, applying the calculation on the other hypotheses, we get:
-
 $$P(H_w|E_b) = 0.067$$
-
 $$P(H_n|E_b) = 0.333$$
-
-Similar argument can be made assuming $E*w$, that is, a white ball is chosen. In that case $P(H_w|E_w) = 0.6$. If we are an ideal Bayesian agent, we should pick $H_b$ if $E_b$, and pick $H_w$ if $E_w$. So our expected payoff after getting one piece of evidence is $0.5(0.6) + 0.5(0.6) = 0.6$, which is better than what it would have been had we decided not to get any evidence. The net gain in payoff, $0.6 - 0.33 = 0.27$, is referred to as *the sample value of information* in the decision theory literature, and Ramsey calls this the _value of evidence_ in his note.
+Similar argument can be made assuming $E_w$, that is, a white ball is chosen. In that case $P(H_w|E_w) = 0.6$. If we are an ideal Bayesian agent, we should pick $H_b$ if $E_b$, and pick $H_w$ if $E_w$. So our expected payoff after getting one piece of evidence is $0.5(0.6) + 0.5(0.6) = 0.6$, which is better than what it would have been had we decided not to get any evidence. The net gain in payoff, $0.6 - 0.33 = 0.27$, is referred to as *the sample value of information* in the decision theory literature.[@appliedstatdec p.89-90. For a more digestible presentation see @winkler sec.6.3] Ramsey calls this the _value of evidence_ in his note.
 
 It turns out that we would be even better off if we were to draw from the urn again. Suppose the first draw yields a black ball. Let us refer to our state of belief after the first draw as $H_b', E_b',..$ and so on. One notable change is that $P(E_b') = 0.7132$ and $P(E_w')=0.2868$. If we draw again and get a black ball, this means:
 
@@ -164,19 +159,17 @@ $$P(H_n'|E_w') = 0.58$$
 
 So our expected payoff if we were to draw from the urn again is: $0.7132(0.757) + 0.2867(0.58) = 0.706$, which is an improvement over just drawing once. Ramsey's proof shows that this will go on forever and we will never be worse off.
 
-What should we make of Ramsey's proof? As Ramsey seems to have refuted Keynes' intuition that sometimes more evidence is not worth our time, the crucial assumptions he makes need to be addressed.
-
-To see why, consider the following argument: if Ramsey's assumptions hold, then it's always rational to look for more evidence for beliefs that are not necessarily true, because we are never worse off by doing it. Further, if it's always rational to look for more evidence for beliefs that are not necessarily true, then epistemic urgency is not a problem. So, if Ramsey's assumptions hold, then epistemic urgency is not a problem.
+What should we make of Ramsey's proof? As Ramsey seems to have refuted Keynes' intuition that sometimes more evidence is not worth our time, the crucial assumptions he makes need to be addressed: if Ramsey's assumptions hold, then it's always rational to look for more evidence for beliefs that are not necessarily true, because we are never worse off by doing it. Further, if it's always rational to look for more evidence for beliefs that are not necessarily true, then epistemic urgency is not a problem. So, if Ramsey's assumptions hold, then epistemic urgency is not a problem.
 
 My point is that if we accept Ramsey's result and accept the underlying conditions, then we should never refuse looking for new evidence, since we always end up with the same or better utility. In other words, more evidence is almost always better. If this is true, it naturally follows that there is no such a thing as the problem of epistemic urgency, since the very idea of it is to ask how it is possible that sometimes it is rational to look for new evidence. _But_ I take it that we would agree with Keynes that more evidence is not always worth the effort, so it must mean that Ramsey's assumptions cannot be all true. What I wish to consider are the reasons for which these assumptions do not hold, and what the implications are.
 
 Perhaps the most crucial assumption here is that new information has no cost. Without this assumption, it becomes evident that Ramsey's argument is limited in applicability. Suppose it costs us 25 cents for each sample. This means that we would be gaining only $0.27-0.25 = 0.02$ in expected payoff for the first draw, and the second draw would definitely not be worth the additional 25 cents. Cost might also enter into consideration in different forms, e.g., computational cost or memory. Of course, there was no indication that Ramsey thought that information was free. That in itself is trivial point. What is interesting is to consider an epistemology that takes into account the cost and value of evidence. In the next chapter, I shall reconstruct a Peircean account for such a view.
 
-Ramsey makes another assumption that Keynes does not accept, that is, the ideal Bayesian agent can express all of her beliefs in precise numerical values. Keynes famously denies this: he holds that some probabilities can at best be expressed as intervals, and some are totally indeterminate.[@keynes, ch. III] Ramsey's assumption has come to known as the "Dogma of Precision" and the sort of probabilities Keynes has in mind is called "imprecise probabilities" or that they are not _sharp_. 
+Ramsey makes another assumption that Keynes does not accept, that is, the ideal Bayesian agent can express all of her beliefs in precise numerical values. Keynes famously denies this: he holds that some probabilities can at best be expressed as intervals, and some are totally indeterminate.[@keynes, ch. III] Ramsey's assumption has come to known as the "Dogma of Precision." In contrast, some have accepted the existence of "imprecise probabilities". 
 
 In the context of evidential weight, the question of whether probabilities should be sharp is a significant one, for one view of evidential weight is that it is a measure of the precision of a probability. We already have a relevant case in the context of the paradox of ideal evidence. We saw that what the ideal evidence manifest itself not in terms of the expected value, but in the width of the posterior credible interval. An intuition would be to say that we should make our decisions based on the interval and not the point estimate. 
 
-Roughly speaking, the idea is that before observing the ideal evidence regarding the bias of the coin, our degree of belief is rather vague - it could be as vague as $[0,1]$ - we know that it's within this interval but we have no reason to think that it's one particular value or another, but the ideal evidence allows us to narrow down our estimate to basically $0.5$. Theories of imprecise probabilities formalize this intuition, by holding that belief should be represented by a set of distribution, instead of one. Some theorists, such as Walley^[@walley], thinks that evidential weight just is the difference between the upper and lower bounds of this interval. We shall return to this issue in our development of a Peircean view of evidential weight in the next chapter.
+Roughly speaking, the idea is that before observing the ideal evidence regarding the bias of the coin, our degree of belief is rather vague - it could be as vague as $[0,1]$ - we know that it's within this interval but we have no reason to think that it's one particular value or another. As we take into account the ideal evidence, we then narrow down our estimate to $0.5$ to a high degree of precision. Theories of imprecise probabilities formalize this intuition, by holding that belief should be represented by a set of distribution, instead of one. Some theorists, such as Walley^[@walley], thinks that evidential weight just is the difference between the upper and lower bounds of this interval. We shall return to this issue in our development of a Peircean view of evidential weight in the next chapter.
 
 \pagebreak
 
