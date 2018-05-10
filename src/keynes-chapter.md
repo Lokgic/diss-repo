@@ -42,8 +42,7 @@ Since probability is logical relationship between propositions, it shares with t
 
 > In all knowledge, therefore, there is some direct element; and logic can never be made purely mechanical. All it can do is so to arrange the reasoning that the logical relations, which have to be perceived directly, are made explicit and are of a simple kind. [@keynes, p. 14]
 
-However, while these logical relations are basic perceptible elements, Keynes does not think all probability relations are knowable. In this aspect, Keynes disagrees with followers of Laplace, such as De Morgan, that all probabilities can be given a determinate value and many modern Bayesians.[@keynes, ch. 3 sec. 2-6] Keynes maintains there are some probabilities that can only be vagued known, some probability can only be measured by comparing to another, and some probabilities are neither measurable nor comparable.
-
+However, while these logical relations are basic perceptible elements, Keynes does not think all probability relations are knowable. In this aspect, Keynes disagrees with followers of Laplace, such as De Morgan, and many modern Bayesians that all probabilities can be given a determinate value.[@keynes, ch. 3 sec. 2-6] Keynes maintains there are some probabilities that can only be vaguely known, some probability can only be measured by comparing to another, and some probabilities are neither measurable nor comparable.
 
 
 The identification of probability as some perceptible relation has introduced an irreducible element of subjectivity, and Keynes admits just as much. [@keynes, 17] Frank Ramsey sees a tension in Keynes' reliance on Russellian empiricism:
