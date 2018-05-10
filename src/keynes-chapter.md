@@ -99,12 +99,12 @@ But suppose $E_b$ and $E_w$ are not gathered at the same time: say $E_b$ was rec
 
 To avoid this type of problems, Keynes proposes a 'strict' definition of irrelevance. While Keynes calls this the 'strict' definition, the purpose of the definition is to relax the requirement for relevance, so that evidence that is irrelevant "as a whole" may still be relevant due to its components. The strict definition states:
 
-Definition of Relevance: $E$ is relevant to $H$ on background knowledge $K$ if and only if there is at least one proposition $R$, such that
+> \textbf{Definition of Relevance}: $E$ is relevant to $H$ on background knowledge $K$ if and only if there is at least one proposition $R$, such that
 
-1.  $R$ is inferable from $(E \wedge K)$.
-2.  $R$ is not inferable from $K$.
-3.  $P(H | R \wedge K )\neq P(H|K)$
-4.  If there is _no_ proposition that satisfies conditions 1-3, then $E$ is irrelevant to $H$.
+>1.  $R$ is inferable from $(E \wedge K)$.
+>2.  $R$ is not inferable from $K$.
+>3.  $P(H | R \wedge K )\neq P(H|K)$
+>4.  If there is _no_ proposition that satisfies conditions 1-3, then $E$ is irrelevant to $H$.
 
 In other words, the strict definition tries to capture the idea that a piece of evidence $E$ is relevant $H$ if and only if $R$, in conjunction with your existing body of knowledge, can imply some proposition $R$ that is conditionally relevant to $H$. So in the case where $E = E_b \wedge E_w$, $E$ is *not* irrelevant, i.e., relevant, to $H$, because $E_b$, which is inferable from $E \wedge K$, does raise the probability $H$.
 
@@ -118,33 +118,32 @@ As it turns out, however, this point is inconsequential, because Carnap has prov
 
 ## The Problematic Implication of the Strict Definition
 
-Carnap's argument is that Keynes's new definition has essentially counted anything not implied by background knowledge as being relevant, because the problem is that any proposition that is not implied by $K$ will always have implied components that are relevant to $H$, however weakly.[@carnapprob, p.420] The argument is roughly that, for any $H$ on background knowledge $K$, if $J$ is not implied by $H \wedge K$ and $R$ is relevant evidence to $H$, $J$ can always be shown to be relevant by drawing trivial inferences that that involves $R$, such as $J \vee \neg R$.
+Carnap's argument is that Keynes's strict definition has essentially counted anything not implied by background knowledge as being relevant, because the problem is that any proposition that is not implied by $K$ will always have implied components that are relevant to $H$, however weakly.[@carnapprob, p.420] The argument is roughly that, for any $H$ on background knowledge $K$, if $J$ is not implied by $(H \wedge K)$ and $R$ is relevant evidence to $H$, $J$ can always be shown to be relevant by drawing trivial inferences that that involves $R$, such as $(J \vee \neg R)$.
 
 For a formal argument, first consider these two assumptions about relevance.
 
-R1. If $E$ is relevant, then $\neg E$ is also relevant.
-R2. If a hypothesis is not implied by our background knowledge, then there is some proposition such that it is relevant to the hypothesis.
+> R1. If $E$ is relevant, then $\neg E$ is also relevant.
+
+> R2. If a hypothesis is not implied by our background knowledge, then there is some proposition such that it is relevant to the hypothesis.
 
 I will not argue for these assumptions, but note that they are explicitly accepted by Keynes, so we do not have to find them plausible; we just have to accept them for the sake of this particular argument. In addition, Carnap has also proven that Keynes' definition of irrelevance is equivalent to the following:
 
-Carnap's Definition of Irrelevance: $E$ is irrelevant to $H$ on $K$ if and only if
+> \textbf{Carnap's Definition of Irrelevance}: $E$ is irrelevant to $H$ on $K$ if and only if
 
-1.  $P(H|K) = P(H|K\wedge E)$ _or_,
-2.  $E\wedge K$ is a contradiction.
+>1.  $P(H|K) = P(H|K\wedge E)$ _or_,
+>2.  $E\wedge K$ is a contradiction.
 
-This alternative definition will be useful in the proof.
-
-Carnap's proof is roughly as follows.^[@carnapprob p.420. My presentation also partly follows @garden] Suppose both evidence $J$ and hypothesis $H$ are contingent on background knowledge $K$. Also suppose a different piece of evidence $R$ that is relevant to $H$ on $K$ - $R$ must exist because of assumption R2 above. For an argument by _reductio ad absurdum_, suppose $J$ is irrelevant to $H$. Now let $E$ be $(R \wedge \neg J)$. $E$ is either relevant or irrelevant to $H$, and from this we can make an argument by cases.
+This alternative definition will be useful in the proof. Carnap's proof is roughly as follows.^[@carnapprob p.420. My presentation also partly follows @garden] Suppose both evidence $J$ and hypothesis $H$ are contingent on background knowledge $K$. Also suppose a different piece of evidence $R$ that is relevant to $H$ on $K$ - $R$ must exist because of assumption R2 above. For an argument by _reductio ad absurdum_, suppose $J$ is irrelevant to $H$. Now let $E$ be $(R \wedge \neg J)$. $E$ is either relevant or irrelevant to $H$, and from this we can make an argument by cases.
 
 Suppose $E$ is relevant: this means that $E$ is relevant to $H$ by virtue of Keynes' stricter definition; because, $E$ contains $R$, which is relevant to $H$ on $K$. By assumption R1, since $E$ is relevant to $H$, $\neg E$ is also relevant to $H$. But this means $J$ is relevant to $H$ as well: $\neg E$ is equivalent to $(\neg R \vee J)$, which is inferable from $J$. Since an implication of $J$ is relevant to $H$ given $K$, this means $J$ must be relevant to $H$.
 
 Now suppose $E$ is irrelevant. Since $R$ is relevant to $H$ on $K$, the only way for $E$ to be irrelevant is for $(\neg J \wedge K \wedge R)$ to be a contradiction (by Carnap's alternative definition), so $\neg(\neg J \wedge K \wedge R)$ has to be true. That is logically equivalent to $(\neg J \wedge K) \to \neg R$. Now, by assumption R1, $\neg R$ is relevant, because $R$ is relevant. The above formula means that from $\neg J$ plus $K$, we can infer $\neg R$, so this means $\neg J$ is relevant, which entails $J$ is relevant.
 
-So, we see that both possibilities implies that $J$ is relevant. By _reductio_, then, $J$ is relevant. Thus, if $J$ is not inferable from $K$, then $J$ is relevant to $H$.
+So, we see that both each case implies that $J$ is relevant. By _reductio_, then, $J$ is relevant. Thus, if $J$ is not inferable from $K$, then $J$ is relevant to $H$.
 
 In addition, if $J$ is relevant to $H$ on $K$, then $J$ is not inferable from $K$, since one of the conditions of the strict definition of relevance is that relevant evidence cannot be a proposition that is a logical consequence of our background knowledge. So, this means that $J$ is relevant to $H$ on $K$ if and only if $J$ is not inferable from $K$.
 
-In other words, any proposition not implied by our background knowledge is by definition relevant, so Carnap's result shows that the new definition is unhelpful: his suggestion is that we should simply stick with the simpler definition. Modern Bayesian have followed Carnap in accepting Keynes' basic definition of relevance as a minimal requirement for any confirmation measure. The conclusion to be drawn, I think, is that evidential weight clearly has something to do with how much evidence we have, but it cannot be the heart of the matter.
+In other words, any proposition not implied by our background knowledge is by the strict definition relevant, so Carnap's result shows that this definition is unhelpful: his suggestion is that we should simply stick with the simpler definition. Modern Bayesian have followed Carnap in accepting Keynes' basic definition of relevance as a minimal requirement for any confirmation measure. The conclusion to be drawn, I think, is that evidential weight clearly has something to do with how much evidence we have, but it cannot be the heart of the matter.
 
 
 
@@ -153,22 +152,21 @@ In other words, any proposition not implied by our background knowledge is by de
 
 In the last section, I concerned myself with Keynes' official slogan that evidential weight is the absolute amount of evidence. We saw that Keynes explicitly grounds the concept of evidential weight in his formal notion of relevance. However, sometimes he also speaks of the weight of evidence as a *degree of completeness of information*. This is evidently a different notion than the one tied to  relevance, for as the completeness of information is a *relative* measure between how much information we currently have, and how much information there are to be gathered. In the this section, we will see that Keynes raises some puzzle about the rationality of evidence gathering, which sheds light on this different notion of weight. We will also examine a proposal given by Frank Ramsey.
 
-Keynes remains ambivalent about his account of weight in the *Treatise*, and he concludes his discussion by raising "a very confusing problem" about the rationality of the demand for more evidence. Frank Ramsey responds to Keynes in an unpublished note, in which he hints at a definition of the weight of evidence $E$ as the gain in expected value from getting $E$. This essentially provides a way to understand evidential weight as a sort of utility of evidence. I will argue, however, that, even though the introduction of utility brings us closer to the heart of the problem, it overlooks the extrainductive role the weight of evidence is supposed to play.
 
 
 ## Keynes' puzzle about the demand for new evidence
 
-Keynes was evidently not satisfied with his account of evidential weight in the *Treatise*. One particular vexing issue is that he could not seem to explain the *practical* import that the weight of evidence seems to have. He is explicitly conflicted:
+Keynes was evidently not satisfied with his account of evidential weight in the *Treatise*. One particular vexing issue is that he could not seem to explain the *practical* import that the weight of evidence has. He is explicitly conflicted:
 
 > For in deciding on a course of action, it seems plausible to suppose that we ought to take account of the weight as well as the probability of different expectations. But... I do not feel sure that the theory of ‘evidential weight’ has much practical significance.
 
-His diffidence is further amplified by a "a very confusing problem": Bernoulli, he points out, suggests that inductive inference requires the utilization of all evidence available to us. Keynes points out that this seems to imply that it's rational to get more evidence, but then it raises another critical problem about whether or not one could ever be rational in refusing new evidence [@keynes, p.84-85] If the answer for the former question is positive, and the latter question negative, then we have to conclude that rationality dictates us that we should never stop looking for more evidence.
+His diffidence is further amplified by a "a very confusing problem": Bernoulli, he points out, suggests that inductive inference requires the utilization of all evidence available to us. Keynes reasons that this implies that it's rational to get more evidence, but then it raises another critical problem about whether or not one could ever be rational in refusing new evidence [@keynes, p.84-85] If the answer for the former question is positive, and the latter question negative, then we have to conclude that rationality dictates us that we should never stop looking for more evidence.
 
-This problem is essentially repeated many years later in an exchange between Carnap and Ayer. In his *Logical Foundation of Probability*, Carnap crystalizes Bernoulli's claim as "the requirement of total evidence".
+Keynes does not make the jump from "using all evidence" to "get all evidence" clear. However, this problem is essentially repeated many years later in an exchange between Carnap and Ayer. In his *Logical Foundation of Probability*, Carnap restates Bernoulli's claim as "the requirement of total evidence".
 
 > _Requirement of total evidence_: in the application of inductive logic to a given knowledge situation, the total evidence available must be taken as basis for determining the degree of confirmation.[@carnapprob, p.211]
 
-Aver, in response to Carnap, raises the Keynesian question: should "total evidence" include relevant evidence that I do not yet have in possession?[@ayerpae, p.56] The answer must be "yes", Ayer argues. If finding the truth value of some proposition $P$ could potentially sway the balance of my evidence, then I should definitely acquire it. Thus the principle of total evidence seems to suggest that I am also rationally compelled to consider some evidence I do not yet have.
+Aver, in response to Carnap, raises the same question Keynes raises: should "total evidence" include relevant evidence that I do not yet have in possession?[@ayerpae, p.56] The answer must be "yes", Ayer argues. If finding the truth value of some proposition $P$ could potentially sway the balance of my evidence, then I should definitely acquire it. Thus the principle of total evidence seems to suggest that I am also rationally compelled to consider some evidence I do not yet have.
 
 But Ayer, as does Keynes, points out that this cannot be the whole picture: taken as a rule of rationality, this means we should never stop acquiring unless we are certain that we have acquired all available evidence. This, however, assumes that we know what evidence is available, but it could often be unrealistic to expect to know how much evidence we *do not* currently have.
 
