@@ -1,7 +1,50 @@
+
+## Ambiguity and the Weight of Evidence
+
+
+The concept of evidential weight provides the framework Keynes needed to address Moore's concerns without falling back to the typical Bernoullian position. Keynes' response to Moore is that the severe uncertainty about the future does not prevent us from speaking of their probabilities - in Keynes word, they are "genuine" probabilities even if our knowledge about the remote future is slight. However, what distinguishes the probability of an immediate or near future event from one of event in the remote future is the degree of completeness of information involved. In other words, probability about the near future tends to be weightier evidentially than events in the remote future.
+
+Many of the issues below hinge on different ways in which our ignorance about a state of affair could be characterized, so in order to avoid some confusion, I will define some terms here. I shall use "uncertainty" to refer to the epistemic attitude toward any event that involves some degree of ignorance and/or randomness. In other words, it is used as the broadest umbrella term that covers a cluster of similar epistemic attitudes; so, for instance, ambiguity and risk (as defined below) are different kinds of uncertainty. My propose usage of "risk" will follow Keynes' - the "risk" of an event is the definite and precise quantity, i.e., a probability, that captures our degree of belief toward it. I shall use "ambiguity" to describe an event to which we cannot assign a _precise_ probability, but we can say _something_ about it, either in terms of an interval or by comparison. Keynes also think that there is also a kind of uncertainty about which we cannot say anything _at all_. This is what Frank Knight calls "uncertainty" in _Risk, Uncertainty, and Profit_, in which he defines "uncertainty" as being immeasurable uncertainty. For our purpose, we can call this "Knightian uncertainty". The choices here are purely pragmatic.
+
+
+He is resistant to utilitarians' claim that the rational course of action can be wholly determined by calculating the precise "mathematical expectation", that is, what we called _expected utility_. [@keynes, ch. XXVI sec. 5-6]
+
+This is where the concept of evidential weight is important, and where he disagrees with the expected utility theorists. To begin, the price of
+
+
+
+It plays an important role in his ideas about economics and probability; thus,  One major reason for his skepticism is that expected utility does not reflect the amount of evidence involved in its calculation, which, as we shall see, piques Keynes' interest in the very notion of the weight of evidence. The other major reason is that Keynes holds that some probability relations cannot be determined precisely, and sometimes we can only give it an interval estimate, and sometimes it is completely indeterminate.
+
+
+
+
+
+For the sake of clarity, we must first have a brief discussion on terminology.
+
+As we shall see, in _The General Theory_, Keynes has adopted the distinction between uncertainty and risk to capture his thoughts about the weight of evidence. While Keynes was clearly aware of this distinction in _A Treatise_, this terminology seems to be more closely associated with  The distin
+
+For the sake of clarity, I shall use the term "ambiguity" to refer to
+
+
+In contrast to Knight, I try to avoid making out the distinction to be one about measurable vs unmeasurable, since I find that distinction itself unclear. For instance, Knight suggests that whether Britain would go to war unmeasurable, but I prefer to conceive the situation as being measurable, just with an extremely high degree of imprecision, since we can still say that the probability of Britain going to war is somewhere between 0 and 1.
+
+These definitions are chosen simply because I find they they most easily reconciled with the relevant literature and what I find to be the most natural.
+
+general theory
+
+gamble device
+
+secondary lit
+
+refernce frame
+
+Ellsberg
+
 # Weight as the Resilience of Belief
 
 <!-- In the last section, we began with the suggestion that evidential weight should inform how urgent -->
 
+In the last section, I examined the proposal that the weight of some evidence $E$ could be understood in terms of the expected utility gained by acquiring $E$. We saw that, while such a notion has some attractive properties, it was unable to provide an answer for the problem Keynes poses: in light of the requirement of total evidence, how could one justified in refusing evidence?  Good's idea of a rationality that aims for "a sufficient maturity of judgment" seems to be the right direction, but he has not spelled out exactly what that entails.
 
 In any case, formal epistemologists have proposed a notion of *resilience* that might fit that bill. This line of thought begins with Popper's so-called "paradox of ideal evidence." As we have seen earlier, the paradox of ideal evidence is supposed to show that evidential weight cannot be captured in terms of conditional relevance. We have already seen that Keynes' attempt to expand his definition of relevance to accommodate evidential weight has failed, since it has the unintended consequence of regarding any proposition not implied by the hypothesis, in conjunction with our background knowledge, as being relevant. As I do no think evidential weight ought to be defined merely in terms of conditional relevance, I have no intention to belabor that issue here.
 
@@ -176,44 +219,3 @@ In contrast, Keynes' conception of probability as a *logical* relation, instead 
 So, while Keynes appreciates the force of Moore's argument that we in general have no clue about the probable effect of our action in the remote future, he thinks that we can think analyze our rationality of our action probabilistically by appealing to the principle.
 
 However, it is clear to Keynes that the Principle of Indifference cannot fully address the necessarily incomplete nature of our knowledge of future events and how it should affect the credibility of our probability statement. Keynes' own analysis of the Principle of Indifference reveals that unless it is applied under the right conditions, our judgements of indifference can often lead to contradictions. Keynes', as we shall see, tries to find a middle way between Moore and the expected utility theorists by appealing to evidential weight and its relation to so-called "Knightian uncertainty" or "ambiguity."
-
-## Ambiguity and the Weight of Evidence
-
-
-The concept of evidential weight provides the framework Keynes needed to address Moore's concerns without falling back to the typical Bernoullian position. Keynes' response to Moore is that the severe uncertainty about the future does not prevent us from speaking of their probabilities - in Keynes word, they are "genuine" probabilities even if our knowledge about the remote future is slight. However, what distinguishes the probability of an immediate or near future event from one of event in the remote future is the degree of completeness of information involved. In other words, probability about the near future tends to be weightier evidentially than events in the remote future.
-
-Many of the issues below hinge on different ways in which our ignorance about a state of affair could be characterized, so in order to avoid some confusion, I will define some terms here. I shall use "uncertainty" to refer to the epistemic attitude toward any event that involves some degree of ignorance and/or randomness. In other words, it is used as the broadest umbrella term that covers a cluster of similar epistemic attitudes; so, for instance, ambiguity and risk (as defined below) are different kinds of uncertainty. My propose usage of "risk" will follow Keynes' - the "risk" of an event is the definite and precise quantity, i.e., a probability, that captures our degree of belief toward it. I shall use "ambiguity" to describe an event to which we cannot assign a _precise_ probability, but we can say _something_ about it, either in terms of an interval or by comparison. Keynes also think that there is also a kind of uncertainty about which we cannot say anything _at all_. This is what Frank Knight calls "uncertainty" in _Risk, Uncertainty, and Profit_, in which he defines "uncertainty" as being immeasurable uncertainty. For our purpose, we can call this "Knightian uncertainty". The choices here are purely pragmatic.
-
-
-He is resistant to utilitarians' claim that the rational course of action can be wholly determined by calculating the precise "mathematical expectation", that is, what we called _expected utility_. [@keynes, ch. XXVI sec. 5-6]
-
-This is where the concept of evidential weight is important, and where he disagrees with the expected utility theorists. To begin, the price of
-
-
-
-It plays an important role in his ideas about economics and probability; thus,  One major reason for his skepticism is that expected utility does not reflect the amount of evidence involved in its calculation, which, as we shall see, piques Keynes' interest in the very notion of the weight of evidence. The other major reason is that Keynes holds that some probability relations cannot be determined precisely, and sometimes we can only give it an interval estimate, and sometimes it is completely indeterminate.
-
-
-
-
-
-For the sake of clarity, we must first have a brief discussion on terminology.
-
-As we shall see, in _The General Theory_, Keynes has adopted the distinction between uncertainty and risk to capture his thoughts about the weight of evidence. While Keynes was clearly aware of this distinction in _A Treatise_, this terminology seems to be more closely associated with  The distin
-
-For the sake of clarity, I shall use the term "ambiguity" to refer to
-
-
-In contrast to Knight, I try to avoid making out the distinction to be one about measurable vs unmeasurable, since I find that distinction itself unclear. For instance, Knight suggests that whether Britain would go to war unmeasurable, but I prefer to conceive the situation as being measurable, just with an extremely high degree of imprecision, since we can still say that the probability of Britain going to war is somewhere between 0 and 1.
-
-These definitions are chosen simply because I find they they most easily reconciled with the relevant literature and what I find to be the most natural.
-
-general theory
-
-gamble device
-
-secondary lit
-
-refernce frame
-
-Ellsberg
