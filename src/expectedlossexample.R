@@ -110,6 +110,19 @@ a2 = 52
 b2 = 52
 w1 = getw(a1,b1)
 w2 = getw(a2,b2)
+par(mfrow=c(1,1))
+plot(xSeq, dbeta(xSeq,2,2))
+
+w3 = getw(7,2)
+w4 = getw(12,2)
+
+w5 = getw(4,2)
+plot(w1,xlab="Chance Hypothesis",ylab="Expected Loss",xaxt = "n",yaxt = "n", main="Loss Comparison")
+lines(w5,col="yellow")
+lines(w3,col="red")
+lines(w4,col="blue")
+axis(1, at=c(0,100,200), labels=c(0,0.5,1))
+legend( 0.3,1.508033e-04, legend=c("Prior","5 heads(j-weight:0.45)","10 heads(j-weight:0.435"), col=c("black","red","blue"),cex=.8, lty=1,bg="lightblue")
 
 
 par(mfrow=c(2,2))
@@ -137,9 +150,6 @@ for (i in 1:times){
 
 x = 1:times
 
-plot(x,vw1,ylim=c(0,0.05),type='l',col="red",xlab="Number of Heads", ylab="Joycean Weight", main="Joycean Weight Comparison")
-lines(vw2,col="blue")
-legend( 35,.04, legend=c("Beta(2,2)","Beta(52,52)"), col=c("red","blue"),cex=.8, lty=1,bg="lightblue")
 
 w1plot(x,w)
 plot
@@ -166,13 +176,40 @@ r2 = rbeta(s,a2,b2)
 sweight = function(a,b,x,n){
   prior = a/(a+b)
   post = (a+x)/(a+b+n)
-  return (1-abs(prior-post))
+  return (abs(prior-post))
 }
 sweight(2000,2000,50,50)
 
 sw1 = sweight(2,2,1:50,1:50)
 sw2 = sweight(52,52,1:50,1:50)
+
+
+
+par(mfrow=c(1,2))
+plot(x,vw1,ylim=c(0,0.05),type='l',col="red",xlab="Number of Heads", ylab="Joycean Weight", main="Joycean Weight Comparison")
+lines(vw2,col="blue")
+legend( 30,.033, legend=c("Beta(2,2)","Beta(52,52)"), col=c("red","blue"),cex=.8, lty=1,bg="lightblue")
+
+plot(x,sw1,ylim=c(0,0.5),type='l',col="red",xlab="Number of Heads", ylab="Skyrmsian Weight", main="Skyrmsian Weight Comparison")
+lines(sw2,col="blue")
+legend( 30,.31, legend=c("Beta(2,2)","Beta(52,52)"), col=c("red","blue"),cex=.8, lty=1,bg="lightblue")
+
+plot(1:50,sw1,type='l',col='red',ylim=c(0.5,1))
+lines(sw2,type='l',col='blue')
+plot(sw2)
 a1 = 1:100
 b1 = 1:100
 y = fn(a1,b1)
 plot(a1,y)
+
+x=0:100
+
+thatFn = function(a,b){
+  return (a/(a+b))
+}
+
+y1 = 
+plot(x,thatFn(2+x,2), type='l',col='red',xlab="Number of Heads",ylab="Posterior Probability", main="Comparison of Changes in Posterior Probabilities")
+lines(x,thatFn(20+x,20),col='blue')
+lines(x,thatFn(1000000+x,1000000),col='black')
+legend(70,.8, legend=c("Weak Prior(2,2)","Moderate Prior(20,20)","Ideal Evidence Prior(1mil,1mil)"), col=c("red","blue","black"),cex=.8, lty=1,bg="lightblue")

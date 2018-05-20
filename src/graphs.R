@@ -134,3 +134,4 @@ qbinom(.5,4,1/2)
 pbinom(500000,1000000,0.49) 
 plot(x,y,type = 'l')
 pbinom()
+
