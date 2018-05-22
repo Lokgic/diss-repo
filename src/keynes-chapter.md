@@ -25,13 +25,51 @@ My main purpose is to argue against Keynes' idea that the weight of evidence for
 <!-- # Weight as Absolute Amount of Evidence -->
 
 
-While Keynes was not the first person to discuss the weight of evidence, Keynes' exposition of the idea in his _Treatise on Probability_ is perhaps the most referenced source in the topic.^[The first person who noted it was Peirce, whose view shall be the main focus of chapter 3.] While he seems rather ambivalent about the importance of evidential weight, saying that he finds it "somewhat novel" but is "uncertain as to how much importance to attach to it," he has made many important contributions to ways in which evidential weight can be conceptualized.
+
+This chapter will focus on Keynes' view on this matter. His exposition of the idea in his _Treatise on Probability_ is perhaps the most referenced source in the topic. While he seems rather ambivalent about the importance of evidential weight, saying that he finds it "somewhat novel" but is "uncertain as to how much importance to attach to it," he has made many important contributions to ways in which evidential weight can be conceptualized.
 
 This chapter examine three conceptions of weight in Keynes' *Treatise*. The first is Keynes' official position that the weight of evidence is the _absolute amount_ of relevance evidence. The second is Skyrms' notion of resiliency, which takes the weight of evidence to be the change in conditional probability in light of a surprising hypothesis. The third is a variant of resiliency, which is James Joyce's idea that evidential weight is a stabilizer of expected loss. While this chapter partly functions as a review on the literature on the weight of evidence, its main contribution is to present the formal account of evidential weight in a conceptually and historically unified manner, in service of the philosophical discussion in the upcoming chapters.
 
 
-# Weight as the Absolute Amount of Evidence
-## Keynes' view in _A Treatise in Probability_
+<!-- # Historical Background: Why is the Weight of Evidence Important? -->
+<!-- 
+## Peirce's Role 
+
+While the idea of evidential weight is closely associated with Keynes’ discussion in *A Treatise*, Carnap [554] and Popper point out that Peirce was really the first person who gave a substantial treatment of the issue. Nevertheless, discussions of Peirce’s notion of weight are often 
+
+There are three possible reasons for which the importance of Peirce’s view on the matter has gone relatively unnoticed. One of the reasons is that Peirce’s explicit discussion of evidential weight is embedded in his criticisms of subjective interpretation of probability, known as “conceptualism”, in his time. Like Keynes, Peirce recognizes that there is a sense of confidence that is not captured by degrees of belief, and Peirce argues that this is a fatal flaw of conceptualism. Since evidential weight only seems to occur in a critical context, it perhaps gives the impression that Peirce lacks a positive view on the matter. 
+
+The other reason is terminological. Peirce uses both the terms ‘balance’ and ‘weight’ to describe evidence, but from the context it is clear that in both cases he’s referring to idea that probability can act as an indicator of whether a belief is favored or disfavored by the overall evidence - what Keynes calls the balance of the evidence. Peirce in fact never gives a name to what Keynes, and what came to be known in the literature as, the weight of evidence.  He simply refers to it as the number that is required to properly express our doxastic state, in addition to the degree of a belief.
+
+Lastly, Peirce’s own mathematical expression of the balance of evidence adopted by various Bayesians, which further overshadows his notion of weight. Roughly speaking, Peirce’s idea is that to find the balance of the evidence $E$ for the proposition $H$, we should take the odds of the probability of $H$ conditional on $E$ versus its probability conditional on $\neg E$. In other words,
+$$\frac{P(H|E)}{P(\neg H | E)}$$ Which can be algebraically decomposed into $$\frac{P(E|H)P(H)}{P(E|\neg H) P(\neg H)}$$
+Using Principle of Indifference, which will be discussed below, the above becomes $\frac{H}{\neg H} = 1$, the balance of evidence is simply $\frac{P(E|H)}{P(E| \neg H)}$, which is an expression of what we now call the Bayes Factor. Peirce's intention was to construct what he takes to be the best version of conceptualism before knocking it down. The Bayes Factor is attractive for many reasons. From a modern and practical standpoint, this formula is mathematically tractable, since we do not have to calculate the posterior distribution $p(H|E)$ and the so-called Bayesian catchall $P(E)$, both of which can be computationally expensive. From a philosophical point of view, Peirce thought that the Bayes Factor forges the link between conceptualist's subjective view of probability, and Hume's empiricist epistemology. In *An Enquiry Concerning Human Understanding*, Hume makes his famous argument against the existence of miracle by appealing to the concept of probability. Hume argues that due to the fact that the only evidence we have regarding miracle is witness testimony, whether or not miracle exists can only be determined probabilistically by determining the balance of the evidence: 
+
+> We balance the opposite circumstances, which cause any doubt or uncertainty; and when we discover a superiority on any side, we incline to it; but still with a diminution of assurance, in proportion to the force of its antagonist.[@enquiry 99]
+
+> Take the sum of all the feelings of belief which would be produced separately by all the arguments pro, subtract from that the similar sum for arguments con, and the remainder is the feeling of belief which we ought to have on the whole.[@probabilityofinduction,  294]
+
+For example, given a prior odd of 1 for $A$ and evidence $E$, the posterior odd for $A$, $\frac{P(A|E)}{P(\neg A |E)}$ can be reformulated as the likelihood ratio: $\frac{P(E|A)}{P( E| \neg A)}$. After taking the log of the ratio as Peirce suggested, we can find the balance of reasons by calculation $log(P(E|A)) - log(P(E|\neg A))$. A positive value means the evidence is in favor of A and negative against it. 
+
+Another important normative implication is the idea that the strengths of two independent pieces of evidence should be combinable to increase the probability of the proposition in question. Peirce calls this the weight of evidence, but, as explained in the next paragraph, it is better described as the added weight of independent evidence. Suppose $E_1$ and $E_2$ are independent. So, $P(E_1 \wedge E_2 |H) = P(E_1|H) P(E_2|H)$. If we take the logarithm of the product, the product becomes $log(P(E_1|H))+ log(P(E_2|H))$.  This captures the intuition that adding two pieces of independent evidence together should increase the intensity of our belief. 
+
+
+Branden Fitelson takes Peirce’s idea of taking the logarithm of posterior odds and develops a Bayesian account of independent evidence.[@Fitelson2001-FITABA] 
+
+
+The water is further muddled by the fact that I. J. Good, who refers to Peirce as a precursor to his own Bayesian view, confusingly calls this formula the weight of the evidence, which, while consistent with Peirce’s use of the term, is not the Keynesian sense that come to be the standard. [@joycehpre, 165] 
+
+### The Concept of Weight in “Probability of Induction”.
+Peirce’s illustration of weight is roughly as follows:  imagine two urns $A$ and $B$ with unknown proportions of black and white balls. Suppose you sample (with replacement) 100 balls from the urn $A$ and find 50 black balls and 50 white balls. Justifiably, you infer that the proportion of black balls in $A$ - call it $\theta_A$ is about $0.5$. You then decide to sample from $B$, but this time you only manage to draw 4 samples, 3 of which are black balls. Your best estimate for $\theta_B$ is $0.75$. At this point, I offer you another chance to draw from one of the urns, and if you manage to draw a black ball from that urn, you get $100. Which urn would you pick?
+
+Clearly, $\theta_B > \theta_A$, but it is not clear that $B$ is obviously the better choice, because the amount of evidence you have for $\theta_A = 0.5$ is higher than for $\theta_B = 0.75$. This is a problem for probabilism, because, in terms of just comparing the probabilities alone, picking urn $B$ clearly has a higher probability of winning; however, all the facts in the situation are different than what the probability lets on, so the probabilistic approach overlooks some crucial information.
+Peirce suggests that the conceptualist account of degrees of belief cannot be right here. To belabor the implication a bit, further consider another urn $C$, from which you draw 2 balls, and one of them is white, so your best estimate would be $\theta_c = 0.5$. If degrees of belief are just probabilities, then it must mean that your doxastic attitude toward $A$ and $B$ ought to be the same, but Peirce insists that this cannot be the case. 
+> In short, to express the proper state of our belief, not one number but two are requisite, the first depending on the inferred probability, the second on the amount of knowledge on which that probability is based. 
+
+This is because, while the probability of getting a black ball given a ball is drawn from $A$ is the same of the same probability conditional on drawing from $B$, i.e., $0.5$, the respective weight for them cannot be the same. This must mean, then, there is an 
+
+ -->
+# Keynes' View in _A Treatise in Probability_
 
 Let us begin, however, with a brief overview of the account of probability provided in the _Treatise_. According to Keynes, probability is a logical relation between two propositions. This relation is _logical_ in the literal sense, because Keynes sees it as the same relation as the entailment relation between premises and conclusion in a deductive argument, only differing in degrees. Keynes says:
 
@@ -85,10 +123,10 @@ Laplace's rule was harshly criticized on many grounds. One is the charge that it
 
 When Keynes wrote _A Treatise on Probability_ many years after Laplace, he was keenly aware of these paradoxical results. However, he thinks that the paradoxes only suggest that the principle is to be restricted, not abandoned altogether. He argues that (what he now calls) the Principle of Indifference should not be used when the alternatives under consideration can be further analyzed, or, using his term, "divisible". Once all the alternatives are _indivisible_, each of them should be assigned the probability of $1/n$, where n is the number of alternatives.[@keynes, 60] Only when the conditions for the proper application of the Principle of Indifference is satisfied, our judgment of indifference is _justified_. So in this thought experiment, if one intuits that the probability of the inhabitant having red hair is $1/2$, she is not seeing the logical relation clearly, as demonstrated by the clearly defined Principle of Indifference.
 
-Thus, the use of the principle in Peirce's example is not legitimate, because the probabilities should be equally divided among all possible colors 1/n, where n is number of possible colors, not $1/2$.  In this case of their hair color being red or not, being not-red is decomposed into being blue, being yellow, etc., the application of the rule is illegitimate in Peirce's example. However, the indivisibility requirement rules out the use of the principle of indifference in continuous cases. As Keynes himself recognizes, the indivisibility requirement "is fatal to the practical utility of the Principle of Indifference" when there is no *ultimate* alternatives could be found, which is the case with continuous distributions [@keynes, 68].  
+Thus, the use of the principle in Peirce's example is not legitimate, because the probabilities should be equally divided among all possible colors 1/n, where n is number of possible colors, not $1/2$.  In this case of their hair color being red or not, being not-red is decomposed into being blue, being yellow, etc., the application of the rule is illegitimate in Peirce's example. However, the indivisibility requirement rules out the use of the principle of indifference in continuous cases. As Keynes himself recognizes, the indivisibility requirement "is fatal to the practical utility of the Principle of Indifference" when there is no *ultimate* alternatives could be found. [@keynes, 68]
 
 
-
+# Weight as the Absolute Amount of Evidence
 
 ## Keynes on Relevance and Weight
 
