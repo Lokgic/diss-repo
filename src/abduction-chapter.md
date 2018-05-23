@@ -78,6 +78,9 @@ Keynes' logical interpretation, however, does not require the meaning of a proba
 While Keynes does not accept the conclusion of Moore's argument, he is deeply concerned by the incomplete nature of our knowledge of the remote future. To begin, we saw in chapter 1 that the application of Principle of Indifference has very strict conditions, and leads to contradictions when they are not followed, so unless these conditions obtain, we cannot properly calculate the expected value of our action. Keynes is also skeptical that all utilities can be precisely measured.[@keynes, p.356] 
 
 Keynes also concerns himself with the relationship between evidence and expected utility, and this brings us back to the issue of the weight of evidence. -->
+# Introduction
+
+In Progress
 
 # Peirce on Balance and Weight 
 
@@ -256,8 +259,9 @@ Good, who proved the same result independently of Ramsey, tries to address this 
 
 # Abduction 
 <!-- bring in peirce here? Peirce's idea: urgency-->
-
-I believe that Keynes' puzzle about the weight of evidence and its relation to utility is best analyzed in terms of C. S. Peirce's distinction between abductive, deductive, and inductive reasoning. In particular, whether or not we ought to increase the weight of evidence for a particular belief is an *abductive* question, not an inductive one. 
+[in progress
+]
+I think that the tension between the weight of evidence and utility is best analyzed in terms of Peirce's distinction between abductive, deductive, and inductive reasoning. Considerations related to the weight of evidence is relevant during the *abductive* stage of the inquiry.
 
 Peirce has a tripartite classification of scientific reasoning: abduction is "the first starting of a hypothesis and the entertaining of it."[@CP, 6.525] Once the hypothesis is chosen, deductive reasoning is used to tease out the implications of the main hypothesis, a process that often breaks it down into smaller testable ones. Induction, exemplified by statistical and probabilistic reasoning, is then carried out to verify the main or an implied hypothesis.
 
