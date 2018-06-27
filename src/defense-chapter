@@ -1,0 +1,26 @@
+
+
+However, unlike how it is represented in most modern logic textbooks, Peirce does not conflate the deductive/inductive distinction with the certain/probable belief distinction. In other words, Peirce does not think that deduction can only concern inferences between propositions that are fully believed or assumed---some deductive conclusions are only probably true, even though they follow as a necessary consequence. Peirce calls these *probable deductions*.[@probableinference 409-415] They are Peirce's probabilistic extension of Aristotle's categorical syllogisms. For instance, a simple probable deduction is as follows:
+
+1. The proportion $\rho$ of the $M$'s are $P$'s.
+2. $S$ is an $M$.
+3. It follows, with probability $\rho$, that $S$ is a $P$.
+
+It is clearly analogous to a categorical syllogism in which one derive a particular affirmative about a property of $S$ by virtue of $S$ being a member of $M$, which has the property $P$. The only difference here is that the proportion $\rho$ is introduced. Peirce's idea is that even though in a probable deduction, even though $S$ is not necessarily $P$, one is entitled to infer that $S$ is $P$ with the probability of $\rho$. Since this conclusion is a necessary consequence, it must be deductively derived. A more complex example of probable deduction mentioned by Peirce explicitly is the calculation of a binomial probability based on the probability mass function. We know that, from basic probability, for a random variable with only two outcomes, success or failure, the probability of getting $k$ success out of $n$ trials, given the probability of a single success, is
+$${n \choose k} p^x (1-p)^{n-k}$$
+Thus, suppose we have $n=5$ fair coins, so $p=0.5$. The probability of exactly $x=3$ of the coin turning up heads is ${5 \choose 3} 0.5^1 (1-0.5)^{2-1} = 0.3125$. This, again, is a necessary consequence, so, even though the conclusion itself is probable, the *inference* is necessary, so it is deductive. There is also *statistical* variant called *statistical deduction*. It is slightly more involved, as it takes the Weak Law of Large Number as a premise, for an argument. Roughly speaking, it is the inference that, if we draw a n random samples, $S_{1:n}$ ,from $M$, then it necessarily follows that the proportion of $S$'s that are $P's$ is also approximately $\rho$.
+
+Peirce's notion of probable deduction is relevant to our earlier discussion regarding Peirce's criticism of conceptualism. Part of the difficulty in interpreting Peirce's positive ideas about degrees of belief is that in that context it is not clear whether Peirce believes in them, or he was simply setting up a *Reductio Ad Absurdum* argument. However, it is clear that Peirce thinks that the conclusion of a probable deduction is essentially a partial belief justified deductively---Peirce even explicitly suggests that a deductively derived probable deduction should have a degree of confidence corresponding to its probability, based on the odd-ratio definition of degrees of belief he proposed in his reconstruction of conceptualism. As Issac Levi points outs, Peirce's degree of confidence "has all the earmarks of waht many contemporaries would call a subjective probability including the disposition to take risks."[@levibeware 262] 
+
+This is also relevant to our discussion of Keynes in the last chapter, for Peirce's notion of probable deduction has a strong affinity to Keynes' idea of probability as logical relations. Recall that for Keynes, there is a distinction between subjective degrees of belief and *rational* degrees of belief, the latter of which is supposed to correspond to the objective degree of partial entailment between the premises and conclusion. 
+
+In any case, we can see that deduction, as Peirce sees it, is characterized by its relational and necessary nature. In contrast, Probable induction is helpful in bringing out how Peirce distinguish induction from deduction. Earlier, we saw that in probable deductions, the proportion of the population or the probability of success is always given in the premises. In contrast, *induction* occurs when this particular premise is instead the conclusion to be confirmed. 
+
+
+1. $X_1,...X_n$ are sampled randomly from the population $M$.
+2. The proportion $\rho$ of $X_1,...,X_n$ is $P$.
+3. Hence, 
+
+That is, we draw samples from the population with the unknown parameter, and from the data we infer the 
+
+His view on the matter is expansive, and it evolved throughout his life. Abduction involves 
