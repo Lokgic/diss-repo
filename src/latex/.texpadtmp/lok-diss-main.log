@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.17)  4 SEP 2018 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.17)  4 SEP 2018 13:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -691,7 +691,7 @@ Chapter 2.
 
 
 ] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56]
-Overfull \hbox (3.13394pt too wide) in paragraph at lines 920--935
+Overfull \hbox (3.13394pt too wide) in paragraph at lines 912--927
 []\OT1/cmr/m/n/12 Using Bayes' the-o-rem, the pos-te-rior prob-a-bil-i-ties are: $\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 ) = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9129$, $\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 B\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 ) =
  []
 
@@ -704,7 +704,7 @@ Chapter 3.
 
 
 
-] [67] [68] <zener.png, id=849, 734.745pt x 252.945pt>
+] [67] [68] <zener.png, id=856, 734.745pt x 252.945pt>
 File: zener.png Graphic file (type png)
  <use zener.png>
 Package pdftex.def Info: zener.png used on input line 107.
@@ -725,12 +725,12 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 225.
 
-[73] <freqstoppval.png, id=893, 487.8225pt x 448.67625pt>
+[73] <freqstoppval.png, id=900, 487.8225pt x 448.67625pt>
 File: freqstoppval.png Graphic file (type png)
  <use freqstoppval.png>
 Package pdftex.def Info: freqstoppval.png used on input line 251.
 (pdftex.def)             Requested size: 195.12553pt x 179.46732pt.
- <freqstophist.png, id=894, 862.22125pt x 811.03pt>
+ <freqstophist.png, id=901, 862.22125pt x 811.03pt>
 File: freqstophist.png Graphic file (type png)
  <use freqstophist.png>
 Package pdftex.def Info: freqstophist.png used on input line 259.
@@ -739,7 +739,7 @@ Package pdftex.def Info: freqstophist.png used on input line 259.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<freqstopn.png, id=895, 658.46pt x 811.03pt>
+<freqstopn.png, id=902, 658.46pt x 811.03pt>
 File: freqstopn.png Graphic file (type png)
  <use freqstopn.png>
 Package pdftex.def Info: freqstopn.png used on input line 267.
@@ -758,12 +758,12 @@ Overfull \hbox (9.17674pt too wide) detected at line 738
 \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = 1) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = 1\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = 1\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 ) = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 99(0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 04) + 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 01(1) = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0496
  []
 
-[89] [90] [91] [92] [93] [94] <Bayesstopflatallpost.png, id=1040, 541.02126pt x 448.67625pt>
+[89] [90] [91] [92] [93] [94] <Bayesstopflatallpost.png, id=1047, 541.02126pt x 448.67625pt>
 File: Bayesstopflatallpost.png Graphic file (type png)
  <use Bayesstopflatallpost.png>
 Package pdftex.def Info: Bayesstopflatallpost.png used on input line 941.
 (pdftex.def)             Requested size: 270.50996pt x 224.33757pt.
- <bayesstop14allpost.png, id=1041, 674.52pt x 476.78125pt>
+ <bayesstop14allpost.png, id=1048, 674.52pt x 476.78125pt>
 File: bayesstop14allpost.png Graphic file (type png)
  <use bayesstop14allpost.png>
 Package pdftex.def Info: bayesstop14allpost.png used on input line 949.
@@ -772,7 +772,7 @@ Package pdftex.def Info: bayesstop14allpost.png used on input line 949.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[95 <./Bayesstopflatallpost.png>] [96 <./bayesstop14allpost.png>] [97] [98] [99] [100] [101] <Expectedchange.png, id=1102, 912.40875pt x 661.47125pt>
+[95 <./Bayesstopflatallpost.png>] [96 <./bayesstop14allpost.png>] [97] [98] [99] [100] [101] <Expectedchange.png, id=1109, 912.40875pt x 661.47125pt>
 File: Expectedchange.png Graphic file (type png)
  <use Expectedchange.png>
 Package pdftex.def Info: Expectedchange.png used on input line 1126.
@@ -798,7 +798,7 @@ Chapter 4.
 
 LaTeX Warning: Reference `rational-degrees-of-belief' on page 115 undefined on input line 174.
 
-[115] [116] [117] [118] [119] [120] <beta.png, id=1263, 855.195pt x 298.11375pt>
+[115] [116] [117] [118] [119] [120] <beta.png, id=1270, 855.195pt x 298.11375pt>
 File: beta.png Graphic file (type png)
  <use beta.png>
 Package pdftex.def Info: beta.png used on input line 369.
@@ -807,7 +807,7 @@ Package pdftex.def Info: beta.png used on input line 369.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ¦ in font cmr12!
- [122] [123] [124] [125] [126] [127] [128] [129] <rescompare.png, id=1311, 1049.9225pt x 811.03pt>
+ [122] [123] [124] [125] [126] [127] [128] [129] <rescompare.png, id=1318, 1049.9225pt x 811.03pt>
 File: rescompare.png Graphic file (type png)
  <use rescompare.png>
 Package pdftex.def Info: rescompare.png used on input line 685.
@@ -838,18 +838,18 @@ Package logreq Info: Writing requests to 'lok-diss-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14681 strings out of 493054
- 243690 string characters out of 6134759
- 785065 words of memory out of 5000000
- 17465 multiletter control sequences out of 15000+600000
+ 14688 strings out of 493054
+ 243788 string characters out of 6134759
+ 785100 words of memory out of 5000000
+ 17472 multiletter control sequences out of 15000+600000
  16888 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,12n,65p,1248b,1323s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.pdf (139 pages, 717386 bytes).
+Output written on /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.pdf (139 pages, 717885 bytes).
 PDF statistics:
- 1587 PDF objects out of 1728 (max. 8388607)
- 1394 compressed objects within 14 object streams
+ 1595 PDF objects out of 1728 (max. 8388607)
+ 1401 compressed objects within 15 object streams
  532 named destinations out of 1000 (max. 500000)
  334 words of extra memory for PDF output out of 10000 (max. 10000000)
 
