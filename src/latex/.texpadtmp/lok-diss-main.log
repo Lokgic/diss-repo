@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.17)  4 SEP 2018 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.17)  4 SEP 2018 13:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -440,55 +440,85 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@postskip=\skip63
 \thm@headsep=\skip64
 \dth@everypar=\toks26
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count296
+\calc@Bcount=\count297
+\calc@Adimen=\dimen118
+\calc@Bdimen=\dimen119
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count298
+\calc@Cskip=\skip67
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count299
+\l_MT_multwidth_dim=\dimen120
+\origjot=\skip68
+\l_MT_shortvdotswithinadjustabove_dim=\dimen121
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen122
+\l_MT_above_intertext_sep=\dimen123
+\l_MT_below_intertext_sep=\dimen124
+\l_MT_above_shortintertext_sep=\dimen125
+\l_MT_below_shortintertext_sep=\dimen126
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip65
-\LTright=\skip66
-\LTpre=\skip67
-\LTpost=\skip68
-\LTchunksize=\count296
-\LTcapwidth=\dimen118
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count300
+\LTcapwidth=\dimen127
 \LT@head=\box28
 \LT@firsthead=\box29
 \LT@foot=\box30
 \LT@lastfoot=\box31
-\LT@cols=\count297
-\LT@rows=\count298
-\c@LT@tables=\count299
-\c@LT@chunks=\count300
+\LT@cols=\count301
+\LT@rows=\count302
+\c@LT@tables=\count303
+\c@LT@chunks=\count304
 \LT@p@ftn=\toks27
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen119
-\lightrulewidth=\dimen120
-\cmidrulewidth=\dimen121
-\belowrulesep=\dimen122
-\belowbottomsep=\dimen123
-\aboverulesep=\dimen124
-\abovetopsep=\dimen125
-\cmidrulesep=\dimen126
-\cmidrulekern=\dimen127
-\defaultaddspace=\dimen128
-\@cmidla=\count301
-\@cmidlb=\count302
-\@aboverulesep=\dimen129
-\@belowrulesep=\dimen130
-\@thisruleclass=\count303
-\@lastruleclass=\count304
-\@thisrulewidth=\dimen131
+\heavyrulewidth=\dimen128
+\lightrulewidth=\dimen129
+\cmidrulewidth=\dimen130
+\belowrulesep=\dimen131
+\belowbottomsep=\dimen132
+\aboverulesep=\dimen133
+\abovetopsep=\dimen134
+\cmidrulesep=\dimen135
+\cmidrulekern=\dimen136
+\defaultaddspace=\dimen137
+\@cmidla=\count305
+\@cmidlb=\count306
+\@aboverulesep=\dimen138
+\@belowrulesep=\dimen139
+\@thisruleclass=\count307
+\@lastruleclass=\count308
+\@thisrulewidth=\dimen140
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count305
-\Gm@cntv=\count306
-\c@Gm@tempcnt=\count307
-\Gm@bindingoffset=\dimen132
-\Gm@wd@mp=\dimen133
-\Gm@odd@mp=\dimen134
-\Gm@even@mp=\dimen135
-\Gm@layoutwidth=\dimen136
-\Gm@layoutheight=\dimen137
-\Gm@layouthoffset=\dimen138
-\Gm@layoutvoffset=\dimen139
+\Gm@cnth=\count309
+\Gm@cntv=\count310
+\c@Gm@tempcnt=\count311
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
 \Gm@dimlist=\toks28
 )
 Package biblatex Info: Trying to load language 'english' -> 'cms-american'...
@@ -504,8 +534,8 @@ Package biblatex Info: ... file 'english.lbx' found.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2015/10/21 v3.1 biblatex localization (PK/JW/AB)
 )))
-\@quotelevel=\count308
-\@quotereset=\count309
+\@quotelevel=\count312
+\@quotereset=\count313
  (/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.aux (/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/intro.aux) (/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/reflectionpragmatist.aux) (/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/stoppingrule.aux) (/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/weight.aux))
 \openout1 = `lok-diss-main.aux'.
 
@@ -536,16 +566,16 @@ Package biblatex Info: Reference section=0 on input line 30.
 Package biblatex Info: Reference segment=0 on input line 30.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen140
+\scratchcounter=\count314
+\scratchdimen=\dimen149
 \scratchbox=\box32
-\nofMPsegments=\count311
-\nofMParguments=\count312
+\nofMPsegments=\count315
+\nofMParguments=\count316
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen141
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen150
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
 \everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -565,7 +595,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count316
+\c@section@level=\count320
 )
 LaTeX Info: Redefining \ref on input line 30.
 LaTeX Info: Redefining \pageref on input line 30.
@@ -661,7 +691,7 @@ Chapter 2.
 
 
 ] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56]
-Overfull \hbox (3.13394pt too wide) in paragraph at lines 921--936
+Overfull \hbox (3.13394pt too wide) in paragraph at lines 920--935
 []\OT1/cmr/m/n/12 Using Bayes' the-o-rem, the pos-te-rior prob-a-bil-i-ties are: $\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 ) = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9129$, $\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 B\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 ) =
  []
 
@@ -808,15 +838,15 @@ Package logreq Info: Writing requests to 'lok-diss-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14142 strings out of 493054
- 234247 string characters out of 6134759
- 773278 words of memory out of 5000000
- 16936 multiletter control sequences out of 15000+600000
+ 14681 strings out of 493054
+ 243690 string characters out of 6134759
+ 785065 words of memory out of 5000000
+ 17465 multiletter control sequences out of 15000+600000
  16888 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,12n,65p,1248b,1323s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.pdf (139 pages, 717303 bytes).
+Output written on /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.pdf (139 pages, 717386 bytes).
 PDF statistics:
  1587 PDF objects out of 1728 (max. 8388607)
  1394 compressed objects within 14 object streams
