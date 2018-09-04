@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  4 SEP 2018 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  4 SEP 2018 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -733,15 +733,15 @@ Chapter 3.
 <zener.png, id=879, 734.745pt x 252.945pt>
 File: zener.png Graphic file (type png)
 <use zener.png>
-Package pdftex.def Info: zener.png  used on input line 103.
+Package pdftex.def Info: zener.png  used on input line 99.
 (pdftex.def)             Requested size: 293.89279pt x 101.17621pt.
  [70 <./zener.png>] [71]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 155.
+               Default added (so using `tbp') on input line 151.
 
 [72]
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
@@ -749,18 +749,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 221.
+(amsmath)                 on input line 217.
 
 [74]
 <freqstoppval.png, id=921, 487.8225pt x 448.67625pt>
 File: freqstoppval.png Graphic file (type png)
 <use freqstoppval.png>
-Package pdftex.def Info: freqstoppval.png  used on input line 247.
+Package pdftex.def Info: freqstoppval.png  used on input line 243.
 (pdftex.def)             Requested size: 195.12553pt x 179.46732pt.
 <freqstophist.png, id=922, 862.22125pt x 811.03pt>
 File: freqstophist.png Graphic file (type png)
 <use freqstophist.png>
-Package pdftex.def Info: freqstophist.png  used on input line 255.
+Package pdftex.def Info: freqstophist.png  used on input line 251.
 (pdftex.def)             Requested size: 258.66837pt x 243.31087pt.
 
 
@@ -769,7 +769,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <freqstopn.png, id=923, 658.46pt x 811.03pt>
 File: freqstopn.png Graphic file (type png)
 <use freqstopn.png>
-Package pdftex.def Info: freqstopn.png  used on input line 263.
+Package pdftex.def Info: freqstopn.png  used on input line 259.
 (pdftex.def)             Requested size: 197.53952pt x 243.31087pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -777,10 +777,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [75 <./freqstoppval.png>] [76 <./freqstophist.png>] [77 <./freqstopn.png>] [78]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 373.
+               Default added (so using `tbp') on input line 369.
 
 [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89]
-Overfull \hbox (9.17674pt too wide) detected at line 734
+Overfull \hbox (9.17674pt too wide) detected at line 730
 \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = 1) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = 1\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = 1\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 ) = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 99(0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 04) + 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 01(1) = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0496
  []
 
@@ -788,12 +788,12 @@ Overfull \hbox (9.17674pt too wide) detected at line 734
 <Bayesstopflatallpost.png, id=1069, 541.02126pt x 448.67625pt>
 File: Bayesstopflatallpost.png Graphic file (type png)
 <use Bayesstopflatallpost.png>
-Package pdftex.def Info: Bayesstopflatallpost.png  used on input line 937.
+Package pdftex.def Info: Bayesstopflatallpost.png  used on input line 933.
 (pdftex.def)             Requested size: 270.50996pt x 224.33757pt.
 <bayesstop14allpost.png, id=1070, 674.52pt x 476.78125pt>
 File: bayesstop14allpost.png Graphic file (type png)
 <use bayesstop14allpost.png>
-Package pdftex.def Info: bayesstop14allpost.png  used on input line 945.
+Package pdftex.def Info: bayesstop14allpost.png  used on input line 941.
 (pdftex.def)             Requested size: 337.25917pt x 238.39003pt.
 
 
@@ -803,10 +803,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Expectedchange.png, id=1133, 912.40875pt x 661.47125pt>
 File: Expectedchange.png Graphic file (type png)
 <use Expectedchange.png>
-Package pdftex.def Info: Expectedchange.png  used on input line 1122.
+Package pdftex.def Info: Expectedchange.png  used on input line 1118.
 (pdftex.def)             Requested size: 456.20326pt x 330.73482pt.
 
-Overfull \hbox (22.58325pt too wide) in paragraph at lines 1122--1123
+Overfull \hbox (22.58325pt too wide) in paragraph at lines 1118--1119
  [] 
  []
 
@@ -869,14 +869,14 @@ Package logreq Info: Writing requests to 'lok-diss-main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  16431 strings out of 492649
- 283637 string characters out of 6129622
+ 283641 string characters out of 6129622
  920939 words of memory out of 5000000
  19551 multiletter control sequences out of 15000+600000
  16888 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,12n,59p,1267b,3904s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.pdf (141 pages, 719160 bytes).
+Output written on /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.pdf (141 pages, 719205 bytes).
 PDF statistics:
  1628 PDF objects out of 1728 (max. 8388607)
  1432 compressed objects within 15 object streams
