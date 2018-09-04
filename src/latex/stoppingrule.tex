@@ -74,7 +74,7 @@ his critique of the statistical method used in parapsychological
 research at a Duke mathematic seminar.\footnote{\cite{felleresp}, 281} At that point, J. B. Rhine was
 spearheading Duke's parapsychology research: to make parapsychology
 scientifically respectable, Rhine believed, statistical evidence must be
-used to support the conclusions he wishes to demonstrate.\footnote{\cite{elusive} 108} Feller points
+used to support the conclusions he wishes to demonstrate.\footnote{\cite{elusive}, 108} Feller points
 out, however, many results of these experiments involve on a trick
 called ``optional stopping'', which is used to abuse statistics to get
 their desired outcome. Feller argued that such an experimental practice
@@ -88,7 +88,7 @@ argue, is that a statistical conclusion ought not be influenced by
 extra-statistical concerns such as when the experimenter decides to
 stop.
 
-One of the phenomena parapsychologists had claimed to have found
+One of the phenomena parapsychologists claimed to have found
 statistical evidence is extrasensory perception(ESP), i.e., that some
 people can perceive certain facts without the use of any of the five
 senses. How can such a claim be examined experimentally and
@@ -131,8 +131,7 @@ an outcome, assuming that it is by chance, is called the $p$ value.
 
 Since there are 5 faces, a subject has the probability of \(0.2\) of
 getting it right just by guessing alone, so someone with ESP should do
-better than that. This is how ``better'' can be statistically
-explicated: suppose a trial with 100 attempts has been carried out on a
+better than that. This is how ``better'' can be explicated: suppose a trial with 100 attempts has been carried out on a
 subject. If the subject is just guessing, then we would expect that she
 would get around 20 cards right. In fact, the theory of probability, we can ascertain that out of 100 cards, there is a
 probability of \(0.944\) that the subject can get 26 or less correct
@@ -181,8 +180,8 @@ expected. In fact, the p value---the probability for an outcome or
 better like this to happen by chance---is \(0.027\), which is quite
 improbable. Does this constitute evidence for ESP?
 
-Feller argues that results such as this are spurious, because the
-parapsychologists practiced \emph{optional stopping}. The idea is that
+Feller argues that this result is spurious, because the
+parapsychologists practiced \emph{optional stopping}.\footnote{\cite{felleresp}, 291-292} The idea is that
 many of these experiments have no set number of attempts, and often
 either an experiment could stop exactly when a favorable result is
 obtained. For instance, an experiment could be terminated early in order
@@ -192,10 +191,10 @@ made more than 1000 guesses.
 
 To make this point more concrete, we can take advantage of modern
 statistical computing: we can simulate experiments with similar stopping
-rules, and if we can get $p$ values below $0.05$. The difference here is that for the simulation we \emph{know}
-that the participants are just guessing. So, if we can still force
+rules, and see if we can get $p$ values below $0.05$. The difference here is that for the simulation we \emph{know}
+that the participants are just guessing, so we know that any statistical significance would be a fluke. That is, if we can still force
 significance using optional stopping, then there is a good reason to
-doubt the supposed evidence for ESP. The scenario we need to simulate would be something like the following: the experimenter will randomly draw a Zener card out a shuffle deck, with replacement.
+doubt the supposed evidence for ESP gathered using optional stopping. The scenario we need to simulate would be something like the following: the experimenter will randomly draw a Zener card out a shuffle deck, with replacement.
 She will then ask the subject to guess the card, and record the result.
 For each subject, she will stop under one of these two conditions: 1.
 The result has reached significance: the probability of the current
@@ -232,7 +231,7 @@ Here's a summary of the result, after simulating testing 1000 subjects:
 \item
   It would seem that successful tests tended to stop early, though this
   is not always the case. One test reached significant at the 1999th
-  attempt.
+  attempt. This makes intuitive sense, since we know that the larger the sample size is, the closer the result will approximate the true proportion.
 \end{enumerate}
 
 \begin{figure*}[h] 
