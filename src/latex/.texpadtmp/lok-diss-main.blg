@@ -1,20 +1,20 @@
 [0] Config.pm:327> INFO - This is Biber 2.2
-[1] Config.pm:330> INFO - Logfile is '/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.blg'
-[51] biber-darwin:286> INFO - === Tue Sep  4, 2018, 13:42:25
-[51] Biber.pm:334> INFO - Reading '/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bcf'
-[157] Biber.pm:677> INFO - Found 53 citekeys in bib section 0
-[181] Biber.pm:3054> INFO - Processing section 0
-[199] Biber.pm:3193> INFO - Looking for bibtex format file '/Users/lok/Dropbox/diss/repo/src/latex/diss.bib' for section 0
-[205] bibtex.pm:1072> INFO - Decoding LaTeX character macros into UTF-8
-[212] bibtex.pm:935> INFO - Found BibTeX data source '/Users/lok/Dropbox/diss/repo/src/latex/diss.bib'
-[264] Utils.pm:147> WARN - The field 'editor' in entry 'epistnat' cannot be null, deleting it
-[1733] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
-[1734] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1734] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1734] Biber.pm:2931> INFO - Sorting list 'cms' of type 'entry' with scheme 'cms' and locale 'en-US'
-[1734] Biber.pm:2935> INFO - No sort tailoring available for locale 'en-US'
-[1880] bbl.pm:505> INFO - Writing '/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bbl' with encoding 'ascii'
-[1882] Utils.pm:147> WARN - The entry 'med' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1883] Utils.pm:147> WARN - The entry 'elgadisagreement' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1892] bbl.pm:596> INFO - Output to /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bbl
-[1893] Biber.pm:107> INFO - WARNINGS: 3
+[0] Config.pm:330> INFO - Logfile is '/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.blg'
+[47] biber-darwin:286> INFO - === Tue Sep  4, 2018, 14:30:45
+[47] Biber.pm:334> INFO - Reading '/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bcf'
+[152] Biber.pm:677> INFO - Found 55 citekeys in bib section 0
+[170] Biber.pm:3054> INFO - Processing section 0
+[184] Biber.pm:3193> INFO - Looking for bibtex format file '/Users/lok/Dropbox/diss/repo/src/latex/diss.bib' for section 0
+[191] bibtex.pm:1072> INFO - Decoding LaTeX character macros into UTF-8
+[198] bibtex.pm:935> INFO - Found BibTeX data source '/Users/lok/Dropbox/diss/repo/src/latex/diss.bib'
+[245] Utils.pm:147> WARN - The field 'editor' in entry 'epistnat' cannot be null, deleting it
+[684] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[684] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[684] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[684] Biber.pm:2931> INFO - Sorting list 'cms' of type 'entry' with scheme 'cms' and locale 'en-US'
+[684] Biber.pm:2935> INFO - No sort tailoring available for locale 'en-US'
+[797] bbl.pm:505> INFO - Writing '/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bbl' with encoding 'ascii'
+[800] Utils.pm:147> WARN - The entry 'med' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[800] Utils.pm:147> WARN - The entry 'elgadisagreement' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[807] bbl.pm:596> INFO - Output to /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bbl
+[807] Biber.pm:107> INFO - WARNINGS: 3

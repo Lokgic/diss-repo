@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.17)  4 SEP 2018 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.17)  4 SEP 2018 14:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -695,42 +695,47 @@ Overfull \hbox (3.13394pt too wide) in paragraph at lines 905--920
 []\OT1/cmr/m/n/12 Using Bayes' the-o-rem, the pos-te-rior prob-a-bil-i-ties are: $\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 ) = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9129$, $\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 B\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 ) =
  []
 
-[57] [58] [59] [60] [61] [62] [63] [64]) [65]
+[57] [58] [59] [60] [61] [62]
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1075
+
+ []
+
+[63] [64] [65]) [66]
 \openout2 = `stoppingrule.aux'.
 
  (./stoppingrule.tex
 Chapter 3.
-[66
+[67
 
 
 
-] [67] [68] <zener.png, id=862, 734.745pt x 252.945pt>
+] [68] [69] <zener.png, id=879, 734.745pt x 252.945pt>
 File: zener.png Graphic file (type png)
  <use zener.png>
 Package pdftex.def Info: zener.png used on input line 107.
 (pdftex.def)             Requested size: 293.89279pt x 101.17621pt.
- [69 <./zener.png>] [70]
+ [70 <./zener.png>] [71]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 159.
 
-[71]
+[72]
 Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
-[72]
+[73]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 225.
 
-[73] <freqstoppval.png, id=906, 487.8225pt x 448.67625pt>
+[74] <freqstoppval.png, id=922, 487.8225pt x 448.67625pt>
 File: freqstoppval.png Graphic file (type png)
  <use freqstoppval.png>
 Package pdftex.def Info: freqstoppval.png used on input line 251.
 (pdftex.def)             Requested size: 195.12553pt x 179.46732pt.
- <freqstophist.png, id=907, 862.22125pt x 811.03pt>
+ <freqstophist.png, id=923, 862.22125pt x 811.03pt>
 File: freqstophist.png Graphic file (type png)
  <use freqstophist.png>
 Package pdftex.def Info: freqstophist.png used on input line 259.
@@ -739,7 +744,7 @@ Package pdftex.def Info: freqstophist.png used on input line 259.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<freqstopn.png, id=908, 658.46pt x 811.03pt>
+<freqstopn.png, id=924, 658.46pt x 811.03pt>
 File: freqstopn.png Graphic file (type png)
  <use freqstopn.png>
 Package pdftex.def Info: freqstopn.png used on input line 267.
@@ -748,22 +753,22 @@ Package pdftex.def Info: freqstopn.png used on input line 267.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[74 <./freqstoppval.png>] [75 <./freqstophist.png>] [76 <./freqstopn.png>] [77]
+[75 <./freqstoppval.png>] [76 <./freqstophist.png>] [77 <./freqstopn.png>] [78]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 377.
 
-[78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88]
+[79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89]
 Overfull \hbox (9.17674pt too wide) detected at line 738
 \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = 1) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = 1\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = 1\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 ) = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 99(0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 04) + 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 01(1) = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0496
  []
 
-[89] [90] [91] [92] [93] [94] <Bayesstopflatallpost.png, id=1053, 541.02126pt x 448.67625pt>
+[90] [91] [92] [93] [94] [95] <Bayesstopflatallpost.png, id=1069, 541.02126pt x 448.67625pt>
 File: Bayesstopflatallpost.png Graphic file (type png)
  <use Bayesstopflatallpost.png>
 Package pdftex.def Info: Bayesstopflatallpost.png used on input line 941.
 (pdftex.def)             Requested size: 270.50996pt x 224.33757pt.
- <bayesstop14allpost.png, id=1054, 674.52pt x 476.78125pt>
+ <bayesstop14allpost.png, id=1070, 674.52pt x 476.78125pt>
 File: bayesstop14allpost.png Graphic file (type png)
  <use bayesstop14allpost.png>
 Package pdftex.def Info: bayesstop14allpost.png used on input line 949.
@@ -772,7 +777,7 @@ Package pdftex.def Info: bayesstop14allpost.png used on input line 949.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[95 <./Bayesstopflatallpost.png>] [96 <./bayesstop14allpost.png>] [97] [98] [99] [100] [101] <Expectedchange.png, id=1116, 912.40875pt x 661.47125pt>
+[96 <./Bayesstopflatallpost.png>] [97 <./bayesstop14allpost.png>] [98] [99] [100] [101] [102] <Expectedchange.png, id=1133, 912.40875pt x 661.47125pt>
 File: Expectedchange.png Graphic file (type png)
  <use Expectedchange.png>
 Package pdftex.def Info: Expectedchange.png used on input line 1126.
@@ -785,34 +790,34 @@ Overfull \hbox (22.58325pt too wide) in paragraph at lines 1126--1127
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[102] [103 <./Expectedchange.png>] [104] [105]) [106]
+[103] [104 <./Expectedchange.png>] [105] [106]) [107]
 \openout2 = `weight.aux'.
 
  (./weight.tex
 Chapter 4.
-[107
+[108
 
 
 
-] [108] [109] [110] [111] [112] [113] [114]
+] [109] [110] [111] [112] [113] [114] [115]
 
-LaTeX Warning: Reference `rational-degrees-of-belief' on page 115 undefined on input line 174.
+LaTeX Warning: Reference `rational-degrees-of-belief' on page 116 undefined on input line 174.
 
-[115] [116] [117] [118] [119] [120] <beta.png, id=1276, 855.195pt x 298.11375pt>
+[116] [117] [118] [119] [120] [121] <beta.png, id=1292, 855.195pt x 298.11375pt>
 File: beta.png Graphic file (type png)
  <use beta.png>
 Package pdftex.def Info: beta.png used on input line 369.
 (pdftex.def)             Requested size: 256.56049pt x 89.43481pt.
- [121 <./beta.png>]
+ [122 <./beta.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ¦ in font cmr12!
- [122] [123] [124] [125] [126] [127] [128] [129] <rescompare.png, id=1324, 1049.9225pt x 811.03pt>
+ [123] [124] [125] [126] [127] [128] [129] [130] <rescompare.png, id=1341, 1049.9225pt x 811.03pt>
 File: rescompare.png Graphic file (type png)
  <use rescompare.png>
 Package pdftex.def Info: rescompare.png used on input line 685.
 (pdftex.def)             Requested size: 314.97917pt x 243.31087pt.
- [130] [131 <./rescompare.png>] [132]) [133] [134
+ [131] [132 <./rescompare.png>] [133]) [134] [135
 
 
 ]
@@ -820,9 +825,9 @@ Overfull \hbox (3.36333pt too wide) in paragraph at lines 43--43
 [][]\OT1/cmr/m/n/12 Gelman, An-drew, and Cosma Ro-hilla Shal-izi. ``Phi-los-o-phy and the Prac-tice of Bayesian
  []
 
-[135] [136] [137]
+[136] [137] [138] [139]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
- [138]
+ [140]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
  (/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.aux (/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/intro.aux) (/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/reflectionpragmatist.aux) (/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/stoppingrule.aux) (/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/weight.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
@@ -838,18 +843,18 @@ Package logreq Info: Writing requests to 'lok-diss-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14704 strings out of 493054
- 244066 string characters out of 6134759
- 785164 words of memory out of 5000000
- 17484 multiletter control sequences out of 15000+600000
+ 14724 strings out of 493054
+ 244377 string characters out of 6134759
+ 786220 words of memory out of 5000000
+ 17495 multiletter control sequences out of 15000+600000
  16888 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,12n,65p,1248b,1323s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.pdf (139 pages, 719382 bytes).
+Output written on /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.pdf (141 pages, 722497 bytes).
 PDF statistics:
- 1604 PDF objects out of 1728 (max. 8388607)
- 1410 compressed objects within 15 object streams
- 536 named destinations out of 1000 (max. 500000)
+ 1628 PDF objects out of 1728 (max. 8388607)
+ 1432 compressed objects within 15 object streams
+ 545 named destinations out of 1000 (max. 500000)
  334 words of extra memory for PDF output out of 10000 (max. 10000000)
 
