@@ -1,0 +1,27 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \href {https://commons.wikimedia.org/wiki/File:Zener_cards_(color).svg}{Zener Cards}, by Mikhail Ryazanov. Licensed under \href {https://creativecommons.org/licenses/by-sa/3.0/deed.en}{CC BY-SA 3.0}}}{69}{figure.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Histogram of p values $\leq 0.05$}}{74}{figure.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Histogram of p-values from Optional Stopping Simulation}}{75}{figure.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Histogram of the Number of Trials Among Optionally Stopped Simulation}}{76}{figure.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Histogram of $p_i(\theta \leq 0.2|x,\alpha =1, \beta =1)$}}{95}{figure.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Histogram of random samples from $p_i(\theta \leq 0.2|x,\alpha =1, \beta =4)$}}{96}{figure.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Net change in expectation after $x$ observations from $p=0.9,0.1,0.5$. Note: it does not dip below 0.}}{103}{figure.3.7}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Beta Distributions}}{121}{figure.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of stabilities of different prior distributions: values in parentheses are parameters for the beta distribution.}}{131}{figure.4.2}
