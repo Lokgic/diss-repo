@@ -80,10 +80,10 @@ called ``optional stopping'', which is used to abuse statistics to get
 their desired outcome. Feller argued that such an experimental practice
 invalidates the result of parapsychological studies. Feller's specific
 criticism against parapsychology, however, became the starting pointing
-of a general critique of Frequentist statistical methods, often
+of a general critique of frequentist statistical methods, often
 mobilized by Bayesian statisticians. The argument is that, while the
 parapsychologists no doubt had questionable experimental practice, it is
-a flaw of the Frequentist methods they employed. The problem, Bayesians
+a flaw of the frequentist methods they employed. The problem, Bayesians
 argue, is that a statistical conclusion ought not be influenced by
 extra-statistical concerns such as when the experimenter decides to
 stop.
@@ -111,7 +111,7 @@ unique symbols. A typical deck of Zener cards contain 5 cards for each
 symbol. A trial of this experiment typically involves a subject was
 being repeatedly asked to guess the face of a randomly chosen card,
 while the investigator would note the actual face of the card and the
-subject's answer. After each trial, the subject's sequence would then
+subject's answer. After each trial, the subject's reported sequence would then
 compared to the observed result, and a score would be calculated based
 on the number of correct guesses.
 
@@ -125,7 +125,7 @@ some sort ability, because it would have been an extraordinary
 coincidence if I got it right purely by chance. This is the sort of
 statistical arguments that Rhine and his followers tried to make. Their
 contention is that if a subject can obtain a score that is too
-extraordinary to be explained by just chance, then we have statistical
+extraordinary to be explained by chance, then we have statistical
 evidence for the person's ESP ability. In statistics, the probability of
 an outcome, assuming that it is by chance, is called the $p$ value.
 
@@ -134,8 +134,7 @@ getting it right just by guessing alone, so someone with ESP should do
 better than that. This is how ``better'' can be statistically
 explicated: suppose a trial with 100 attempts has been carried out on a
 subject. If the subject is just guessing, then we would expect that she
-would get around 20 cards right. In fact, using the binomial
-distribution, we can ascertain that out of 100 cards, there is a
+would get around 20 cards right. In fact, the theory of probability, we can ascertain that out of 100 cards, there is a
 probability of \(0.944\) that the subject can get 26 or less correct
 guesses. Conversely, the probability that a guesser can get 27 or more
 cards right is pretty low: the p value is \(0.056\).
@@ -165,7 +164,7 @@ A.K. & 1000 & 212 & 1.50 \\
  D.A.& 750 & 168 &  1.64\\
  O.W.& 500 & 114 &  1.56
 \end{tabular}
-\caption{Summary of Performance Manic-Depressive Patients (Shulman, 1938, 101)}
+\caption{Summary of performance manic-depressive patients (Shulman, 1938, 101)}
 \label{psychotable}
 \end{table}
 
@@ -205,9 +204,7 @@ experimenter will then move on to the next subject, until she has
 examined 1000 subjects. All subjects are guessing, so their probability
 of success is exactly \(0.2\).
 
-The simulation consists of the following procedure: \\
-
-
+The simulation consists of the following procedure: 
 \begin{enumerate}
 	\item The simulation will run 1000 times, each of which represents one subject. 
 	\item For each subject $i$, a random sample will be drawn from a Bernoulli distribution, with the probability of success $p=0.2$, to simulate a subject who will randomly guess the face of a randomly drawn Zener card, with replacement. 
@@ -266,12 +263,10 @@ Here's a summary of the result, after simulating testing 1000 subjects:
 Thus, using optional stopping, we can easily find `evidence' for ESP if
 we look long enough.
 
-Even though Feller was primarily concerned with showing that many of the
-findings in parapsychology is the result of shoddy experimental
-practice, these problems would later be used by Bayesians as examples as
-to why frequentism is flawed. The basic argument is that
+Even though Feller was primarily concerned with demonstrating the shoddy experimental
+practice of parapsychologists, these problems would later be used by Bayesians as part of the critique of frequentism. The basic argument is that
 parapsychologists could cheat in way they did, because of the way in
-which the probabilities are computed and interpreted, and these problems
+which the probabilities are computed and interpreted using frequentist methods, and these problems
 are supposed to avoidable within the framework of Bayesian statistics.
 In the next section, we will review this argument.
 
@@ -280,7 +275,7 @@ In the next section, we will review this argument.
 Probabilities}\label{likelihood-and-counterfactual-probabilities}}
 
 From the problem of optional stopping then, what follows? From the
-Bayesian perspective, it suggests both a criticism of Frequentism and an
+Bayesian perspective, it suggests both a criticism of frequentism and an
 argument for Bayesian statistics. The criticism is that the
 experimenter's intention to stop could directly influence the
 significance of the result is because of frequentists' reliance of

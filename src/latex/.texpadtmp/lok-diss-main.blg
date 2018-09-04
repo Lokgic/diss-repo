@@ -1,16 +1,16 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is '/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.blg'
-[41] biber-darwin:313> INFO - === Tue Sep  4, 2018, 16:30:51
-[70] Biber.pm:371> INFO - Reading '/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bcf'
-[198] Biber.pm:857> INFO - Found 55 citekeys in bib section 0
+[39] biber-darwin:313> INFO - === Tue Sep  4, 2018, 16:34:15
+[68] Biber.pm:371> INFO - Reading '/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bcf'
+[197] Biber.pm:857> INFO - Found 55 citekeys in bib section 0
 [210] Biber.pm:3976> INFO - Processing section 0
 [221] Biber.pm:4136> INFO - Looking for bibtex format file '/Users/lok/Dropbox/diss/repo/src/latex/diss.bib' for section 0
 [225] bibtex.pm:1500> INFO - LaTeX decoding ...
-[376] bibtex.pm:1316> INFO - Found BibTeX data source '/Users/lok/Dropbox/diss/repo/src/latex/diss.bib'
-[607] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[607] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
-[607] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[607] Biber.pm:3804> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'en-US'
-[607] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[649] bbl.pm:617> INFO - Writing '/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bbl' with encoding 'UTF-8'
-[664] bbl.pm:720> INFO - Output to /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bbl
+[375] bibtex.pm:1316> INFO - Found BibTeX data source '/Users/lok/Dropbox/diss/repo/src/latex/diss.bib'
+[612] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[612] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[612] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[612] Biber.pm:3804> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'en-US'
+[612] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[653] bbl.pm:617> INFO - Writing '/Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bbl' with encoding 'UTF-8'
+[668] bbl.pm:720> INFO - Output to /Users/lok/Dropbox/diss/repo/src/latex/.texpadtmp/lok-diss-main.bbl
