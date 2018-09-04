@@ -1,0 +1,9 @@
+\contentsline {chapter}{Abstract}{iv}
+\contentsline {chapter}{Acknowledgements}{v}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Motivation and Outline}{1}
+\contentsline {chapter}{\numberline {2}Deliberative Probabilism}{2}
+\contentsline {section}{\numberline {2.1}Introduction}{2}
+\contentsline {section}{\numberline {2.2}William James on Epistemic Values}{2}
+\contentsline {chapter}{Bibliography}{3}
+\contentsline {chapter}{Biography}{14}

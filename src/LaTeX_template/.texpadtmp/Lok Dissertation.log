@@ -1,0 +1,1849 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  1 SEP 2018 02:20
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"Lok Dissertation.tex"
+(./Lok Dissertation.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./dukethesis2006.cls
+
+LaTeX Warning: You have requested document class `dukethesis2006',
+               but the document class provides `dukethesis2004'.
+
+Document Class: dukethesis2004 2004/07/04 Duke Thesis Style
+-----------------------------------------------------------------
+Document Class `dukethesis2004'.
+-----------------------------------------------------------------
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\c@@members=\count89
+\c@@minmembers=\count90
+\c@@membersprinted=\count91
+
+end of dukethesis2004.cls
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks15
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks24
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+\col@sep=\dimen112
+\ar@mcellbox=\box28
+\extrarowheight=\dimen113
+\NC@list=\toks25
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box29
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+\epsfxsize=\dimen116
+\epsfysize=\dimen117
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xy.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing: catcodes, docmode, (/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xyrecat.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen118
+\Y@c=\dimen119
+\U@c=\dimen120
+\D@c=\dimen121
+\L@c=\dimen122
+\R@c=\dimen123
+\Edge@c=\toks27
+\X@p=\dimen124
+\Y@p=\dimen125
+\U@p=\dimen126
+\D@p=\dimen127
+\L@p=\dimen128
+\R@p=\dimen129
+\Edge@p=\toks28
+\X@origin=\dimen130
+\Y@origin=\dimen131
+\X@xbase=\dimen132
+\Y@xbase=\dimen133
+\X@ybase=\dimen134
+\Y@ybase=\dimen135
+\X@min=\dimen136
+\Y@min=\dimen137
+\X@max=\dimen138
+\Y@max=\dimen139
+\lastobjectbox@=\box30
+\zerodotbox@=\box31
+\almostz@=\dimen140
+ direction,
+\d@X=\dimen141
+\d@Y=\dimen142
+\K@=\count104
+\KK@=\count105
+\Direction=\count106
+\K@dXdY=\dimen143
+\K@dYdX=\dimen144
+\xyread@=\read1
+\xywrite@=\write3
+\csp@=\count107
+\quotPTK@=\dimen145
+ utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks29
+\connectobjectbox@@=\box32
+ objects,
+\styletoks@=\toks30
+ decorations; kernel objects: directionals, circles, text; options; algorithms: directions, edges, connections;  Xy-pic loaded) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package: xy 2013/10/06 Xy-pic version 3.8.9
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xypdf.tex  Xy-pic option: PDF driver v.1.7 loaded)) (/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count108
+) (./bob_macros.tex) (/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.aux)
+\openout1 = `"Lok Dissertation.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+ (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen146
+\scratchbox=\box33
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen147
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks32
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package xypdf Info: Line width: 0.47998pt on input line 37.
+
+Copyright
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+ [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Title page
+
+Overfull \hbox (22.84698pt too wide) in paragraph at lines 42--42
+      [] 
+ []
+
+[0]
+Abstract page
+
+Overfull \hbox (22.84698pt too wide) in paragraph at lines 44--44
+      [] 
+ []
+
+[0]
+Abstract
+[4
+
+]
+Acknowledgements
+[5
+
+]
+Table of Contents
+(/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.toc)
+\tf@toc=\write4
+\openout4 = `"Lok Dissertation.toc"'.
+
+ [6
+
+]
+Chapter 1.
+(./intro.tex
+./intro.tex:13: Undefined control sequence.
+\b@med ->\citeauthoryear 
+                         {Descartes}{Descartes}{1984}
+l.13 ... those which are patently false.\cite{med}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [1
+
+]
+Chapter 2.
+(./ch2.tex) (/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl [2
+
+]
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:3: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Arnauld}{Arnauld}{1996}
+l.3 ...ear{Arnauld}{Arnauld}{1996}]{artofthinking}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:9: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Austin}{Austin}{1962}
+l.9 ...teauthoryear{Austin}{Austin}{1962}]{austin}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:14: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Ayer}{Ayer}{1968}
+l.14 ...authoryear{Ayer}{Ayer}{1968}]{ayer-origin}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:20: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Ayer}{Ayer}{1972}
+l.20 ...citeauthoryear{Ayer}{Ayer}{1972}]{ayerpae}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:25: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Bradley}{Bradley}{2016}
+l.25 ...ryear{Bradley}{Bradley}{2016}]{stanfordip}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:31: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Burke}{Burke}{2013}
+l.31 ...thoryear{Burke}{Burke}{2013}]{whatpragwas}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:36: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Carnap}{Carnap}{1937}
+l.36 ...year{Carnap}{Carnap}{1937}]{logicalsyntax}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:39: Misplaced alignment tab character &.
+l.39 \newblock London: K. Paul, Trench, Trubner &
+                                                  Co.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:41: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Carnap}{Carnap}{1945}
+l.41 ...{Carnap}{Carnap}{1945}]{carnaptwoconcepts}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:47: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Carnap}{Carnap}{1947}
+l.47 ...ear{Carnap}{Carnap}{1947}]{carnapsemantic}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:52: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Carnap}{Carnap}{1950}
+l.52 ...horyear{Carnap}{Carnap}{1950}]{carnapprob}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
+[]\OT1/cmr/m/n/10.95 Carnap, R. (1950).  \OT1/cmr/m/it/10.95 Log-i-cal Foun-da-tions of Prob-a-bil-ity\OT1/cmr/m/n/10.95 .
+ []
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:57: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Christensen}{Christensen}{1991}
+l.57 ...tensen}{Christensen}{1991}]{cleverbookies}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:63: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Crupi, Fitelson, and Tentori}{Crupi et~...
+l.63   et~al.}{2008}]{crupi}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3
+
+]
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:68: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {de~Finetti}{de~Finetti}{1972}
+l.68 ...{de~Finetti}{de~Finetti}{1972}]{definepis}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:73: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {de~Morgan}{de~Morgan}{1838}
+l.73 ...ear{de~Morgan}{de~Morgan}{1838}]{demorgan}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:78: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Descartes}{Descartes}{1984}
+l.78 ...thoryear{Descartes}{Descartes}{1984}]{med}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:83: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Elga}{Elga}{2006}
+l.83 ...ryear{Elga}{Elga}{2006}]{elgadisagreement}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:88: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Ellsberg}{Ellsberg}{1961}
+l.88 ...ryear{Ellsberg}{Ellsberg}{1961}]{ellsberg}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:93: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Ellsberg}{Ellsberg}{2001}
+l.93 ...r{Ellsberg}{Ellsberg}{2001}]{ellsbergbook}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:99: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Eriksson and Hajek}{Eriksson and Hajek}...
+l.99   Hajek}{2007}]{erikssonhajek}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:104: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Fitelson}{Fitelson}{2001}
+l.104 ...on}{Fitelson}{2001}]{Fitelson2001-FITABA}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:110: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Fraassen}{Fraassen}{1980}
+l.110 ...horyear{Fraassen}{Fraassen}{1980}]{bvfsi}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:115: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Fraassen}{Fraassen}{1984}
+l.115 ...ar{Fraassen}{Fraassen}{1984}]{beliefwill}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:120: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Fraassen}{Fraassen}{2000}
+l.120 ...ear{Fraassen}{Fraassen}{2000}]{falsehope}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:126: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {G\"ardenfors}{G\"ardenfors}{1978}
+l.126 ...\"ardenfors}{G\"ardenfors}{1978}]{garden}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[4]
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:131: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Gillies}{Gillies}{2000a}
+l.131 ...ies}{Gillies}{2000a}]{Gillies2000-GILPTO}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:136: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Gillies}{Gillies}{2000b}
+l.136 ...ar{Gillies}{Gillies}{2000b}]{gilliesbook}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:141: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Good}{Good}{1966}
+l.141 ...ear{Good}{Good}{1966}]{goodtotalevidence}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:147: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Good}{Good}{1981}
+l.147 ...authoryear{Good}{Good}{1981}]{goodpeirce}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:153: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Good}{Good}{1983a}
+l.153 ...horyear{Good}{Good}{1983a}]{goodthinking}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:159: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Good}{Good}{1983b}
+l.159 ...od}{Good}{1983b}]{measureofnonmeasurable}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:165: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Goodman}{Goodman}{1947}
+l.165 ...n}{Goodman}{1947}]{goodmancounterfactual}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:170: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Greenwald}{Greenwald}{1993}
+l.170 ...r{Greenwald}{Greenwald}{1993}]{forgetful}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:177: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Groen, Elshof, Visser, Rutgers, Winter-...
+l.177 ...seling}{Groen et~al.}{2017}]{balancedcis}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--183
+[]
+ []
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:184: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Hacking}{Hacking}{1990}
+l.184 ...{Hacking}{Hacking}{1990}]{tamingofchance}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:189: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Hajek}{Hajek}{2008}
+l.189 ...year{Hajek}{Hajek}{2008}]{hajekdutchbook}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[5]
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:195: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {H\'ajek}{H\'ajek}{2009}
+l.195 ...ryear{H\'ajek}{H\'ajek}{2009}]{againsthf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:200: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {H{\'a}jek}{H{\'a}jek}{2012}
+l.200 ...k}{H{\'a}jek}{2012}]{stanfordprobability}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:204: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Han}{Han}{2016a}
+l.204 ...citeauthoryear{Han}{Han}{2016a}]{Han2013}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:210: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Han}{Han}{2016b}
+l.210 ...citeauthoryear{Han}{Han}{2016b}]{Han2016}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:216: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Han, Klien, Lehman, Massett, Lee, and F...
+l.216   Freedman}{Han et~al.}{2009}]{Han2009}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--221
+[]\OT1/cmr/m/n/10.95 Han, P. K. J.,
+ []
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:222: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Harman}{Harman}{1968}
+l.222 ...uthoryear{Harman}{Harman}{1968}]{harman2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:227: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Harman}{Harman}{1965}
+l.227 ...horyear{Harman}{Harman}{1965}]{harmanibe}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:232: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Hoff}{Hoff}{2009}
+l.232 ...teauthoryear{Hoff}{Hoff}{2009}]{hoffbook}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:237: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Hookway}{Hookway}{2000}
+l.237 ...oryear{Hookway}{Hookway}{2000}]{hookway1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:242: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Hoover}{Hoover}{1994}
+l.242 ...oryear{Hoover}{Hoover}{1994}]{hoover1994}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 243--246
+[]\OT1/cmr/m/n/10.95 Hoover, K. (1994).  Prag-ma-tism, prag-mati-cism, and eco-nomic
+ []
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:247: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Hoover}{Hoover}{2012}
+l.247 ...oryear{Hoover}{Hoover}{2012}]{hoover2012}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[6]
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:252: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Hume}{Hume}{2007}
+l.252 ...iteauthoryear{Hume}{Hume}{2007}]{enquiry}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:257: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {James}{James}{1960}
+l.257 ...uthoryear{James}{James}{1960}]{jameswill}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:262: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Jaynes}{Jaynes}{2003a}
+l.262 ...uthoryear{Jaynes}{Jaynes}{2003a}]{jaynes}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:267: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Jaynes}{Jaynes}{2003b}
+l.267 ...r{Jaynes}{Jaynes}{2003b}]{logicofscience}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:272: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Jeffrey}{Jeffrey}{1965}
+l.272 ...Jeffrey}{Jeffrey}{1965}]{jeffreydecision}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:277: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Joyce}{Joyce}{1998}
+l.277 ...oryear{Joyce}{Joyce}{1998}]{joycenonprag}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:282: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Joyce}{Joyce}{2005}
+l.282 ...uthoryear{Joyce}{Joyce}{2005}]{joycehpre}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:288: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Kahneman and Tversky}{Kahneman and Tver...
+l.288   Tversky}{1972}]{rep}
+                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 289--292
+[]\OT1/cmr/m/n/10.95 Kahneman, D. and A. Tver-sky
+ []
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:294: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Kahneman and Tversky}{Kahneman and Tver...
+l.294   Tversky}{1979}]{prospect}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 295--298
+[]\OT1/cmr/m/n/10.95 Kahneman, D. and A. Tver-sky
+ []
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:299: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Kasser}{Kasser}{2016}
+l.299 ...sser}{Kasser}{2016}]{Kasser2016-KASTCO-6}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:301: Undefined control sequence.
+l.301 ...ght of evidence in peirce\textquoterights
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:305: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Keynes}{Keynes}{1921}
+l.305 ...authoryear{Keynes}{Keynes}{1921}]{keynes}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:310: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Keynes}{Keynes}{1933}
+l.310 ...horyear{Keynes}{Keynes}{1933}]{keynesbio}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[7]
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:315: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Keynes}{Keynes}{1938}
+l.315 ...Keynes}{Keynes}{1938}]{keynesearlybelief}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:321: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Kuhn and Hacking}{Kuhn and Hacking}{2012}
+l.321   Hacking}{2012}]{kuhn}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:327: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Kyburg}{Kyburg}{1974}
+l.327 ...ear{Kyburg}{Kyburg}{1974}]{kyburglogical}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:332: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Laplace}{Laplace}{1995}
+l.332 ...horyear{Laplace}{Laplace}{1995}]{laplace}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:337: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Levi}{Levi}{1967}
+l.337 ...ear{Levi}{Levi}{1967}]{gamblingwithtruth}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:342: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Levi}{Levi}{1990}
+l.342 ...uthoryear{Levi}{Levi}{1990}]{hardchoices}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:347: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Levi}{Levi}{1995}
+l.347 ...ear{Levi}{Levi}{1995}]{inductiontopeirce}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:352: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Levi}{Levi}{2004}
+l.352 ...authoryear{Levi}{Levi}{2004}]{levibeware}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:359: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Levi}{Levi}{2011}
+l.359 ...authoryear{Levi}{Levi}{2011}]{leviweight}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:366: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Lewis}{Lewis}{1980}
+l.366 ...thoryear{Lewis}{Lewis}{1980}]{lewisguide}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:372: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Lewis}{Lewis}{1994}
+l.372 ...authoryear{Lewis}{Lewis}{1994}]{debugged}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:378: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Lindley and Phillips}{Lindley and Phill...
+l.378   Phillips}{1976}]{lindleybern}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[8]
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:383: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Lindley}{Lindley}{1976}
+l.383 ...ar{Lindley}{Lindley}{1976}]{stoppingrule}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:384: Misplaced alignment tab character &.
+l.384 Lindley, D. V. &
+                      ~Phillips, L.~D. (1976).
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:388: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Lipton}{Lipton}{2004}
+l.388 ...authoryear{Lipton}{Lipton}{2004}]{lipton}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 389--392
+[]\OT1/cmr/m/n/10.95 Lipton, P. (2004).  \OT1/cmr/m/it/10.95 In-fer-ence to the Best Ex-pla-na-tion\OT1/cmr/m/n/10.95 .  Rout-
+ []
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:394: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Mayo and Spanos}{Mayo and Spanos}{2011}
+l.394   Spanos}{2011}]{errorstat}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:400: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Mcauliffe}{Mcauliffe}{2015}
+l.400 ...liffe}{Mcauliffe}{2015}]{howdidabduction}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:407: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Minnameier}{Minnameier}{2004}
+l.407 ...innameier}{Minnameier}{2004}]{peircesuit}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:413: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Misak}{Misak}{2013}
+l.413 ...ryear{Misak}{Misak}{2013}]{misakamerican}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:418: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Misak}{Misak}{2016a}
+l.418 ...ear{Misak}{Misak}{2016a}]{msak2016peirce}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:424: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Misak}{Misak}{2016b}
+l.424 ...ear{Misak}{Misak}{2016b}]{msak2016ramsey}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:430: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Moore}{Moore}{1988}
+l.430 ...horyear{Moore}{Moore}{1988}]{mooreethics}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:436: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Neurath, Neurath, and Cohen}{Neurath et...
+l.436   et~al.}{1973}]{neurath}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:442: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {O'Donnell}{O'Donnell}{1992}
+l.442 ...ar{O'Donnell}{O'Donnell}{1992}]{odonnell}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[9]
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:447: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Okasha}{Okasha}{2000}
+l.447 ...authoryear{Okasha}{Okasha}{2000}]{okasha}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:453: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1931a}
+l.453 ...{Peirce}{Peirce}{1931a}]{peircecollected}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:458: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1931b}
+l.458 ...iteauthoryear{Peirce}{Peirce}{1931b}]{CP}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:463: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1966a}
+l.463 ...eirce}{Peirce}{1966a}]{doctrineofchances}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:469: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1966b}
+l.469 ...horyear{Peirce}{Peirce}{1966b}]{fixation}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:475: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1966c}
+l.475 ...r{Peirce}{Peirce}{1966c}]{makeideasclear}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:481: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1982}
+l.481 ...ryear{Peirce}{Peirce}{1982}]{peirceboole}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:487: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1984}
+l.487 ...r{Peirce}{Peirce}{1984}]{vennlogicreview}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:493: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1986a}
+l.493 ...thoryear{Peirce}{Peirce}{1986a}]{deinhyp}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:499: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1986b}
+l.499 ...}{Peirce}{1986b}]{probabilityofinduction}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:505: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1989a}
+l.505 ...horyear{Peirce}{Peirce}{1989a}]{econofre}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[10]
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:511: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1989b}
+l.511 ...eirce}{Peirce}{1989b}]{probableinference}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:517: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1993}
+l.517 ...{Peirce}{Peirce}{1993}]{smalldifferences}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:523: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Peirce}{Peirce}{1998}
+l.523 ...{Peirce}{Peirce}{1998}]{essentialpeirce2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:529: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Popper}{Popper}{2002}
+l.529 ...ryear{Popper}{Popper}{2002}]{popperlogic}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:534: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Quine}{Quine}{1960}
+l.534 ...{Quine}{Quine}{1960}]{quinewordandobject}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:539: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Quine}{Quine}{1969}
+l.539 ...authoryear{Quine}{Quine}{1969}]{epistnat}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:545: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Quine}{Quine}{1997}
+l.545 ...ryear{Quine}{Quine}{1997}]{quinefromstim}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:551: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Raiffa and Schlaifer}{Raiffa and Schlai...
+l.551   Schlaifer}{1964}]{appliedstatdec}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:556: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Ramsey}{Ramsey}{1990a}
+l.556 ...uthoryear{Ramsey}{Ramsey}{1990a}]{ramsey}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:561: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Ramsey}{Ramsey}{1990b}
+l.561 ...year{Ramsey}{Ramsey}{1990b}]{ramseyvalue}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:567: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Runde}{Runde}{1990}
+l.567 ...horyear{Runde}{Runde}{1990}]{rundeweight}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:572: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Runde}{Runde}{1991}
+l.572 ...year{Runde}{Runde}{1991}]{rundestability}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[11]
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:577: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Runde}{Runde}{1994}
+l.577 ...r{Runde}{Runde}{1994}]{keynesafterramsey}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:583: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {S. and N.}{S. and N.}{2007}
+l.583 ...{S. and N.}{S. and N.}{2007}]{greenmoore}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:589: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Salmon}{Salmon}{1966}
+l.589 ...{Salmon}{Salmon}{1966}]{salmonfoundation}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:594: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Savage}{Savage}{1954}
+l.594 ...authoryear{Savage}{Savage}{1954}]{savage}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:599: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Schoenfield}{Schoenfield}{2012}
+l.599 ...choenfield}{Schoenfield}{2012}]{chilling}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:604: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Searle}{Searle}{1969}
+l.604 ...authoryear{Searle}{Searle}{1969}]{searle}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:609: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Shackles}{Shackles}{1955}
+l.609 ...year{Shackles}{Shackles}{1955}]{shackles}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:614: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Skyrms}{Skyrms}{1966}
+l.614 ...}{Skyrms}{1966}]{causationandconditional}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:619: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Stigler}{Stigler}{1978}
+l.619 ...r{Stigler}{Stigler}{1978}]{mathstatearly}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:624: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Su\'arez}{Su\'arez}{2013}
+l.624 ...\'arez}{2013}]{propensitiesandpragmatism}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:629: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Talbott}{Talbott}{1991}
+l.629 ...{Talbott}{1991}]{twoprinciplesofbayesian}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:634: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Teller}{Teller}{1989}
+l.634 ...ryear{Teller}{Teller}{1989}]{tellerlogic}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:639: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Tversky and Kahneman}{Tversky and Kahne...
+l.639   Kahneman}{1983}]{tk1983}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 640--644
+[]\OT1/cmr/m/n/10.95 Tversky, A. and D. Kah-ne-man
+ []
+
+[12]
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:645: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {van Fraassen}{van Fraassen}{1989a}
+l.645 ...raassen}{van Fraassen}{1989a}]{vflawssym}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:651: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {van Fraassen}{van Fraassen}{1995}
+l.651   Fraassen}{1995}]{antinatural}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:657: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {van Fraassen}{van Fraassen}{1989b}
+l.657 ... Fraassen}{van Fraassen}{1989b}]{bvflaws}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:663: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {van Fraassen}{van Fraassen}{2002}
+l.663   Fraassen}{2002}]{empiricalstance}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:669: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {van Fraassen Bas~C.}{van Fraassen Bas~C...
+l.669   Bas~C.}{1995}]{beliefuly}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:674: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Walley}{Walley}{1991}
+l.674 ...authoryear{Walley}{Walley}{1991}]{walley}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:677: Misplaced alignment tab character &.
+l.677 \newblock Chapman &
+                          Hall.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:679: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Weisberg}{Weisberg}{2009}
+l.679 ...r{Weisberg}{Weisberg}{2009}]{locatingibe}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:684: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Williamson}{Williamson}{2010}
+l.684 ...}{Williamson}{2010}]{williamsonindefence}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:689: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Williamson}{Williamson}{2011}
+l.689 ...lliamson}{Williamson}{2011}]{williamson1}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.bbl:694: Undefined control sequence.
+<argument> \protect \citeauthoryear 
+                                    {Winkler}{Winkler}{2010}
+l.694 ...horyear{Winkler}{Winkler}{2010}]{winkler}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [13]
+Biography
+[14
+
+] (/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.aux) ) 
+Here is how much of TeX's memory you used:
+ 4097 strings out of 492649
+ 51415 string characters out of 6129622
+ 141669 words of memory out of 5000000
+ 7900 multiletter control sequences out of 15000+600000
+ 13533 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,5n,27p,853b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "/Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.pdf" (20 pages, 119679 bytes).
+PDF statistics:
+ 93 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

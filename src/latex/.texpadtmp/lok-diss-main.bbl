@@ -1,0 +1,934 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{cms}{cms}
+    \entry{austin}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d76fb43ad50ef0254ab3a193e4d07d8e}{Austin}{A\bibinitperiod}{J.\bibnamedelimi L.}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Clarendon Press}%
+      }
+      \strng{namehash}{d76fb43ad50ef0254ab3a193e4d07d8e}
+      \strng{fullhash}{d76fb43ad50ef0254ab3a193e4d07d8e}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Do Things with Words}
+      \field{year}{1962}
+    \endentry
+    \entry{robust}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=3a453c29aa24d3b2ecfcffcd5274ed0c}{Berger}{B\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d4cc53d6d105c33bfbd566dbf830e402}{Kadane}{K\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Science}%
+      }
+      \strng{namehash}{3a453c29aa24d3b2ecfcffcd5274ed0c}
+      \strng{fullhash}{3a453c29aa24d3b2ecfcffcd5274ed0c}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Robustness of Bayesian Analyses}
+      \field{title}{The robust Bayesian viewpoint}
+      \field{year}{1984}
+    \endentry
+    \entry{whatpragwas}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a6cde6c798f30242f2bdb5254a7740cd}{Burke}{B\bibinitperiod}{F.\bibnamedelimi Thomas}{F\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Indiana University Press}%
+      }
+      \strng{namehash}{a6cde6c798f30242f2bdb5254a7740cd}
+      \strng{fullhash}{a6cde6c798f30242f2bdb5254a7740cd}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Pragmatism Was}
+      \field{year}{2013}
+    \endentry
+    \entry{carnapprob}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6ac7e21451c80f04ca26894d84279358}{Carnap}{C\bibinitperiod}{Rudolf}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Chicago]University of Chicago Press}%
+      }
+      \strng{namehash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{fullhash}{6ac7e21451c80f04ca26894d84279358}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Logical Foundations of Probability}
+      \field{year}{1950}
+    \endentry
+    \entry{aufbau}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6ac7e21451c80f04ca26894d84279358}{Carnap}{C\bibinitperiod}{Rudolf}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Open Court Class}%
+      }
+      \strng{namehash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{fullhash}{6ac7e21451c80f04ca26894d84279358}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Logical Structure of the World}
+      \field{year}{2003}
+    \endentry
+    \entry{logicalsyntax}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6ac7e21451c80f04ca26894d84279358}{Carnap}{C\bibinitperiod}{Rudolf}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {K. Paul, Trench, Trubner}%
+        {Co.}%
+      }
+      \strng{namehash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{fullhash}{6ac7e21451c80f04ca26894d84279358}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Logical Syntax of Language}
+      \field{year}{1937}
+    \endentry
+    \entry{cleverbookies}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8c098c6b84988bb8686ab12618599d29}{Christensen}{C\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Duke University Press}%
+      }
+      \strng{namehash}{8c098c6b84988bb8686ab12618599d29}
+      \strng{fullhash}{8c098c6b84988bb8686ab12618599d29}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Review}
+      \field{number}{2}
+      \field{title}{Clever Bookies and Coherent Beliefs}
+      \field{volume}{100}
+      \field{year}{1991}
+      \field{pages}{229\bibrangedash 247}
+      \range{pages}{19}
+    \endentry
+    \entry{med}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9f046e68c5b38bcc80be3d2cc6f58dd6}{Descartes}{D\bibinitperiod}{Ren\'{e}}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9f046e68c5b38bcc80be3d2cc6f58dd6}
+      \strng{fullhash}{9f046e68c5b38bcc80be3d2cc6f58dd6}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Philosophical Writings of Descartes}
+      \field{volume}{1}
+      \field{year}{1984}
+    \endentry
+    \entry{elgadisagreement}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c779a68213bccff7905046712a084c57}{Elga}{E\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c779a68213bccff7905046712a084c57}
+      \strng{fullhash}{c779a68213bccff7905046712a084c57}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{No\^{u}s}
+      \field{number}{3}
+      \field{title}{Reflection and Disagreement}
+      \field{volume}{41}
+      \field{year}{2006}
+      \field{pages}{478\bibrangedash 502}
+      \range{pages}{25}
+    \endentry
+    \entry{erikssonhajek}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5abd56e86e39d1184d7e8aaa80a161bb}{Eriksson}{E\bibinitperiod}{Lina}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=49309e51f2ea32307dbaf967b976723f}{Hajek}{H\bibinitperiod}{Alan}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{29b77e3fb76f7287ff2c7e84f3cf6e3b}
+      \strng{fullhash}{29b77e3fb76f7287ff2c7e84f3cf6e3b}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Studia Logica}
+      \field{number}{183-213}
+      \field{title}{What Are Degrees of Belief?}
+      \field{volume}{86}
+      \field{year}{2007}
+    \endentry
+    \entry{felleresp}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0dc1084389f176f601af7787031a22f1}{Feller}{F\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Parapsychology Press}%
+      }
+      \strng{namehash}{0dc1084389f176f601af7787031a22f1}
+      \strng{fullhash}{0dc1084389f176f601af7787031a22f1}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Parapsychology}
+      \field{number}{4}
+      \field{title}{Statistical Aspects of ESP}
+      \field{volume}{2}
+      \field{year}{1940}
+      \field{pages}{271\bibrangedash 298}
+      \range{pages}{28}
+    \endentry
+    \entry{definepis}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c03545eea8ee4a8a057ffa44476a7056}{Finetti}{F\bibinitperiod}{Bruno}{B\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{c03545eea8ee4a8a057ffa44476a7056}
+      \strng{fullhash}{c03545eea8ee4a8a057ffa44476a7056}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Probability, Induction, and Statistics}
+      \field{year}{1972}
+    \endentry
+    \entry{beliefuly}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6531acacd2301e9f2af8ed1479a789dc}{Fraassen\bibnamedelimb Bas\bibnamedelima C.}{F\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{van}{v\bibinitperiod}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6531acacd2301e9f2af8ed1479a789dc}
+      \strng{fullhash}{6531acacd2301e9f2af8ed1479a789dc}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Studies}
+      \field{number}{1}
+      \field{title}{Belief and the Problem of Ulysses and the Sirens}
+      \field{volume}{77}
+      \field{year}{1995}
+      \field{pages}{7\bibrangedash 37}
+      \range{pages}{31}
+    \endentry
+    \entry{gelman}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=1e1eb60e3b6e222217bf8e9b24070b28}{Gelman}{G\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fc627665c9ed1d50cf364565865172a7}{Shalizi}{S\bibinitperiod}{Cosma\bibnamedelima Rohilla}{C\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=77aab33f46c948af3922121c9d9e6d2e}{Kincaid}{K\bibinitperiod}{Harold}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{ed72c1b0709cd5efdcb9bd95c3f56ef7}
+      \strng{fullhash}{ed72c1b0709cd5efdcb9bd95c3f56ef7}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Oxford Handbook of Philosophy of Social Science}
+      \field{title}{Philosophy and the Practice of Bayesian Statistics in the Social Sciences}
+      \field{year}{2012}
+    \endentry
+    \entry{goodthinking}{book}{}
+      \name{author}{1}{}{%
+        {{hash=822f10841fd4a5c324d32e813f8e93fc}{Good}{G\bibinitperiod}{Irving\bibnamedelima J.}{I\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Univ Minnesota Pr}%
+      }
+      \strng{namehash}{822f10841fd4a5c324d32e813f8e93fc}
+      \strng{fullhash}{822f10841fd4a5c324d32e813f8e93fc}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Good Thinking: The Foundations of Probability and its Applications}
+      \field{year}{1983}
+    \endentry
+    \entry{goodmancounterfactual}{article}{}
+      \name{author}{1}{}{%
+        {{hash=69de5a1450433cb926b8b88d275347b0}{Goodman}{G\bibinitperiod}{Nelson}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Journal of Philosophy Inc}%
+      }
+      \strng{namehash}{69de5a1450433cb926b8b88d275347b0}
+      \strng{fullhash}{69de5a1450433cb926b8b88d275347b0}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Philosophy}
+      \field{number}{5}
+      \field{title}{The Problem of Counterfactual Conditionals}
+      \field{volume}{44}
+      \field{year}{1947}
+      \field{pages}{113\bibrangedash 128}
+      \range{pages}{16}
+    \endentry
+    \entry{hajekdutchbook}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=49309e51f2ea32307dbaf967b976723f}{Hajek}{H\bibinitperiod}{Alan}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=902e23f6a99700de8a83f002ad66f609}{Anand}{A\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=848c14f67305b0a8c0e1f4df5e30d764}{Pattanaik}{P\bibinitperiod}{Prasanta}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=479f0f89a03540d42c5353d9c8e378eb}{Puppe}{P\bibinitperiod}{Clemens}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{49309e51f2ea32307dbaf967b976723f}
+      \strng{fullhash}{49309e51f2ea32307dbaf967b976723f}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Oxford Handbook of Rational and Social Choice}
+      \field{title}{Dutch Book Arguments}
+      \field{year}{2008}
+    \endentry
+    \entry{hintikka}{article}{}
+      \name{author}{1}{}{%
+        {{hash=257a1bb9e271078512e6dc9debe5d424}{Hintikka}{H\bibinitperiod}{Jaakko}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Indiana University Press}%
+      }
+      \strng{namehash}{257a1bb9e271078512e6dc9debe5d424}
+      \strng{fullhash}{257a1bb9e271078512e6dc9debe5d424}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions of the Charles S. Peirce Society}
+      \field{number}{3}
+      \field{title}{What Is Abduction? The Fundamental Problem of Contemporary Epistemology}
+      \field{volume}{34}
+      \field{year}{1998}
+      \field{pages}{503\bibrangedash 533}
+      \range{pages}{31}
+    \endentry
+    \entry{hookway1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4758a00803e1b157b1211575c978eb3a}{Hookway}{H\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{4758a00803e1b157b1211575c978eb3a}
+      \strng{fullhash}{4758a00803e1b157b1211575c978eb3a}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Truth, Rationality, and Pragmatism: Themes From Peirce}
+      \field{year}{2000}
+    \endentry
+    \entry{hoover1994}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=0117fa1f2080216b8143018fd9d6d3fe}{Hoover}{H\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{0117fa1f2080216b8143018fd9d6d3fe}
+      \strng{fullhash}{0117fa1f2080216b8143018fd9d6d3fe}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{New Directions in Economic Methodology}
+      \field{title}{Pragmatism, Pragmaticism, and Economic Method}
+      \field{year}{1994}
+    \endentry
+    \entry{jameswill}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7e6824f8d67a0e956aae72188825dbf2}{James}{J\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Dover Publications}%
+      }
+      \strng{namehash}{7e6824f8d67a0e956aae72188825dbf2}
+      \strng{fullhash}{7e6824f8d67a0e956aae72188825dbf2}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Will to Believe and Human Immortality}
+      \field{year}{1960}
+    \endentry
+    \entry{jaynesmight}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=60cf9e44033fe2d5e8d20578f696e158}{Jaynes}{J\bibinitperiod}{E.\bibnamedelimi T.}{E\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=e6862cae8ca920e0f5948e4fda7574f2}{Harper}{H\bibinitperiod}{W.\bibnamedelimi L.}{W\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=94bf6f458b1748daa22acccb117d19f7}{Hooker}{H\bibinitperiod}{C.\bibnamedelimi A.}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Dordrecht}%
+      }
+      \strng{namehash}{60cf9e44033fe2d5e8d20578f696e158}
+      \strng{fullhash}{60cf9e44033fe2d5e8d20578f696e158}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Foundations of probability theory, statistical inference, and statistical theories of science}
+      \field{title}{Common sense as an interface}
+      \field{year}{1980}
+      \field{pages}{218\bibrangedash 257}
+      \range{pages}{40}
+    \endentry
+    \entry{joycenonprag}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6d873d4898b9c423563fdf11c17a6074}{Joyce}{J\bibinitperiod}{James\bibnamedelima M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{6d873d4898b9c423563fdf11c17a6074}
+      \strng{fullhash}{6d873d4898b9c423563fdf11c17a6074}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy of Science}
+      \field{number}{4}
+      \field{title}{A Nonpragmatic Vindication of Probabilism}
+      \field{volume}{65}
+      \field{year}{1998}
+      \field{pages}{575\bibrangedash 603}
+      \range{pages}{29}
+    \endentry
+    \entry{prospect}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{Kahneman}{K\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=031d0d5f9391d970f6f089af958f701d}{Tversky}{T\bibinitperiod}{Amos}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica: Journal of the Econometric Society}
+      \field{title}{Prospect Theory: An Analysis of Decision Under Risk}
+      \field{year}{1979}
+      \field{pages}{263\bibrangedash 291}
+      \range{pages}{29}
+    \endentry
+    \entry{keynes}{book}{}
+      \name{author}{1}{}{%
+        {{hash=aa540260b7ac58aa9b89b66bc63a94d1}{Keynes}{K\bibinitperiod}{John\bibnamedelima Maynard}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Macmillan}%
+        {Co., Limited.}%
+      }
+      \strng{namehash}{aa540260b7ac58aa9b89b66bc63a94d1}
+      \strng{fullhash}{aa540260b7ac58aa9b89b66bc63a94d1}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Treatise on Probability}
+      \field{year}{1921}
+    \endentry
+    \entry{keynesbio}{book}{}
+      \name{author}{1}{}{%
+        {{hash=aa540260b7ac58aa9b89b66bc63a94d1}{Keynes}{K\bibinitperiod}{John\bibnamedelima Maynard}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Macmillan}%
+        {Co., Limited.}%
+      }
+      \strng{namehash}{aa540260b7ac58aa9b89b66bc63a94d1}
+      \strng{fullhash}{aa540260b7ac58aa9b89b66bc63a94d1}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Essays in Biography}
+      \field{year}{1933}
+    \endentry
+    \entry{laplace}{book}{}
+      \name{author}{1}{}{%
+        {{hash=14f71a442604b281a25e6e15a2757a5e}{Laplace}{L\bibinitperiod}{Pierre-Simon}{P\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Spring}%
+      }
+      \strng{namehash}{14f71a442604b281a25e6e15a2757a5e}
+      \strng{fullhash}{14f71a442604b281a25e6e15a2757a5e}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Philosophical Essay on Probabilities}
+      \field{year}{1995}
+    \endentry
+    \entry{lewisguide}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=987abb6adca7047e7c1fbaecfa4ef1af}{Lewis}{L\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=4138a9df876cd124529ec67dacaca079}{Jeffrey}{J\bibinitperiod}{Richard\bibnamedelima C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{987abb6adca7047e7c1fbaecfa4ef1af}
+      \strng{fullhash}{987abb6adca7047e7c1fbaecfa4ef1af}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Philosophy of Probability: Contemporary Readings}
+      \field{title}{A Subjectivist's Guide to Objective Chance}
+      \field{year}{1980}
+      \field{pages}{83\bibrangedash 132}
+      \range{pages}{50}
+    \endentry
+    \entry{lindleybern}{article}{}
+      \name{author}{2}{}{%
+        {{hash=464cc263cb427e97cc079a3dcd9ca804}{Lindley}{L\bibinitperiod}{D.\bibnamedelimi V.}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=d1425296e2474b9d43756f148efb05da}{Phillips}{P\bibinitperiod}{L.\bibnamedelimi D.}{L\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Taylor}%
+        {Francis}%
+      }
+      \strng{namehash}{488404fbf3f5dff4e06caf72e4d92b16}
+      \strng{fullhash}{488404fbf3f5dff4e06caf72e4d92b16}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Statistician}
+      \field{number}{3}
+      \field{title}{Inference for a Bernoulli Process (A Bayesian View)}
+      \field{volume}{30}
+      \field{year}{1976}
+      \field{pages}{112\bibrangedash 119}
+      \range{pages}{8}
+    \endentry
+    \entry{lipton}{book}{}
+      \name{author}{1}{}{%
+        {{hash=56a75337870af016c3dc5c7f6d78b2c4}{Lipton}{L\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Routledge/Taylor}%
+        {Francis Group}%
+      }
+      \strng{namehash}{56a75337870af016c3dc5c7f6d78b2c4}
+      \strng{fullhash}{56a75337870af016c3dc5c7f6d78b2c4}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inference to the Best Explanation}
+      \field{year}{2004}
+    \endentry
+    \entry{elusive}{book}{}
+      \name{author}{2}{}{%
+        {{hash=0f238526c6923ba11a32fd81a6e2d52a}{Mauskopf}{M\bibinitperiod}{Seymour}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=9ab764173f693b278a1c77379adbfa72}{McVaugh}{M\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {K. Paul, Trench, Trubner}%
+        {Co.}%
+      }
+      \strng{namehash}{3521c639553b5b278e0a6e6a0a3fc729}
+      \strng{fullhash}{3521c639553b5b278e0a6e6a0a3fc729}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Elusive Science}
+      \field{year}{1937}
+    \endentry
+    \entry{errorgrowth}{book}{}
+      \name{author}{1}{}{%
+        {{hash=baef2ca9d198c5d827269dde9fd6b9f5}{Mayo}{M\bibinitperiod}{Deborah}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{baef2ca9d198c5d827269dde9fd6b9f5}
+      \strng{fullhash}{baef2ca9d198c5d827269dde9fd6b9f5}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Error and the Growth of Experimental Knowledge}
+      \field{year}{1996}
+    \endentry
+    \entry{pascal}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gutenberg.org/files/18269/18269-h/18269-h.htm}}
+      \field{note}{Accessed: 8-21-2018}
+      \field{title}{Pascal's Pensees}
+    \endentry
+    \entry{probableinference}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=dd571708c28aa8339dcb13a7bff0d3ac}{Peirce}{P\bibinitperiod}{Charles\bibnamedelima S.}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Indiana University Press}%
+      }
+      \strng{namehash}{dd571708c28aa8339dcb13a7bff0d3ac}
+      \strng{fullhash}{dd571708c28aa8339dcb13a7bff0d3ac}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Writings of Charles S. Peirce: A Chronological Edition, Volume 4: 1879--1884}
+      \field{title}{A Theory of Probable Inference}
+      \field{year}{1989}
+    \endentry
+    \entry{CP}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dd571708c28aa8339dcb13a7bff0d3ac}{Peirce}{P\bibinitperiod}{Charles\bibnamedelima S.}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge: Harvard University Press}%
+      }
+      \strng{namehash}{dd571708c28aa8339dcb13a7bff0d3ac}
+      \strng{fullhash}{dd571708c28aa8339dcb13a7bff0d3ac}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Collected Papers of Charles Sanders Peirce}
+      \field{year}{1931}
+    \endentry
+    \entry{makeideasclear}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=dd571708c28aa8339dcb13a7bff0d3ac}{Peirce}{P\bibinitperiod}{Charles\bibnamedelima S.}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Indiana University Press}%
+      }
+      \strng{namehash}{dd571708c28aa8339dcb13a7bff0d3ac}
+      \strng{fullhash}{dd571708c28aa8339dcb13a7bff0d3ac}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Writings of Charles S. Peirce: A Chronological Edition, Volume 3: 1872--1878}
+      \field{title}{How to Make our Ideas Clear}
+      \field{year}{1966}
+    \endentry
+    \entry{essentialpeirce2}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dd571708c28aa8339dcb13a7bff0d3ac}{Peirce}{P\bibinitperiod}{Charles\bibnamedelima S.}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d03da527f55e3f9e19bb8fbb81adc50c}{Project}{P\bibinitperiod}{Peirce\bibnamedelima Edition}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Indiana University Press}%
+      }
+      \strng{namehash}{dd571708c28aa8339dcb13a7bff0d3ac}
+      \strng{fullhash}{dd571708c28aa8339dcb13a7bff0d3ac}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Essential Peirce, Volume 2: Selected Philosophical Writings (1893-1913)}
+      \field{year}{1998}
+    \endentry
+    \entry{probabilityofinduction}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=dd571708c28aa8339dcb13a7bff0d3ac}{Peirce}{P\bibinitperiod}{Charles\bibnamedelima S.}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Indiana University Press}%
+      }
+      \strng{namehash}{dd571708c28aa8339dcb13a7bff0d3ac}
+      \strng{fullhash}{dd571708c28aa8339dcb13a7bff0d3ac}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Writings of Charles S. Peirce: A Chronological Edition, Volume 3: 1872--1878}
+      \field{title}{The Probability of Induction}
+      \field{year}{1986}
+    \endentry
+    \entry{epistnat}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=4f625d2b3b5531c0044d86293f610954}{Quine}{Q\bibinitperiod}{W.\bibnamedelimi V.}{W\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {New York: Columbia University Press}%
+      }
+      \strng{namehash}{4f625d2b3b5531c0044d86293f610954}
+      \strng{fullhash}{4f625d2b3b5531c0044d86293f610954}
+      \field{sortinit}{Q}
+      \field{sortinithash}{15867262911a166ca2270ec58a0e3fe9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ontological Relativity and Other Essays}
+      \field{title}{Epistemology Naturalized}
+      \field{year}{1969}
+    \endentry
+    \entry{quinefromstim}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4f625d2b3b5531c0044d86293f610954}{Quine}{Q\bibinitperiod}{W.\bibnamedelimi V.}{W\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{4f625d2b3b5531c0044d86293f610954}
+      \strng{fullhash}{4f625d2b3b5531c0044d86293f610954}
+      \field{sortinit}{Q}
+      \field{sortinithash}{15867262911a166ca2270ec58a0e3fe9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{From Stimulus to Science}
+      \field{year}{1997}
+    \endentry
+    \entry{ramsey}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c3a0be1cd98db9571dd759727a8dab24}{Ramsey}{R\bibinitperiod}{Frank\bibnamedelima P.}{F\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge: Harvard University Press}%
+      }
+      \strng{namehash}{c3a0be1cd98db9571dd759727a8dab24}
+      \strng{fullhash}{c3a0be1cd98db9571dd759727a8dab24}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Philosophical Papers}
+      \field{year}{1990}
+    \endentry
+    \entry{rhineesp}{book}{}
+      \name{author}{1}{}{%
+        {{hash=29d7427516bd8a45282868033ebbb1d9}{Rhine}{R\bibinitperiod}{J.\bibnamedelimi B.}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Branden Publishing Company}%
+      }
+      \strng{namehash}{29d7427516bd8a45282868033ebbb1d9}
+      \strng{fullhash}{29d7427516bd8a45282868033ebbb1d9}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Extrasensory Perception}
+      \field{year}{1964}
+    \endentry
+    \entry{greenmoore}{book}{}
+      \name{author}{2}{}{%
+        {{hash=2b4f503bbe10f285c8292522db5aa310}{S.}{S\bibinitperiod}{Green\bibnamedelima Mitchell}{G\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=1fc7848133d7a70fad0289cbd6030e3d}{N.}{N\bibinitperiod}{Williams\bibnamedelima John}{W\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{599c42aa2d07ffc819730c64bb7789e7}
+      \strng{fullhash}{599c42aa2d07ffc819730c64bb7789e7}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Moore's Paradox: New Essays on Belief, Rationality, and the First Person}
+      \field{year}{2007}
+    \endentry
+    \entry{savage}{book}{}
+      \name{author}{1}{}{%
+        {{hash=be6cc1de7cfe85df3e9c87f3ab304933}{Savage}{S\bibinitperiod}{Leonard\bibnamedelima J.}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Dover}%
+      }
+      \strng{namehash}{be6cc1de7cfe85df3e9c87f3ab304933}
+      \strng{fullhash}{be6cc1de7cfe85df3e9c87f3ab304933}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Foundations of Statistics}
+      \field{year}{1954}
+    \endentry
+    \entry{searle}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dfb4557184741aa72672caad22c3555c}{Searle}{S\bibinitperiod}{John\bibnamedelima R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{dfb4557184741aa72672caad22c3555c}
+      \strng{fullhash}{dfb4557184741aa72672caad22c3555c}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Speech Acts: An Essay in the Philosophy of Language}
+      \field{year}{1969}
+    \endentry
+    \entry{psyesp}{article}{}
+      \name{author}{1}{}{%
+        {{hash=771179684cae13cd558872cffa178ad8}{Shulman}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Parapsychology Press}%
+      }
+      \strng{namehash}{771179684cae13cd558872cffa178ad8}
+      \strng{fullhash}{771179684cae13cd558872cffa178ad8}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Parapsychology}
+      \field{number}{2}
+      \field{title}{A Study of Card-Guessing in Psychotic Subjects}
+      \field{volume}{2}
+      \field{year}{1938}
+      \field{pages}{95\bibrangedash 106}
+      \range{pages}{12}
+    \endentry
+    \entry{twoprinciplesofbayesian}{article}{}
+      \name{author}{1}{}{%
+        {{hash=72e1aed1a75d5dffbdb527b740586a7a}{Talbott}{T\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{72e1aed1a75d5dffbdb527b740586a7a}
+      \strng{fullhash}{72e1aed1a75d5dffbdb527b740586a7a}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Studies}
+      \field{number}{2}
+      \field{title}{Two Principles of Bayesian Epistemology}
+      \field{volume}{62}
+      \field{year}{1991}
+      \field{pages}{135\bibrangedash 150}
+      \range{pages}{16}
+    \endentry
+    \entry{beliefwill}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c7449d8a1afc7bde74caf0cac6d2eb91}{{van\bibnamedelimb Fraassen}}{v\bibinitperiod}{Bas}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Journal of Philosophy Inc}%
+      }
+      \strng{namehash}{c7449d8a1afc7bde74caf0cac6d2eb91}
+      \strng{fullhash}{c7449d8a1afc7bde74caf0cac6d2eb91}
+      \field{sortinit}{v}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Philosophy}
+      \field{number}{5}
+      \field{title}{Belief and the Will}
+      \field{volume}{81}
+      \field{year}{1984}
+      \field{pages}{235\bibrangedash 256}
+      \range{pages}{22}
+    \endentry
+    \entry{bvflaws}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b547a5bcf733641bcdd069320aa1a3e9}{{van\bibnamedelimb Fraassen}}{v\bibinitperiod}{Bas\bibnamedelima C.}{B\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b547a5bcf733641bcdd069320aa1a3e9}
+      \strng{fullhash}{b547a5bcf733641bcdd069320aa1a3e9}
+      \field{sortinit}{v}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Laws and Symmetry}
+      \field{year}{1989}
+    \endentry
+    \entry{bvfsi}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b547a5bcf733641bcdd069320aa1a3e9}{{van\bibnamedelimb Fraassen}}{v\bibinitperiod}{Bas\bibnamedelima C.}{B\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b547a5bcf733641bcdd069320aa1a3e9}
+      \strng{fullhash}{b547a5bcf733641bcdd069320aa1a3e9}
+      \field{sortinit}{v}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Scientific Image}
+      \field{year}{1980}
+    \endentry
+    \entry{walley}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2cebd383a70b1d8ebdbaa364f7204519}{Walley}{W\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall}%
+      }
+      \strng{namehash}{2cebd383a70b1d8ebdbaa364f7204519}
+      \strng{fullhash}{2cebd383a70b1d8ebdbaa364f7204519}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Statistical Reasoning with Imprecise Probabilities}
+      \field{year}{1991}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

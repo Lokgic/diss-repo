@@ -1,0 +1,45 @@
+\documentclass[PhD]{dukethesis2006}
+\usepackage{setspace}
+
+\pagenumbering{arabic}
+\usepackage[notes]{biblatex-chicago}
+\usepackage{etoolbox}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amssymb,amsmath, amsthm}
+\usepackage{longtable,booktabs}
+\usepackage[left=1.5in,right=1in,top=1.5in,bottom=1.5in]{geometry}
+\bibliography{diss.bib}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\AtBeginEnvironment{quote}{\singlespacing\small}
+
+
+\author{Lok C. Chan}
+\advisor{Kevin D. Hoover}
+\member{Vincent Conitzer}
+\member{Felipe De Brigard}
+\member{Carlotta Pavese}
+
+
+
+\department{Philosophy}
+%\subject{xxx} If this is used, "subject" has to be un-commented in the cls file in several places
+\title{Deliberative Bayesianism:\\Abduction, Reflection, and the Weight of Evidence}
+\begin{document}
+\maketitle
+
+\singlespacing
+\tableofcontents
+\listoffigures
+\listoftables
+\doublespacing
+\include{intro}
+\include{reflectionpragmatist}
+\include{stoppingrule}
+\include{weight}
+
+\printbibliography[heading=bibintoc]
+
+\end{document}

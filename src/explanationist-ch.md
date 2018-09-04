@@ -14,13 +14,15 @@ author: Lok C. Chan
 ---
 
 # Bayesianism and Explanationism
-The positions I argue against 
+<!-- The positions I argue against 
 In this dissertation, I always refer IBE as "IBE" and reserve "abduction" for choices and inferences made in service of setting up the environment in which induction can be carried out.  
 
 
 > "The inference to the best explanation" corresponds approximately to what others have called "abduction," "the method of hypothesis"... 
 
 For an example of a modern use of the term 'abduction', consider Jerry Fodor: Inferences in which features of an embedding theory affect the inferential-cum-causal roles of their constituent beliefs are what philosophers sometimes call “global” or “abductive” or “holistic” or “inferences to the best explanation.” From now on, I’ll use these terms more or less interchangeably.[@fodor 28]
+ -->
+
 
 In response to van Fraassen's argument, many arguments for compatibilism from the explanationist perspective have emerged. In particular, I will focus on Okasha (2000), Lipton (2004), and Weisberg(2009). There are important subtle differences in their views, but these explanationists do share a common strategy in pointing out that van Fraassen's characterization of PIBE is not mandatory, and that PIBE can be construed in a way that renders it not only compatible with, but also, so they argue, complementary to Bayesianism. Okasha's way is to hold that what PIBE does is to facilitate the computation of subjective priors and likelihoods. Lipton suggests that PIBE is a heuristic human beings use to achieve conditionalization is a more efficient way. Both of these variants of compatibilism tries to solve the conflict by focusing on the psychological aspect of Subjective Bayesianism. Weisberg, on the other hand, takes to objective route: he argues that what PIBE does is to characterize some objective *a priori* distribution $p$. I shall argue, however, that all three attempts are inadequate. I will also use my analysis of these positions as an occasion to explain abductive volunatarism.
 
@@ -28,7 +30,17 @@ In response to van Fraassen's argument, many arguments for compatibilism from th
 
 ## Probabilism and Bayesianism
 
-In the philosophical context, the term "Bayesianism" is to be understood as an overarching epistemological position about the rationality of our beliefs. It certainly won't do to call anyone who uses Bayes' theorem a Bayesian, since the theorem itself is a logical consequence of conditional probability, so anyone who accepts the axioms of probability is a "Bayesian" in that sense. We also ought to distinguish Bayesianism in epistemology with Bayesianism in statistics. Even the strictest Bayesian statistician, who might reject all uses of Frequentist methods, could consistently maintain that Bayes' theorem is not the *only* rational way to revise one's belief in light of new evidence.^[This does not mean that philosophical Bayesianism and statistical Bayesianism are entirely separate---in fact, I think that Bayesian statistics is should be the model of a general Bayesian rationality. The position I advocate reflects this idea.]
+
+
+For the sake of clarity, we must first decide what being a "Bayesian" entails. It certainly won't do to call anyone who uses Bayes' theorem a Bayesian, since the theorem itself is a logical consequence of the theory of probability, so anyone who accepts the axioms of probability is a "Bayesian" in that sense. We also ought to distinguish Bayesianism in epistemology with Bayesianism in statistics. Even the strictest Bayesian statistician, who might reject all uses of Frequentist methods, could consistently maintain that Bayes' theorem is not the *only* rational way to revise one's belief in light of new evidence.
+
+Since explanationists are responding to van Fraassen's claim that Bayesianism and explanationism is incompatible, I suggest that we ought to retain the language 
+
+
+
+
+
+
 
 
 I will begin by spelling out a foundational thesis that encompasses the types of views relevant to our discussion: *probabilism* is the acceptance of the two statements below:
@@ -41,7 +53,7 @@ Strict Bayesianism, as an epistemological thesis, is the position that accepts t
 > *Conditionalization*: it is rational to update one's prior degree for belief $H$ in light of evidence $E$ via the application of Bayes' theorem, which determines the posterior opinion degree of belief $P(H|E)$.
 
 Thus, Strict Bayesianism claims that that a rational agent is one whose belief can be captured by some prior distributions, which would be mechanically revised whenever data is introduced. In our particular context, the term "Bayesian" refers to someone who thinks that not only is this revision justifiable only by conditionalization, but also that rationality mandates it. A person does not have to a Bayesian to think that conditionalization can be just the right thing to do. One, for instance, may think that while conditionalization is a perfectly fine principle, it cannot be the only rule, since there are occasions in which it is not applicable, e.g., a required prior might not be available. 
-
+<!-- 
 In light of this, we can distinguish at least two ways in which we may say conditionalization is a rational process:
 
 \begin{description}
@@ -56,7 +68,7 @@ In our context, I take Strict Bayesianism entails (Persistent), that is, Strict 
 3. There are more white balls.
 
 Suppose I randomly sample from the urn 100 times and I have a perfect 50:50 ratio of black and white balls in the samples. Assume that I start with the initial opinion that all possible proportions are equally likely, so that my prior can be represented by a uniform distribution. Conditional on the data, the proportion of black balls should be $0.5$, so it would seem that I should choose hypothesis 1. I am, however, allowed to have another draw. If I draw again and find a black ball, would I be rational in refusing to conditionalize on this evidence, and maintain that hypothesis 1 is true? I think so, and the rationale to an issue called the weight of the evidence, which is to be discussed in chapter 4. The intuition is this: my evidence for hypothesis 1 is too substantial to be defeated by a single data point. 
-
+ -->
 
 <!-- There are different ways in which priors can be justified. Carnap for instance, hold that priors can be justified purely on a logical basis. (This is sometimes referred to as logical Bayesianism.) But it can also be justified empirically. For example, an objective Bayesian might hold that the only rational priors are the only ones justified by Frequentist methods. Note that an empirically oriented Objective Bayesianism is unlikely to be viable, since many priors will lack the empirical justification the position requires. 
 
@@ -111,27 +123,43 @@ On the other hand, suppose $E$---all tosses turned up heads. We would receive \$
 
 We have been "Dutchbooked", which is a sign of irrationality according to Bayesianism. This happens exactly because we went beyond conditionalization with PIBE. Thus, van Fraassen concludes that compatibilism must be false: Bayesianism and Explanationism are inconsistent with each other.
 
-
 <!-- reflection:long-short term -->
 
 
-# Explanationism and Subjective Bayesianism
+# The Compatibilist Argument from Psychology
 
 
-Strict Bayesianism is an incomplete doctrine. It requires an additional claim about the status of prior distributions: since conditionalization presupposes the existence of a prior distribution for the belief $H$ supported by evidence $E$, Bayesians need an account for the status of these priors. In particular, it must address how one can determine if a prior degrees is admissible to conditionalization. One view is that priors are *subjective*:
+While van Fraassen never spells out PIBE, his argument does assume a certain formulation of it. In particular, he is relying on the idea that PIBE must give bonus probability to the posterior probability after conditionalization. Many explanationists, then, believes that this is an uncharitable interpretation of PIBE and an alternative formulation can open the door to a viable compatibilism. 
+
+One way to accomplish this is to make an argument from human psychology, i.e., how people use explanations to assist probabilistic reasoning. The key to this argument is to suggest that the role of PIBE is to inform an area of probabilistic reasoning about which Bayesianism is less opinionated 
+
+
+To begin, note that strict Bayesianism is an incomplete doctrine. It requires an additional claim about the status of prior distributions: since conditionalization presupposes the existence of a prior distribution for the belief $H$ supported by evidence $E$, Bayesians need an account for the status of these priors. In particular, it must address how one can determine if a prior degrees is admissible to conditionalization. One view is that priors are *subjective*:
 
 > *Subjective Bayesianism*: priors need not be justified, as long as they are consistent with the axioms of probability. 
 
-For example, for any proposition $H$, $P(H)$ must be between $0$ and $1$, and $P(\neg H) = 1 - P(H)$. An example of this view is F. P. Ramsey, who says:
+
+
+<!-- For example, for any proposition $H$, $P(H)$ must be between $0$ and $1$, and $P(\neg H) = 1 - P(H)$. An example of this view is F. P. Ramsey, who says:
 
 > ...to ask what initial degrees of belief are justified... seems to me a meaningless question; and even if it had a meaning I do not see how it could be answered.[@ramsey 88]
 
-From an epistemological point of view, Subjective Bayesianism can be considered as a type of anti-foundationalism. The idea is that the subjective view frees us from the burden of justifying our current opinions and holds that all rationality demands from us is to update our priors---whatever they are and however they were formed---by applying the rule of conditionalization diligently. This is an attractive feature of the subjective view, since it dislodges skepticism's most powerful premise, that rationality demands all our beliefs to be justified. Thus, Subjective Bayesianism as an epistemological doctrine is in line with the imagery of the Neurathian ship:
+Coherence is still a normative constraint
+ -->
 
-> We are like sailors who on the open sea must reconstruct their ship but are never able to start afresh from the bottom. Where a beam is taken away a new one must at once be put there, and for this the rest of the ship is used as support. In this way, by using the old beams and driftwood, the ship can be shaped entirely anew, but only by gradual reconstruction. [@neurath 199]
 
-In other words, rationality does not require us to build our beliefs from the ground up. We have to treat our initial opinions as given while we revise them with a rational procedure, which, according to Bayesians, *must* be conditionalization. Van Fraassen points out that this is what allows Subjective Bayesians to allow reasonable disagreement without succumbing to relativism. The thought is that with enough evidence, two completely opposite opinions could converge, as long as they strictly conditionalization as a rule of belief revision.
+From an epistemological point of view, Subjective Bayesianism can be considered as a type of anti-foundationalism. The idea is that the subjective view frees us from the burden of justifying our current opinions and holds that all rationality demands from us is to update our priors---whatever they are and however they were formed---by applying the rule of conditionalization diligently. This is an attractive feature of the subjective view, since it dislodges skepticism's most powerful premise, that rationality demands all our beliefs to be justified. Van Fraassen points out that this is what allows Subjective Bayesians to allow reasonable disagreement without succumbing to relativism. The thought is that with enough evidence, two completely opposite opinions could converge, as long as they strictly conditionalization as a rule of belief revision.
 
+The permissive natural of the subjective prior gives explanationists some leeway to find compatibility. One way to advance this argument is to suggest that explanations have traditionally been associated with the prior and likelihood, and not the posterior. 
+
+
+
+<!-- 
+Thus, Subjective Bayesianism as an epistemological doctrine is in line with the imagery of the Neurathian ship:
+
+> We are like sailors who on the open sea must reconstruct their ship but are never able to start afresh from the bottom. Where a beam is taken away a new one must at once be put there, and for this the rest of the ship is used as support. In this way, by using the old beams and driftwood, the ship can be shaped entirely anew, but only by gradual reconstruction. [@neurath 199] -->
+
+<!-- In other words, rationality does not require us to build our beliefs from the ground up. We have to treat our initial opinions as given while we revise them with a rational procedure, which, according to Bayesians, *must* be conditionalization.  -->
  
 
 ## Must PIBE Confer 'Bonus' Posterior Probability to the Best Explanation?

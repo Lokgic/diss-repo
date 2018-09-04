@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: /Users/lok/Dropbox/diss/repo/src/LaTeX_template/.texpadtmp/Lok Dissertation.aux
+The style file: chicago.bst
+Database file #1: ../lit.bib
+Warning--I'm ignoring rundestability's extra "year" field
+--line 268 of file ../lit.bib
+Warning--I'm ignoring lewisguide's extra "pages" field
+--line 338 of file ../lit.bib
+Warning--entry type for "stanfordprobability" isn't style-file defined
+--line 939 of file ../lit.bib
+Warning--page numbers missing in erikssonhajek
+Warning--can't use both author and editor fields in Han2013
+Warning--can't use both author and editor fields in Han2016
+Warning--no number and no volume in prospect
+Warning--empty booktitle in keynesearlybelief
+Warning--page numbers missing in stoppingrule
+Warning--can't use both author and editor fields in essentialpeirce2
+Warning--empty publisher in tellerlogic
+You've used 127 entries,
+            2861 wiz_defined-function locations,
+            1214 strings with 17323 characters,
+and the built_in function-call counts, 68892 in all, are:
+= -- 5523
+> -- 3782
+< -- 6
++ -- 1022
+- -- 1422
+* -- 5013
+:= -- 13262
+add.period$ -- 403
+call.type$ -- 127
+change.case$ -- 730
+chr.to.int$ -- 115
+cite$ -- 135
+duplicate$ -- 2394
+empty$ -- 5102
+format.name$ -- 1474
+if$ -- 12394
+int.to.chr$ -- 13
+int.to.str$ -- 0
+missing$ -- 182
+newline$ -- 636
+num.names$ -- 1260
+pop$ -- 759
+preamble$ -- 1
+purify$ -- 1524
+quote$ -- 0
+skip$ -- 2265
+stack$ -- 0
+substring$ -- 3676
+swap$ -- 707
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1942
+warning$ -- 8
+while$ -- 1328
+width$ -- 0
+write$ -- 1681
+(There were 11 warnings)

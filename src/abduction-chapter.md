@@ -121,6 +121,7 @@ Where does abduction come in then? abduction is "the first starting of a hypothe
 
 
 Thus, Aduction is a reaction to the irradiation of doubt, caused by the perception of some surprising facts. [@CP, 5.512] It is an inferential process in which a hypothesis is proposed as a possible account for the the surprising fact. 
+
 Thus, the role of abduction is paramount to the growth of knowledge, as it is "the only logical operation which introduces new ideas".[@essentialpeirce2 216] For an analogous position, consider Thomas Kuhn's idea that a shift in scientific paradigm has to be initiated by the perception of some anomalous event: Roentgen's the discovery of X-rays, instance, was caused by his perception of the surprising fact that his barium platinocyanide screen was unexpectedly glowing. [@kuhn 57-58] 
 
 Peirce often uses the following syllogistic schema to illustrate the inferential process of abduction:
