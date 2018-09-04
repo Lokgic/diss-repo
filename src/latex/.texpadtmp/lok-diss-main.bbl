@@ -309,6 +309,24 @@
       \field{pages}{113\bibrangedash 128}
       \range{pages}{16}
     \endentry
+    \entry{forgetful}{article}{}
+      \name{author}{1}{}{%
+        {{hash=84d01f4167f11c5fc4c27ee20b017c48}{Greenwald}{G\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{84d01f4167f11c5fc4c27ee20b017c48}
+      \strng{fullhash}{84d01f4167f11c5fc4c27ee20b017c48}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The University of Chicago Law Review}
+      \field{number}{1}
+      \field{title}{The Forgetful Witness}
+      \field{volume}{160}
+      \field{year}{1993}
+      \field{pages}{167\bibrangedash 195}
+      \range{pages}{29}
+    \endentry
     \entry{hajekdutchbook}{incollection}{}
       \name{author}{1}{}{%
         {{hash=49309e51f2ea32307dbaf967b976723f}{Hajek}{H\bibinitperiod}{Alan}{A\bibinitperiod}{}{}{}{}}%
@@ -511,6 +529,28 @@
       \field{labeltitlesource}{title}
       \field{title}{Philosophical Essay on Probabilities}
       \field{year}{1995}
+    \endentry
+    \entry{levibeware}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=65b068336136ba8df94bc5dcdada026d}{Levi}{L\bibinitperiod}{Isaac}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f671cd5a97cc1d263725ce5f9dfa1d5b}{Misak}{M\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{65b068336136ba8df94bc5dcdada026d}
+      \strng{fullhash}{65b068336136ba8df94bc5dcdada026d}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Cambridge Companion to Peirce}
+      \field{title}{11 Beware of Syllogism: Statistical Reasoning and Conjecturing According to Peirce}
+      \field{year}{2004}
+      \field{pages}{257}
+      \range{pages}{1}
     \endentry
     \entry{lewisguide}{incollection}{}
       \name{author}{1}{}{%
