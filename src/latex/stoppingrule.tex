@@ -133,12 +133,12 @@ Since there are 5 faces, a subject has the probability of \(0.2\) of
 getting it right just by guessing alone, so someone with ESP should do
 better than that. This is how ``better'' can be explicated: suppose a trial with 100 attempts has been carried out on a
 subject. If the subject is just guessing, then we would expect that she
-would get around 20 cards right. In fact, the theory of probability, we can ascertain that out of 100 cards, there is a
+would get around 20 cards right. In fact, according to the theory of probability, we can ascertain that out of 100 cards, there is a
 probability of \(0.944\) that the subject can get 26 or less correct
 guesses. Conversely, the probability that a guesser can get 27 or more
-cards right is pretty low: the p value is \(0.056\).
+cards right is pretty low: \emph{if} that is what we observed, the p value is \(0.056\). The frequentist idea is that using probability, we can explain what ``better than chance'' is with much greater clarity, but it still requires an epistemic judgment: I may decide that witnessing something that only has a $0.056$ probability of occurrence is enough to imply a discrepancy between my provisionally chosen hypothesis and experience that I am willing to admit it is wrong. If I decide to follow standard statistical practice, I would need a value below $0.05$, in which case I would as a rule reject my initial hypothesis if the subject can get 27 hits, since the probability for that would be $0.03$. A parapsychologist who desires her field to be accepted by the community, I suspect, would want to choose a standard that is agreeable to the people she wants to convince---skeptical scientists.
 
-Of course, this critical point entirely depends on how long the trial
+Of course, this point between better than chance or not also entirely depends on how long the trial
 is. In other words, we say that 27 is the cutoff, only because we
 already decided that the trial involves 100 guesses. For 500 guesses,
 for instance, there is a probability of 0.95 to randomly guess 115 cards
@@ -163,7 +163,7 @@ A.K. & 1000 & 212 & 1.50 \\
  D.A.& 750 & 168 &  1.64\\
  O.W.& 500 & 114 &  1.56
 \end{tabular}
-\caption{Summary of performance manic-depressive patients (Shulman, 1938, 101)}
+\caption{Card-guessing performance of manic-depressive patients (Shulman, 1938, 101)}
 \label{psychotable}
 \end{table}
 
@@ -222,7 +222,7 @@ Here's a summary of the result, after simulating testing 1000 subjects:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  371 out 1000 outcomes has reached significance. (\(p-value<0.05\)) In figure \ref{fig:freqhistp}, we see that the number of outcomes with significant p values far outnumbers the rest.
+  371 out 1000 outcomes has reached significance. (\(\text{p value}\leq0.05\)) In figure \ref{fig:freqhistp}, we see that the number of outcomes with significant p values far outnumbers the rest.
 \item
   A p-value as low as \(0.017\) was obtained. A distribution of significant p-values can be see in figure \ref{fig:freqhistp}
 \item
@@ -230,8 +230,7 @@ Here's a summary of the result, after simulating testing 1000 subjects:
   median is 85. According to figure  \ref{fig:freqhistn}, a substantial number of significant results were obtained by stopping before $400$ guesses. 
 \item
   It would seem that successful tests tended to stop early, though this
-  is not always the case. One test reached significant at the 1999th
-  attempt. This makes intuitive sense, since we know that the larger the sample size is, the closer the result will approximate the true proportion.
+  is not always the case. This makes intuitive sense, since we know that the larger the sample size is, the closer the result will approximate the true proportion. Amazingly, one test reached significance at the 1999th attempt.
 \end{enumerate}
 
 \begin{figure*}[h] 
@@ -274,11 +273,10 @@ In the next section, we will review this argument.
 Probabilities}\label{likelihood-and-counterfactual-probabilities}}
 
 From the problem of optional stopping then, what follows? From the
-Bayesian perspective, it suggests both a criticism of frequentism and an
-argument for Bayesian statistics. The criticism is that the
+Bayesian perspective, it suggests both a criticism of frequentism and support for Bayesian statistics. The criticism is that the
 experimenter's intention to stop could directly influence the
 significance of the result is because of frequentists' reliance of
-\emph{counterfactual probabilities}. The defense is that Bayesian
+\emph{counterfactual probabilities}. The support is that Bayesian
 methods do not require counterfactual probabilities, and therefore
 immune to the argument from intention, and, therefore, is preferable. I
 propose to first examine these two lines of thought, and then
@@ -1189,3 +1187,4 @@ relevant in Bayesian reasoning.
 
 My focus of this section was to elucidate the very idea that the commitment made in the abductive context has  repercussion on the inference made during the inductive context. The problem of optional stopping in parapsychology has served as a helpful case to demonstrate the issues at stake. Even though this problem has been traditionally associated with frequentist methodologies, I have tried to show that this is a problem that should also concern Bayesians. My contention is that aspects of inductive thinking has to be criticized in light of the deliberation the inquirer undergoes prior the experiment, such as the commitments and intentions considered and decided on by the experimenter. 
 
+ 
