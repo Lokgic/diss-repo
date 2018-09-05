@@ -1531,7 +1531,7 @@
 
     \vglue 3ex plus 1fill  % fill to keep bottom of page from creeping up
     \ifPhD
-      \setcounter{@minmembers}{5} % PhD committees have at least 5 members
+      \setcounter{@minmembers}{4} % PhD committees have at least 5 members
     \else
       \setcounter{@minmembers}{3} % Masters committees have at least 3 members
     \fi
