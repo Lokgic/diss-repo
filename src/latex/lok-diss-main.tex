@@ -1,7 +1,6 @@
 \documentclass[PhD]{dukethesis2006}
 \usepackage{setspace}
 
-\pagenumbering{arabic}
 \usepackage[notes]{biblatex-chicago}
 \usepackage{etoolbox}
 \usepackage{graphicx}
@@ -9,6 +8,7 @@
 \usepackage{amssymb,amsmath, amsthm,mathtools}
 \usepackage{longtable,booktabs}
 \usepackage[left=1.5in,right=1in,top=1.5in,bottom=1.5in]{geometry}
+%\input{bob_macros.tex}
 \bibliography{diss.bib}
 
 \providecommand{\tightlist}{%
@@ -28,8 +28,12 @@
 %\subject{xxx} If this is used, "subject" has to be un-commented in the cls file in several places
 \title{Deliberative Bayesianism:\\Abduction, Reflection, and the Weight of Evidence}
 \begin{document}
+
+
 \maketitle
+
 \makeabstract
+\Copyright
 \abstract
 In this dissertation, I defend the thesis that an epistemic judgment of
 probability must be interpreted against the background of the
@@ -52,8 +56,11 @@ To develop my position, I set the stage by proposing a pragmatist reading of Bas
 \listoffigures
 \listoftables
 \doublespacing
+
 \include{intro}
+
 \include{reflectionpragmatist}
+
 \include{stoppingrule}
 \include{weight}
 
