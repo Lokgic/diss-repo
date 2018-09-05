@@ -12,8 +12,8 @@ conducts: Peirce's rich notion of abduction, which
 goes beyond the mere appeal to explanatory values, supplies the context-sensitivity needed to understand the voluntarist commitments codified by the Reflection Principle.
 
 The main lesson, I suggested, is that the normative force that regulates
-epistemic commitments one incurrs by making a probabilistic judgment cannot
-be understood without the \emph{context} in which it is made. An
+epistemic commitments one undertakes in making a probabilistic judgment cannot
+be understood without taking into account the \emph{context} in which it is made. An
 assertion, as Peirce suggests, has no normative force unless the
 assertion is underwritten by an epistemic practice that incentivizes the
 agent to stand by the obligations imposed upon her. Dutch book
@@ -46,7 +46,7 @@ is that the freqeuntist conception of statistical evidence is dependent
 on the intentions of the experimenters, such that the experimenter may
 manipulate the evidence just by changing her intention to stop the
 sampling. This, Bayesians argue, is detrimental to the validity of
-frequentist inference. Instead, many Bayesians hold that the evidential
+frequentist inference. Instead, many Bayesians hold that the \emph{total} evidential
 import of data can be fully captured by what is called the
 \emph{likelihood function}, which is impervious to the effects of the
 agent's intentions. This is called \emph{the Likelihood Principle}.
@@ -58,8 +58,8 @@ Bayesian context.
 In section 3.1, I will give a historical presentation of the problem of
 optional stopping in the context of how it was used by
 parapsychologists to cook up evidence for the existence of
-``extra-sensory perception(ESP)''. In section 3.2, I will sharpen
-Bayesians' rationale that the statistical involvement of agent-intentions is to be blamed, and why
+``extra-sensory perception''(ESP). In section 3.2, I will sharpen
+Bayesians' argumrnt that the statistical involvement of agent-intentions is to be blamed for optional stopping, and why
 they think this is a critical flaw of frequentism. In section 3.3,
 however, I will explain how the same problem can apply to Bayesan
 reasoning. In the last section, 3.4, I examine a potential response to
@@ -284,26 +284,32 @@ immune to the argument from intention, and, therefore, is preferable. I
 propose to first examine these two lines of thought, and then
 transitions to the epistemological issues.
 
-The implicit information here is that \(0.04\) is relative to what
-\emph{would have} happened, if the the null hypothesis \emph{were} true.
-To see what this means, note that there were 4 ways an experiment with
+Suppose two cards were randomly chosen from the deck, and a subject was able to guess the face of both cards. What is the probability that a subject who is guessing will manage  both hits? To begin, there are 4 ways in which an experiment with
 two attempts could have turned out. Let \(H\) to ``Hit'' and \(M\) be
 ``Miss''. The 4 possibilities are: \[MM \quad MH \quad HM \quad HH\] But
 to get the probabilities needed, we will need to make at least one
-additional assumption: we need to assume that the
-
-because they are their respective probabilities are:
+additional assumption: we need to assume that the probability of a Hit is $0.2$, and the probability of a Miss is $0.8$. With these assumptions in place, we can calculate:
 \[P(M\wedge M)=0.8^2=0.64 \quad P(M\wedge H)=0.2(0.8)=0.16\]
 \[P(H \wedge M)=0.16 \quad P(H \wedge H)=0.04\]
 
-The point Bayesians want to establish is that the p-values cannot be
-seen as an unadulterated summaries of the observed evidence, since any
-p-value is laden with assumptions about what might have happened, based
-on some hypothesized parameters. In our comparison between the
-likelihood function and sampling distribution, we have already touched
-on the role of counterfactual probabilities in frequentist inferences.
-According to many Bayesians, this is a one fundamental disagreement
-between the two camps. Lindley says:
+The frequentist argument is that if the $p$ value---the probability of the data observed is low enough to be considered statistical significant. Now, Bayesians argue that the p-values cannot be
+seen as an unadulterated summaries of the observed evidence, since any p-value is laden with assumptions about what might have happened, based on some hypothesized parameters. Consider table \ref{tab:likelihoodvscf}. What frequentists are commending here is that, when we evaluate a hypothesis, we should consider the probability of the observed data by comparing the relative frequency of its occurrence in comparison to the other values on the the same row, which are all calculated based on the assumption that the "random guessing" hypothesis is true. Therefore, when we say that $HH$ is an extraordinary event, we are really saying that it is extraordinary \emph{relative to the three other scenarios that we could see, but did not.}
+
+\begin{table}[]
+\centering
+\begin{tabular}{@{}crrrr@{}}
+\toprule
+ & Factual & \multicolumn{3}{l}{} Counterfactual\\ 
+Hypothesized Reliability & HH & HM      & MH      &  MM    \\\midrule
+$0.2$ & 0.04 &   0.16    &   0.16    &    .64  \\
+ $0.5$& 0.25 &    0.25   &   0.25    &    0.25  \\
+ $1$& 1 &   0    &   0    &   0   \\ \bottomrule
+\end{tabular}
+  \label{tab:likelihoodvscf}
+  \caption{Comparison between sampling distributions(rows) and likelihood functions(columns)}
+\end{table}
+
+Bayesians, such as Lindley, criticizes this idea:
 
 
 \begin{quote}
@@ -360,19 +366,6 @@ Likelihood function, the Bayesian way of summarizing data, does not take
 into consideration of counterfactual probabilities at all.
 
 
-\begin{table}[]
-\centering
-\begin{tabular}{@{}crrrr@{}}
-\toprule
- & Factual & \multicolumn{3}{l}{} Counterfactual\\ 
-Hypothesized Reliability & HH & HM      & MH      &  MM    \\\midrule
-$0.2$ & 0.04 &   0.16    &   0.16    &    .64  \\
- $0.5$& 0.25 &    0.25   &   0.25    &    0.25  \\
- $1$& 1 &   0    &   0    &   0   \\ \bottomrule
-\end{tabular}
-  \label{tab:likelihoodvscf}
-  \caption{Comparison between sampling distributions(rows) and likelihood functions(columns)}
-\end{table}
 
 
 At this point, the debate becomes quite messy, since Bayesians tend to
