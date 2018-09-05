@@ -189,7 +189,7 @@ preserve a significant result. A. M., for instance, has made 500
 attempts. His test was then much shorter than his peers, many of who
 made more than 1000 guesses.
 
-To make this point more concrete, we can take advantage of modern
+To make this point more concrete, we can take advantage of the power of modern
 statistical computing: we can simulate experiments with similar stopping
 rules, and see if we can get $p$ values below $0.05$. The difference here is that for the simulation we \emph{know}
 that the participants are just guessing, so we know that any statistical significance would be a fluke. That is, if we can still force
@@ -215,6 +215,38 @@ The simulation consists of the following procedure:
 	\end{description} 
 \end{enumerate}
 
+\begin{figure*}[h] 
+\begin{center}
+\includegraphics[scale=0.5]{fixedvsoptionalsuc.png}
+	\caption{\emph{Left}: successes out of 1000 random samples drawn from $Binomial(n=2000,p=0.2)$. \emph{Right}: successes for all optional stopping simulations}
+	\label{fig:freqhistsuc}
+\end{center}	
+\end{figure*}
+
+
+\begin{figure*}[h] 
+\begin{center}
+\includegraphics[scale=0.4]{freqstoppval.png}
+	\caption{Histogram of p values($\leq 0.05$)}
+	\label{fig:freqhistpval}
+\end{center}	
+\end{figure*}
+
+\begin{figure*}[h] 
+\begin{center}
+\includegraphics[scale=0.5]{fixedvsoptional.png}
+	\caption{\emph{Left}: p values for 1000 random samples drawn from $Binomial(n=2000,p=0.2)$. \emph{Right}: p values for all optional stopping simulations}
+	\label{fig:freqfixedvsoptional}
+\end{center}	
+\end{figure*}
+
+\begin{figure*}[h] 
+\begin{center}
+\includegraphics[scale=0.4]{freqstopn.png}
+	\caption{Histogram of the number of attempts among optionally stopped simulation}
+	\label{fig:freqhistn}
+\end{center}	
+\end{figure*}
 
 Here's a summary of the result, after simulating testing 1000 subjects:
 
@@ -222,40 +254,16 @@ Here's a summary of the result, after simulating testing 1000 subjects:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  371 out 1000 outcomes has reached significance. (\(\text{p value}\leq0.05\)) In figure \ref{fig:freqhistp}, we see that the number of outcomes with significant p values far outnumbers the rest.
+  Starting with \ref{fig:freqhistsuc}, perhaps the first useful comparison is one between the number of successes between trials with a fixed $n=2000$  number of attempts versus trials with optional stopping allowed. In accordance with the Central limit theorem, the left hand side forms a nice normal distribution.\footnote{\cite{degroot}, section 6.3} The right hand side with optional stopping forms a bimodal distribution.
+  
+  \item As seen in \ref{fig:freqfixedvsoptional}, 371 out 1000 outcomes has reached significance, i.e., (\(\text{p value}\leq0.05\)). P values for trials with fixed N(left figure) are almost uniformly distributed.
 \item
-  A p-value as low as \(0.017\) was obtained. A distribution of significant p-values can be see in figure \ref{fig:freqhistp}
+  A p-value as low as \(0.017\) was obtained. A distribution of significant p-values with optionally stopping allowed can be see in the right figure in\ref{fig:freqfixedvsoptional}. 
 \item
   On average, significant results stopped at the 294th attempt. The
   median is 85. According to figure  \ref{fig:freqhistn}, a substantial number of significant results were obtained by stopping before $400$ guesses. 
-\item
-  It would seem that successful tests tended to stop early, though this
-  is not always the case. This makes intuitive sense, since we know that the larger the sample size is, the closer the result will approximate the true proportion. Amazingly, one test reached significance at the 1999th attempt.
-\end{enumerate}
+\item Successful tests tended to stop early. This makes intuitive sense, since we know that the larger the sample size is, the closer the result will approximate the true proportion. This point will be reexamined in section \ref{sec:intentions-and-self-sabotage-redux}, in the context of the argument from intention. There, we will see that the negative binomial distribution, which models trials with no fixed $n$, tend to encourage false positives when the sample size is small. \end{enumerate}
 
-\begin{figure*}[h] 
-\begin{center}
-\includegraphics[scale=0.4]{freqstoppval.png}
-	\caption{Histogram of p values $\leq 0.05$}
-	\label{fig:freqhistpval}
-\end{center}	
-\end{figure*}
-
-\begin{figure*}[h] 
-\begin{center}
-\includegraphics[scale=0.3]{freqstophist.png}
-	\caption{Histogram of p-values from Optional Stopping Simulation}
-	\label{fig:freqhistp}
-\end{center}	
-\end{figure*}
-
-\begin{figure*}[h] 
-\begin{center}
-\includegraphics[scale=0.3]{freqstopn.png}
-	\caption{Histogram of the Number of Trials Among Optionally Stopped Simulation}
-	\label{fig:freqhistn}
-\end{center}	
-\end{figure*}
 
 
 Thus, using optional stopping, we can easily find `evidence' for ESP if
@@ -285,8 +293,7 @@ transitions to the epistemological issues.
 Suppose two cards were randomly chosen from the deck, and a subject was able to guess the face of both cards. What is the probability that a subject who is guessing will manage  both hits? To begin, there are 4 ways in which an experiment with
 two attempts could have turned out. Let \(H\) to ``Hit'' and \(M\) be
 ``Miss''. The 4 possibilities are: \[MM \quad MH \quad HM \quad HH\] But
-to get the probabilities needed, we will need to make at least one
-additional assumption: we need to assume that the probability of a Hit is $0.2$, and the probability of a Miss is $0.8$. With these assumptions in place, we can calculate:
+to get the probabilities needed, we will have to decide on the probability of a Hit: if we accept \emph{provisionally} that a subject is just making randomly guesses, then the probability of a Hit is $0.2$, and the probability of a Miss is $0.8$. With these assumptions in place, we can calculate:
 \[P(M\wedge M)=0.8^2=0.64 \quad P(M\wedge H)=0.2(0.8)=0.16\]
 \[P(H \wedge M)=0.16 \quad P(H \wedge H)=0.04\]
 
@@ -386,7 +393,7 @@ of the evidence.
 
 \hypertarget{intentions-and-self-sabotage-redux}{%
 \section{Intentions and Self-Sabotage
-Redux}\label{intentions-and-self-sabotage-redux}}
+Redux}\label{sec:intentions-and-self-sabotage-redux}}
 
 Consider a simple illustration concerning the bias of a coin discussed
 by Lindley and Phillips.\footnote{D. V. Lindley and L. D. Phillips,
@@ -835,7 +842,7 @@ form:
 \[E(\theta) = \frac{\alpha}{\alpha + \beta}\]
 
 \noindent Now, because of a very nice property called conjugacy, the \emph{posterior} expected value
-is simply:\footnote{\cite{degroot}}
+is simply:\footnote{\cite{degroot}, section 7.3}
 
 \[E(\theta) = \frac{\alpha + k}{\alpha + \beta + n}\]
 
@@ -883,7 +890,7 @@ To simulate this procedure, we will carry out the following:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Loop for \(n\) times for \(n\) subjects.
+  For each simulation in \(n\) times:
 
   \begin{enumerate}
   \def\labelenumii{\alph{enumii}.}
@@ -942,7 +949,7 @@ back door of priors. Furthermore, what is stopping an optional stopper
 to cheat even more by adopting a set of parameters that is biased
 \emph{against} \(\theta = 0.2\)? Of course, we would criticize anyone
 that adopts such an experimental stance, but it would be made on the
-deliberativist ground.
+deliberativist ground: the standard of criticisms do consider intentions and decisions as relevant information.
 
 \hypertarget{is-optional-stopping-irrational-from-the-perspective-of-the-utility-maximizer}{%
 \section{Is Optional Stopping Irrational From the Perspective of the
@@ -954,8 +961,8 @@ thorough exposition. An Orthodox Bayesian could argue that optional
 stopping is an irrational practice, because from a Bayesian perspective
 it is never rational to refuse evidence, because additional evidence
 \emph{always leads the increase in expected utility}. This is in fact a
-result that has been proven in various occasions and forms by Frank
-Ramsey, I. J. Good, and L. J. Savage.,\footnote{\cite{ramseyvalue}}\footnote{\cite{goodtotalevidence}}\footnote{\cite{savage}, sec 6.2.}
+result that has been proven in various occasions and forms, first by Frank
+Ramsey, and then later, independently, I. J. Good, and L. J. Savage.\footnote{\cite{ramseyvalue}}\footnote{\cite{goodtotalevidence}}\footnote{\cite{savage}, sec 6.2.}
 
 Some context is helpful. In his \emph{A Treatise in Probability}, J. M.
 Keynes points out that subjectivists and expected utility theorists
@@ -968,8 +975,10 @@ rational in refusing new evidence.\footnote{Keynes, \emph{A Treatise on
   Probability}, 84--85.} If the answer for the former question is
 positive, and the latter question negative, then we have to conclude
 that rationality dictates us that we should never stop looking for more
-evidence. This problem received little attention, except by Ramsey in an
-unpublished note, until years later Ayer raises the same question in
+evidence. Keynes remains ambivalent about the notion itself. Ramsey, who clearly read \emph{a Treatise}, responded to the problem in an
+unpublished note.
+
+Many years later Ayer raises the same question in
 response to Carnap's \emph{Logical Foundation of Probability}, in which
 Carnap essentially restates Bernoulli's maxim as ``the requirement of
 total evidence''.
@@ -986,15 +995,12 @@ answer must be ``yes'', Ayer argues. If finding the truth value of some
 proposition \(P\) could potentially sway the balance of my evidence,
 then I should definitely acquire it. Thus the principle of total
 evidence seems to suggest that I am also rationally compelled to
-consider some evidence I do not yet have.
-
-I. J. Good interprets Ayer's as questioning ``why\ldots{} we should
+consider some evidence I do not yet have. I. J. Good interprets Ayer's as questioning ``why\ldots{} we should
 bother to make new observations.''\footnote{\cite{goodthinking}, 178.} In the context of optional stopping, this
 is particularly salient: if I already have the result I want, why should
 I bother get more evidence?
 
-Ramsey, in an unpublished note, was the first one to address this
-problem from a Bayesian perspective. Ramsey's argument is roughly that,
+Ramsey interpreted Keynes' question in the same way and addressed it an unpublished note addresses  from an expected utility perspective. Ramsey's argument is roughly that,
 \emph{if} we assume an agent to be a perfect Bayesian and that new
 information does not cost anything, then she will never be no worse off
 getting new evidence. In fact, she is guaranteed to be \emph{better} off
