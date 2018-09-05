@@ -309,7 +309,7 @@ $0.2$ & 0.04 &   0.16    &   0.16    &    .64  \\
   \caption{Comparison between sampling distributions(rows) and likelihood functions(columns)}
 \end{table}
 
-Bayesians, such as Lindley, criticizes this idea:
+Bayesians, such as Lindley, criticizes the use of probabilities of counterfactual scenarios in the evaluation of statistical hypotheses:
 
 
 \begin{quote}
@@ -326,16 +326,16 @@ before statisticians of ``frequentist'' persuasions will take note of
 it.\footnote{\cite{jaynesmight},247}
 \end{quote}
 
-For many Bayesians, the problem of optional stopping is seen as a
-decisive case against the frequentism and for Bayesianism. In
-particular, Bayesians believe that the sort of problem caused by
-optional stopping is due to the violation of the Likelihood
-Principle(LP), which states, roughly, that everything one can learn from
+How, then, should we look at evidence? The Bayesian perspective is to focus \emph{only} on the observed data, but compare its probability of occurence, \emph{conditional on different hypotheses}. The Bayesian point of view \emph{agrees} that the probability of two hits out of two attempts is $0.4$, but it disagrees with the thought that the epistemically relevant contrast is one between what \emph{would} happen based on the hypothesis of interest. Instead, we should be considering which \emph{hypothesis} would have best predicted what we ended up observing. In the context of table \ref{tab:likelihoodvscf}, the Bayesian way is to \emph{only} at the column for $HH$, the actually observed result, while ignoring all the counterfactual ones. This is the \emph{Likelihood Principle}(LP), which states, roughly, that everything one can learn from
 an experiment about an hypothesis can be obtained by calculating the
 probability of the \emph{actual} observation conditional on that
-hypothesis. The reliance on \emph{only} actual observations, as opposed
-to counterfactual ones, renders LP to be in a fundamental conflict with
-frequentism. I. J. Good says the following that exemplifies this point
+hypothesis. The use of the phrase `likelihood' here is technical: it refers to the likelihood function \(p(x_{1:n}|\theta)\), which is the probability of
+observations \(X_1...X_n\) conditional on the parameter of interest,
+such as the probability of guessing a card correctly. The likelihood function for this particular is represented by the factual column. Here, the result of two hits (HH) is held fixed, while the hypothesized values are varied. In the frequentist way, the hypothesis is held fixed, and the result is varied.
+
+
+More important, many Bayesians believe that the sort of problem caused by
+optional stopping can be explained by it violation of LP. The idea is that what count as the set of all possible scenarios---the number of cells in a row---is entirely dependent on the experiment's intention to stop. For instance, we need 4 cells to represent the space of possibility in \ref{tab:likelihoodvscf}, because we stipulated that the subject would make two guesses. But it seems peculiar, the argument goes, that the statistical import of data must be dependent on something goes on the experiment's mind. I. J. Good says the following that exemplifies this point
 well:
 
 \begin{quote}
@@ -352,10 +352,7 @@ statistician who is prepared to pretend he has a train to catch
 levels, given enough time, even when the null hypothesis is true.\footnote{\cite{goodthinking},135}
 \end{quote}
 
-The use of the phrase `likelihood' here is technical: it refers to the
-likelihood function \(p(x_{1:n}|\theta)\), which is the probability of
-observations \(X_1...X_n\) conditional on the parameter of interest,
-such as the probability of guessing a card correctly. The crucial point
+The crucial point
 here is that the likelihood function holds the actual observations to be
 fixed, while the hypothesized parameter is variable. This is different
 than the frequentist way, in which the \emph{hypothesis} is fixed, and
