@@ -239,10 +239,93 @@ exFn = function(dist,n,p){
   }
   return (expected)
 }
+exv = matrix(nrow = xn, ncol = yn)
+
+trueparm = sample(c(0.1,0.5,0.9),xn,replace=TRUE)
+
+
+yn = 15
+xn = 3
+exv = data.frame()
+trueparms = c(0.9,0.1,0.5)
+
+for (i in 1:xn){
+  dist = c(1/3,1/3,1/3)
+  for (j in 1:yn){
+    exv[j,i] = getexpected(dist)
+    dist = valsimupdate(dist,rbinom(1,1,trueparm[i]))
+  }
+}
+
+
+
+
+
+cc = sapply(trueparm,function(x){
+  if (x==0.1){
+    c = "blue"
+  } else if (x==0.5){
+    c= "red"
+  } else{
+    c= "green"
+  }
+  return (c)
+})
+
+cc = c("darkorchid","firebrick","olivedrab4")
+linestyle = c(1,3,4)
+
+plot(exv[,1],type='l',col=alpha(cc[1],0.3),xlab = "Observations",ylab = "Change in Expected Value",ylim=c(-0.3,0.3),lwd=3)
+
+for (i in 2:xn){
+  lines(exv[,i],col=alpha(cc[i],1),lty=linestyle[i],lwd=3)
+}
+
+legend(2,-.2, legend=c("p=0.9","p=0.1","p=0.5"), col=cc,cex=1, lty=c(1,3,4),bg="lightblue",lwd=3)
+
+
+
+
+g = ggplot(exv,aes(1:yn))
+
+g =
+  
+  g +   geom_line(aes(y=exv[,1]),color=cc[1]) + geom_line(aes(y=exv[,2]),color=cc[2])
+
+g = g + geom_line(aes(y=exv[,2]),color=cc[2])
+g
+
+for (i in 1:xn){
+  g = g + geom_line(aes(y=exv[,i]),color=cc[i])
+}
+
+
+exv[1,]
+exv[16,] = trueparm
+
+
+exv = matrix(nrow = xn, ncol = yn)
 
 expectN = exFn(c(1/3,1/3,1/3),10,0.5)
-expectW = exFn(c(1/3,1/3,1/3),10,0.5)
+expectW = exFn(c(1/3,1/3,1/3),10,0.1)
 
-plot(expectN)
-expectN 
+plot(expectN,type='l')
+lines(expectW,lsty=2)
+expectW
+k=20
+n=8
+total = n*k
+act.y = rbinom(k,n,.2)
+act.y
+pr.a = 1
+pr.b = 1
+x = sum(act.y)
+post.a = pr.a + x
+post.b = pr.b +(n*k) - x
+post.a
+post.b
+post.ex = post.a / (post.a+post.b)
 
+y.rep = rbinom(k,n,post.ex)
+sum(y.rep)
+pbeta()
