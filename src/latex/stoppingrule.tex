@@ -88,8 +88,8 @@ argue, is that a statistical conclusion ought not be influenced by
 extra-statistical concerns such as when the experimenter decides to
 stop.
 
-One of the phenomena parapsychologists claimed to have found
-statistical evidence is extrasensory perception(ESP), i.e., that some
+One of the phenomena for which parapsychologists claimed to have found
+statistical evidence is \emph{extrasensory perception} (ESP), i.e., that some
 people can perceive certain facts without the use of any of the five
 senses. How can such a claim be examined experimentally and
 statistically?
@@ -108,23 +108,23 @@ One often used experimental setup for testing ESP is an activity called
 ``card guessing'' using the so-called Zener cards, after Karl Zener, the
 Duke psychologist who suggested the design to Rhine.\footnote{\cite{rhineesp},48} A Zener card can have one of 5
 unique symbols. A typical deck of Zener cards contain 5 cards for each
-symbol. A trial of this experiment typically involves a subject was
+symbol. A trial of this experiment typically involves a subject
 being repeatedly asked to guess the face of a randomly chosen card,
 while the investigator would note the actual face of the card and the
-subject's answer. After each trial, the subject's reported sequence would then
+subject's answer. After each trial, the subject's reported sequence would then be
 compared to the observed result, and a score would be calculated based
 on the number of correct guesses.
 
 Of course, one could achieve a high score by chance: no one would think
 I had ESP if I successfully had predicted the outcome of a coin flip,
 because we know that, no matter what my prediction is, I would still
-have a \(0.5\) probability of getting it right. But what if I guessed 10
+have a \(0.5\) probability of getting it right. But what if I guessed
 correctly the result of 10 consecutive tosses? The probability of that
 is \(0.5^{10} = 0.001\). We are much more inclined to say that I have
-some sort ability, because it would have been an extraordinary
+some sort parapsychological ability, because it would have been an extraordinary
 coincidence if I got it right purely by chance. This is the sort of
-statistical arguments that Rhine and his followers tried to make. Their
-contention is that if a subject can obtain a score that is too
+statistical argument that Rhine and his followers tried to make. Their
+contention is that if a subject can attain a score that is too
 extraordinary to be explained by chance, then we have statistical
 evidence for the person's ESP ability. In statistics, the probability of
 an outcome, assuming that it is by chance, is called the $p$ value.
@@ -134,11 +134,11 @@ getting it right just by guessing alone, so someone with ESP should do
 better than that. This is how ``better'' can be explicated: suppose a trial with 100 attempts has been carried out on a
 subject. If the subject is just guessing, then we would expect that she
 would get around 20 cards right. In fact, according to the theory of probability, we can ascertain that out of 100 cards, there is a
-probability of \(0.944\) that the subject can get 26 or less correct
+probability of \(0.944\) that the subject can get 26 or fewer correct
 guesses. Conversely, the probability that a guesser can get 27 or more
 cards right is pretty low: \emph{if} that is what we observed, the p value is \(0.056\). The frequentist idea is that using probability, we can explain what ``better than chance'' is with much greater clarity, but it still requires an epistemic judgment: I may decide that witnessing something that only has a $0.056$ probability of occurrence is enough to imply a discrepancy between my provisionally chosen hypothesis and experience that I am willing to admit it is wrong. If I decide to follow standard statistical practice, I would need a value below $0.05$, in which case I would as a rule reject my initial hypothesis if the subject can get 27 hits, since the probability for that would be $0.03$. A parapsychologist who desires her field to be accepted by the community, I suspect, would want to choose a standard that is agreeable to the people she wants to convince---skeptical scientists.
 
-Of course, this point between better than chance or not also entirely depends on how long the trial
+Of course, this point between ``better than chance'' or not also entirely depends on how long the trial
 is. In other words, we say that 27 is the cutoff, only because we
 already decided that the trial involves 100 guesses. For 500 guesses,
 for instance, there is a probability of 0.95 to randomly guess 115 cards
@@ -176,8 +176,8 @@ subjects consistently scored higher than chance. For instance, consider
 patient A. M. who got 118 hits out of 500 attempts. As discussed, it
 would seem that, assuming A. M. was just guessing, it would have been an
 extraordinary coincidence that he scored 18 higher than normally
-expected. In fact, the p value---the probability for an outcome or
-better like this to happen by chance---is \(0.027\), which is quite
+expected. In fact, the p value---the probability for an outcome like this or
+better to happen by chance---is \(0.027\), which is quite
 improbable. Does this constitute evidence for ESP?
 
 Feller argues that this result is spurious, because the
@@ -194,7 +194,7 @@ statistical computing: we can simulate experiments with similar stopping
 rules, and see if we can get $p$ values below $0.05$. The difference here is that for the simulation we \emph{know}
 that the participants are just guessing, so we know that any statistical significance would be a fluke. That is, if we can still force
 significance using optional stopping, then there is a good reason to
-doubt the supposed evidence for ESP gathered using optional stopping. The scenario we need to simulate would be something like the following: the experimenter will randomly draw a Zener card out a shuffle deck, with replacement.
+doubt the supposed evidence for ESP gathered using optional stopping. We need to stimulate the following scenario: the experimenter will randomly draw a Zener card out of a shuffled deck, with replacement.
 She will then ask the subject to guess the card, and record the result.
 For each subject, she will stop under one of these two conditions: 1.
 The result has reached significance: the probability of the current
@@ -207,8 +207,8 @@ The simulation consists of the following procedure:
 \begin{enumerate}
 	\item The simulation will run 1000 times, each of which represents one subject. 
 	\item For each subject $i$, a random sample will be drawn from a Bernoulli distribution, with the probability of success $p=0.2$, to simulate a subject who will randomly guess the face of a randomly drawn Zener card, with replacement. 
-	\item For each draw $k$ for each subject $i$, the result $x_{i,j}\in \{0,1\}$ will be added to the total sum $y_i$ for the subject.
-	\item Each trial run on indefinitely, \emph{until} one of the following conditions is obtained on the $n$th guess:\begin{description}
+	\item For each draw $k$ (of subject $i$), the result $x_{i,j}\in \{0,1\}$ will be added to the total sum $y_i$ for the subject.
+	\item Each trial continues to run, \emph{until} one of the following conditions is obtained on the $n$th guess:\begin{description}
 		\item[significance:] When the $p$ value is less than or equal to $0.05$. That is, 
 		$$P(Y\geq y_i) = \sum_{j=y_1}^n {n \choose j} 0.2^j 0.8^{n-j}\leq 0.05$$
 		\item[end:] $n=2000$: the subject has made 2000 guesses without significance. In this case, we simply move on to the next subject.
