@@ -286,25 +286,25 @@ experimenter's intention to stop could directly influence the
 significance of the result is because of frequentists' reliance on
 \emph{counterfactual probabilities}. This privodies a reason for switching to Bayesian methods, since they, the argument goes, do not require counterfactual probabilities, and, therefore, are immune to the argument from intention. I propose to first examine these two lines of thought, and then transition to the epistemological issues.
 
-Suppose two cards were randomly chosen from the deck, and a subject was able to guess the face of both cards. What is the probability that a subject who is guessing will manage  both hits? To begin, there are 4 ways in which an experiment with
-two attempts could have turned out. Let \(H\) to ``Hit'' and \(M\) be
-``Miss''. The 4 possibilities are: \[MM \quad MH \quad HM \quad HH\] But
-to get the probabilities needed, we will have to decide on the probability of a Hit: if we accept \emph{provisionally} that a subject is just making randomly guesses, then the probability of a Hit is $0.2$, and the probability of a Miss is $0.8$. With these assumptions in place, we can calculate:
-\[P(M\wedge M)=0.8^2=0.64 \quad P(M\wedge H)=0.2(0.8)=0.16\]
-\[P(H \wedge M)=0.16 \quad P(H \wedge H)=0.04\]
+Suppose two cards were randomly chosen from the deck, and a subject was able to guess the face of both cards. What is the probability that a subject who is guessing will manage  both hits? To begin, there are four ways in which an experiment with
+two attempts could have turned out. Let \(H\) be ``Hit'' and \(M\) be
+``Miss''. The four possibilities are: \[MM \quad MH \quad HM \quad HH\] But
+to get the probabilities needed, we will have to decide on the probability of a Hit: if we accept \emph{provisionally} that a subject is just making randomly guesses, then the probability of a Hit is $0.2$, and the probability of a Miss is $0.8$. With these assumptions in place, we can calculate the so-called \emph{sampling distribution}, which is also the first row of \ref{tab:likelihoodvscf}. 
+\[P(H  H)=0.04 \quad P(H  M)=0.16  \]
+\[P(M H)=0.2(0.8)=0.16 \quad P(M M)=0.8^2=0.64 \]
 
 The frequentist argument is that if the $p$ value---the probability of the data observed is low enough to be considered statistical significant. Now, Bayesians argue that the p-values cannot be
-seen as an unadulterated summaries of the observed evidence, since any p-value is laden with assumptions about what might have happened, based on some hypothesized parameters. Consider table \ref{tab:likelihoodvscf}. What frequentists are commending here is that, when we evaluate a hypothesis, we should consider the probability of the observed data by comparing the relative frequency of its occurrence in comparison to the other values on the the same row, which are all calculated based on the assumption that the "random guessing" hypothesis is true. Therefore, when we say that $HH$ is an extraordinary event, we are really saying that it is extraordinary \emph{relative to the three other scenarios that we could see, but did not.}
+seen as an unadulterated summaries of the observed evidence, since any $p$ value is laden with assumptions about what might have happened, based on some hypothesized parameters. Consider table \ref{tab:likelihoodvscf}. What frequentists are commending here is that, when we evaluate a hypothesis, we should consider the probability of the observed data by comparing the relative frequency of its occurrence in comparison to the other values on the the same row, which are all calculated based on the assumption that the "random guessing" hypothesis is true. Therefore, when we say that $HH$ is an extraordinary event, we are really saying that it is extraordinary \emph{relative to the three other scenarios that we could see, but did not.}
 
 \begin{table}[]
 \centering
-\begin{tabular}{@{}crrrr@{}}
+\begin{tabular}{@{}c||c|rrr@{}}
 \toprule
- & Factual & \multicolumn{3}{l}{} Counterfactual\\ 
+ & Factual & \multicolumn{3}{l}{} Counterfactual\\ \midrule
 Hypothesized Reliability & HH & HM      & MH      &  MM    \\\midrule
-$0.2$ & 0.04 &   0.16    &   0.16    &    .64  \\
+$0.2$ & 0.04 &   0.16    &   0.16    &    0.64  \\
  $0.5$& 0.25 &    0.25   &   0.25    &    0.25  \\
- $1$& 1 &   0    &   0    &   0   \\ \bottomrule
+ $1.0$& 1.00 &   0.00    &   0.00    &   0.00   \\ \bottomrule
 \end{tabular}
   \label{tab:likelihoodvscf}
   \caption{Comparison between sampling distributions(rows) and likelihood functions(columns)}
@@ -327,10 +327,21 @@ before statisticians of ``frequentist'' persuasions will take note of
 it.\footnote{\cite{jaynesmight},247}
 \end{quote}
 
-How, then, should we look at evidence? The Bayesian perspective is to focus \emph{only} on the observed data, but compare its probability of occurence, \emph{conditional on different hypotheses}. The Bayesian point of view \emph{agrees} that the probability of two hits out of two attempts is $0.4$, but it disagrees with the thought that the epistemically relevant contrast is one between what \emph{would} happen based on the hypothesis of interest. Instead, we should be considering which \emph{hypothesis} would have best predicted what we ended up observing. In the context of table \ref{tab:likelihoodvscf}, the Bayesian way is to \emph{only} at the column for $HH$, the actually observed result, while ignoring all the counterfactual ones. This is the \emph{Likelihood Principle}(LP), which states, roughly, that everything one can learn from
-an experiment about an hypothesis can be obtained by calculating the
-probability of the \emph{actual} observation conditional on that
-hypothesis. The use of the phrase `likelihood' here is technical: it refers to the likelihood function \(p(x_{1:n}|\theta)\), which is the probability of
+How, then, should we look at evidence? The Bayesian perspective is to focus \emph{only} on the observed data, but compare its probability of occurence, \emph{conditional on different hypotheses}. The Bayesian point of view \emph{agrees} that the probability of two hits out of two attempts is $0.4$, but it disagrees with the thought that the epistemically relevant contrast is one between what \emph{would} happen based on the hypothesis of interest. Instead, we should be considering which \emph{hypothesis} would have best predicted what we ended up observing. In the context of table \ref{tab:likelihoodvscf}, the Bayesian way is to \emph{only} at the column for $HH$, the actually observed result, while ignoring all the counterfactual ones. This is summarized as: 
+
+\begin{quote}
+THE LIKELIHOOD PRINCIPLE[LP]. All the information about $\theta$ [the parameter of interest] obtainable from an experiemnt is contained in the likelihood function of $\theta$ given $X$. Two likelihood functions for $\theta$ (from the same or different experiments) contains the same information about $\theta$ if they are proportional to another.\footnote{\cite{lp}, 19.}	
+\end{quote}
+
+
+Savage's expression of the principle is perhaps more ambitious:
+
+\begin{quote}
+The likelihood principle says this: the likelihood function... is much more than merely a sufficient statistic, for given the likelihood function in which an experiment has resulted, \emph{everything} else about the experiment---what its plan was, what different data might have resulted from it, the conditional distributions of statistics under given parameter values, and so on---is irrelevant. \footnote{\cite{savagerecon}, 583.}	
+\end{quote}
+
+
+We must be clear about the use of the term `likelihood', since it is technical: it refers to the likelihood function \(p(x_{1:n}|\theta)\), which is the probability of
 observations \(X_1...X_n\) conditional on the parameter of interest,
 such as the probability of guessing a card correctly. The likelihood function for this particular is represented by the factual column. Here, the result of two hits (HH) is held fixed, while the hypothesized values are varied. In the frequentist way, the hypothesis is held fixed, and the result is varied.
 
