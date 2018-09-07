@@ -1098,18 +1098,18 @@ and \(E_w\) for white balls. So:
 So, in the event of drawing a black ball from the urn, we would update
 our belief like so:
 
-\[P(H_b|E_b) = \frac{P(H_b)P(E_b|H_b)}{P(E_b)}=\frac{1/3(0.9)}{0.5} = 0.6 \]
+\[P(H_b|E_b) = \frac{P(H_b)P(E_b|H_b)}{P(E_b)}=\frac{1/3(.9)}{.5} = .600 \]
 
 Similarly, applying the calculation on the other hypotheses, we get:
-\[P(H_w|E_b) = 0.067\] \[P(H_n|E_b) = 0.333\] Similar argument can be
+\[P(H_w|E_b) = .067\] \[P(H_n|E_b) = .333\] Similar argument can be
 made by assuming \(E_w\), that is, a white ball is chosen. In that case
-\(P(H_w|E_w) = 0.6\). If we were an ideal Bayesian agent, we should pick
+\(P(H_w|E_w) = .600\). If we were an ideal Bayesian agent, we should pick
 \(H_b\) if \(E_b\), and pick \(H_w\) if \(E_w\). Since an ideal Bayesian
 would choose the option that maximizes our expected utility, in either
-case the expected value after drawing from the urn once is \(0.6\),
+case the expected value after drawing from the urn once is \(.600\),
 which is an improvement, since before drawing our expected utility is
 \(1/3\) for all options. The net gain in expected utility would be
-\(0.6 - 0.33 = 0.27\), is referred to as \emph{the value of information}
+\(.60 - .33 = .27\), is referred to as \emph{the value of information}
 in the decision theory literature.\footnote{\cite{appliedstatdec},
   89--90}\footnote{\cite{winkler}, section 6.3.}
   
@@ -1124,12 +1124,12 @@ in the decision theory literature.\footnote{\cite{appliedstatdec},
  [H_n[.333]]
  ]
  [Observe;EV:0.706,plain content,elo={yshift=4pt}
- [;b(0.71)
+ [;b(.71)
  [H_b[\bf{.757}]]
  [H_w[.009]]
  [H_n[.233]]
  ]
- [;w(0.29)
+ [;w(.29)
 [H_b[.210]]
  [H_w[.210]]
  [H_n[\bf{.580}]]
@@ -1147,22 +1147,22 @@ the urn again. This situation is represented as a decision tree in figure \ref{f
 have one piece of evidence in hand. Let us refer to our state of belief
 after the first draw as \(H_b', E_b',..\) and so on. For instance,
 \(P(H_b') = P(H_b|E_b)\) and \(P(E_b') = P(E_b'|E_b)\). One notable
-change is that \(P(E_b') = 0.7132\) and \(P(E_w')=0.2868\). If we draw
+change is that \(P(E_b') = .71\) and \(P(E_w')=.29\). If we draw
 again and get a black ball, this means:
 
-\[P(H_b'|E_b') = 0.757\] \[P(H_w'|E_b') = 0.009\]
-\[P(H_n'|E_b') = 0.233\]
+\[P(H_b'|E_b') = .757\] \[P(H_w'|E_b') = .009\]
+\[P(H_n'|E_b') = .233\]
 
 If a white ball were to be drawn:
 
 \[P(H_b'|E_w') = 0.21\] \[P(H_w'|E_w') = 0.21\] \[P(H_n'|E_w') = 0.58\]
 
 Thus, if the second sample is a black ball, we would choose \(b\) since
-it has the maximum expected utility at \(0.757\), and if we get a white
-ball, we choose \(n\) with the expected value at \(0.58\). So, the
+it has the maximum expected utility at \(.757\), and if we get a white
+ball, we choose \(n\) with the expected value at \(.580\). So, the
 expected utility, if we were to draw from the urn again, is:
-\(0.7132(0.757) + 0.2867(0.58) = 0.706\), which is an improvement over
-just drawing once. The net gain is \(0.706 - 0.6 = 0.106\). Ramsey's
+\(.7132(.757) + .2867(.580) = .706\), which is an improvement over
+just drawing once. The net gain is \(.706 -.600 = .106\). Ramsey's
 proof shows that we can keep on getting more evidence and we will never
 be worse off. In fact, we will be better off as long as there is
 evidence out there we do not yet have.
@@ -1172,7 +1172,7 @@ To see a bird's-eye view of the situation, consider figure \ref{fig:expectedchan
 \begin{figure*}[h] 
 \begin{center}
 \includegraphics[scale=0.5]{Expectedchange.png}
-	\caption{Net gain in expectation after $x$ observations from $p=0.9,0.1,0.5$. Note: it does not dip below 0, which implies that one is never worse off from getting new evidence.}
+	\caption{Net gain in expectation after $x$ observations from $p=.9,.1,.5$. Note: it does not dip below 0, which implies that one is never worse off from getting new evidence.}
 	\label{fig:expectedchange}
 \end{center}	
 \end{figure*}
@@ -1189,7 +1189,7 @@ assumption here is that evidence costs \emph{nothing}. The scenario we
 imagined quickly breaks down once we starts to introduce some sort of
 cost. It was assumed in the example that it costs us neither money nor
 time to draw from the urn, but suppose it costs us 25 cents for each
-sample. This means that we would be gaining only \(0.27-0.25 = 0.02\) in
+sample. This means that we would be gaining only \(.27-.25 = 0.02\) in
 expected payoff for the first draw, and the second draw would definitely
 not be worth the additional 25 cents. Or suppose that one dollar is not
 worthy any endeavor that lasts longer than 15 seconds, and it takes 30
@@ -1197,19 +1197,17 @@ seconds to draw from the urn. As soon as minimally realistic assumptions
 are introduced, Ramsey's result no longer holds.
 
 Cost might also enter into consideration in different forms. Savage
-ponders over a case in which a very ill person, who is given the option
-to find out with no financial cost if the disease she has is terminal.
-Savage points out that an argument can be made that in this case
-refusing information could be rational. The thought is that the patient
+discusses a case in which a very ill person, who is given a cost-free option
+to find out if the disease she has is terminal. Savage points out that an argument can be made that in this case refusing information could be rational. The thought is that the patient
 may decide that, based on an assessment of her own personality, she
 would live the rest of her remaining life in agony if she were to find
 out that her disease is very serious, whereas she could live relatively
 happily without knowing. Savage's point is that in this case the
 information is not really free; it has a \emph{psychological}
-cost.\footnote{\cite{savage}, 107.}
+cost.\footnote{\cite{savage}, 107.} 
 
 Ramsey and Good's proofs, while extremely valuable from a logical and
-mathematical perspective, are somewhat tone-deaf to the actual problem
+mathematical perspective, are somewhat tone-deaf to the practical problem
 posed by Ayer and Keynes. The actual complaint was that the Principle of
 Total Evidence \emph{presupposes} that we know ahead what ``total
 evidence'' amounts to, since the decision to get more evidence or simply
