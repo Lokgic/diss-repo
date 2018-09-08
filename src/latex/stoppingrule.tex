@@ -431,9 +431,9 @@ and leads to different sets of probabilities.
 So Bayesians have an important point here: intentions are influencing
 the statistical result through counterfactual probabilities, but, unless
 there are reasons to think accounting for intentions is somehow
-inherently bad, this \emph{supports} the deliberativist thesis: it argues that deliberating on when to stop based on what would happen after a possible course of action is one of the judgments that shapes the epistemic context, in which the data should be interpreted, so I am not so much concerned with solving the problem by arguing that intentions do matter, but rather with dissolving it by making sense of its role in induction. 
+inherently bad, this \emph{supports} the deliberativist thesis: it argues that deliberating on when to stop based on what would happen after a possible course of action is one of the judgments that shapes the epistemic context, in which the evidential import of the data should be interpreted. Consequently, I am not so much concerned with \emph{solving} the problem by arguing that intentions do matter, but rather with \emph{dissolving} it by making sense of its role in induction. 
 
-To begin, let us spell out what the argument is. Consider the rule that says to stop after \(n=12\) tosses. Using the frequentist method means that we have to consider the probability of all
+To begin, let us spell out what the argument from intention is. Consider the rule that says to stop after \(n=12\) tosses. Using the frequentist method means that we have to consider the probability of all
 possible outcomes---0-12 heads, in various combinations.  We know that, from probability theory, for a random
 variable with binary outcomes---success or failure, for instance---the
 probability of getting \(k\) success out of \(n\) trials, given the
@@ -459,13 +459,12 @@ successes. In this case, the experimental question is in fact quite
 different, since now we would consider the coin to be biased against
 heads if it takes an abnormally large number of tosses. So the
 statistical question is: what is the probability of the coin needing
-\(12\) or more tosses in order to get 3 heads? Using computers, we can
+\(12\) or more tosses in order to get 3 heads? Using a variant of the binomial distribution called the \emph{negative binomial distribution}, we can
 easily find this. Let \(X\) be the number of misses, so
 
 \[P(X \geq 9) = 1 - P(X <9) = 1 - \sum_{i=0}^{8} {3+i-1 \choose i} (0.5)^3 (0.5)^{i} =0.03\]
 
-This seems to be a much more significant result, but this is not the
-complete picture. 
+This seems to be a much more significant result. It seems like we were able to raise the significance of the data by changing nothing but the stopping rule, but this is not the complete picture. 
 
 \subsection{The Deliberativist Analysis}
 
