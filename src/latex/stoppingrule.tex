@@ -285,10 +285,12 @@ significance of the result is because of frequentists' reliance on
 Suppose two cards were randomly chosen from the deck, and a subject was able to guess the face of both cards. What is the probability that a subject who is guessing will manage  both hits? To begin, there are four ways in which an experiment with
 two attempts could have turned out. Let \(H\) be ``Hit'' and \(M\) be
 ``Miss''. The four possibilities are: \[MM \quad MH \quad HM \quad HH\] But
-to get the probabilities needed, we will have to decide on the probability of a Hit: if we accept \emph{provisionally} that a subject is just making randomly guesses, then the probability of a Hit is $0.2$, and the probability of a Miss is $0.8$. With these assumptions in place, we can calculate the so-called \emph{sampling distribution}, which is also the first row of \ref{tab:likelihoodvscf}. 
+to get the probabilities needed, we will have to decide on the probability of a Hit: if we accept \emph{provisionally} that a subject is just making randomly guesses, then the probability of a Hit is $0.2$, and the probability of a Miss is $0.8$. With these assumptions in place, we can calculate the so-called \emph{sampling distribution}.
+
 \[P(H  H)=0.04 \quad P(H  M)=0.16  \]
 \[P(M H)=0.2(0.8)=0.16 \quad P(M M)=0.8^2=0.64 \]
 
+This is also represented in the first row of \ref{tab:likelihoodvscf}. 
 The frequentist argument is that if the $p$ value---the probability of the data observed is low enough to be considered statistical significant. Now, Bayesians argue that the $p$ values cannot be
 seen as an unadulterated summaries of the observed evidence, since any $p$ value is laden with assumptions about what might have happened, based on hypothesized parameters. Consider table \ref{tab:likelihoodvscf}. What frequentists are recommending here is that, when we evaluate a hypothesis, we should consider the probability of the observed data by comparing the relative frequency of its occurrence in comparison to the other values on  the same row, which are all calculated based on the assumption that the ``random guessing'' hypothesis is true. Therefore, when we say that $HH$ is an extraordinary event, we are really saying that it is extraordinary \emph{relative to the three other scenarios that we could see, but did not.}
 
@@ -323,7 +325,7 @@ before statisticians of ``frequentist'' persuasions will take note of
 it.\footnote{\cite{jaynesmight},247}
 \end{quote}
 
-How, then, should we look at evidence? The Bayesian perspective focuses \emph{only} on the observed data, but compares its probabilities of occurrence conditional on different hypotheses. The Bayesian point of view \emph{agrees} that the probability of two hits out of two attempts is $0.4$, but it disagrees with the notion that the epistemically relevant contrast is the one between different counterfactual probabilities based on one hypothesis of interest. Instead, we should be considering which \emph{hypothesis} would have best predicted what we ended up observing. In the context of table \ref{tab:likelihoodvscf}, the Bayesian way is to look \emph{only} at the column for $HH$, the actually observed result, while ignoring all the counterfactual ones. This is summarized as: 
+How, then, should we look at evidence? The Bayesian perspective focuses \emph{only} on the observed data, but compares its probabilities of occurrence conditional on different hypotheses. The standard Bayesian point of view agrees that the probability of two hits out of two attempts is $0.4$, but it disagrees with the notion that the epistemically relevant contrast is the one between different counterfactual probabilities based on one hypothesis of interest. Instead, we should be considering which \emph{hypothesis} would have best predicted what we ended up observing. In the context of table \ref{tab:likelihoodvscf}, the Bayesian way is to look \emph{only} at the column for $HH$, the actually observed result, while ignoring all the counterfactual ones. This is summarized as: 
 
 \begin{quote}
 THE LIKELIHOOD PRINCIPLE[LP]. All the information about $\theta$ [the parameter of interest] obtainable from an experiemnt is contained in the likelihood function of $\theta$ given $X$. Two likelihood functions for $\theta$ (from the same or different experiments) contains the same information about $\theta$ if they are proportional to another.\footnote{\cite{lp}, 19.}	
@@ -337,13 +339,12 @@ The likelihood principle says this: the likelihood function... is much more than
 \end{quote}
 
 
-We must be clear about the use of the term `likelihood', since it is technical: it refers to the likelihood function \(p(x_{1:n}|\theta)\), which is the probability of
-observations \(X_1...X_n\) conditional on the parameter of interest,
-such as the probability of guessing a card correctly. The epistemically relevant likelihood function is represented by the factual column. Here, the result of two hits (HH) is held fixed, while the hypothesized values are varied. In the frequentist methpd, the hypothesis is held fixed, and the result is varied.
+We must be clear about the use of the term `likelihood', since it is technical: it refers to the likelihood function \(p(x_{1:n}|\theta)\), which reads: the probability of
+observations \(X_1...X_n\) conditional on the parameter $\theta$. $\theta$ in our case is the probability of guessing a card correctly, and, in table \ref{tab:likelihoodvscf}, we are arbitrarily considering a limited set of possible $\theta$s, i.e., $\theta = 0.2, \theta = 0.5, \theta = 1.0$. LP holds that the only epistemically relevant likelihood function is the one represented by the factual column. Here, the result of two hits (HH) is held fixed, while the hypothesized values are varied. In the frequentist method, the hypothesis is held fixed, and the result is varied.
 
 
 More important, many Bayesians believe that the sort of problem caused by
-optional stopping can be explained by it violation of LP, because what count as the set of all possible scenarios---the number of cells in a row---is entirely dependent on the experiment's intention to stop. For instance, we need four cells to represent the space of possibility in \ref{tab:likelihoodvscf}, because we stipulated that the subject would make two guesses. But it seems peculiar, the argument goes, that the statistical import of data must be dependent on something that goes on the experiment's mind. For instance, take I. J. Good's assessment of the problem:
+optional stopping can be explained by its violation of LP, because what counts as the set of all possible scenarios---the number of cells in a row---is entirely dependent on the experiment's intention to stop. But it seems peculiar, the argument goes, that the statistical import of data must be dependent on something that goes on the experiment's mind. For instance, take I. J. Good's assessment of the problem:
 
 \begin{quote}
 Given the likelihood, the inferences that can be drawn from the
@@ -358,6 +359,8 @@ statistician who is prepared to pretend he has a train to catch
 (optional stopping of sampling) can reach arbitrarily high significance
 levels, given enough time, even when the null hypothesis is true.\footnote{\cite{goodthinking},135}
 \end{quote}
+
+% For instance, we needed four cells to represent the space of possibility in table \ref{tab:likelihoodvscf}, because we stipulated that the subject would make two guesses. 
 
 %The crucial point
 %here is that the likelihood function holds the actual observations to be
@@ -382,11 +385,10 @@ consequences based on assumptions accepted by frequentists. The
 introduction of LP, however, begs the question against the frequentists.
 If all the fundamental frequentist methods violate LP, why would any
 frequentist accept this principle? My suspicion is that they probably
-won't.
+won't, so the introduction of LP muddles the water. 
 
-However, what also motivates Bayesians to see LP as being indispensable
-is that it allows statistical inferences to be made without caring
-anything about the intentions of the experimenters. This attitude can be
+However, what could be motivating Bayesians to see LP as being indispensable
+is that it justifies statistical inferences to be made without taking into consideration the intentions of the experimenters. This version of the problem is
 summarized as \emph{the argument from intention}, which holds that what
 optional stopping shows is that Frequentist's reliance on counterfactual
 probabilities renders their result vulnerable to manipulation, because
