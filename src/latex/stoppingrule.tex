@@ -21,22 +21,20 @@ scenarios, though in general unrealistic, can be seen as one such
 context, since in the setup the agent is stipulated to make bets and
 revise her degrees of belief in a specific way.
 
-More needs to be said about these contexts, especially how they work within the experiment practice of hypothesis testing. In this chapter, I endeavor to develop my position in the specific
+More needs to be said about these contexts, especially how they work within experimental practices of hypothesis testing. In this chapter, I endeavor to develop my position in the specific
 context of inductive and statistical inference. To summarize the position, I 
 defend the following slogan:
-
-
 \paragraph{The Deliberativist Thesis} Inductive inference must be interpreted in
-light of its deliberative framework.
+light of the agent's commitments, intentions, and values that frame the deliberative framework in which the deliberate data gathering procedure is structured.\\
 
 
-What I call a \emph{deliberative framework} is the context of inquiry chosen in the
-abductive stage: it is the selection of the hypothesis to be provisionally
+What I call a \emph{deliberative framework} is the context of induction chosen in the
+abductive stage: it is the provisional selection of the hypothesis to be provisionally
 accepted and probed, the probabilistic judgments deduced from the
 statistical model used to represent the phenomenon of interest, and
 experimental procedure to practically engage in these assumptions. The
-term ``deliberative'' is designed capture Peirce's idea that accepting a
-belief or making a judgment means one is supposed to conduct oneself in
+term ``deliberative'' is designed capture Peirce's idea, as discussed in \ref{sec:inferentialism-and-the-context-of-deliberate-conduct}, that accepting a
+belief or making a judgment means one is rationally required to conduct oneself in
 a deliberate way, in accordance with the relevant inferential commitments. Even a provisionally accepted hypothesis implies the agent's commitment to test the viability of it. Many elements in this deliberative framework, moreover, cannot be determined mechanically, and must be decided upon according to on the experimenter's intentions and values.
 
 I will defend and develop the deliberativist thesis by critically
@@ -52,13 +50,13 @@ import of data can be fully captured by what is called the
 agent's intentions. This is called \emph{the Likelihood Principle}.
 
 My goal of this purpose is to resist the Likelihood Principle by
-addressing the problem of optional stopping. Since denying the involvement of intentions in statistical inference implies the rejection of the deliberative thesis, I do not propose to show that the effects of optional stopping do not exist; instead, I argue that deliberative elements such as the intention to stop is relevant also to Bayesian reasoning, so the deliberativist thesis holds even in the
+addressing the problem of optional stopping. Since denying the involvement of intentions in statistical inference implies the rejection of the deliberative thesis, I do not propose to show that the effects of optional stopping do not exist; instead, I argue that deliberative elements such as the intention to stop are relevant also to Bayesian reasoning, so the deliberativist thesis holds within the
 Bayesian context.
 
 In section 3.1, I will give a historical presentation of the problem of
 optional stopping in the context of its used by
 parapsychologists to, essentially, cook up evidence for the existence of
-``extra-sensory perception''(ESP). In section 3.2, I will sharpen
+``extra-sensory perception'' (ESP). In section 3.2, I will sharpen
 Bayesians' argument that the statistical involvement of agent-intentions is to be blamed for optional stopping, and why
 they think this is a critical flaw of frequentism. In section 3.3,
 however, I will explain how the same problem can apply to Bayesan
@@ -77,12 +75,12 @@ scientifically respectable, Rhine believed, statistical evidence must be
 used to support the conclusions he hoped to demonstrate.\footnote{\cite{elusive}, 108} Feller points
 out, however, many results of these experiments involve on a trick
 called ``optional stopping'', which is used to abuse statistics to get
-their desired outcome. Feller argued that such an experimental practice
-invalidates the result of parapsychological studies. Feller's specific
+their desired outcome. Feller argued that such experimental practices
+invalidate the result of parapsychological studies. Feller's specific
 criticism against parapsychology, however, became the starting pointing
 of a general critique of frequentist statistical methods, often
 mobilized by Bayesian statisticians. The argument is that, while the
-parapsychologists no doubt had questionable experimental practice, it is
+parapsychologists no doubt had questionable experimental practices, it is
 a flaw of the frequentist methods they employed. The problem, Bayesians
 argue, is that a statistical conclusion ought not be influenced by
 extra-statistical concerns such as when the experimenter decides to
@@ -183,27 +181,25 @@ improbable. Does this constitute evidence for ESP?
 Feller argues that this result is spurious, because the
 parapsychologists practiced \emph{optional stopping}.\footnote{\cite{felleresp}, 291-292} The idea is that
 many of these experiments have no set number of attempts, and often
-either an experiment could stop exactly when a favorable result is
-obtained. For instance, an experiment could be terminated early in order
+an experiment could stop either exactly when a favorable result is
+obtained, or a ``break'' would be taken if the subject is not doing as well as they expect. For instance, an experiment could be terminated early in order
 preserve a significant result. A. M., for instance, has made 500
 attempts. His test was then much shorter than his peers, many of who
-made more than 1000 guesses.
+made more than 1000 guesses. The question is, then had A.M. guessed more cards, would his performance regress toward what would expect from guessing? 
 
-To make this point more concrete, we can take advantage of the power of modern
+Of course, it impossible to ascertain this now. But to make this point more tangible, we can take advantage of the power of modern
 statistical computing: we can simulate experiments with similar stopping
 rules, and see if we can get $p$ values below $0.05$. The difference here is that for the simulation we \emph{know}
 that the participants are just guessing, so we know that any statistical significance would be a fluke. That is, if we can still force
 significance using optional stopping, then there is a good reason to
 doubt the supposed evidence for ESP gathered using optional stopping. We need to stimulate the following scenario: the experimenter will randomly draw a Zener card out of a shuffled deck, with replacement.
 She will then ask the subject to guess the card, and record the result.
-For each subject, she will stop under one of these two conditions: 1.
-The result has reached significance: the probability of the current
-outcome is less than \(0.05\). 2. 2000 guesses have been made. The
+For each subject, she will stop under one of these two conditions: \emph{either} the result has reached significance---the probability of the current outcome is less than \(0.05\)---\emph{or} 2000 guesses have been made. The
 experimenter will then move on to the next subject, until she has
 examined 1000 subjects. All subjects are guessing, so their probability
 of success is exactly \(0.2\).
 
-The simulation consists of the following procedure: 
+More precisely, the simulation consists of the following procedure: 
 \begin{enumerate}
 	\item The simulation will run 1000 times, each of which represents one subject. 
 	\item For each subject $i$, a random sample will be drawn from a Bernoulli distribution, with the probability of success $p=0.2$, to simulate a subject who will randomly guess the face of a randomly drawn Zener card, with replacement. 
@@ -256,9 +252,9 @@ Here's a summary of the result, after simulating a test of 1000 subjects:
 \item
   Starting with \ref{fig:freqhistsuc}, it is helpful to graphically examine the difference in shapes between trials with a fixed $n=2000$  number of attempts and trials with optional stopping allowed. In accordance with the central limit theorem, the left hand side forms a nice normal distribution.\footnote{\cite{degroot}, section 6.3} The right hand side with optional stopping forms a bimodal distribution.
   
-  \item As seen in \ref{fig:freqfixedvsoptional}, 371 out of 1000 outcomes has reached significance, i.e., (\(\text{p value}\leq0.05\)). P values for trials with fixed N(left figure) are almost uniformly distributed.
+  \item As seen in \ref{fig:freqfixedvsoptional}, 371 out of 1000 outcomes has reached significance (\(\text{p value}\leq0.05\)). P values for trials with fixed N (left) are almost uniformly distributed.
 \item
-  A p-value as low as \(0.017\) was obtained. A distribution of significant p-values with optionally stopping allowed can be see in the right figure in\ref{fig:freqfixedvsoptional}. 
+  A $p$ value as low as \(0.017\) was obtained. A distribution of significant p-values with optionally stopping allowed can be see in the right figure in\ref{fig:freqfixedvsoptional}. Simulations that allowed optional stopping clearly have a much higher chance to reach significance, even though we already know the true probability is $0.2$. 
 \item
   On average, significant results stopped at the 294th attempt. The
   median is 85. According to figure  \ref{fig:freqhistn}, a substantial number of significant results were obtained by stopping before $400$ guesses. 
@@ -284,7 +280,7 @@ From the problem of optional stopping then, what follows? From the
 Bayesian perspective, the implication is twofold---a criticism of frequentism and a reason for using Bayesian statistics. The criticism says that the
 experimenter's intention to stop could directly influence the
 significance of the result is because of frequentists' reliance on
-\emph{counterfactual probabilities}. This privodies a reason for switching to Bayesian methods, since they, the argument goes, do not require counterfactual probabilities, and, therefore, are immune to the argument from intention. I propose to first examine these two lines of thought, and then transition to the epistemological issues.
+\emph{counterfactual probabilities}. This provides a reason for switching to Bayesian methods, since they, the argument goes, do not require counterfactual probabilities, and, therefore, are immune to the argument from intention. I propose to first examine these two lines of thought, and then transition to the epistemological issues.
 
 Suppose two cards were randomly chosen from the deck, and a subject was able to guess the face of both cards. What is the probability that a subject who is guessing will manage  both hits? To begin, there are four ways in which an experiment with
 two attempts could have turned out. Let \(H\) be ``Hit'' and \(M\) be
@@ -760,7 +756,7 @@ be ``the degree for the belief that the chance of heads is 0.5 is
 probability just as \emph{credence} or \emph{degrees of belief}, and
 objective probability as \emph{chance} or \emph{propensity}.
 
-We can now spell out the type of experiments that will be simulated.
+We can now spell out the type of experiments to be simulated.
 
 Early on, we considered a case in which only two possible hypotheses are
 considered: either the subject is guessing
@@ -801,7 +797,7 @@ success which is constant.
 
 Fortunately, as soon as this is laid out, the rest is very simple,
 thanks to the fact that the beta distribution is a \emph{conjugate
-prior} for the binomial distribution. Essentially, what this mean is
+prior} for the binomial distribution.\footnote{\cite{degroot}, section 7.3} Essentially, what this mean is
 just that if we plug the beta and binomial distributions into Bayes'
 theorem to get a posterior distribution
 
@@ -816,8 +812,8 @@ form:
 
 \[E(\theta) = \frac{\alpha}{\alpha + \beta}\]
 
-\noindent Now, because of a very nice property called conjugacy, the \emph{posterior} expected value
-is simply:\footnote{\cite{degroot}, section 7.3}
+\noindent Now, thanks to conjugacy, the \emph{posterior} expected value
+is simply:
 
 \[E(\theta) = \frac{\alpha + k}{\alpha + \beta + n}\]
 
@@ -826,13 +822,13 @@ set of parameters, and for each trial in which the subject is able to
 guess the card correctly, we add 1 to \(\alpha\); otherwise, we add 1 to
 \(\beta\). For example, consider again the case of a skeptic who
 observed that a subject has made two correct guesses in a row. Since
-prior the observation the skeptic does not believe that the subject
+prior to the observation the skeptic does not believe that the subject
 would do better than chance, she knows that
 
 \[E(\theta) = \frac{\alpha}{\alpha + \beta} = \frac{1}{5}\]
 
 There are various ways in which we can make this work mathematically,
-but for now let's say \(\alpha = 2\) and \(\beta = 8\). \footnote{The epistemological relevance of the choice of these parameters will the discussed in chapter \ref{ch:woe}.} Since the
+but for now let's say \(\alpha = 2\) and \(\beta = 8\).\footnote{The epistemological relevance of the choice of these parameters will the discussed in chapter \ref{ch:woe}.} Since the
 subject has gotten 2 out of 2 correctly, the skeptic's posterior should
 be the beta distribution with \(\alpha= 2+2=4\), while \(\beta\) remains
 at 8.
@@ -843,8 +839,7 @@ can ask, then, \emph{given} the evidence we have, what is the
 probability of the subject's para-perceptual reliability is no better
 than randomly guessing? In other words, what is the probability that
 \(\theta\) is less than or equal to \(0.2\)? Using the cumulative
-distribution function for the beta distribution using standard
-statistical software, we can find out the prior and posterior values:
+distribution function for the beta distribution provided by computer programs, we can find out the prior and posterior values:
 
 \[P(\theta \leq 0.2) = 0.56\] \[P(\theta \leq 0.2|\mathbf{X}) = 0.16\]
 
@@ -1062,7 +1057,7 @@ possibilities. There is also a reward of \$1 for picking the correct
 hypothesis. Our expected payoff for choosing each hypothesis would be
 the same at \(1/3\). Nevertheless, we are allowed to sample with
 replacement as many times as we wish. Should we get more evidence? Yes,
-according to Ramsey, we should, and this can demonstrated in terms of an
+according to Ramsey, we should, and this can be demonstrated in an
 expected utility analysis.
 
 This situation is represented as a decision tree in figure \ref{fig:dectreeuniform}: at the beginning, the probability of getting a black ball is the
@@ -1130,7 +1125,7 @@ again and get a black ball, this means:
 
 If a white ball were to be drawn:
 
-\[P(H_b'|E_w') = 0.21\] \[P(H_w'|E_w') = 0.21\] \[P(H_n'|E_w') = 0.58\]
+\[P(H_b'|E_w') = .210\] \[P(H_w'|E_w') = .210\] \[P(H_n'|E_w') = .580\]
 
 Thus, if the second sample is a black ball, we would choose \(b\) since
 it has the maximum expected utility at \(.757\), and if we get a white
@@ -1139,8 +1134,7 @@ expected utility, if we were to draw from the urn again, is:
 \(.7132(.757) + .2867(.580) = .706\), which is an improvement over
 just drawing once. The net gain is \(.706 -.600 = .106\). Ramsey's
 proof shows that we can keep on getting more evidence and we will never
-be worse off. In fact, we will be better off as long as there is
-evidence out there we do not yet have.
+be worse off. 
 
 To see a bird's-eye view of the situation, consider figure \ref{fig:expectedchange}, in which the sequential updatings of expectation after drawing from different hypothesized distribution are plotted. Each line represent the \emph{net change} of expected value of getting more evidence conditional having $x$ observation. We can see that the expected net change will never dip below $0$, meaning that one will always often be rewarded and never punished for getting more evidence.
 
