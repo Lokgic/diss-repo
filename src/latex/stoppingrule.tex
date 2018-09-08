@@ -105,7 +105,7 @@ statistically?
 
 
 One often used experimental setup for testing ESP is an activity called
-``card guessing'' using the so-called Zener cards, after Karl Zener, the
+``card guessing,'' using the so-called Zener cards, after Karl Zener, the
 Duke psychologist who suggested the design to Rhine.\footnote{\cite{rhineesp},48} A Zener card can have one of 5
 unique symbols. A typical deck of Zener cards contain 5 cards for each
 symbol. A trial of this experiment typically involves a subject
@@ -293,8 +293,8 @@ to get the probabilities needed, we will have to decide on the probability of a 
 \[P(H  H)=0.04 \quad P(H  M)=0.16  \]
 \[P(M H)=0.2(0.8)=0.16 \quad P(M M)=0.8^2=0.64 \]
 
-The frequentist argument is that if the $p$ value---the probability of the data observed is low enough to be considered statistical significant. Now, Bayesians argue that the p-values cannot be
-seen as an unadulterated summaries of the observed evidence, since any $p$ value is laden with assumptions about what might have happened, based on some hypothesized parameters. Consider table \ref{tab:likelihoodvscf}. What frequentists are commending here is that, when we evaluate a hypothesis, we should consider the probability of the observed data by comparing the relative frequency of its occurrence in comparison to the other values on the the same row, which are all calculated based on the assumption that the "random guessing" hypothesis is true. Therefore, when we say that $HH$ is an extraordinary event, we are really saying that it is extraordinary \emph{relative to the three other scenarios that we could see, but did not.}
+The frequentist argument is that if the $p$ value---the probability of the data observed is low enough to be considered statistical significant. Now, Bayesians argue that the $p$ values cannot be
+seen as an unadulterated summaries of the observed evidence, since any $p$ value is laden with assumptions about what might have happened, based on hypothesized parameters. Consider table \ref{tab:likelihoodvscf}. What frequentists are recommending here is that, when we evaluate a hypothesis, we should consider the probability of the observed data by comparing the relative frequency of its occurrence in comparison to the other values on  the same row, which are all calculated based on the assumption that the ``random guessing'' hypothesis is true. Therefore, when we say that $HH$ is an extraordinary event, we are really saying that it is extraordinary \emph{relative to the three other scenarios that we could see, but did not.}
 
 \begin{table}[]
 \centering
@@ -307,10 +307,10 @@ $\theta=0.2$ & 0.04 &   0.16    &   0.16    &    0.64  \\
  $\theta=1.0$& 1.00 &   0.00    &   0.00    &   0.00   \\ \bottomrule
 \end{tabular}
   \label{tab:likelihoodvscf}
-  \caption{Comparison between sampling distributions(rows) and likelihood functions(columns)}
+  \caption{Comparison between sampling distributions (rows) and likelihood functions (columns)}
 \end{table}
 
-Bayesians, such as Lindley, criticizes the use of probabilities of counterfactual scenarios in the evaluation of statistical hypotheses:
+Bayesians, such as Lindley, criticize the use of probabilities of counterfactual scenarios in the evaluation of statistical hypotheses:
 
 
 \begin{quote}
@@ -327,7 +327,7 @@ before statisticians of ``frequentist'' persuasions will take note of
 it.\footnote{\cite{jaynesmight},247}
 \end{quote}
 
-How, then, should we look at evidence? The Bayesian perspective is to focus \emph{only} on the observed data, but compare its probability of occurence, \emph{conditional on different hypotheses}. The Bayesian point of view \emph{agrees} that the probability of two hits out of two attempts is $0.4$, but it disagrees with the thought that the epistemically relevant contrast is one between what \emph{would} happen based on the hypothesis of interest. Instead, we should be considering which \emph{hypothesis} would have best predicted what we ended up observing. In the context of table \ref{tab:likelihoodvscf}, the Bayesian way is to \emph{only} at the column for $HH$, the actually observed result, while ignoring all the counterfactual ones. This is summarized as: 
+How, then, should we look at evidence? The Bayesian perspective focuses \emph{only} on the observed data, but compares its probabilities of occurrence conditional on different hypotheses. The Bayesian point of view \emph{agrees} that the probability of two hits out of two attempts is $0.4$, but it disagrees with the notion that the epistemically relevant contrast is the one between different counterfactual probabilities based on one hypothesis of interest. Instead, we should be considering which \emph{hypothesis} would have best predicted what we ended up observing. In the context of table \ref{tab:likelihoodvscf}, the Bayesian way is to look \emph{only} at the column for $HH$, the actually observed result, while ignoring all the counterfactual ones. This is summarized as: 
 
 \begin{quote}
 THE LIKELIHOOD PRINCIPLE[LP]. All the information about $\theta$ [the parameter of interest] obtainable from an experiemnt is contained in the likelihood function of $\theta$ given $X$. Two likelihood functions for $\theta$ (from the same or different experiments) contains the same information about $\theta$ if they are proportional to another.\footnote{\cite{lp}, 19.}	
@@ -343,12 +343,11 @@ The likelihood principle says this: the likelihood function... is much more than
 
 We must be clear about the use of the term `likelihood', since it is technical: it refers to the likelihood function \(p(x_{1:n}|\theta)\), which is the probability of
 observations \(X_1...X_n\) conditional on the parameter of interest,
-such as the probability of guessing a card correctly. The likelihood function for this particular is represented by the factual column. Here, the result of two hits (HH) is held fixed, while the hypothesized values are varied. In the frequentist way, the hypothesis is held fixed, and the result is varied.
+such as the probability of guessing a card correctly. The epistemically relevant likelihood function is represented by the factual column. Here, the result of two hits (HH) is held fixed, while the hypothesized values are varied. In the frequentist methpd, the hypothesis is held fixed, and the result is varied.
 
 
 More important, many Bayesians believe that the sort of problem caused by
-optional stopping can be explained by it violation of LP. The idea is that what count as the set of all possible scenarios---the number of cells in a row---is entirely dependent on the experiment's intention to stop. For instance, we need 4 cells to represent the space of possibility in \ref{tab:likelihoodvscf}, because we stipulated that the subject would make two guesses. But it seems peculiar, the argument goes, that the statistical import of data must be dependent on something goes on the experiment's mind. I. J. Good says the following that exemplifies this point
-well:
+optional stopping can be explained by it violation of LP, because what count as the set of all possible scenarios---the number of cells in a row---is entirely dependent on the experiment's intention to stop. For instance, we need four cells to represent the space of possibility in \ref{tab:likelihoodvscf}, because we stipulated that the subject would make two guesses. But it seems peculiar, the argument goes, that the statistical import of data must be dependent on something that goes on the experiment's mind. For instance, take I. J. Good's assessment of the problem:
 
 \begin{quote}
 Given the likelihood, the inferences that can be drawn from the
@@ -364,21 +363,21 @@ statistician who is prepared to pretend he has a train to catch
 levels, given enough time, even when the null hypothesis is true.\footnote{\cite{goodthinking},135}
 \end{quote}
 
-The crucial point
-here is that the likelihood function holds the actual observations to be
-fixed, while the hypothesized parameter is variable. This is different
-than the frequentist way, in which the \emph{hypothesis} is fixed, and
-asks what the probabilities of different possible outcomes are, if the
-hypothesis were true. This is why Bayesians repeatedly chide
-frequentists for caring about data that we could have but didn't.
-Likelihood function, the Bayesian way of summarizing data, does not take
-into consideration of counterfactual probabilities at all.
+%The crucial point
+%here is that the likelihood function holds the actual observations to be
+%fixed, while the hypothesized parameter is variable. This is different
+%than the frequentist way, in which the \emph{hypothesis} is fixed, and
+%asks what the probabilities of different possible outcomes are, if the
+%hypothesis were true. This is why Bayesians repeatedly chide
+%frequentists for caring about data that we could have but didn't.
+%Likelihood function, the Bayesian way of summarizing data, does not take
+%into consideration of counterfactual probabilities at all.
 
 
 
 
 At this point, the debate becomes quite messy, since Bayesians tend to
-run the problem of optional stopping, and the likelihood principle
+run the problem of optional stopping and the likelihood principle
 together, as Good has clearly done in the passage above. The assumption
 is that optional stopping cannot occur once Bayesian methods are
 adopted. However, the problem of optional stopping is perfectly
@@ -386,13 +385,13 @@ intelligible on frequentist ground: it draws out undesirable
 consequences based on assumptions accepted by frequentists. The
 introduction of LP, however, begs the question against the frequentists.
 If all the fundamental frequentist methods violate LP, why would any
-frequentist accept this principle? My suspicious is that they probably
+frequentist accept this principle? My suspicion is that they probably
 won't.
 
 However, what also motivates Bayesians to see LP as being indispensable
 is that it allows statistical inferences to be made without caring
 anything about the intentions of the experimenters. This attitude can be
-summarized as \emph{the argument from intention}, which says that what
+summarized as \emph{the argument from intention}, which holds that what
 optional stopping shows is that Frequentist's reliance on counterfactual
 probabilities renders their result vulnerable to manipulation, because
 the experimenter's intention \emph{alone} can radically alter the import
@@ -401,11 +400,9 @@ of the evidence.
 \hypertarget{intentions-and-self-sabotage-redux}{%
 \section{Intentions and Self-Sabotage
 Redux}\label{sec:intentions-and-self-sabotage-redux}}
-
+\subsection{Lindley's Argument from Intention}
 Consider a simple illustration concerning the bias of a coin discussed
-by Lindley and Phillips.\footnote{D. V. Lindley and L. D. Phillips,
-  ``Inference for a Bernoulli Process (a Bayesian View),'' \emph{The
-  American Statistician} 30, no. 3 (1976): 113--14.} Suppose I was told
+by Lindley and Phillips.\footnote{\cite{lindleybern}, 113--14.} Suppose I was told
 that the coin was tossed 12 times but out of those times 3 turned up
 heads. The argument from intention says that, unless you know what goes
 on inside the tosser mind when she decided to stop the tossing, there is
@@ -422,30 +419,24 @@ instance, consider these stopping rules:
   After 3 heads.
 \end{enumerate}
 
-The argument is that depending on which of the above rules the
+Depending on which of the above rules the
 parapsychologist used, the significance of the data will change, even if
 the number of guesses and hits are the same. To begin, note that each
 rule implies different impossibilities. For instance, if the
-experimenter stops after 12 tosses, it is obviously impossible that the
-test to last for more than 12 tosses, but it is possible for heads to
-turn up as few as times and as many as 12 times. On the other hand, if
+experimenter stops after 12 tosses, it is obviously impossible for the
+test to last for more than 12 tosses, but it is possible to get anything from 0 to 12 heads. On the other hand, if
 the test terminates after 3 heads, the only possible number of heads is
 3, but the experiment can take as many tosses as needed to reach that
 goal. So each different stopping rule implies different counterfactuals,
-and leading to different sets of probabilities.
+and leads to different sets of probabilities.
 
 So Bayesians have an important point here: intentions are influencing
 the statistical result through counterfactual probabilities, but, unless
 there are reasons to think accounting for intentions is somehow
-inherently bad, this \emph{supports} the deliberativist thesis, since
-what it asserts is precisely that what agents intend to do to alter her
-epistemic state is part of what deliberation is about, and therefore
-must be considered in the interpretation of her data.
+inherently bad, this \emph{supports} the deliberativist thesis: it argues that deliberating on when to stop based what would happen after a possible course of action is one of the judgments that shapes the epistemic context, in which the data should be interpreted, so I am less concerned with solving the problem, but dissolving it by making sense of it. 
 
-First, consider the rule that says stop after \(n=12\) tosses, so using
-frequentist method means that we have to consider the probability of all
-possible outcomes: that is, 0-12 heads. since a hit could occur at
-different trials. We know that, from probability theory, for a random
+To begin, let us spell out what the argument is. Consider the rule that says to stop after \(n=12\) tosses. Using frequentist method means that we have to consider the probability of all
+possible outcomes---0-12 heads, in various combinations.  We know that, from probability theory, for a random
 variable with binary outcomes---success or failure, for instance---the
 probability of getting \(k\) success out of \(n\) trials, given the
 probability of a single success, is
@@ -476,32 +467,16 @@ easily find this. Let \(X\) be the number of misses, so
 \[P(X \geq 9) = 1 - P(X <9) = 1 - \sum_{i=0}^{8} {3+i-1 \choose i} (0.5)^3 (0.5)^{i} =0.03\]
 
 This seems to be a much more significant result, but this is not the
-complete picture. Given our discussion regarding abduction and
-predesignation, the intention to stop's effect on statistical result in
-fact strengthen the deliberativist position that inductive inference
-must be understood against the background of an abductive context. The
-stopping rule is one of those commitments that the agent needs to make
-explicit prior the experiment, and changing it afterward is an act of
-self-sabotage: it defeats the very purpose of trying to probe the
-hypothesis accepted provisionally.
+complete picture. 
 
-In the abductive context, it is true that there are decisions we are
-free to make. There is no context-independent justification for the
+\subsection{The Deliberativist Analysis}
+
+From the deliberativist perspective, the effect of changing stopping rules is a demonstration of the two key ideas of my position: the Peircean idea that decisions made in abduction contextualizes inferences made in induction and the voluntarist ideal of rationality as self-controlled deliberate conduct. According to view I defend, the inferential force of induction is at least partly underwritten by the decisions made during the abductive context. The intention to stop is one such decision. Since the commitment to uphold those decisions is required for the inductive inferences to be considered as valid, changing it afterward is an act of self-sabotage: it defeats the very purpose of trying to probe the hypothesis accepted provisionally. 
+
+
+As discussion in \ref{sec:the-abductive-context-of-inquiry}, the abductive context is characterized by the freedom of thought to propose and accept hypothesis provisionally. There is no context-independent justification for the
 choice of \(n\), which determine the probability of having \(k\)
-successes. For instance, suppose we choose to toss the coin \(n=5\)
-times, and that we decide on the hypothesis that \(p=0.5\). As Peirce
-suggests, at this point I enjoy the voluntarist freedom of making any
-epistemic judgment based on extra-evidential concerns: for instance, I
-may only have time to throw the coin for 5 times. Just as breaking a
-promise will cost my credibility, I have to specify how my obligation
-can be resolved, in case my judgment turns out to be false. For
-instance, a decision has to be made regarding how much deviation from my
-own prediction is acceptable. This is where deduction takes over.
-
-These decisions allow us to make deductions about the experimental
-commitments that follow as necessary consequences from these parameters.
-For instance, based on the model chosen, and that \(p=0.5\) and \(n=5\),
-I can deduce that
+successes, but whatever decision one makes has a direct repercussion on how the inference will be made in the inductive context.  For instance, suppose I choose  \(n=5\), and that I decide on the hypothesis that \(p=0.5\). There decisions will put a obligatory constraint on my behavior during the inductive stage, such as when to stop the experiment, and how to revise my belief in light of the evidence. We can, however, explicate these  obligations implied by potential decisions by engaging in a deductive interrogation, since many of these obligations follow as a necessary consequence of the potential model. For instance, if I choose \(p=0.5\) and \(n=5\), I can deduce that
 
 \[P(X=0) = {5 \choose 0} 0.5^0 (1-0.5)^{5-0} = 0.031\]
 
@@ -513,8 +488,8 @@ have been in the abductive context. I made what Peirce would call a
 probabilistic judgments based a model with known parameters. Even though
 the conclusion of probable deduction is probabilistic, the
 \emph{connection} between the conclusion and its premises is
-necessary.\footnote{Peirce, ``A Theory of Probable Inference,'' 417.}
-They signify the epistemic commitments I incur: if I accept
+necessary.\footnote{\cite{probableinference}, 417.}
+They signify the epistemic obligation I incur: if I accept
 provisionally the hypothesis that \(p=0.5\) for \(n=5\), then I am
 committed to the probabilistic judgment that the probability of tossing
 the coin five times without heads is 0.031.\footnote{Of course, I could
@@ -523,35 +498,45 @@ the coin five times without heads is 0.031.\footnote{Of course, I could
   now, as the dynamic between abduction and deduction is the focus on
   chapter 4.}
 
-In any case, the point of the rule of predesignation is that once I have
-made those decisions, \emph{I cannot revise them once I have started
-flipping the coin}. I cannot, for instance, stop the experiment after
-getting two tails in a row, only because I am interested in proving that
-the coin is unfair. During abduction, I have made the commitment to stop
-the experiment after 5 tosses---changing this intention changes the
-whole inferential context altogether, and stopping early is an act of
-self-sabotage. This can be shown by pointing out that the probability
-getting two tails out of two throws is \(0.5^2 = 0.25\), which is much
-higher than \(0.031\). We will discussion this problem with a greater
-detail in the next chapter.
+%In any case, Peirce was keenly aware of how intentions could impact the legitimacy of inductive inference. This is why he maintains that the rule of predesignation, says that once I have
+%made those decisions, \emph{I cannot revise my },  I cannot, for instance, stop the experiment after
+%getting two tails in a row, only because I am interested in proving that
+%the coin is unfair. During abduction, I have made the commitment to stop
+%the experiment after 5 tosses---changing this intention changes the
+%whole inferential context altogether.
 
-A crucial element in James' voluntarism is that the responsibility
-implied by the inquirer's acceptance of a hypothesis includes the
-incurring the risk of errors in rejecting the alternative hypotheses. To
-get a grip on this risk, the agent must ask: what would happen, had I
-accepted the wrong hypothesis? This style of thinking is already present
-in Pascal's wager, in which he asks us to imagine the scenarios such as
-mistakenly rejecting the existence of God or mistakenly accepting it.
 
-This aspect of voluntarism is largely unaccounted for by the Reflection
-Principle, but this Peircean framework I am describing can accommodate
-by calculating so-called \emph{error probabilities}. For instance,
+% stopping early is an act of
+%self-sabotage. This can be shown by pointing out that the probability
+%getting two tails out of two throws is \(0.5^2 = 0.25\), which is much
+%higher than \(0.031\). 
+
+As Peirce points out, inference made in the inductive context presupposes the experimenter to hold certain values, including
+
+\begin{quote}
+first, a sense that we do not know something, second, a desire to know
+it, and third, an effort,---implying a willingness to labor,---for the
+sake of seeing how the truth may really be.\footnote{\cite{essentialpeirce2}, 48.}
+\end{quote}
+We can understand the problem of optional stopping as a special
+case of \emph{self-sabotage}: since the very idea that induction is to see how a hypothesis can withstand the deliverance of experience, knowingly running a test that would likely to give the wrong answer preemptively sabotaging one's possibility of ``seeing how the truth may really be''.  
+
+%
+%A crucial element in James' voluntarism is that the responsibility
+%implied by the inquirer's acceptance of a hypothesis includes the
+%incurring the risk of errors in rejecting the alternative hypotheses. To
+%get a grip on this risk, the agent must ask: what would happen, had I
+%accepted the wrong hypothesis? This style of thinking is already present
+%in Pascal's wager, in which he asks us to imagine the scenarios such as
+%mistakenly rejecting the existence of God or mistakenly accepting it.
+
+This can be accounted for by appealing to the frequentist idea of \emph{error probabilities}. For instance,
 suppose I follow the standard practice and declare that I will reject
-the hypothesis that \(p=0.5\), when the sample I collect has a less than
+the hypothesis that \(p=0.5\) when the sample I collect has a less than
 the probability of \(0.05\) of occurrence. This would mean that I am
-committed into rejecting my hypothesis if I get no heads after tossing
-the coin 5 times. But what if the coin is actually biased, but not
-insofar as it would not even once land on heads? The probability of
+committed in rejecting my hypothesis if I get no heads after tossing
+the coin 5 times. But what if, while the coin was actually biased, 
+ it was not \emph{so} biased that it will not land on heads at all? The probability of
 making such an error can be calculated \emph{ex ante} deductively. For
 instance, suppose the reality is that the coin is biased such that
 \(p=0.2\). But if this were true, I have a high probability of keeping
@@ -559,36 +544,19 @@ my provisionally accepted hypothesis by mistake, because
 
 \[P(X > 0) = 1 - P(X=0) = 1 - {5 \choose 0} 0.8^5 = 0.67\]
 
-This means that by accepting \(p=0.5\), I am incurring a pretty high
-risk of error: if \(p=0.2\), there is a 0.67 probability that I will
-come to error. The closer \(p\) is to \(0.5\), the more likely it is
+That is, it is improbable even for a biased coin to have 5 out of 5 heads. This means that by accepting \(p=0.5\), I am incurring a pretty high
+risk of error: if \(p=0.2\), there is a 0.67 probability that my decision would be a wrong one. In fact, the closer \(p\) is to \(0.5\), the more likely it is
 that I will come to accept \(p=0.5\) erroneously. If \(p=0.3\), for
-instance, this error probability is \(0.83\). Of course, incurring the
-risk of error matters only if I care about finding out the truth. If all
-I care about is to confirm my hypothesis, incurring the high risk of
-error will not be counted as genuinely accepting an obligation---it
-would be similar to promising to eat lunch today, which I would do
-regardless of the promise anyway. This is why Peirce insists that
-validity of inductive inference depends on
+instance, this error probability is \(0.83\). \footnote{Of course, the
+risk of error is a concern only if I care about avoiding errors and finding the truth. If I care more about just proving my favorite hypothesis, I might just welcome the fact that I get to keep my hypothesis if it was the wrong one. At that point, however, the agent is hardly operating in the context of induction. }
 
-\begin{quote}
-first, a sense that we do not know something, second, a desire to know
-it, and third, an effort,---implying a willingness to labor,---for the
-sake of seeing how the truth may really be.\footnote{Peirce, \emph{The
-  Essential Peirce, Volume 2}, 1998, 48.}
-\end{quote}
 
-Thus, we can understand the problem of optional stopping as a special
-case of \emph{self-sabotage}: that is to preemptively sabotaging one's
-possibility of ``seeing how the truth may really be''. Of course, this
-is a self-sabotage only if the agent cares about the truth at all.
-
-Returning to Lindley's case of getting 3 heads of 12 tosses. He is
+Thus, Lindley is
 entirely correct in pointing out that under different stopping rules
 would have an impact on what will counted as statistical significance,
 even if the numerical result will be the same, but from the
 deliberativist standpoint, these stopping rules imply different sets of
-epistemic commitments.
+epistemic commitments, that is, the experimenter incurs different degrees of the risk of being wrong as indicated by the relevant error probabilities, depending how the decision rules she stipulates in the context of abduction.
 
 If the agent intends to stop after 12 trials, then to aim for a level of
 statistical significance \(\alpha\) at \(0.05\), she would have to
@@ -636,10 +604,7 @@ the error statistical {[}i.e., frequentist{]} methodology which has
 perfectly objective ways to pick up on the effect of stopping rules: far
 from intentions ``locked up in the scientist's head'' (as critics
 allege), the manner of generating the data alter error
-probabilities\ldots{}\footnote{Deborah G. Mayo and Aris Spanos, ``Error
-  Statistics,'' in \emph{Handbook of the Philosophy of Science, Vol. 7:
-  Philosophy of Statistics}, ed. Prasanta S. Bandyopadhyay and Malcolm
-  R. Forster (Elsevier B.V., 2011), 186.}
+probabilities\ldots{}\footnote{\cite{errorstat}, 186.}
 \end{quote}
 
 Of course, a defense of intentions in frequentism is not an argument
@@ -653,14 +618,17 @@ section, I will demonstrate that optional stopping can also affect
 results obtained using Bayesian methods, so I am attacking the very idea
 that Bayesians cannot ignore the effects of deliberation.
 
+
+
+
+
 \hypertarget{bayesian-early-stopping}{%
-\section{Bayesian Early
+\section{Bayesian Optional
 Stopping}\label{ch: bayesian-early-stopping}}
 
-Deborah Mayo suggests that using early stopping to manipulate experimental result is also possible using Bayesian method, despite of the Likelihood Principle.\footnote{\cite{errorgrowth},352-353} Mayo's argument appeals to the fact that Bayesian methods can obtain the same or similar result when using a flat/uninformed prior, so this opens the door to early stopping using the same method. I will try to get more mileage out of this argument by using simulations.
+Deborah Mayo suggests that using early stopping to manipulate experimental results is also possible using Bayesian method, despite of the Likelihood Principle.\footnote{\cite{errorgrowth},352-353} Mayo's argument appeals to the fact that Bayesian methods can obtain the same or similar result when using a flat/uninformed prior, so this opens the door to early stopping using the same method. I will try to get more mileage out of this argument by using simulations.
 
-To begin, we have to gain an understanding of what Bayesian inference is
-like. Naturally, it begins with Bayes' theorem. Consider some hypothesis
+To begin, we must gain a basic understanding of what Bayesian inference is, which, naturally, begins with Bayes' theorem. Consider some hypothesis
 or belief \(H\) and some evidence \(E\).
 
 \[P(H|E) = \frac{P(H)P(E|H)}{P(E)}\]
@@ -668,15 +636,15 @@ or belief \(H\) and some evidence \(E\).
 In its most basic form, Bayes' theorem has 3 components: The
 unconditional probability of \(H\), \(P(H)\) represents the probability
 we would assign to the belief before the evidence, which, as we have
-discussed, is represent by the likelihood \(P(E|H)\)---the probability
+discussed, is represented by the likelihood \(P(E|H)\)---the probability
 of the evidence, given the hypothesis is true. The third ingredient is
 \(P(E)\), the unconditional probability of \(E\). To see how this works,
 consider an example with Zener cards. To begin, suppose that we have a
-subject in front of us, and we have to determine she has ESP. Let's say
+subject in front of us, and we have to determine if she has ESP. Let's say
 she has 2 out of 2 correct answers. How should we learn from this data?
 What follows is the standard Bayesian story.
 
-For the sake of simplicity, for now let us suppose that there are only
+For the sake of simplicity, let us suppose for now that there are only
 two options: either the subject is randomly guessing, or she has ESP,
 which entails a perfect reliability. In other words, we have two
 hypotheses. Let \(\theta\) be the subject of probability of getting a
@@ -691,8 +659,8 @@ hit, and
   \(H_1: \theta = 1\)
 \end{enumerate}
 
-These are sometimes called ``chance hypotheses.'' Now let \(E_i\) refers
-to the result of the \(i\)th guess, and it equals \(1\) for a hit, and
+These are sometimes called ``chance hypotheses.'' Now let \(E_i\) refer
+to the result of the \(i\)th guess, such that $E_i=1$ for a hit, and
 \(0\) otherwise. So let \(E = \sum_i^2 E_i = E_1 + E_2 = 2\). This means
 that we have the following likelihoods:
 
@@ -742,18 +710,18 @@ To make my point, these basic Bayesian statistical procedures are
 sufficient, though things will get somewhat messy when we consider more
 realistic cases. For instance, it is arbitrary to consider only two
 chance hypotheses. A more applicable model would be to consider all
-possible values of \(\theta\) in \([0,1]\). For that we have to use some
-of the well-established distributions. I will use again use simulation
+possible values of \(\theta\) in \([0,1]\). For this we have to use some
+of the well-established distributions. I will again use simulation
 to demonstrate the effect of optional stopping, but to do so I need to first explain
 how the situation will be modeled.
 
 Recall that optional stopping from a frequentist context entails
-falsely rejecting null hypothesis by sampling over and over again until
+falsely rejecting the null hypothesis by sampling over and over again until
 obtaining an outcome with a probability low enough on the null
 hypothesis to secure statistical significance. The Bayesian parallel is
-to keep on sampling so we can have \(E\) such that \(P(H_0|E) < x\)
+to continue sampling so we can have \(E\) such that \(P(H_0|E) < x\)
 where \(x\) is a value the optional stopper is committed into believing.
-Note that now we are talking about the probability of the hypothesis
+Note that now we concern ourselves with the probability of the hypothesis
 itself, whereas in the frequentist setting we were concerned with the
 probability of the observation.
 
@@ -940,7 +908,7 @@ To simulate this procedure, we will carry out the following:
 \end{center}	
 \end{figure*}
 
-$n=1000$ stimulations were carried out. We clearly see the effect of early stopping here. In fact, using a flat prior, $\alpha=\beta=1$, 517 out of 1000 stimulations were stopped early due to reaching a low enough posterior probability for $p(\theta \leq 0.2)$, which more than the number we had for frequentist early stopping. The distribution of the posterior probabilities can be seen in figure \ref{fig:bayesflatposterior}. This is partly due to the fact that, when starting from a flat prior, the  experiment can stop after 1 guess if the first guess is the correct one, because with $\alpha = 2, beta=1$, the posterior probability for $P(\theta\leq 0.2 = 0.04$, which is already lower than the threshold designated. 208 out of 1000 simulations ended this way, which is exactly what was expected, since we are drawing from a Bernoulli distribution with the probability $0.2$ of success. 
+$n=1000$ stimulations were carried out. We clearly see the effect of early stopping here. In fact, using a flat prior, $\alpha=\beta=1$, 517 out of 1000 stimulations were stopped early due to reaching a low enough posterior probability for $p(\theta \leq 0.2)$, which more than the number we had for frequentist early stopping. The distribution of the posterior probabilities can be seen in figure \ref{fig:bayesflatposterior}. This is partly due to the fact that, when starting from a flat prior, the  experiment can stop after 1 guess if the first guess is the correct one, because with $\alpha = 2, \beta=1$, the posterior probability for $P(\theta\leq 0.2 = 0.04$, which is already lower than the threshold designated. 208 out of 1000 simulations ended this way, which is exactly what was expected, since we are drawing from a Bernoulli distribution with the probability $0.2$ of success. 
 
 To eliminate that particular result, we can use a weakly informed prior, by setting $\alpha = 1, beta=4$. The result is summarized in figure \ref{fig:bayes14posterior}. Since the initial expected value is $0.2$, and this means that for the cases in which early stopping is successful, we have essentially manipulated ourselves from the right opinion into the wrong one. The result is nearly identically to the frequentist case, with 367 out of 1000 results being stopped early to get the posterior probability desired.
 
