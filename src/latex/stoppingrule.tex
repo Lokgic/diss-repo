@@ -517,7 +517,6 @@ sake of seeing how the truth may really be.\footnote{\cite{essentialpeirce2}, 48
 \end{quote}
 We can understand the problem of optional stopping as a special
 case of \emph{self-sabotage}. The very point of experimentally testing a hypothesis is to see how a it can withstand the deliverance of experience, so knowingly running a test that would likely to give a wrong answer is preemptively sabotaging one's possibility of ``seeing how the truth may really be''. As an analogy, consider making a promise, a speech act we discussed in section. \ref{sec:moores-paradox-and-self-sabotaging} The normative point of making a promise is to express to the promisee your intention to undertake a certain obligation. \footnote{\cite{searle}, 58-59} Because of this, I would be sabotaging myself if I make a promise that is clearly disingenuous. Making a promise I clearly cannot keep is clearly one example, but a more apt analogy would be a promise made in bad faith. For example, consider van Fraassen's example of making a promise with a vacuous conditional statement:\footnote{\cite{empiricalstance}, 243}
-
 \begin{equation}
 \text{I promise that if I see Santa Claus, I will ask him to bring you a bicycle.}	
 \end{equation}
@@ -693,8 +692,14 @@ priors needed:
   \(P(H_1) = 0.01\)
 \end{enumerate}
 
-From the above, we can derive
-\[P(E_i = 1) = P(H_0)P(E_i=1|H_0) + P(H_1)P(E_i=1|H_1) = 0.99(0.04)+0.01(1) = 0.0496\]
+From the above, we can derive:
+\begin{align*}
+	P(E_i = 1) &= P(H_0)P(E_i=1|H_0) + P(H_1)P(E_i=1|H_1)\\
+	& = 0.99(0.04)+0.01(1) \\
+	&= 0.0496
+\end{align*}
+
+
 
 Using Bayes' theorem, we can then revise our belief about the subject's
 ability to guess cards, producing the following \emph{posterior
@@ -731,10 +736,10 @@ probability of the observation.
 Fortunately, since there are only two outcomes, a Zener card-type
 experiment can be modeled as a Beta-Bernoulli process, where the Beta
 distribution would model our degrees of belief about a subject's
-\emph{propensity} and the Bernoulli distribution would represent the
+\emph{propensity}, and the Bernoulli distribution would represent the
 Zener card experiment itself. What these models represent is usually
 clear enough in a practical and statistical setting, but since we are doing philosophy, we need to be clearer about what we mean by
-degrees of belief and propensity, so we are clear about the phenomena being
+degrees of belief and propensity, so that we are clear about the phenomena being
 modeled.
 
 I suggest we follow the views of D. V. Lindley and David Lewis. Lindley
@@ -753,11 +758,11 @@ beliefs about them, according to the voluntarist conception I accept, is an epis
 view presented by David Lewis, who adopts Carnap's pluralistic stance on
 probability. Carnap thinks there are at least two concepts of
 probability: \(probability_1\), which is an epistemic concept about
-degrees of confirmation and \(probability_2\), which refers the
+degrees of confirmation and \(probability_2\), which refers to the
 empirical concept of long-run limiting frequencies.\footnote{\cite{carnapprob}, 517.} Lewis suggests
 that we should instead interpret the epistemic concept as credence or
 degree of belief and the empirical concept as chance or
-propensity.\footnote{\cite{lewisguide}} So, following Lewis, we can interpret \(P(\theta=0.5)=x\) to
+propensity.\footnote{\cite{lewisguide}.} So, following Lewis, we can interpret \(P(\theta=0.5)=x\) to
 be ``the degree for the belief that the chance of heads is 0.5 is
 \(x\).'' For the sake of consistency, I will refer to subjective
 probability just as \emph{credence} or \emph{degrees of belief}, and
@@ -770,7 +775,7 @@ considered: either the subject is guessing
 randomly(\(H_0:\theta = 0.2\)) or the subject has perfect
 reliability(\(H_1:\theta = 1\)). This makes our epistemic attitude
 relatively easy to summarize, since all we have to do is to assign a
-value to our credence to each of the two hypotheses. As we noted, this
+value to our credence on each of the two hypotheses. As we noted, this
 is an oversimplification, since there is no reason to arbitrarily
 restrict ourselves to just two hypotheses. This, however, means that we
 need a way to deal with the fact that there are infinitely many possible
@@ -788,7 +793,7 @@ with \(\alpha\) representing past successes and \(\beta\) past failures.
 For instance, if we set \(\alpha = \beta = 1\), it should say that we
 are extremely ambivalent about \(\theta\). In fact, it is equivalent to
 having a uniform distribution over \([0,1]\)---this means that I am
-utterly indifference regarding any value for \(\theta\).
+utterly indifferent regarding any value for \(\theta\).
 
 Our data-collection will be modeled using the binomial distribution. Let
 \(x\) be the number of success, \(n\) the number of trials, and
@@ -804,7 +809,7 @@ success which is constant.
 
 Fortunately, as soon as this is laid out, the rest is very simple,
 thanks to the fact that the beta distribution is a \emph{conjugate
-prior} for the binomial distribution.\footnote{\cite{degroot}, section 7.3} Essentially, what this mean is
+prior} for the binomial distribution.\footnote{\cite{degroot}, section 7.3} Essentially, what this means is
 just that if we plug the beta and binomial distributions into Bayes'
 theorem to get a posterior distribution
 
@@ -829,8 +834,8 @@ set of parameters, and for each trial in which the subject is able to
 guess the card correctly, we add 1 to \(\alpha\); otherwise, we add 1 to
 \(\beta\). For example, consider again the case of a skeptic who
 observed that a subject has made two correct guesses in a row. Since
-prior to the observation the skeptic does not believe that the subject
-would do better than chance, she knows that
+prior to the observation, the skeptic does not believe that the subject
+would do better than chance, she can decide her existing opinion is such that
 
 \[E(\theta) = \frac{\alpha}{\alpha + \beta} = \frac{1}{5}\]
 
@@ -912,7 +917,7 @@ To simulate this procedure, we will carry out the following:
 
 $n=1000$ stimulations were carried out. We clearly see the effect of early stopping here. In fact, using a flat prior, $\alpha=\beta=1$, 517 out of 1000 stimulations were stopped early due to reaching a low enough posterior probability for $p(\theta \leq 0.2)$, which more than the number we had for frequentist early stopping. The distribution of the posterior probabilities can be seen in figure \ref{fig:bayesflatposterior}. This is partly due to the fact that, when starting from a flat prior, the  experiment can stop after 1 guess if the first guess is the correct one, because with $\alpha = 2, \beta=1$, the posterior probability for $P(\theta\leq 0.2 = 0.04$, which is already lower than the threshold designated. 208 out of 1000 simulations ended this way, which is exactly what was expected, since we are drawing from a Bernoulli distribution with the probability $0.2$ of success. 
 
-To eliminate that particular result, we can use a weakly informed prior, by setting $\alpha = 1, beta=4$. The result is summarized in figure \ref{fig:bayes14posterior}. Since the initial expected value is $0.2$, and this means that for the cases in which early stopping is successful, we have essentially manipulated ourselves from the right opinion into the wrong one. The result is nearly identically to the frequentist case, with 367 out of 1000 results being stopped early to get the posterior probability desired.
+To eliminate that particular result, we can use a weakly informed prior, by setting $\alpha = 1, \beta=4$. The result is summarized in figure \ref{fig:bayes14posterior}. Since the initial expected value is $0.2$, and this means that for the cases in which early stopping is successful, we have essentially manipulated ourselves from the right opinion into the wrong one. The result is nearly identically to the frequentist case, with 367 out of 1000 results being stopped early to get the posterior probability desired.
 
 
 Based on the above, one may argue that optional stopping could further prevented by using a even strongly informed prior. This is true: for instance, if, instead of
