@@ -915,23 +915,23 @@ To simulate this procedure, we will carry out the following:
 \end{center}	
 \end{figure*}
 
-$n=1000$ stimulations were carried out. We clearly see the effect of early stopping here. In fact, using a flat prior, $\alpha=\beta=1$, 517 out of 1000 stimulations were stopped early due to reaching a low enough posterior probability for $p(\theta \leq 0.2)$, which more than the number we had for frequentist early stopping. The distribution of the posterior probabilities can be seen in figure \ref{fig:bayesflatposterior}. This is partly due to the fact that, when starting from a flat prior, the  experiment can stop after 1 guess if the first guess is the correct one, because with $\alpha = 2, \beta=1$, the posterior probability for $P(\theta\leq 0.2 = 0.04$, which is already lower than the threshold designated. 208 out of 1000 simulations ended this way, which is exactly what was expected, since we are drawing from a Bernoulli distribution with the probability $0.2$ of success. 
+$n=1000$ stimulations were carried out. We clearly see the effect of early stopping here. In fact, using a flat prior, $\alpha=\beta=1$, 517 out of 1000 stimulations were stopped early due to reaching a low enough posterior probability for $p(\theta \leq 0.2)$, which is more than the number we had for frequentist early stopping. The distribution of the posterior probabilities can be seen in figure \ref{fig:bayesflatposterior}. This is partly due to the fact that, when starting from a flat prior, the  experiment can stop after 1 guess if the first guess is the correct one, because with $\alpha = 2, \beta=1$, the posterior probability for $P(\theta\leq 0.2) = 0.04$, which is already lower than the threshold designated. 208 out of 1000 simulations ended this way, which is exactly what was expected, since we are drawing from a Bernoulli distribution with the probability $0.2$ of success. 
 
-To eliminate that particular result, we can use a weakly informed prior, by setting $\alpha = 1, \beta=4$. The result is summarized in figure \ref{fig:bayes14posterior}. Since the initial expected value is $0.2$, and this means that for the cases in which early stopping is successful, we have essentially manipulated ourselves from the right opinion into the wrong one. The result is nearly identically to the frequentist case, with 367 out of 1000 results being stopped early to get the posterior probability desired.
+To eliminate that particular result, we can use a weakly informed prior by setting $\alpha = 1, \beta=4$. The result is summarized in figure \ref{fig:bayes14posterior}. Since the initial expected value is $0.2$, and this means that for the cases in which early stopping is successful, we have essentially manipulated ourselves from the right opinion into the wrong one. The result is nearly identical to the frequentist case, with 367 out of 1000 results being stopped early to get the posterior probability desired.
 
 
-Based on the above, one may argue that optional stopping could further prevented by using a even strongly informed prior. This is true: for instance, if, instead of
+Based on the above, one may argue that optional stopping could be further prevented by using a even more strongly informed prior. This is true: for instance, if, instead of
 having \(\alpha = \beta = 1\) as parameters, we use something strongly
 biased in favor of \(\theta = 0.2\), such as
 \(\alpha = 10, \beta = 40\), it would be fairly difficult for the
 optional stopper to game the result. But this makes sense only because we \emph{know} what the true distribution is. This also seems to me a point
-\emph{for} deliberativism, not against it, because this is amount to
+\emph{for} deliberativism, not against it, because this amounts to
 saying commitments and intentions matter by sneaking them in through the
 back door of priors. Furthermore, what is stopping an optional stopper
-to cheat even more by adopting a set of parameters that is biased
+from cheating even more by adopting a set of parameters that is biased
 \emph{against} \(\theta = 0.2\)? Of course, we would criticize anyone
 that adopts such an experimental stance, but it would be made on the
-deliberativist ground: the standard of criticisms do consider intentions and decisions as relevant information.
+deliberativist ground: the standard of criticisms does consider intentions and decisions as relevant information.
 
 \hypertarget{is-optional-stopping-irrational-from-the-perspective-of-the-utility-maximizer}{%
 \section{Is Optional Stopping Irrational From the Perspective of the
@@ -1063,9 +1063,7 @@ three hypotheses about the content of an urn in front of us:
   \(H_n\): 50 white balls and 50 black balls.
 \end{enumerate}
 
-Suppose we start by assuming \(P(H_b) = P(H_w) = P(H_n) = 1/3\)---we
-could have some knowledge that assures us that these are the only three
-possibilities. There is also a reward of \$1 for picking the correct
+Suppose we start by assuming \(P(H_b) = P(H_w) = P(H_n) = 1/3\). There is  a reward of \$1 for picking the correct
 hypothesis. Our expected payoff for choosing each hypothesis would be
 the same at \(1/3\). Nevertheless, we are allowed to sample with
 replacement as many times as we wish. Should we get more evidence? Yes,
@@ -1075,8 +1073,15 @@ expected utility analysis.
 This situation is represented as a decision tree in figure \ref{fig:dectreeuniform}: at the beginning, the probability of getting a black ball is the
 same as getting a white ball. Let \(E_b\) be ``a black ball is drawn''
 and \(E_w\) for white balls. So:
-\[P(E_b) = P(H_b)P(E_b|H_b) + P(H_w)P(E_b|H_w) + P(H_n)P(E_b|H_n)\]
-\[=1/3(0.9)+1/3(0.1)+1/3(0.5)=0.5\] And \(P(E_w) = 1 - P(E_b) = 0.5\).
+\begin{align*}
+	P(E_b) &= P(H_b)P(E_b|H_b) + P(H_w)P(E_b|H_w) + P(H_n)P(E_b|H_n)\\
+&=1/3(0.9)+1/3(0.1)+1/3(0.5)\\
+&=0.5\\
+P(E_w) &= 1 - P(E_b) \\
+&= 0.5
+\end{align*}
+
+
 So, in the event of drawing a black ball from the urn, we would update
 our belief like so:
 
