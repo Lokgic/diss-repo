@@ -516,7 +516,13 @@ it, and third, an effort,---implying a willingness to labor,---for the
 sake of seeing how the truth may really be.\footnote{\cite{essentialpeirce2}, 48.}
 \end{quote}
 We can understand the problem of optional stopping as a special
-case of \emph{self-sabotage}: since the very idea that induction is to see how a hypothesis can withstand the deliverance of experience, knowingly running a test that would likely to give the wrong answer preemptively sabotaging one's possibility of ``seeing how the truth may really be''.  
+case of \emph{self-sabotage}. The very point of experimentally testing a hypothesis is to see how a it can withstand the deliverance of experience, so knowingly running a test that would likely to give a wrong answer is preemptively sabotaging one's possibility of ``seeing how the truth may really be''. As an analogy, consider making a promise, a speech act we discussed in section. \ref{sec:moores-paradox-and-self-sabotaging} The normative point of making a promise is to express to the promisee your intention to undertake a certain obligation. \footnote{\cite{searle}, 58-59} Because of this, I would be sabotaging myself if I make a promise that is clearly disingenuous. Making a promise I clearly cannot keep is clearly one example, but a more apt analogy would be a promise made in bad faith. For example, consider van Fraassen's example of making a promise with a vacuous conditional statement:\footnote{\cite{empiricalstance}, 243}
+
+\begin{equation}
+\text{I promise that if I see Santa Claus, I will ask him to bring you a bicycle.}	
+\end{equation}
+
+Such a promise is made in bad faith, because the promiser can never break them. It defeats the purpose of the promise to express an intention, since it's phrased in such a way that the promise is unlikely to be perceived as being sincere. Of course, there is nothing self-sabotaging about this example in and of themselves, but one would be if they are genuinely trying to make a promise. It would be like a person saying to reassure her partner by saying that ``I promise I will \emph{try} to be faithful''. Her partner will hardly be reassured. Analogously, the goal of experimentally probing a hypothesis is to produce evidence that will be accepted by one's epistemic community. The possibility of this acceptance, however, depends on whether or not the agent has genuinely given the hypothesis a chance to face the tribunal of experience, and this is sabotaged by optionally stopping. 
 
 %
 %A crucial element in James' voluntarism is that the responsibility
@@ -527,7 +533,7 @@ case of \emph{self-sabotage}: since the very idea that induction is to see how a
 %in Pascal's wager, in which he asks us to imagine the scenarios such as
 %mistakenly rejecting the existence of God or mistakenly accepting it.
 
-This can be accounted for by appealing to the frequentist idea of \emph{error probabilities}. For instance,
+This idea can be accounted for by appealing to the frequentist idea of \emph{error probabilities}. For instance,
 suppose I follow the standard practice and declare that I will reject
 the hypothesis that \(p=0.5\) when the sample I collect has a less than
 the probability of \(0.05\) of occurrence. This would mean that I am
@@ -553,23 +559,23 @@ entirely correct in pointing out that under different stopping rules
 would have an impact on what will counted as statistical significance,
 even if the numerical result will be the same, but from the
 deliberativist standpoint, these stopping rules imply different sets of
-epistemic commitments, that is, the experimenter incurs different degrees of the risk of being wrong as indicated by the relevant error probabilities, depending how the decision rules she stipulates in the context of abduction.
+epistemic commitments, that is, the experimenter incurs different degrees of the risk of being wrong as indicated by the relevant error probabilities, depending on the decision rules she accepts in the context of abduction.
 
 If the agent intends to stop after 12 trials, then to aim for a level of
 statistical significance \(\alpha\) at \(0.05\), she would have to
 commit to reject the fair coin hypothesis if she gets 2 or less heads.
 The repercussion is that, had the coin been only slightly biased against
 landing on heads, it is unlikely that she would be able to find the
-truth. For instance, the probability getting 2 or less heads, if
-\(p=0.4\), is only \(0.08\). For \(p=0.3\), it's \(0.25\). In other
-words, if the coin were only slightly biased, it would unlikely to
-produce the result that is detectable within this particular
+truth. For instance, the probability of getting 2 or less heads, if
+\(p=0.4\), is only \(0.08\). For \(p=0.3\), it is \(0.25\). In other
+words, if the coin were only slightly biased, it would be unlikely to
+produce a result that is detectable within this particular
 deliberative framework. Of course, there is nothing sacred about
 \(\alpha= 0.05\), notwithstanding the preaching of introductory
 statistics textbooks. If the agent's intention is to determine if the
 coin is only slightly biased, she is free to adjust \(\alpha\) so that
 her risk of error, had \(p\) been \(0.4\), is smaller. Even though, if
-\(p=0.5\), the probability of getting 3 or less heads out of 12 at
+\(p=0.5\), the probability of getting 3 or fewer heads out of 12 at
 \(0.07\) does not quite reach the textbook standard of statistical
 significance, it nevertheless would be much better at detecting
 \(p=0.4\), since the probability of the same outcome occurring would be
@@ -578,7 +584,7 @@ the abductive context.
 
 None of the above considerations hold if we had changed the stopping
 rule to ``stop after 3 heads.'' The deliberative framework would be
-entirely different. To begin, we are now adjudicating, not the
+entirely different. To begin, we are now adjudicating not the
 probabilities of error between different numbers of heads landed, but
 the number of tails we would tolerate before 3 heads is seen. We saw
 that having to see 9 tails before 3 heads is a statistically significant
@@ -606,11 +612,11 @@ probabilities\ldots{}\footnote{\cite{errorstat}, 186.}
 
 Of course, a defense of intentions in frequentism is not an argument
 \emph{for} the relevance of intention in Bayesianism. Furthermore,
-Bayesians like Lindley without a doubt was aware of these basic
+Bayesians like Lindley without a doubt were aware of these basic
 statistical facts from power analysis. What prompted their stance is the
 assumption that Bayesian methods are impervious to the problem of
 optional stopping, since the likelihood function is not affected by
-intentions, or other facts in the deliberative framework. In the next
+intentions, nor other facts in the deliberative framework. In the next
 section, I will demonstrate that optional stopping can also affect
 results obtained using Bayesian methods, so I am attacking the very idea
 that Bayesians cannot ignore the effects of deliberation.
@@ -623,22 +629,22 @@ that Bayesians cannot ignore the effects of deliberation.
 \section{Bayesian Optional
 Stopping}\label{ch: bayesian-early-stopping}}
 
-Deborah Mayo suggests that using early stopping to manipulate experimental results is also possible using Bayesian method, despite of the Likelihood Principle.\footnote{\cite{errorgrowth},352-353} Mayo's argument appeals to the fact that Bayesian methods can obtain the same or similar result when using a flat/uninformed prior, so this opens the door to early stopping using the same method. I will try to get more mileage out of this argument by using simulations.
+Deborah Mayo suggests that using early stopping to manipulate experimental results is also possible using Bayesian methods, despite  the Likelihood Principle.\footnote{\cite{errorgrowth},352-353} Mayo's argument appeals to the fact that Bayesian methods can obtain the same or similar result when using a flat/uninformed prior, so this opens the door to early stopping using the same method. I will try to get more mileage out of this argument by using simulations.
 
 To begin, we must gain a basic understanding of what Bayesian inference is, which, naturally, begins with Bayes' theorem. Consider some hypothesis
 or belief \(H\) and some evidence \(E\).
 
 \[P(H|E) = \frac{P(H)P(E|H)}{P(E)}\]
 
-In its most basic form, Bayes' theorem has 3 components: The
-unconditional probability of \(H\), \(P(H)\) represents the probability
-we would assign to the belief before the evidence, which, as we have
+In its most basic form, Bayes' theorem has three components: The
+unconditional probability of \(H\), \(P(H)\), represents the probability
+we would initially assign to the belief. Second, the evidence, as we have
 discussed, is represented by the likelihood \(P(E|H)\)---the probability
 of the evidence, given the hypothesis is true. The third ingredient is
 \(P(E)\), the unconditional probability of \(E\). To see how this works,
 consider an example with Zener cards. To begin, suppose that we have a
 subject in front of us, and we have to determine if she has ESP. Let's say
-she has 2 out of 2 correct answers. How should we learn from this data?
+she has 2 out of 2 correct answers. How and what should we learn from this data?
 What follows is the standard Bayesian story.
 
 For the sake of simplicity, let us suppose for now that there are only
@@ -1184,7 +1190,7 @@ evidence'' amounts to, since the decision to get more evidence or simply
 sticking to our current body of evidence is not one that be resolved
 just by appealing to probability, because the rationality of such a
 decision is highly context-sensitive. One important context is the
-\emph{urgency} of decision. For instance, ``a general who refused to
+\emph{urgency} of decision. In many cases time is of the essence: ``a general who refused to
 launch an attack until he had ascertained the position of every enemy
 solider would not be very successful.''\footnote{\cite{ayerpae}, 57.}
 
@@ -1211,12 +1217,12 @@ given him by actuarial considerations had proven illusory.\footnote{G.L.S.
 \end{quote}
 
 My point, of course, is not that making decision based on probability
-and utility is irrational. Far from it, but, again, that rational
+and utility is irrational. Far from it, but that rational
 inductive thinking presupposes a deliberative framework. The context of
 the story makes it clear that for the guard, ``total evidence'' really
 just means whatever he has in mind at the moment, and it would be
 irrational to suggest that he should get more evidence just because his
-expected utility will improve. As Ayer suggests, 
+expected utility will improve. As Ayer suggests, Carnap's inductive logic presupposes that the agent already know what total evidence is, and the extent to which new evidence is warranted.
 
 Good, who proved the same result independently of Ramsey, tries to
 address this issue by distinguishing what he calls Type I and Type II
@@ -1240,6 +1246,6 @@ relevant in Bayesian reasoning.
 
 \section{Conclusion}\label{stoppingcon}
 
-My focus of this section was to elucidate the very idea that the commitment made in the abductive context has  repercussion on the inference made during the inductive context. The problem of optional stopping in parapsychology has served as a helpful case to demonstrate the issues at stake. Even though this problem has been traditionally associated with frequentist methodologies, I have tried to show that this is a problem that should also concern Bayesians. My contention is that aspects of inductive thinking has to be criticized in light of the deliberation the inquirer undergoes prior the experiment, such as the commitments and intentions considered and decided on by the experimenter. 
+My focus of this section was to elucidate the very idea that the commitment made in the abductive context has  repercussion on the inference made during the inductive context. The problem of optional stopping in parapsychology has served as a helpful case to demonstrate the issues at stake. Even though this problem has been traditionally associated with frequentist methodologies, I have tried to show that this is a problem that should also concern Bayesians. My contention is that aspects of inductive thinking has to be criticized in light of the deliberation the inquirer undergoes prior the experiment, such as the commitments and intentions considered and decided on by the experimenter. I explored a Bayesian response to optional stopping, which relies on a mathematical result, proven by Ramsey and others, that one's expected value never decreases from gathering new evidence, and in many cases it actually increases. I dismissed this line of thought, because the result only holds when the evidence is cost-free, which is almost never the case.
 
  
