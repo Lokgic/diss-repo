@@ -270,7 +270,7 @@ of the event, the probability of each possible outcome is:
 
 $$\frac{1}{\text{\# of total possible hypotheses}}$$
 
-Many have criticized this principle. Peirce, for instance vehemently
+Many have criticized this principle. Peirce vehemently
 rejects it, as he argues that in many cases, especially when the number
 of possible outcomes is ambiguous, using the principle will lead to
 contradictions.\footnote{\cite{probabilityofinduction}, section II}A simple example would be to determine the probability of an unknown object, for example, a marble, having a certain color, say, red. Suppose I have no information about this marble, so I have no
@@ -298,20 +298,26 @@ discussion of Probability in which this question has been so much as
 asked.\footnote{\cite{keynes}, 58.}
 \end{quote}
 
-Instead, he proposes that the ambiguious clause ought to be explicated in terms of
-\emph{conditional relevance}. That is, to say that we have no reason to prefer
+Instead, he proposes that the ambiguous clause ought to be explicated in terms of
+\emph{conditional relevance}: 
+
+\begin{quote}
+This distinction enables us to formulate the Principle of Indifference at any rate more precisely. There must be no relevant evidence relating to one alternative, unless there is corresponding evidence relating to the other; our relevant evidence, that is to say, must be symmetrical with regard to the alternatives, and must be applicable to each in the same manner.	\footnote{\cite{keynes}, 61.}
+\end{quote}
+
+
+That is, to say that we have no reason to prefer
 a proposition \(H\) over its alternatives is to say that there is no
 evidence such that it is relevant to \(H\) but irrelevant to all the
 alternatives. Roughly speaking, \(E\) is relevant to \(H\) on background
-knowledge \(K\) if and only if: \[P(H|K) \neq P(H|K\wedge E)\]
-
-According to Keynes, one necessary condition for a justified application
+knowledge \(K\) if and only if: \[P(H|K) \neq P(H|K\wedge E)\] Thus, one necessary condition for a justified application
 of Indifference is that for a set of \(n\) possible outcomes,
 \(H_1,...H_n\), there is no evidential proposition \(E\) such that it is
-conditionally relevant to some but not others.
+conditionally relevant to some but not others. 
 
-The relevance criterion is necessary but not sufficient, because the
-paradoxes still need to be dealt with. He argues that the Principle of
+I will flag an important issue here. Keynes is not satisfied with this definition of relevance, because it fails to account for what he calls the \emph{weight} of the evidence.\footnote{\cite{keynes}, 79.} The basic idea is that some intuitively relevant evidence does not raise of lower the probability of the hypothesis it confirms. This will be discussed in chapter \ref{ch:woe}.
+
+In any case, Keynes argues that the Principle of
 Indifference should not be used when the alternatives under
 consideration can be further analyzed, or, using his term,
 ``divisible''. Consider again the marble example. The paradox begins
@@ -355,11 +361,7 @@ any two given propositions.
 \end{quote}
 
 However, part of the appeal of Keynes' theory is that probability itself
-is irreducibly normative, since they are objective and logical. It would seem that denying the existence of these logical relations also robs probability of its normative force. Ramsey recognizes this, and explicitly rejects both the Principle of Indifference and Keynes' strongly normative conception of rational degrees of belief. He points out that the reason Keynes's position
-\emph{requires} principles such as Indifference is that he holds that
-degrees of belief must be \emph{justified} before it can be admitted in
-the calculus of probability; however, Ramsey thinks that such a demand
-cannot be satisfied:
+is irreducibly normative, since they are objective and logical. It would seem that denying the existence of these logical relations also robs probability of its normative force. Ramsey recognizes this, and explicitly rejects both the Principle of Indifference and Keynes' strongly normative conception of rational degrees of belief. Keynes's position, Ramsey argues, \emph{requires} principles such as Indifference is that Keynes assumes that degrees of belief must be \emph{justified} before it can be admitted in the calculus of probability; however, Ramsey thinks that such a demand cannot be satisfied:
 
 \begin{quote}
 \ldots{}to ask what initial degrees of belief are justified\ldots{}
@@ -396,15 +398,15 @@ are rational degrees of belief?'' to ``is this set of partial beliefs
 consistent?'' Ramsey's analogy to deductive logic is helpful. Consider
 this argument:
 
-\begin{enumerate}
-	\item All Chinese are Martians.
-	\item  Socrates is Chinese.
-	\item  \(\therefore\) Socrates is a Martian.
-\end{enumerate}
+\begin{description}
+	\item[Premise 1] All Chinese are Martians.
+	\item[Premise 2]  Socrates is Chinese.
+	\item[Conclusion] Socrates is Martian.
+\end{description}
 
-Even though the argument contains all false claims, from a deductive
+This is one of the first lessons every student from an introductory logic class would learn: even though the argument contains all false claims, from a deductive
 perspective, it is a perfectly valid argument. In the same way, if we
-have a definitely fair coin but an agent decides that
+have a definitely fair coin, yet the agent still decides that
 \(P(Heads)=0.999\), she is still rational as long as she also believes
 \(P(Tails) = 0.001\). This normative point is perhaps the most
 influential among the ideas from ``Truth and Probability,'' as Ramsey
@@ -418,7 +420,7 @@ partial beliefs would imply contradictory betting behavior that could be
 exploited.
 
 For instance, if the agent believe than \(P(Heads) = 0.999\) yet also
-simultaneously holding that \(P(Tails) = 0.5\) This means, based on the
+simultaneously holding that \(P(Tails) = 0.5\). This means, based on the
 assumptions required by Dutch book arguments, you would be willing to
 pay respectively \$0.999 and \$0.5 for a bet that pays \$1. So, if a
 bookie offers the agent both bets at those prices, which comes to the
@@ -450,8 +452,8 @@ the theory gives no guidance for choosing.\footnote{\cite{savage}, 57.}
 Savage's point can be illustrated by reconsidering the Dutch book case
 above: suppose the agent is convinced that her degrees of beliefs,
 \(P(Heads) = 0.999\) and \(P(Tails) = 0.5\) are incoherent: what
-normative conclusion should she draw from this? The only advice Ramsey
-could give her is that they should add up to 1, but should she lower
+normative conclusion should she draw from this? The only advice coherence
+could give is that the sum should add up to 1, but should she lower
 \(P(Heads)\) to \(0.5\) or lower \(P(Tails)\) to \(0.001\)? In fact,
 there are, quite literally, infinite ways to for her to resolve the
 inconsistency. This illuminates the lacuna left open by a coherentist conception of probabilistic rationality, motivated by Ramsey's rejection of Keynes' rational degrees
