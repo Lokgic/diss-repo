@@ -942,7 +942,7 @@ There is, however, a more substantive objection that requires a more
 thorough exposition. An Orthodox Bayesian could argue that optional
 stopping is an irrational practice, because from a Bayesian perspective
 it is never rational to refuse evidence, because additional evidence
-\emph{always leads the increase in expected utility}. This is in fact a
+\emph{always leads to an increase in expected utility}. This is in fact a
 result that has been proven in various occasions and forms, first by Frank
 Ramsey, and then later, independently, I. J. Good, and L. J. Savage.\footnote{\cite{ramseyvalue}}\footnote{\cite{goodtotalevidence}}\footnote{\cite{savage}, sec 6.2.} Skyrms has also discussed Ramsey's unpublished note in details.\footnote{\cite{rationaldel}, chapter 4.}
 
@@ -955,8 +955,8 @@ thinks, that it's always rational to get more evidence, but then it
 raises another critical question about whether or not one could ever be
 rational in refusing new evidence.\footnote{\cite{keynes}, 84--85.} If the answer for the former question is
 positive, and the latter question negative, then we have to conclude
-that rationality dictates us that we should never stop looking for more
-evidence. Keynes remains ambivalent about the notion itself. Ramsey, who clearly read \emph{a Treatise}, responded to the problem in an
+that rationality dictates that we should never stop looking for more
+evidence. Keynes remains ambivalent about the notion itself. Ramsey, who clearly read \emph{A Treatise}, responded to the problem in an
 unpublished note.
 
 Many years later Ayer raises the same question in
@@ -971,29 +971,28 @@ be taken as basis for determining the degree of confirmation.\footnote{\cite{car
 \end{quote}
 
 Ayer asks the Keynesian question: should ``total evidence'' include
-relevant evidence that I do not yet have in possession?\footnote{\cite{ayerpae}, 56.} The
-answer must be ``yes'', Ayer argues. If finding the truth value of some
+relevant evidence that I do not yet have in possession?\footnote{\cite{ayerpae}, 56.} If finding the truth value of some
 proposition \(P\) could potentially sway the balance of my evidence,
-then I should definitely acquire it. Thus the principle of total
+then it seems that I definitely acquire it. Thus the principle of total
 evidence seems to suggest that I am also rationally compelled to
 consider some evidence I do not yet have. I. J. Good interprets Ayer's as questioning ``why\ldots{} we should
 bother to make new observations.''\footnote{\cite{goodthinking}, 178.} In the context of optional stopping, this
 is particularly salient: if I already have the result I want, why should
 I bother get more evidence?
 
-Ramsey interpreted Keynes' question in the same way and addressed it an unpublished note addresses  from an expected utility perspective. Ramsey's argument is roughly that,
+Ramsey interpreted Keynes' question in the same way and addressed it an unpublished note from an expected utility perspective. Ramsey's argument is roughly that,
 \emph{if} we assume an agent to be a perfect Bayesian and that new
-information does not cost anything, then she will never be no worse off
+information does not cost anything, then she will never be  worse off
 getting new evidence. In fact, she is guaranteed to be \emph{better} off
 as long as the new evidence will tell her something new. A perfect
 Bayesian agent is someone who studiously updates her opinions based on
-Bayes' rule and then act by choosing the action that maximize her
+Bayes' rule and then acts by choosing the action that maximizes her
 expected utility. Note that this assumes a few things: first, for any
 decision problem she faces, there is always going to be at least one
-option that maximizes her expected utility. Second, this assumes that she can always assign precise probabilities to the options she faces, because, as Good later realizes, if the agent's judgments of probability is vague, that is, she may judge the probability of an event to fall within a range of values, instead of one precise numerical value, then it is possible that confounding observations could muddle the water by widening this range, so that she could be worse off by getting more evidence.\footnote{\cite{goodthinking}, 181-182} Third, as Skyrms points
+option that maximizes her expected utility. Second, this assumes that she can always assign precise probabilities to the options she faces, because, as Good later realizes, if the agent's judgments of probability are vague, that is, she may judge the probability of an event to fall within a range of values, instead of one precise numerical value, then it is possible that confounding observations could muddle the water by widening this range, so that she could be worse off by getting more evidence.\footnote{\cite{goodthinking}, 181-182} Third, as Skyrms points
 out, this also implies that the agent knows that she will always
-\emph{stays} being perfectly Bayesian in the future. What we have here,
-then, is the ideal Bayesian agent.
+\emph{remain} perfectly Bayesian in the future. What we have here,
+then, is the ideal Bayesian agent, someone who revises her opinions strictly with an explicative rule.
 
 I will make use of an intuitive example rather than reproducing the
 proof here.\footnote{This example is adapted from \cite{leviweight}, 49.} Suppose we have
@@ -1033,13 +1032,13 @@ three hypotheses about the content of an urn in front of us:
  [H_w[\bf{1/3}]]
  [H_n[\bf{1/3}]]
  ]
- [Observe;EV:0.6,plain content,elo={yshift=4pt}
- [;b(0.5)
+ [Observe;EV:.6,plain content,elo={yshift=4pt}
+ [;b(.5)
  [H_b[\bf{.600}]]
  [H_w[.067]]
  [H_n[.330]]
  ]
- [;w(0.5)
+ [;w(.5)
 [H_b[.067]]
  [H_w[\bf{.600}]]
  [H_n[.333]]
@@ -1075,42 +1074,44 @@ same as getting a white ball. Let \(E_b\) be ``a black ball is drawn''
 and \(E_w\) for white balls. So:
 \begin{align*}
 	P(E_b) &= P(H_b)P(E_b|H_b) + P(H_w)P(E_b|H_w) + P(H_n)P(E_b|H_n)\\
-&=1/3(0.9)+1/3(0.1)+1/3(0.5)\\
-&=0.5\\
+&=\frac{1}{3}(.9)+\frac{1}{3}(.1)+\frac{1}{3}(.5)\\
+&=.5\\
 P(E_w) &= 1 - P(E_b) \\
-&= 0.5
+&= .500
+\end{align*}
+So, in the event of drawing a black ball from the urn, we would update
+our belief like so:
+\begin{align*}
+	P(H_b|E_b) &= \frac{P(H_b)P(E_b|H_b)}{P(E_b)}\\
+	&=\frac{1/3(.9)}{.5} \\
+	&= .600
 \end{align*}
 
 
-So, in the event of drawing a black ball from the urn, we would update
-our belief like so:
 
-\[P(H_b|E_b) = \frac{P(H_b)P(E_b|H_b)}{P(E_b)}=\frac{1/3(.9)}{.5} = .600 \]
-
-Similarly, applying the calculation on the other hypotheses, we get:
-\[P(H_w|E_b) = .067\] \[P(H_n|E_b) = .333\] Similar argument can be
+Similarly, by applying the calculation to the other hypotheses, we get:
+\[P(H_w|E_b) = .067\] \[P(H_n|E_b) = .333\] Similar arguments can be
 made by assuming \(E_w\), that is, a white ball is chosen. In that case
 \(P(H_w|E_w) = .600\). If we were an ideal Bayesian agent, we should pick
 \(H_b\) if \(E_b\), and pick \(H_w\) if \(E_w\). Since an ideal Bayesian
 would choose the option that maximizes our expected utility, in either
 case the expected value after drawing from the urn once is \(.600\),
 which is an improvement, since before drawing our expected utility is
-\(1/3\) for all options. The net gain in expected utility would be
-\(.60 - .33 = .27\), is referred to as \emph{the value of information}
-in the decision theory literature.\footnote{\cite{appliedstatdec},
-  89--90}\footnote{\cite{winkler}, section 6.3.}
+\(1/3\) for all options. The net gain in expected utility from getting new information would be
+\(.60 - .33 = .27\). This is referred to as \emph{the value of information} in the literature.\footnote{\cite{appliedstatdec},
+  89--90}\footnote{\cite{winkler}, section 6.3.} Interestingly, Ramsey seems to think that the value of information or evidence captures what Keynes calls the \emph{weight} of evidence---see chapter \ref{ch:woe}.
   
 
 \begin{figure*}[h]
 \centering
 \begin{forest} decision tree
  [After 1 Observation($b$),align=center
- [Decide;EV:0.6,elo={yshift=4pt},align=right 
+ [Decide;EV:.600,elo={yshift=4pt},align=right 
  [H_b[\bf{.600}]]
  [H_w[.067]]
  [H_n[.333]]
  ]
- [Observe;EV:0.706,plain content,elo={yshift=4pt}
+ [Observe;EV:.706,plain content,elo={yshift=4pt}
  [;b(.71)
  [H_b[\bf{.757}]]
  [H_w[.009]]
@@ -1153,12 +1154,12 @@ just drawing once. The net gain is \(.706 -.600 = .106\). Ramsey's
 proof shows that we can keep on getting more evidence and we will never
 be worse off. 
 
-To see a bird's-eye view of the situation, consider figure \ref{fig:expectedchange}, in which the sequential updatings of expectation after drawing from different hypothesized distribution are plotted. Each line represent the \emph{net change} of expected value of getting more evidence conditional having $x$ observation. We can see that the expected net change will never dip below $0$, meaning that one will always often be rewarded and never punished for getting more evidence.
+To see a bird's-eye view of the situation, consider figure \ref{fig:expectedchange}, in which the sequential revisions of expected value after drawing from different hypothesized distributions are plotted. Each line represent the \emph{net change} of expected value of getting more evidence conditional on having $x$ observation. We can see that the expected net change will never dip below $0$, meaning that one will often be rewarded and never punished for getting more evidence.
 
 \begin{figure*}[h] 
 \begin{center}
 \includegraphics[scale=0.5]{Expectedchange.png}
-	\caption{Net gain in expectation after $x$ observations from $p=.9,.1,.5$. Note: it does not dip below 0, which implies that one is never worse off from getting new evidence.}
+	\caption{Net gain in expectation after $x$ observations from $\theta=.9,\theta=.1,\theta=.5$. }
 	\label{fig:expectedchange}
 \end{center}	
 \end{figure*}
@@ -1175,7 +1176,7 @@ assumption here is that evidence costs \emph{nothing}. The scenario we
 imagined quickly breaks down once we starts to introduce some sort of
 cost. It was assumed in the example that it costs us neither money nor
 time to draw from the urn, but suppose it costs us 25 cents for each
-sample. This means that we would be gaining only \(.27-.25 = 0.02\) in
+sample. This means that we would be gaining only \(.27-.25 = .02\) in
 expected payoff for the first draw, and the second draw would definitely
 not be worth the additional 25 cents. Or suppose that one dollar is not
 worthy any endeavor that lasts longer than 15 seconds, and it takes 30
@@ -1192,7 +1193,7 @@ happily without knowing. Savage's point is that in this case the
 information is not really free; it has a \emph{psychological}
 cost.\footnote{\cite{savage}, 107.} 
 
-Ramsey and Good's proofs, while extremely valuable from a logical and
+Ramsey's and Good's proofs, while extremely valuable from a logical and
 mathematical perspective, are somewhat tone-deaf to the practical problem
 posed by Ayer and Keynes. The actual complaint was that the Principle of
 Total Evidence \emph{presupposes} that we know ahead what ``total
