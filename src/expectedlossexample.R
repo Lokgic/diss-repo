@@ -209,7 +209,20 @@ thatFn = function(a,b){
 }
 
 y1 = 
-plot(x,thatFn(2+x,2), type='l',col='red',xlab="Number of Heads",ylab="Posterior Probability", main="Comparison of Changes in Posterior Probabilities")
-lines(x,thatFn(20+x,20),col='blue')
-lines(x,thatFn(1000000+x,1000000),col='black')
-legend(70,.8, legend=c("Weak Prior(2,2)","Moderate Prior(20,20)","Ideal Evidence Prior(1mil,1mil)"), col=c("red","blue","black"),cex=.8, lty=1,bg="lightblue")
+plot(x,thatFn(1+x,1), type='l',col='red',xlab="Hypothethical Data(x out of x)",ylab="Posterior Probability", main="Comparison of Changes in Posterior Probabilities", lty=1)
+lines(x,thatFn(20+x,20),col='blue',type='l',lty=2)
+lines(x,thatFn(500+x,500),col='black',type='l',lty=5)
+legend(70,.8, legend=c("Weak Prior(2,2)","Moderate Prior(50,50)","Ideal Evidence Prior(5000,5000)"), col=c("red","blue","black"),cex=.8, lty=c(1,2,5),bg="lightblue")
+
+
+
+plot(x,thatFn(1+x,1+(100-x)), type='l',col='red',xlab="Hypothethical Data(x out of 100)",ylab="Posterior Probability", main="Comparison of Changes in Posterior Probabilities", lty=1)
+lines(x,thatFn(50+x,50+(100-x)),col='blue',type='l',lty=2)
+lines(x,thatFn(5000+x,5000+(100-x)),col='black',type='l',lty=5)
+legend(70,.8, legend=c("Weak Prior(1,1)","Moderate Prior(50,50)","Ideal Evidence Prior(5000,5000)"), col=c("red","blue","black"),cex=.8, lty=c(1,2,5),bg="lightblue")
+
+
+plot(x,thatFn(1+x,1+(100-x)), type='l',col='red',xlab="Hypothethical Data(x out of 100)",ylab="Posterior Probability", main="Comparison of Changes in Posterior Probabilities", lty=1)
+lines(x,thatFn(50+x,50+(100-x)),col='blue',type='l',lty=2)
+lines(x,thatFn(5000+x,5000+(100-x)),col='black',type='l',lty=5)
+legend(70,.8, legend=c("Weak Prior(1,1)","Moderate Prior(50,50)","Ideal Evidence Prior(5000,5000)"), col=c("red","blue","black"),cex=.8, lty=c(1,2,5),bg="lightblue")
