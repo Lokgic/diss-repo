@@ -616,7 +616,7 @@
         \openup 2.75\jot % double spaced
         \begin{center}
                 \def\thanks##1{} % temporarily kill any thanks lines
-                {\large \uppercase\expandafter{\@title} \par}
+                {\large \expandafter{\@title} \par}
                 {\large\lineskip .75em\begin{tabular}[t]{c}{\@author}\end{tabular}\par}
                 {\large Under the supervision of Professor \@advisor \par}
                 \vskip 1.5em
@@ -1413,7 +1413,7 @@
     \parskip=0pt
     \begin{center}
       \vglue -.25in   % this makes top margin 2in
-      {\Large \uppercase\expandafter{\@title} \par}
+      {\Large \expandafter{\@title} \par}
       \vglue 2ex
       {\normalsize by \par}
       \vglue 2ex
@@ -1519,7 +1519,7 @@
       \vglue 2ex
       %{\large (\@subject)}
       %\vglue 2ex
-      {\Large \uppercase\expandafter{\@title} \par}
+      {\Large \expandafter{\@title} \par}
       \vglue 2ex
       {\normalsize by \par}
       \vglue 2ex

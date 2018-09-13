@@ -1,5 +1,5 @@
 \documentclass[PhD]{dukethesis2006}
-\usepackage{setspace}
+%\usepackage{setspace}
 \usepackage{forest}
 \usepackage[notes]{biblatex-chicago}
 \usepackage{etoolbox}
@@ -7,15 +7,27 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{amssymb,amsmath, amsthm,mathtools}
 \usepackage{longtable,booktabs}
+\usepackage[utf8]{inputenc}
+\usepackage{newpxmath}
 \usepackage[left=1.5in,right=1in,top=1.5in,bottom=1.5in]{geometry}
-%\input{bob_macros.tex}
+\input{bob_macros.tex}
 \bibliography{diss.bib}
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \AtBeginEnvironment{quote}{\singlespacing\small}
 
-
+\newenvironment{dedication}
+  {\clearpage           % we want a new page          %% I commented this
+   \thispagestyle{empty}% no header and footer
+   \vspace*{\stretch{1}}% some space at the top
+   \itshape             % the text is in italics
+   \raggedleft          % flush to the right margin
+  }
+  {\par % end the paragraph
+   \vspace{\stretch{3}} % space at bottom is three times that at the top
+   \clearpage           % finish off the page
+  }
 \author{Lok C. Chan}
 \advisor{Kevin D. Hoover}
 \member{Vincent Conitzer}
@@ -48,8 +60,12 @@ investigation in a deliberate manner, in accordance with the assertions and
 decisions she made during abduction and deduction, collectively referred
 to as the \emph{deliberative context}.
 
-To develop my position, I set the stage by proposing a pragmatist reading of Bas van Fraassen's Reflection Principle and his \emph{voluntarist} interpretation of assertions of degrees of beliefs as performative locutions to express the intention to undertake a proportional epistemic commitment. I argue for a refinement of this view that I call \emph{deliberativism}, which introduces an abductive dimension in order to understand the normative force that regulates these epistemic judgments. I then elaborate on my claim that decisions made in the context of abduction have inferential repercussions on the validity of inductive inference. In particular, I situate deliberativism in the context of statistical inference by critically examining a problem in the literature called \emph{optional stopping}, which is used to demonstrate how the experimenter's intention to stop can manipulate the statistical significance of the data. The last chapter explores the Pericean idea of deductive reasoning as the strategic interrogation of a provisionally chosen hypothesis by focusing on J. M. Keynes' notion of \emph{the weight of evidence}.
+I set the stage by proposing a pragmatist reading of Bas van Fraassen's Reflection Principle and his \emph{voluntarist} interpretation of assertions of degrees of beliefs as performative locutions to express the intention to undertake a proportional epistemic commitment. I argue for a refinement of this view that I call \emph{deliberativism}, which introduces an abductive dimension to understand the normative force that regulates these epistemic judgments. I then argue that decisions made in the context of abduction have inferential repercussions on the validity of inductive inference. In particular, I situate deliberativism in the context of statistical inference by critically examining a problem in the literature called \emph{optional stopping}, which occurs when the experimenter's intention to stop can manipulate the statistical significance of the data. The last chapter explores the Pericean idea of deductive reasoning as the strategic interrogation of a provisionally chosen hypothesis by focusing on J. M. Keynes' notion of \emph{the weight of evidence}.
 
+
+\begin{dedication}
+	To Elisa
+	\end{dedication}
 
 \singlespacing
 \tableofcontents
@@ -57,13 +73,34 @@ To develop my position, I set the stage by proposing a pragmatist reading of Bas
 \listoftables
 \doublespacing
 
+\acknowledgements
+
+I would like to thank my mother, but I cannot, as she sadly passed away two years after I started graduate school. But I will do the next best thing: living well. I think this would have made her happy.
+
+Thankfully, there are people who I would like to and \emph{can} thank.
+
+Thank you, Elisa, my partner. I think the dissertation was more work for you than me.  You made this possible.
+
+Many thanks to my chair Kevin Hoover, with whom I have spent countless hours in the Perk chatting about philosophy and working on my ideas. I think this has grown to my favorite environment for philosophizing. It's just not the same without the baklavas and coffee. 
+
+Thank you to my committee members, Vince Conitzer, Felipe De Brigard, and Carlotta Pavese. Thank you all for dealing with my fickleness: the dissertation I sent you at the end was pretty different than the project I described,  but I cannot ask for a better committee that will reflect the kind of researcher I inspire to be. 
+
+Special thanks to my friends Lauren Bunch, Jonathan Chen, and Randy Mayes, for reading pieces of this dissertation and catching my increasingly innovative ways of making mechanical errors, which, like a virus that develops resistance to antibiotic, have developed a strong immunity to proofreading.
+
+Lastly, without the kind people who helped me in the philosophy department, I probably would not have survived this few years. I want to especially thank Gopal Sreenivasan and Janelle Haynes for guiding me through this process. 
+
 \include{intro}
 
 \include{reflectionpragmatist}
 
 \include{stoppingrule}
 \include{weight}
+\include{conclusion}
 
 \printbibliography[heading=bibintoc]
+
+\biography
+
+	Lok Chan was born in Hong Kong in 1984. He studied classical guitar performance in California State University, Sacramento. When his loving mother advised him to study something more practical and lucrative in nature, he decided to pursue as a second major philosophy with an emphasis on logic and philosophy of science. He then went on to complete a Master's degree in philosophy from San Francisco State University. At Duke University, he received the Bass Instructional Fellowship, the Graduate Student Training Enhancement Grant, Professional Development Grant and the Summer Research Fellowship. He was a Lab Fellow at Franklin Humanities Institute's Lab of Digital Knowledge, and a member of the Moral AI group, a Bass Connections team.
 
 \end{document}

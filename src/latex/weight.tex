@@ -5,20 +5,20 @@ Evidence}\label{ch:woe}}
 
 
 
-The main purpose of this chapter is to propose a way in which the interplay between abduction and deduction can be understood, in service of understanding how the deliberative elements of an experiment could be criticized. The process of abduction, I suggest, is intertwined with deduction: deduction is used to strategically interrogate the hypothesis chosen provisionally, in order to see a better hypothesis should be chosen before committing into inductively testing the hypothesis. During deliberation, we switch back and forth between making educated guesses abductively and derive the necessary connections from it deductively. 
+The main purpose of this chapter is to propose a way in which the interplay between abduction and deduction can be understood, in service of understanding how the deliberative elements of an experiment could be criticized. The process of abduction, I suggest, is intertwined with deduction: deduction is used to strategically interrogate the provisionally chosen hypothesis, in order to see if a different hypothesis should be chosen before committing to inductively testing the hypothesis. During deliberation, we switch back and forth between making educated guesses abductively and deriving the necessary connections from it deductively. 
 
-To see how this is done in the context of probabilistic judgment, I shall examine Keynes' notion \emph{the weight of evidence}. My claim is that the weight of evidence is a \emph{deductive} tool a reasoner could use to evaluate the worthiness of a provisionally chosen hypothesis. In particular, I suggest that the intentions and goals of an experimenter can be criticized by appealing to notions of \emph{counterfactual priors and hypothetical data}. My suggestions here are heavily influenced by the works of statisticians
+To see how this is done in the context of probabilistic judgment, I shall examine Keynes' notion of \emph{the weight of evidence}. My claim is that the weight of evidence is a \emph{deductive} tool a reasoner could use to evaluate the worthiness of a provisionally chosen hypothesis. In particular, I suggest that the intentions and goals of an experimenter can be criticized by appealing to notions of \emph{counterfactual priors and hypothetical data}. My suggestions here are heavily influenced by the works of statisticians
 who have argued to move away from the orthodox approaches to Bayesian
 analysis, such as James Berger's ``Robust Bayesianism'',\footnote{\cite{robust}} Gelman and
 Shalizi's ``hypothetico-deductive Bayesianism'',\footnote{\cite{gelman}} and Peter Walley's theory of imprecise probability.\footnote{\cite{walley}}
 
 
 
-I will set the stage with a discussion on Peirce's idea that abduction is an interrogative process in section \ref{strategicint}. An exposition on Keynes' ideas on the weight of evidence will be carried out in section \ref{the-weight-of-evidence-1}. To motivate my proposal, I will introduce Popper's \emph{paradox of ideal evidence} in \ref{the-paradox-of-ideal-evidence-1}. I will overview a statistical solution to the paradox in section \ref{the-statistical-perspective-1}, and a formal epistemological perspective in \ref{the-concept-of-resiliency-1}. Finally, I will articulate my proposal in \ref{counterfactual-priors-and-hypothetical-data-1}.
+I will set the stage with a discussion of Peirce's idea that abduction is an interrogative process in section \ref{strategicint}. An exposition on Keynes' ideas on the weight of evidence will be carried out in section \ref{the-weight-of-evidence-1}. To motivate my proposal, I will introduce Popper's \emph{paradox of ideal evidence} in \ref{the-paradox-of-ideal-evidence-1}. I will overview a statistical solution to the paradox in section \ref{the-statistical-perspective-1}, and a formal epistemological perspective in \ref{the-concept-of-resiliency-1}. Finally, I will articulate my proposal in \ref{counterfactual-priors-and-hypothetical-data-1}.
 
 \section{Deduction as Strategic Interrogation}\label{strategicint}
 
-In section \ref{sec:the-abductive-context-of-inquiry}, we discussed Peirce's idea that the abduced hypothesis is a highly fallible conjecture, insofar so he would sometimes refer to it as a guess. However, Peirce also makes it clear that, even though abduction is ultimately guessing, he does not mean that abduction is nothing but a game of blind luck. One characterization that Peirce often use in the context of abduction is that it involves an ``interrogation'':
+In section \ref{sec:the-abductive-context-of-inquiry}, we discussed Peirce's idea that the abduced hypothesis is a highly fallible conjecture, and he would sometimes refer to it as a guess. However, Peirce also makes it clear that, even though abduction is ultimately guessing, he does not mean that abduction is nothing but a game of blind luck. One characterization that Peirce often use in the context of abduction is that it involves an ``interrogation'':
 
 \begin{quote}
 	A hypothesis ought, at first, to be entertained interrogatively. \footnote{\cite{CP}, 6.524}
@@ -28,7 +28,7 @@ In section \ref{sec:the-abductive-context-of-inquiry}, we discussed Peirce's ide
 	It is to be remarked that, in pure abduction, it can never be justifiable to accept the hypothesis otherwise than as an interrogation. But as long as that condition is observed, no positive falsity is to be feared; and therefore the whole question of what one out of a number of possible hypotheses ought to be entertained becomes purely a question of economy.	\footnote{\cite{CP}, 6.529}
 \end{quote}
 
-A helpful way to explain what Peirce means by ``interrogation'' is to use own analogy of the game of ``twenty questions'', in which one party has to think of an object, while another party has to find out what the object by asking 20 or less questions.\footnote{\cite{essentialpeirce2}, 109} Peirce's idea is that posing a question in the game is akin to proposing a hypothesis in an inquiry---for both cases, we make a guess about the nature of the subject of our inquiry, and the difference is that in the game the answer we receive is certain and direct, while a hypothesis has to be tested or broken down into sub-hypothesis. Peirce has an important point in mind, however, with this example. That is, the choice of the question to ask can drastically alter the course of an inquiry. Since the player of the game has to figure out what the answer is by asking at most 20 questions, she must ask them \emph{strategically}. Each question the inquire asks should be as informative as possible---they should, for instance, ask questions that narrow the space of possibilities as quickly as possible. Abduction, which is the logic of hypothesis selection, is guided by a similar goal.
+A helpful way to explain what Peirce means by ``interrogation'' is to use his own analogy of the game of ``twenty questions'', in which one party has to think of an object, while another party has to find out what the object is by asking 20 or less questions.\footnote{\cite{essentialpeirce2}, 109.} Peirce's idea is that posing a question in the game is akin to proposing a hypothesis in an inquiry---for both cases, we make a guess about the nature of the subject of our inquiry, and the difference is that in the game the answer we receive is certain and direct, while a hypothesis has to be tested or broken down into sub-hypothesis. Peirce has an important point in mind, however, with this example. That is, the choice of the question to ask can drastically alter the course of an inquiry. Since the player of the game has to figure out what the answer is by asking at most 20 questions, she must ask them \emph{strategically}. Each question should be as informative as possible---shw should, for instance, ask questions that narrow the space of possibilities as quickly as possible. Abduction, which is the logic of hypothesis selection, is guided by a similar goal.
 
 Hintikka, who calls abduction ``the fundamental problem in contemporary epistemology'', proposes that the interrogative element of abduction could be understood as the strategic process in which the informational gain, in light of the agent's epistemic goal, from inquiry is maximized.\footnote{\cite{hintikka}} Hintikka raises an interesting example of how the strategic freedom in abductive thinking is crucial for deductive logic, notwithstanding its emphasis on mechanical rules of inference. Suppose a student is asked, in an exam for a logic class, to demonstrate that
 
@@ -39,7 +39,7 @@ Hintikka, who calls abduction ``the fundamental problem in contemporary epistemo
 
  
  
- In other words, the student has to prove that formula \ref{eq:abdeexample} is a logical truth. Before proving that, she must make a decision on which method to use. Since she is pressed for time, it is in her interest to prove in a strategic manner. For instance, suppose she choose the \emph{semantic} strategy of showing that the proposition is  always true. The most obvious way would be to use the truth table to show that the formula is true under all possible interpretations. However, that would be a inefficient choice, since there will be $2^4=16$ rows and, because of her strategic decision, she cannot skip any row---she has to demonstrate that the proposition is true in all rows. 
+ In other words, the student has to prove that formula \ref{eq:abdeexample} is a logical truth. Before proving that, she must make a decision on which method to use. Since she is pressed for time, it is in her interest to prove it in a strategic manner. For instance, suppose she chooses the \emph{semantic} strategy of showing that the proposition is  always true. The most obvious way would be to use the truth table to show that the formula is true under all possible interpretations. However, that would be a inefficient choice, since there will be $2^4=16$ rows and, because of her strategic decision, she cannot skip any row---she has to demonstrate that the proposition is true in all rows. 
 
 
 Thus, the strategic dimension of reasoning involves finding a way to gain as much information as possible in light of economical constraints. In the game of twenty questions, the constraint is that the questioner only gets 20 questions. For the student taking the logic exam, her time is obviously limited. In each of the cases, before even tackling the problem that confronts her, the reasoner has to deliberate on how to go about solving the problem, such as choosing from one of many methods in which the problem could be addressed. Reasoning about how our resources should be allocated in service to our epistemological goal is often categorized by Peirce as the logic of the economy of research:
@@ -48,9 +48,9 @@ Thus, the strategic dimension of reasoning involves finding a way to gain as muc
 Proposals for hypotheses inundate us in an overwhelming flood, while the process of verification to which each one must be subjected before it can count as at all an item, even of likely knowledge, is so very costly in time, energy, and money---and consequently in ideas which might have been had for that time, energy, and money, that Economy would override every other consideration even if there were any other serious considerations. In fact there are no others.\footnote{\cite{CP}, 5.602}	
 \end{quote}
 
-Hinttika's point the connection between abduction and deduction is relevant here. The economical implication of a hypothesis can often be probed in a deduction, which is both relatively cost-free and secure. 
+Hinttika's point is that the connection between abduction and deduction is relevant here. The economical implication of a hypothesis can often be probed in a deduction, which is both relatively cost-free and secure. 
 
-For example, reconsider formula \ref{eq:abdeexample}. Let's say the logic student realizes that using truth table would be uneconomical for this particular problem, and decides to use natural deduction instead. This, however, calls more further strategic thinking, because since there is no premise given, the student must \emph{choose} her own assumed premise, and often there are many different ways in which a proof can begins . Introductory textbooks often recommend the strategy of  assuming the negated version of the logical truth, and prove the result by using \emph{Reductio ad Absurdum}, if the student is unsure how to begin.
+For example, reconsider formula \ref{eq:abdeexample}. Let's say the logic student realizes that using the truth table would be uneconomical for this particular problem, and decides to use natural deduction instead. This, however, calls more further strategic thinking, because since there is no premise given, the student must \emph{choose} her own assumed premise, and often there are many different ways in which a proof can begin. Introductory textbooks often recommend the strategy of  assuming the negated version of the logical truth, and prove the result by using \emph{Reductio ad Absurdum}, if the student is unsure how to begin.
 
  In this case, however, this might not be the best decision, for the result seems rather unwieldy:
  
@@ -59,20 +59,20 @@ For example, reconsider formula \ref{eq:abdeexample}. Let's say the logic studen
 	\label{eq:abdeexampleneged}
 \end{equation}
 
-She would end up with a long negated conditional, without a clear way forward. Of course, it is not impossible to find a contradiction from  formula \ref{eq:abdeexampleneged}. If the student keeps out unpacking it deductively, she will eventually run into a contradiction by brute force, just as in the game of twenty questions, a player might eventually run into the correct answer if she had unlimited chances to ask question. 
+She would end up with a long negated conditional, without a clear way forward. Of course, it is not impossible to find a contradiction from  formula \ref{eq:abdeexampleneged}. If the student keeps unpacking it deductively, she will eventually run into a contradiction by brute force, just as in the game of twenty questions, a player might eventually run into the correct answer if she had unlimited chances to ask question. 
 
-But there are possibly more economical ways to start the. proof.  One strategy would be to take advantage of the conditional nature of the logical truth. That is, we can prove the result conditionally assuming the antecedent of the conditional, and derive the consequent:
+But there are possibly more economical ways to start the proof.  One strategy would be to take advantage of the conditional nature of the logical truth. That is, we can prove the result conditionally by assuming the antecedent of the conditional, and deriving the consequent:
 
 \begin{equation}
 	 [[A\to(B\wedge \neg C)] \wedge (\neg B \vee D) ]\vdash (A\to D)
 	\label{eq:abdecp}
 \end{equation}
 
-The right hand side of the $\vdash$ presents itself a clear way forward: assume $A$, and then derive $D$.  A student with a keen eye for deduction can see that the assumption given in \ref{eq:abdecp} is a conjunction that can be decomposed into two conjuncts, giving us the propositions needed to derive $B\wedge \neg C$ using $A$, and then get $D$, using $B\wedge \neg C$.  Depending on the rules available to her, such a method would take 10 or less lines. Of course, this is not to say there is an \emph{a priori} reason to prefer the conditional strategy over the \emph{reductio} strategy. The rationality of these choices are highly sensitive to the context of the problem, informed by, for instance, the reasoner's ability. 
+The right hand side of the $\vdash$ presents itself a clear way forward: assume $A$, and then derive $D$.  A student with a keen eye for deduction can see that the assumption given in \ref{eq:abdecp} is a conjunction that can be decomposed into two conjuncts, giving us the propositions needed to derive $B\wedge \neg C$ using $A$, and then get $D$, using $B\wedge \neg C$.  Depending on the rules available to her, such a method would take 10 or less lines. Of course, this is not to say there is an \emph{a priori} reason to prefer the conditional strategy over the \emph{reductio} strategy. The rationality of these choices are highly sensitive to the context of the problem, and informed by, for instance, the reasoner's ability. 
 
- Similar considerations apply in the game of twenty questions. Suppose we are considering for the first question the choice between asking "is it steak?" and "is it food?" It is a matter of deduction that the latter is much more informative: both an affirmative or negative answer would greatly reduce the size of the possible question. It would, of course, be nice if the answer happens to be steak, in which case the former would be the question to ask, but the probability, given we know nothing about the object in question, is astronomically low, and knowing that it is \emph{not} steak only rule out \emph{one} possible answer. 
+ Similar considerations apply in the game of twenty questions. Suppose we are considering for the first question the choice between asking ``is it steak?'' and ``is it food?'' It is a matter of deduction that the latter is much more informative: both an affirmative or negative answer would greatly reduce the size of the possible question. It would, of course, be nice if the answer happens to be steak, in which case the former would be the question to ask, but the probability, given we know nothing about the object in question, is astronomically low, and knowing that it is \emph{not} steak only rule out \emph{one} possible answer. 
 
-These examples are intended to serve as an intuitive analogy to the main idea I wish to develop in this chapter is the interplay between abductive and deductive reasonings in inquiry: in particular, how non-evidential but epistemologically relevant questions such the economy of a proposed premise can be investigated deductively. Nevertheless, our discussion here brings light to an important idea that has been implicit in the dissertation: during deliberation, abduction and deduction are quite interwoven: there is not a discrete point to which we can point and say that the investigator has moved on from the abductive stage to the inductive stage. After deduction draws out the necessary connections from a provisionally chosen hypothesis, the inquirer must consider that the now explicit implications of her initial choice bear on her goals, intentions, and values. She may decide to revise her initially decision based on this new information, and she may again use deduction to tease out the repercussions of her informed decision. This highlights the interrogative role deduction plays in inquiry. Lastly, this dynamic relationship between abduction an deduction is one of the reasons why I have chosen to put both under the heading of deliberation, because it is often impossible to separate them in practice.      	
+These examples are intended to serve as an intuitive analogy to the main idea I wish to develop in this chapter, which is the interplay between abductive and deductive reasonings in inquiry: in particular, how non-evidential but epistemologically relevant questions such the economy of a proposed premise can be investigated deductively. Nevertheless, our discussion here brings light to an important idea that has been implicit in the dissertation: during deliberation, abduction and deduction are quite interwoven: there is not a discrete point at which we can point and say that the investigator has moved on from the abductive stage to the inductive stage. After deduction draws out the necessary connections from a provisionally chosen hypothesis, the inquirer must consider that the now explicit implications of her initial choice bear on her goals, intentions, and values. She may decide to revise her initial decision based on this new information, and she may again use deduction to tease out the repercussions of her informed decision. This highlights the interrogative role deduction plays in inquiry. Lastly, this dynamic relationship between abduction and deduction is one of the reasons why I have chosen to put both under the heading of deliberation, because it is often impossible to separate them in practice.      	
 %
 %The creative and suggestive nature of abductive inference makes it permissive in nature, and, for it to be reliable, it must be guided by economical considerations that discriminate between productive and unproductive proposals. According to the schema Peirce provides, we can infer that there is a reason to suspect a hypothesis to be true, as long as it accounts for the facts somehow. To be sure, Peirce makes it clear that the permissive nature of abduction must be tempered by the pragmatic maxim---a hypothesis must be distinguishable by their experimental and practical consequences.[@essentialpeirce2 234] Still, for many facts, there could be countless possible testable accounts, and examining every single possible abductive suggestion is not only imprudent, but it impedes greatly our ability to find the right hypothesis.[@CP 2.776] Thus, how to deal with this problem, in light of our limited resources, is the heart of the economy of research and the rationality of abduction:
 %
@@ -89,7 +89,7 @@ such judgments is the \emph{judgment of relevance}. Keynes' observation
 is that we often can judge whether one proposition \(E\) counts as being
 relevant to another proposition \(H\) by considering whether the
 probability of \(H\) would change on the supposition that \(E\) is true.
-Keynes's example is that, in a typical urn example with some black and
+Keynes' example is that, in a typical urn example with some black and
 white balls, if we want to know the probability of a white ball being
 randomly chosen, the color of the ball would not change its probability
 of being chosen, so the idea is that a ball's probability of being
@@ -160,18 +160,17 @@ what the probability lets on, so the probability has failed to reflect
 some crucial information about the evidence.
 
 Keynes was not the first to notice the problem of the weight of
-evidence. Before him, Peirce mobilizes the same idea to attack the Principle of Indifference, which says that that the degree of belief you \emph{should} have for a completely unfamiliar coin landing on heads on the next toss is 0.5. However,
+evidence. Before him, Peirce mobilized the same idea to attack the Principle of Indifference, which says that that the degree of belief you \emph{should} have for a completely unfamiliar coin landing on heads on the next toss is 0.5. However,
 Peirce argues there is a behavioral difference between betting on a coin known to be fair and a coin about which you know nothing. For the former you should know exactly how
 much to bet, in the latter case you should simply refrain from betting.
 Expected utility, however, cannot make sense of this, since both
 entail the degree of belief of \(0.5\). Nowadays this is usually known
-as the \emph{Ellsberg's Paradox}.\footnote{Ellsberg, ``Risk, Ambiguity,
+as \emph{Ellsberg's Paradox}.\footnote{Ellsberg, ``Risk, Ambiguity,
   and the Savage Axioms.''}
 
 In other words, there is a practically significant difference between
 \emph{rational indecision} and \emph{indifference}. What distinguishes
-the two is the difference in the weight of evidence. To recycle the
-example earlier, further consider another urn \(C\), from which you draw
+the two is the difference in the weight of evidence. To recycle an earlier example, further consider another urn \(C\), from which you draw
 2 balls, and one of them is white, so your best estimate would be
 \(\theta_c = 0.5\). If probabilities can perfectly reflect the evidence,
 then it must mean that your epistemic attitude toward \(A\) and \(B\)
@@ -186,7 +185,7 @@ second on the amount of knowledge on which that probability is based.
 The weight of evidence, then, is a crucial piece of the puzzle for the
 position I am trying to defend. The goal of Deliberative Bayesianism
 aims to situate Bayesianism within the Peirce's framework of abduction,
-deduction, and induction. My claim is that the weight of the evidence something is relevant in \emph{abduction}. This is why Keynes was perplexed about it. 
+deduction, and induction. My claim is that the weight of the evidence is something relevant in deliberation; this is why Keynes was perplexed, within the context of understanding probability as a measure of the degree of support of the evidence for a given argument. In particular, evidential weight can be seen as a dispositional property of one's liability to change one's belief about a hypothesis, which provides a way to conceptualize the urgency of new evidence.
 
 \hypertarget{the-paradox-of-ideal-evidence-1}{%
 \section{The Paradox of Ideal
@@ -194,7 +193,7 @@ Evidence}\label{the-paradox-of-ideal-evidence-1}}
 
 Like Peirce before him, Karl Popper was highly critical of the
 subjective interpretation of probability and the epistemologies that
-sprung out of it. Popper has further develop Peirce's criticism as the
+sprung out of it. Popper further developed Peirce's criticism as the
 \emph{paradox of ideal evidence}. The alleged paradox arises out of the
 contradiction that, by accepting the notion of conditional relevance
 proposed by Keynes, some evidence is both relevant and irrelevant.
@@ -248,7 +247,7 @@ toward \(N\) \emph{in some way}, but if our prior for \(N\) is already
 \(I\) is irrelevant. This seems to contradict with our intuition that
 the ideal evidence should be relevant.
 
-We can interpret Popper to making this following argument:
+We can interpret Popper as making this following argument:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -277,7 +276,7 @@ belief. This returns to Keynes' initial observation: clearly
 \(P(N)\). 
 
 One answer we want is clearly that it's the weight of evidence that changed,
-and it is manifested as a property of \(P(N) = 1/2\). But what does that mean?
+and it is manifested as a property of \(P(N) = 1/2\). This needs to be clarified.
 
 \hypertarget{the-statistical-perspective-1}{%
 \section{The Statistical
@@ -381,7 +380,7 @@ evidence.
 To state these observations more precisely, we can calculate the exact
 probability using the corresponding cumulative distributions. Since beta
 distributions are continuous distributions, we can only deal with
-intervals of values. Still, we can provide a reasonably close
+intervals of values. Still, we can provide reasonably close
 approximations. For instance, conditional on the ideal evidence, we
 would be absolutely sure that the probability is between 0.49 and 0.51. The relevant probabilities are summarized in the
 following table:
@@ -407,7 +406,7 @@ holds, since the left-hand side is \(0.02\), and for the right it's
 \[P(0.49<\theta<0.51) <  P(0.49<\theta<0.51|E)\]
 
 To make things more official-sounding, perhaps we can describe this as
-\emph{Higher Order Relevance(HOR)}. Recall Keynes's idea is that for
+\emph{Higher Order Relevance (HOR)}. Recall Keynes' idea is that for
 some evidence \(E\) and hypothesis \(H\)
 
 \[\text{Evidence $E$ is relevant to $H$ if and only if }P(H) \neq P(H|E)\]
@@ -420,15 +419,15 @@ and \(E\), consider specific values \(x\) and \(y\), where
 \[P(x\leq \theta \leq y) \neq P(x\leq \theta \leq y)|E)\]
 
 Under this analysis, we can see that Popper's argument contains a
-sleight of hand that shifts between two ways of thinking about N---the
-next coin toss landing on heads---'s probability. The argument begins by
+sleight of hand that shifts between two ways of thinking about N's---the
+next coin toss landing on heads---probability. The argument begins by
 asking, rather innocuously, for your prior for \(N\), but the ideal
 evidence \(I\) Popper immediately introduced is not for \(N\) but for
 the hypothesis that \(\theta = 0.5\). Popper is reasonably explicit
 about \emph{that}, but what he is not explicit about is \emph{this}: he
 has convinced us that \(I\) is both evidentially ideal for and
 conditionally relevant to \(\theta = 0.5\). That, however, is a
-misdirection, because he immediately starts talking the conditional
+misdirection, because he immediately starts talking about the conditional
 probability on \(I\), \emph{not} of \(H_{0.5}\), but of \(N\).
 
 While I think that HOR provides a technical response to Popper's
@@ -436,7 +435,7 @@ paradox, it is not quite the same as accounting for the phenomenon in
 question. In fact, by focusing on overcoming the difficulty raised by
 the paradox caused by an absurd amount of evidence, we might have
 overlooked what is truly at stake: rarely, if ever, do we have ideal
-evidence for any substantive hypothesis, so situations where we have an
+evidence for any substantive hypothesis, so the ideal situation where we have an
 overabundance of evidence is an incomplete benchmark for the adequacy of
 the account. In fact, our analysis shows that when we have perfect
 information, evidential weight essentially becomes a non-issue, because
@@ -473,7 +472,7 @@ matter on the level of decision making, which is entirely based on a
 precise point-estimate of the first order probability.
 
 If the point estimate is to be blamed, the natural response is that we
-do rely on an interval estimate instead. This solution is reminiscent of
+should rely on an interval estimate instead. This solution is reminiscent of
 the call to abolish the use of \(p\) values in Frequentist statistics,
 and instead we should report the confidence interval of our findings.
 The idea is that point estimates are inherently misleading, since they,
@@ -528,27 +527,27 @@ randomly draw 2 balls from it with replacement and find one ball for
 each color, my intuitive estimate of the proportion of black balls would
 sensibly be somewhere around 1/2. But my state of belief should be
 relatively unstable: it would be irrational for me to fixate on this
-estimate, especially new light of conflicting evidence. If I sample two
+estimate, especially in light of conflicting evidence. If I sample two
 more balls from the urn and they are both black, it would make sense for
 me to raise my estimate for the proportion of black balls to more than
-1/2---perhaps to 3/4. But suppose I continue to sample from for 996 more
+1/2---perhaps to 3/4. But suppose I continue to sample from the urn 996 more
 times. Out of the total 1000 draws, 500 are black. At this point a
-sensible would be back to around 1/2, but unlike my state of belief
+sensible estimate would be back to around 1/2, but unlike my state of belief
 after only 2 samples, after 1000 samples my state of belief is
 stabilized: suppose I sample again and I draw five black balls in a row.
 Now, even though drawing 5 black balls in a row seems rather
 extraordinary, against the body of my evidence it would not warrant me
-to revise my belief in any significant measure.
+to revise my belief by any significant degree.
 
 The intuition here is that the increase in the amount of evidence,
 expressed here in terms of the number of samples, corresponds to the
 increase of stability of the estimate. Skyrms has introduced a notion
-called the \emph{resiliency} to capture this intuition sense of
+called \emph{resiliency} to capture this intuition sense of
 stability.
 
 Conceptually, this is an attractive way to capture to notion of
 evidential weight. Keynes' puzzlement about how relevance and weight
-could come apart is addressed; When a belief \(B\) is resilient, the
+could come apart is addressed; when a belief \(B\) is resilient, the
 conditional probability on some new evidence \(E\) should be
 approximately the same, that is, \(P(B|E) \approx P(B)\), even if \(E\)
 would be highly relevant were \(B\) not resilient. If, for instance, a
@@ -569,7 +568,7 @@ is that a probability statement \(A\) based on a law of nature is one
 that remains resilient against various extreme scenarios. What this
 means is that we are supposed to calculate likelihoods based on data
 that \emph{might have happened}, and see whether \(A\) is resilient
-against it.\footnote{James Joyce has recently proposed that what evidential weight does is to stabilize the distance between one's subjective probability of an event and her underlying hypotheses of the objective chance about it. Joyce's account has some important technical advantage, but conceptually it remains the same as Skyrms' account. Essentially, Joyce's suggestion is that the basic resilient quantity is the \emph{expected loss} of a particular chance hypothesis. Providing a proper treatment would require an exposition on statistical decision theory, so I have decided to omit it here. See \cite{joycehpre}, 166-168.}
+against it.\footnote{James Joyce has recently proposed that what evidential weight does is to stabilize the distance between one's subjective probability of an event and her underlying hypotheses of the objective chance about it. Joyce's account has some important technical advantages, but conceptually it remains the same as Skyrms' account. Essentially, Joyce's suggestion is that the basic resilient quantity is the \emph{expected loss} of a particular chance hypothesis. Providing a proper treatment would require an exposition on statistical decision theory, so I have decided to omit it here. See \cite{joycehpre}, 166-168.}
 
 
 
@@ -643,14 +642,14 @@ deliberate manner, as dictated by the model decided upon after
 considering various counterfactual scenarios.
 
 This way of understanding evidential weight provides an important
-insight on the voluntaristic idea that degrees of belief ought to be
+insight into the voluntaristic idea that degrees of belief ought to be
 understood as taking up an epistemic commitment during the context of
 abduction. To deliberate on the appropriate hypothesis to be accepted
 provisionally, I have to know what \emph{practical difference} its
 acceptance would make on my future conduct. To do so, I have to draw
 deductive inferences based on various possible models that I could
 possibly accept, based on various hypothetical scenarios that come up
-during experiment.
+during experimentation.
 
 To see what I mean, it might help to see the interaction between the
 evidence and posterior probability directly---this is shown in the
@@ -668,7 +667,7 @@ values in parentheses are parameters for the beta distribution.}
 \end{figure}
 
 We see that these counterfactual priors behave quite differently in
-slight of extreme evidence. Here, the weight of evidence clearly
+light of extreme evidence. Here, the weight of evidence clearly
 corresponds to the sum of the parameters \(\alpha + \beta\), and the
 higher it is, the less responsive it is to evidence. This is especially
 clear when \(\alpha = \beta = 500\)---we see that with such as a weighty
@@ -677,7 +676,7 @@ the data is, until we get more than 60 heads in a row. Even if we tossed
 100 out of 100, the expected value stays very close to \(0.5\). A ``flat
 prior'', i.e., \(\alpha = \beta = 1\), is, as expected, not resilient
 against almost any form of extreme evidence. The posterior is expected
-to almost \(0.8\) after seeing 10 heads in a row, and rapidly approaches
+to be almost \(0.8\) after seeing 10 heads in a row, and rapidly approaches
 unity.
 
 From the deliberativist point of view, there is no \emph{a priori}
@@ -699,7 +698,7 @@ context. Suppose personally I think the coin is extremely likely to be
 fair. It seems \emph{less} rational for me to adopt a prior to reflect
 such a state, e.g., \(Beta(500,500)\); because, it would look as though
 I am rigging the experiment in favor of \emph{my} hypothesis. The
-rational thing, as a matter of fact, should be the opposite:
+rational thing to do, as a matter of fact, should be the opposite:
 \emph{because} I am confident that my opinion is true, I am
 intentionally adopting the opposite prior, with the assumption that the
 data will overwhelm it. This is akin to a gambler with inside
@@ -710,8 +709,4 @@ advisable to choose a prior to satisfy a skeptic.\footnote{\cite{bayessupert}, 5
 %More important, the deliberativist point of view dovetails Gelman and Shalizi's idea that prior and posterior distributions are \emph{testable}.\footnote{\cite{gelman}, 19} Their idea is that the models, i.e., the distributions, can be examined by comparing hypothetical data generated from them against what is actually observed. Their idea is that if the posterior model is well-fitted, we ought to see 
 
  
-\section{Conclusion}\label{woeconclusion}
-
-The central concern of this chapter is the dynamic between the abductive and deductive contexts of inquiry. We saw that Peice makes the tantalizing suggestion that abduction is \emph{interrogative}. To explain what this means, I borrowed Hintikka's helpful connection between the economics of choosing a hypothesis for inductive testing and choosing an assumption for premiseless proofs. Both involve a strategic element in thinking about the deductive implication of what \emph{would} happen, had the choice been made a certain way. I tried to apply this insight on Keynes' idea of the weight of evidence, and suggested that the evidential weight represents a \emph{dispositional commitment}, revealed through a deductive probability calculus from the chosen prior. We saw that in the case of Popper's paradox of ideal evidence, what has been changed is not the posterior probability, but our willing ness to revision in light of new evidence.  
-
 
