@@ -564,7 +564,7 @@
         \vskip 0.75\textheight
         \begin{center}
                 \def\thanks##1{} % temporarily kill any thanks lines
-                {\large Copyright \textcopyright\ \number\year\ by \@author\par}
+                {\large Copyright \copyright\ \number\year\ by \@author\par}
                 {\large All rights reserved \par}
         \end{center}
         \par\vfil\null\newpage
@@ -589,8 +589,7 @@
 %
 %----------------------------------------------------------------------
 \def\abstract{
-%        \textspace
-		\doublespacing
+        \textspace
         \ifAbstractP
                 \ifCopR
                         \setcounter{page}{4}
@@ -617,7 +616,7 @@
         \openup 2.75\jot % double spaced
         \begin{center}
                 \def\thanks##1{} % temporarily kill any thanks lines
-                {\large \expandafter{\@title} \par}
+                {\large \uppercase\expandafter{\@title} \par}
                 {\large\lineskip .75em\begin{tabular}[t]{c}{\@author}\end{tabular}\par}
                 {\large Under the supervision of Professor \@advisor \par}
                 \vskip 1.5em
@@ -1365,7 +1364,7 @@
 }
 
 \newcounter{@members}           % Number of member macros defined so far.
-\newcommand{\@membera}{\par \@member{\@advisor, Supervisor}}
+\newcommand{\@membera}{\@member{\@advisor, Supervisor}}
 \setcounter{@members}{1}        % Advisor is always 1st member
 
 % @minmembers -- holds mimumum number of member macros needed.  It is set in
@@ -1414,7 +1413,7 @@
     \parskip=0pt
     \begin{center}
       \vglue -.25in   % this makes top margin 2in
-      {\Large \expandafter{\@title} \par}
+      {\Large \uppercase\expandafter{\@title} \par}
       \vglue 2ex
       {\normalsize by \par}
       \vglue 2ex
@@ -1428,7 +1427,7 @@
     \else
       \vglue 3ex plus 1fill  % fill to keep bottom of page from creeping up
       \ifPhD
-        \setcounter{@minmembers}{4} % PhD committees have at least 5 members
+        \setcounter{@minmembers}{5} % PhD committees have at least 5 members
       \else
         \setcounter{@minmembers}{3} % Masters committees have at least 3 members
       \fi
@@ -1520,7 +1519,7 @@
       \vglue 2ex
       %{\large (\@subject)}
       %\vglue 2ex
-      {\Large \expandafter{\@title} \par}
+      {\Large \uppercase\expandafter{\@title} \par}
       \vglue 2ex
       {\normalsize by \par}
       \vglue 2ex
@@ -1532,7 +1531,7 @@
 
     \vglue 3ex plus 1fill  % fill to keep bottom of page from creeping up
     \ifPhD
-      \setcounter{@minmembers}{4} % PhD committees have at least 5 members
+      \setcounter{@minmembers}{5} % PhD committees have at least 5 members
     \else
       \setcounter{@minmembers}{3} % Masters committees have at least 3 members
     \fi

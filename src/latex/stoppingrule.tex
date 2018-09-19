@@ -400,7 +400,7 @@ of the evidence.
 
 \hypertarget{intentions-and-self-sabotage-redux}{%
 \section{Intentions and Self-Sabotage
-Redux}\label{sec:intentions-and-self-sabotage-redux}}
+Revisited}\label{sec:intentions-and-self-sabotage-redux}}
 \subsection{Lindley's Argument from Intention}
 Consider a simple illustration concerning the bias of a coin discussed
 by Lindley and Phillips.\footnote{\cite{lindleybern}, 113--14.} Suppose I was told
@@ -1030,21 +1030,21 @@ three hypotheses about the content of an urn in front of us:
 \centering
 \begin{forest} decision tree
  [No Evidence,align=center
- [Decide;EV:1/3,elo={yshift=4pt},align=right 
- [H_b[\bf{1/3}]]
- [H_w[\bf{1/3}]]
- [H_n[\bf{1/3}]]
+ [Decide;EV:0.333,elo={yshift=4pt},align=right 
+ [H_b[\bf{0.333}]]
+ [H_w[\bf{0.333}]]
+ [H_n[\bf{0.333}]]
  ]
- [Observe;EV:.6,plain content,elo={yshift=4pt}
- [;b(.5)
- [H_b[\bf{.600}]]
- [H_w[.067]]
- [H_n[.330]]
+ [Observe;EV:0.600,plain content,elo={yshift=4pt}
+ [;b(0.5)
+ [H_b[\bf{0.600}]]
+ [H_w[0.067]]
+ [H_n[0.330]]
  ]
- [;w(.5)
-[H_b[.067]]
- [H_w[\bf{.600}]]
- [H_n[.333]]
+ [;w(0.5)
+[H_b[0.067]]
+ [H_w[\bf{0.600}]]
+ [H_n[0.333]]
  ]
  ] 
  ]
@@ -1077,31 +1077,31 @@ same as getting a white ball. Let \(E_b\) be ``a black ball is drawn''
 and \(E_w\) for white balls. So:
 \begin{align*}
 	P(E_b) &= P(H_b)P(E_b|H_b) + P(H_w)P(E_b|H_w) + P(H_n)P(E_b|H_n)\\
-&=\frac{1}{3}(.9)+\frac{1}{3}(.1)+\frac{1}{3}(.5)\\
-&=.5\\
+&=\frac{1}{3}(0.9)+\frac{1}{3}(0.1)+\frac{1}{3}(0.5)\\
+&=0.5\\
 P(E_w) &= 1 - P(E_b) \\
-&= .500
+&= 0.5
 \end{align*}
 So, in the event of drawing a black ball from the urn, we would update
 our belief like so:
 \begin{align*}
 	P(H_b|E_b) &= \frac{P(H_b)P(E_b|H_b)}{P(E_b)}\\
-	&=\frac{1/3(.9)}{.5} \\
-	&= .600
+	&=\frac{1/3(0.9)}{0.5} \\
+	&= 0.600
 \end{align*}
 
 
 
 Similarly, by applying the calculation to the other hypotheses, we get:
-\[P(H_w|E_b) = .067\] \[P(H_n|E_b) = .333\] Similar arguments can be
+\[P(H_w|E_b) = 0.067\] \[P(H_n|E_b) = 0.333\] Similar arguments can be
 made by assuming \(E_w\), that is, a white ball is chosen. In that case
-\(P(H_w|E_w) = .600\). If we were an ideal Bayesian agent, we should pick
+\(P(H_w|E_w) = 0.600\). If we were an ideal Bayesian agent, we should pick
 \(H_b\) if \(E_b\), and pick \(H_w\) if \(E_w\). Since an ideal Bayesian
 would choose the option that maximizes our expected utility, in either
-case the expected value after drawing from the urn once is \(.600\),
+case the expected value after drawing from the urn once is \(0.600\),
 which is an improvement, since before drawing our expected utility is
 \(1/3\) for all options. The net gain in expected utility from getting new information would be
-\(.60 - .33 = .27\). This is referred to as \emph{the value of information} in the literature.\footnote{\cite{appliedstatdec},
+\(0.60 - 0.33 = 0.27\). This is referred to as \emph{the value of information} in the literature.\footnote{\cite{appliedstatdec},
   89--90}\footnote{\cite{winkler}, section 6.3.} Interestingly, Ramsey seems to think that the value of information or evidence captures what Keynes calls the \emph{weight} of evidence---see chapter \ref{ch:woe}.
   
 
@@ -1109,21 +1109,21 @@ which is an improvement, since before drawing our expected utility is
 \centering
 \begin{forest} decision tree
  [After 1 Observation($b$),align=center
- [Decide;EV:.600,elo={yshift=4pt},align=right 
- [H_b[\bf{.600}]]
- [H_w[.067]]
- [H_n[.333]]
+ [Decide;EV:0.600,elo={yshift=4pt},align=right 
+ [H_b[\bf{0.600}]]
+ [H_w[0.067]]
+ [H_n[0.333]]
  ]
- [Observe;EV:.706,plain content,elo={yshift=4pt}
- [;b(.71)
- [H_b[\bf{.757}]]
- [H_w[.009]]
- [H_n[.233]]
+ [Observe;EV:0.706,plain content,elo={yshift=4pt}
+ [;b(0.71)
+ [H_b[\bf{0.757}]]
+ [H_w[0.009]]
+ [H_n[0.233]]
  ]
- [;w(.29)
-[H_b[.210]]
- [H_w[.210]]
- [H_n[\bf{.580}]]
+ [;w(0.29)
+[H_b[0.210]]
+ [H_w[0.210]]
+ [H_n[\bf{0.580}]]
  ]
  ] 
  ]
